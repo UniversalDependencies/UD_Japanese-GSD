@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>9494</sentences><tokens>92033</tokens><words>92033</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="56746" /><!-- 、, ,, この, その, また, ことが, ため, ある, ある。, なった。, ことを, しかし, あり, ことに, ）、 -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="12">
+    <tag name="ADJ">3393</tag><!-- _ -->
+    <tag name="ADP">2</tag><!-- _ -->
+    <tag name="ADV">3061</tag><!-- _ -->
+    <tag name="CONJ">180</tag><!-- _ -->
+    <tag name="DET">925</tag><!-- _ -->
+    <tag name="NOUN">50340</tag><!-- _ -->
+    <tag name="NUM">4184</tag><!-- _ -->
+    <tag name="PART">3</tag><!-- _ -->
+    <tag name="PRON">1113</tag><!-- _ -->
+    <tag name="PUNCT">10247</tag><!-- _ -->
+    <tag name="VERB">18567</tag><!-- _ -->
+    <tag name="X">18</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="14">
+    <dep name="acl:relcl">5780</dep>
+    <dep name="advcl">2239</dep>
+    <dep name="advmod">4579</dep>
+    <dep name="amod">1296</dep>
+    <dep name="appos">1188</dep>
+    <dep name="cc">176</dep>
+    <dep name="ccomp">2835</dep>
+    <dep name="conj">8348</dep>
+    <dep name="dep">38</dep>
+    <dep name="name">1940</dep>
+    <dep name="nmod">43867</dep>
+    <dep name="nummod">6</dep>
+    <dep name="punct">10247</dep>
+    <dep name="root">9494</dep>
+  </deps>
+</treebank>

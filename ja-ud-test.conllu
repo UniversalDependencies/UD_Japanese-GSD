@@ -1,0 +1,3358 @@
+# sent_id s1/ja
+1	これに	_	PRON	PRON-POSTP	_	3	nmod	_	_
+2	不快感を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	示す	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	住民は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	いましたが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	現在	_	NOUN	NOUN	_	13	nmod	_	_
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	表立って	_	ADV	ADV	_	13	advmod	_	_
+10	反対や	_	NOUN	NOUN-CONJ	_	12	nmod	_	_
+11	抗議の	_	NOUN	NOUN-POSTP	_	10	conj	_	_
+12	声を	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	挙げている	_	VERB	VERB-AUX-AUX	_	14	acl:relcl	_	_
+14	住民は	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	いないようです。	_	VERB	VERB-AUX-NOUN-VERB-AUX	_	5	conj	_	_
+
+# sent_id s2/ja
+1	幸福の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	科学側からは	_	NOUN	NOUN-POSTP-PRT	_	7	nmod	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	特に	_	ADV	ADV	_	5	advmod	_	_
+5	どうしてほしいという	_	NOUN	NOUN-VERB-AUX-AUX-PRT	_	6	nmod	_	_
+6	要望は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	いただいていません。	_	VERB	VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s3/ja
+1	星取り参加は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	当然と	_	NOUN	NOUN-PRT	_	3	ccomp	_	_
+3	され	_	VERB	VERB-PASSIVE	_	0	root	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	不参加は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	白眼視される。	_	VERB	VERB-PASSIVE-AUX	_	3	conj	_	_
+
+# sent_id s4/ja
+1	室長の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	対応には	_	NOUN	NOUN-POSTP-PRT	_	5	nmod	_	_
+3	終始	_	ADV	ADV	_	5	advmod	_	_
+4	誠実さが	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	感じられた。	_	VERB	VERB-PASSIVE-AUX	_	0	root	_	_
+
+# sent_id s5/ja
+1	多くの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	女性が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	生理の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	ことで	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	悩んでいます。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s6/ja
+1	先生の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	理想は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	限りなく	_	ADV	ADV	_	4	advmod	_	_
+4	高い。	_	ADJ	ADJ-AUX	_	0	root	_	_
+
+# sent_id s7/ja
+1	それは	_	PRON	PRON-PRT	_	2	nmod	_	_
+2	兎も角	_	ADV	ADV	_	7	advcl	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	私も	_	PRON	PRON-POSTP	_	7	nmod	_	_
+5	明日の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	社説を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	楽しみにしております。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s8/ja
+1	そうだったら	_	NOUN	NOUN-VERB-AUX-CONJ	_	2	advcl	_	_
+2	いいなあとは	_	ADJ	ADJ-AUX-PRT-PRT-PRT	_	3	nmod	_	_
+3	思いますが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	日本学術会議の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	会長談話について	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+7	"当会では	_	NOUN	NOUN-POSTP-PRT	_	13	nmod	_	_
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	標記の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	件について	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	,	_	PUNCT	.	_	10	punct	_	_
+12	以下のように	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	考えます。"	_	VERB	VERB-AUX	_	3	conj	_	_
+
+# sent_id s9/ja
+1	教団にとっては	_	NOUN	NOUN-POSTP-PRT	_	3	nmod	_	_
+2	存続が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	厳しくなると	_	VERB	VERB-AUX-PRT	_	4	ccomp	_	_
+4	思う。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s10/ja
+1	しかし	_	ADV	ADV	_	3	advmod	_	_
+2	強制していなくても	_	VERB	VERB-AUX-AUX-CONJ	_	3	advcl	_	_
+3	問題です	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s11/ja
+1	民族派の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	みなさんにとって	_	PRON	PRON-POSTP	_	5	nmod	_	_
+3	陛下は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+4	いちばん	_	ADV	ADV	_	5	advmod	_	_
+5	大切な方ですから	_	ADJ	ADJ-NOUN-VERB-AUX-CONJ	_	13	advcl	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	その	_	DET	DET	_	8	amod	_	_
+8	_	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+9	霊言について	_	PUNCT	.	_	8	punct	_	_
+10	"あり得ない"という	_	VERB	VERB-AUX-AUX-PRT	_	11	nmod	_	_
+11	前提で	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+12	お話を	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	される。	_	VERB	VERB-PASSIVE-AUX	_	0	root	_	_
+
+# sent_id s12/ja
+1	新しい	_	ADJ	ADJ-AUX	_	2	acl:relcl	_	_
+2	産業構造を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	作らなければいけない。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s13/ja
+1	心が	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	ないんだ。	_	ADJ	ADJ-AUX-NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s14/ja
+1	その	_	DET	DET	_	2	amod	_	_
+2	モサは	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	今	_	NOUN	NOUN	_	5	nmod	_	_
+4	何を	_	PRON	PRON-PRT	_	5	nmod	_	_
+5	しているか。	_	VERB	VERB-AUX-AUX-PRT	_	0	root	_	_
+
+# sent_id s15/ja
+1	本音としては	_	NOUN	NOUN-POSTP-PRT	_	5	nmod	_	_
+2	この	_	DET	DET	_	3	amod	_	_
+3	火に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	油を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	注ぎたいけれど。	_	VERB	VERB-AUX-AUX-CONJ	_	0	root	_	_
+
+# sent_id s16/ja
+1	25日も	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+2	楽しみに	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	されてください。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s17/ja
+1	なんだよなんだよぉ	_	X	X	_	6	dep	_	_
+2	~,	_	PUNCT	.	_	1	punct	_	_
+3	わが	_	PRON	PRON	_	4	amod	_	_
+4	署に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	来たのなら	_	VERB	VERB-AUX-NOUN-VERB-CONJ	_	6	advcl	_	_
+6	教えてくれよぉ~。	_	VERB	VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s18/ja
+1	どの	_	DET	DET	_	2	amod	_	_
+2	本も	_	NOUN	NOUN-POSTP	_	5	dep	_	_
+3	ツッコミどころが	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+4	山ほど	_	NOUN	NOUN	_	5	advmod	_	_
+5	あり	_	VERB	VERB	_	0	root	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	会場内が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+8	爆笑の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	連続でした。	_	NOUN	NOUN-VERB-AUX	_	5	conj	_	_
+
+# sent_id s19/ja
+1	社会への	_	NOUN	NOUN-POSTP-POSTP	_	2	nmod	_	_
+2	恨みと	_	NOUN	NOUN-CONJ	_	0	root	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	破滅させたいという	_	VERB	VERB-CAUSATIVE-AUX-AUX-PRT	_	6	nmod	_	_
+5	恐ろしい	_	ADJ	ADJ-AUX	_	6	acl:relcl	_	_
+6	ほどの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	煩悩。	_	NOUN	NOUN	_	2	conj	_	_
+
+# sent_id s20/ja
+1	とんでもない。	_	X	X	_	0	root	_	_
+
+# sent_id s21/ja
+1	抗議デモの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	継続を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	宣言した	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	統一協会	_	NOUN	NOUN	_	12	nmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	日本でも	_	NOUN	NOUN-POSTP-POSTP	_	10	nmod	_	_
+7	韓国東亜日報の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	様に	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+9	襲撃事件が	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	起こる	_	VERB	VERB-AUX	_	11	ccomp	_	_
+11	惧れは	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	ないのか?	_	ADJ	ADJ-AUX-NOUN-PRT	_	0	root	_	_
+
+# sent_id s22/ja
+1	ついつい	_	ADV	ADV	_	5	advmod	_	_
+2	言葉だけで	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+3	机上の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	空論を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	こねがちな	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	自分は	_	PRON	PRON-PRT	_	10	nmod	_	_
+7	,	_	PUNCT	.	_	6	punct	_	_
+8	ここは	_	PRON	PRON-PRT	_	10	nmod	_	_
+9	激しく	_	ADJ	ADJ	_	10	advmod	_	_
+10	自戒ですね…	_	NOUN	NOUN-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s23/ja
+1	当選して	_	VERB	VERB	_	7	advcl	_	_
+2	市長に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	なってもなお	_	VERB	VERB-CONJ-CONJ	_	1	conj	_	_
+4	,	_	PUNCT	.	_	1	punct	_	_
+5	摂理との	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	関係を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	明らかにしようとしないのは	_	VERB	VERB-AUX-PRT-VERB-AUX-AUX-NOUN-PRT	_	10	nmod	_	_
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	とても	_	ADV	ADV	_	10	advmod	_	_
+10	残念。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s24/ja
+1	この	_	DET	DET	_	2	amod	_	_
+2	夏が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+3	実は	_	ADV	ADV	_	6	advmod	_	_
+4	最大の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	山場に	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	なります。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s25/ja
+1	政府が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+2	もっと	_	ADV	ADV	_	5	advmod	_	_
+3	宗教法人の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	定義を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	厳しくし	_	VERB	VERB	_	0	root	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	こういう	_	ADJ	ADJ	_	8	amod	_	_
+8	団体は	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	排除すべき。	_	VERB	VERB-NOUN	_	5	conj	_	_
+
+# sent_id s26/ja
+1	まあ	_	X	X	_	4	dep	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	それが	_	PRON	PRON-PRT	_	4	nmod	_	_
+4	親心だ。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s27/ja
+1	大川隆法氏を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	支持する	_	VERB	VERB-AUX	_	3	acl:relcl	_	_
+3	人が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	挙げた	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+5	主な	_	ADJ	ADJ	_	6	acl:relcl	_	_
+6	理由は	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+7	,	_	PUNCT	.	_	6	punct	_	_
+8	以下の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	とおり。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s28/ja
+1	すごく	_	ADJ	ADJ	_	4	advmod	_	_
+2	そういう	_	ADJ	ADJ	_	3	amod	_	_
+3	ところを	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	引っかかる	_	VERB	VERB-AUX	_	5	ccomp	_	_
+5	感じですか?	_	NOUN	NOUN-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s29/ja
+1	この	_	DET	DET	_	2	amod	_	_
+2	記事が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	本当なら	_	NOUN	NOUN-VERB-CONJ	_	7	advcl	_	_
+4	いくつかの	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	問題が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+6	はっきり	_	ADV	ADV	_	7	advmod	_	_
+7	見えてきます。	_	VERB	VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s30/ja
+1	今	_	NOUN	NOUN	_	5	nmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	何も	_	PRON	PRON-POSTP	_	5	nmod	_	_
+4	それは	_	PRON	PRON-PRT	_	5	nmod	_	_
+5	達成されていない。	_	VERB	VERB-PASSIVE-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s31/ja
+1	身勝手すぎる。	_	ADJ	ADJ-AUX-AUX	_	0	root	_	_
+
+# sent_id s32/ja
+1	大人と	_	NOUN	NOUN-CONJ	_	4	nmod	_	_
+2	子供では	_	NOUN	NOUN-POSTP-PRT	_	1	conj	_	_
+3	体質が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	違うので	_	VERB	VERB-AUX-CONJ	_	12	advcl	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	"大人に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	良い	_	ADJ	ADJ-AUX	_	8	acl:relcl	_	_
+8	ものが	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+9	子供にも	_	NOUN	NOUN-POSTP-POSTP	_	10	nmod	_	_
+10	いい"とは	_	ADJ	ADJ-AUX-PRT-PRT	_	12	nmod	_	_
+11	必ずしも	_	ADV	ADV	_	12	advmod	_	_
+12	いえません。	_	VERB	VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s33/ja
+1	愛人が	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	いたら	_	VERB	VERB-AUX-CONJ	_	3	advcl	_	_
+3	怒るでしょ。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s34/ja
+1	キリスト教世界でも	_	NOUN	NOUN-CONJ	_	15	advcl	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	たとえば	_	ADV	ADV	_	15	advmod	_	_
+4	アメリカでは	_	NOUN	NOUN-POSTP-PRT	_	9	nmod	_	_
+5	大統領は	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+6	宣誓式で	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+7	聖書に	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+8	手を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	置くし	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	共和党の	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	選挙運動では	_	NOUN	NOUN-POSTP-PRT	_	15	nmod	_	_
+13	キリスト教会が	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+14	力を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	持っている。	_	VERB	VERB-AUX-AUX	_	9	conj	_	_
+
+# sent_id s35/ja
+1	"カンボジア	_	NOUN	NOUN	_	7	nmod	_	_
+2	三百万人	_	NUM	NUM-CL	_	1	name	_	_
+3	大量虐殺を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	ほめたたえ	_	VERB	VERB	_	0	root	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	カンパ	_	NOUN	NOUN	_	7	nmod	_	_
+7	集める"	_	VERB	VERB-AUX	_	4	conj	_	_
+
+# sent_id s36/ja
+1	奇しくも	_	ADV	ADV	_	5	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	今年	_	NOUN	NOUN	_	4	nmod	_	_
+4	1月付けの	_	NUM	NUM-CL-NOUN-POSTP	_	5	nmod	_	_
+5	最新号です。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s37/ja
+1	一番の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	方法は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	煎じる	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	ことです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s38/ja
+1	それでも	_	ADV	ADV	_	8	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	くり返し	_	NOUN	NOUN	_	8	advmod	_	_
+4	くり返し	_	NOUN	NOUN	_	8	advmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	人民に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+7	侵略反対を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	訴え続けて	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+9	十年が	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	たった。	_	VERB	VERB-AUX	_	8	conj	_	_
+
+# sent_id s39/ja
+1	説教というか	_	NOUN	NOUN-PRT-PRT	_	4	nmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	アジテーションが	_	NOUN	NOUN-PRT	_	1	conj	_	_
+4	始まります。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s40/ja
+1	参考文献リストを	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	見る	_	VERB	VERB-AUX	_	3	ccomp	_	_
+3	限りでは	_	NOUN	NOUN-POSTP-PRT	_	15	nmod	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	本を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	書くにあたって	_	VERB	VERB-AUX-POSTP-VERB	_	7	advcl	_	_
+7	読んだのかは	_	VERB	VERB-AUX-NOUN-PRT-PRT	_	8	nmod	_	_
+8	わからないが	_	VERB	VERB-AUX-AUX-CONJ	_	0	root	_	_
+9	,	_	PUNCT	.	_	8	punct	_	_
+10	広範囲に亘って	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	本を	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	読んでいて	_	VERB	VERB-AUX	_	14	ccomp	_	_
+13	勉強している	_	VERB	VERB-AUX-AUX	_	12	conj	_	_
+14	ことは	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	わかった。	_	VERB	VERB-AUX	_	8	conj	_	_
+
+# sent_id s41/ja
+1	文殊菩薩私が	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	幸福になっていない	_	NOUN	NOUN-POSTP-VERB-AUX-AUX-AUX	_	3	ccomp	_	_
+3	以上	_	NOUN	NOUN	_	6	advcl	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	世界伝道などは	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	ありえない!	_	ADJ	ADJ-AUX-AUX	_	0	root	_	_
+
+# sent_id s42/ja
+1	しばらくの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	完全休養と	_	NOUN	NOUN-CONJ	_	4	nmod	_	_
+3	リハビリが	_	NOUN	NOUN-PRT	_	2	conj	_	_
+4	必要との	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	ことでした。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s43/ja
+1	いまの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	ところ	_	NOUN	NOUN	_	13	advcl	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	訴訟沙汰に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	なったとか	_	VERB	VERB-AUX-CONJ	_	12	ccomp	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	米・中・朝の	_	NOUN	NOUN-NOUN-NOUN-POSTP	_	8	nmod	_	_
+8	軍が	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+9	幸福の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	科学を	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	襲撃したといった	_	VERB	VERB-AUX-PRT-VERB-AUX	_	5	conj	_	_
+12	話は	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	聞きません。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s44/ja
+1	バームクーヘンでも	_	NOUN	NOUN-CONJ	_	5	advcl	_	_
+2	周りに	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+3	お砂糖が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+4	たっぷり	_	ADV	ADV	_	5	advmod	_	_
+5	付いている	_	VERB	VERB-AUX-AUX	_	6	ccomp	_	_
+6	もの。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s45/ja
+1	しかし	_	ADV	ADV	_	4	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	心配には	_	NOUN	NOUN-POSTP-PRT	_	4	nmod	_	_
+4	及ばないようです。	_	VERB	VERB-AUX-AUX-NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s46/ja
+1	いったい	_	ADV	ADV	_	4	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	"次世紀ファーム研究所"とは	_	NOUN	NOUN-PRT-PRT	_	4	nmod	_	_
+4	何なのか。	_	PRON	PRON-VERB-NOUN-PRT	_	0	root	_	_
+
+# sent_id s47/ja
+1	その後	_	ADV	ADV	_	9	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	一部の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	会員に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	渡す	_	VERB	VERB-AUX	_	6	ccomp	_	_
+6	ための	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	賞状に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	サインしてくださいと	_	VERB	VERB-AUX-AUX-PRT	_	9	ccomp	_	_
+9	頼まれ	_	VERB	VERB-PASSIVE	_	0	root	_	_
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	サインを	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	いたしました。	_	VERB	VERB-AUX	_	9	conj	_	_
+
+# sent_id s48/ja
+1	事前に	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+2	海老澤代表からは	_	NOUN	NOUN-POSTP-PRT	_	11	nmod	_	_
+3	"40歳くらいと	_	NUM	NUM-CL-NOUN-PRT	_	4	advcl	_	_
+4	お若いけれど	_	ADJ	ADJ-AUX-CONJ	_	10	acl:relcl	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	とても	_	ADV	ADV	_	9	advmod	_	_
+7	家系の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	ことに	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	詳しい	_	ADJ	ADJ-AUX	_	4	conj	_	_
+10	先生"と	_	NOUN	NOUN-PRT	_	11	ccomp	_	_
+11	聞かされていた。	_	VERB	VERB-CAUSATIVE-AUX-AUX	_	0	root	_	_
+
+# sent_id s49/ja
+1	"1000万円	_	NUM	NUM-CL	_	2	nmod	_	_
+2	当たりますように"というのも	_	VERB	VERB-AUX-NOUN-POSTP-PRT-NOUN-POSTP	_	3	nmod	_	_
+3	ありました。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s50/ja
+1	いつもどおりなので	_	NOUN	NOUN-VERB-CONJ	_	6	advcl	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	たぶん	_	ADV	ADV	_	6	advmod	_	_
+4	何も	_	PRON	PRON-POSTP	_	6	nmod	_	_
+5	問題	_	NOUN	NOUN	_	6	nmod	_	_
+6	ありません。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s51/ja
+1	震災に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	乗じて	_	VERB	VERB	_	6	ccomp	_	_
+3	末端信者から	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	献金を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	集めようとの	_	VERB	VERB-AUX-PRT	_	2	conj	_	_
+6	意図が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	判る。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s52/ja
+1	AdPlannerも	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+2	サイトの	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	月間利用者の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	推定データだと	_	NOUN	NOUN-VERB-AUX-PRT	_	5	ccomp	_	_
+5	思うので	_	VERB	VERB-AUX-CONJ	_	10	advcl	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	Twitterアカウント数でも	_	NOUN	NOUN-POSTP-CONJ	_	10	nmod	_	_
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	Twitter利用者数でも	_	NOUN	NOUN-POSTP-CONJ	_	7	conj	_	_
+10	ないだろう。	_	ADJ	ADJ-AUX-AUX	_	0	root	_	_
+
+# sent_id s53/ja
+1	"天聖稲荷大権現神社"を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	出て	_	VERB	VERB	_	0	root	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	"箱根大天狗山神社"へ	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	向かう。	_	VERB	VERB-AUX	_	2	conj	_	_
+
+# sent_id s54/ja
+1	みんな	_	NOUN	NOUN	_	4	nmod	_	_
+2	自分の	_	PRON	PRON-POSTP	_	3	nmod	_	_
+3	立場から	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	主張しています。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s55/ja
+1	"鶴"は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	統一協会教祖・文鮮明の	_	NOUN	NOUN-NOUN-POSTP	_	3	nmod	_	_
+3	妻	_	NOUN	NOUN	_	0	root	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	韓鶴子が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	由来か。	_	NOUN	NOUN-PRT	_	3	conj	_	_
+
+# sent_id s56/ja
+1	"心筋梗塞に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	なったが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+3	神様に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	命を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	救っていただいた"	_	VERB	VERB-AUX-AUX	_	2	conj	_	_
+
+# sent_id s57/ja
+1	広告審査部への	_	NOUN	NOUN-POSTP-POSTP	_	2	nmod	_	_
+2	取り次ぎは	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+3	読者センターの	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	判断に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	委ねるとの	_	VERB	VERB-AUX-PRT	_	6	ccomp	_	_
+6	こと。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s58/ja
+1	ビデオセンタースタッフも	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	参加。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s59/ja
+1	空気を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	読もうとする	_	VERB	VERB-AUX-PRT-VERB-AUX	_	3	acl:relcl	_	_
+3	姿勢が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	見られ	_	VERB	VERB-PASSIVE	_	0	root	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	不思議な	_	ADJ	ADJ	_	7	acl:relcl	_	_
+7	気持ちに	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	なりました。	_	VERB	VERB-AUX	_	4	conj	_	_
+
+# sent_id s60/ja
+1	だが	_	ADV	ADV	_	10	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	生真面目な	_	ADJ	ADJ	_	4	acl:relcl	_	_
+4	彼は	_	PRON	PRON-PRT	_	10	nmod	_	_
+5	少し	_	ADV	ADV	_	6	advmod	_	_
+6	困った	_	VERB	VERB-AUX	_	7	acl:relcl	_	_
+7	顔を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	して	_	VERB	VERB	_	0	root	_	_
+9	こう	_	NOUN	NOUN	_	10	advmod	_	_
+10	言った。	_	VERB	VERB-AUX	_	8	conj	_	_
+
+# sent_id s61/ja
+1	どうぞ	_	ADV	ADV	_	3	advmod	_	_
+2	取材に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	来てください。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s62/ja
+1	でも	_	ADV	ADV	_	7	advmod	_	_
+2	党が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	結成された	_	VERB	VERB-PASSIVE-AUX	_	4	ccomp	_	_
+4	ときは	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	けっこう	_	ADV	ADV	_	7	advmod	_	_
+7	報道されていましたよ。	_	VERB	VERB-PASSIVE-AUX-AUX-PRT	_	0	root	_	_
+
+# sent_id s63/ja
+1	陳述書に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+2	"現在も	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	通っている"と	_	VERB	VERB-AUX-AUX-PRT	_	4	ccomp	_	_
+4	書いてあるが?	_	VERB	VERB-AUX-AUX-CONJ	_	0	root	_	_
+
+# sent_id s64/ja
+1	ファンの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	皆様には	_	NOUN	NOUN-POSTP-PRT	_	7	nmod	_	_
+3	混乱を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	招いてしまい	_	VERB	VERB-AUX	_	0	root	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	誠に	_	ADV	ADV	_	7	advmod	_	_
+7	申し訳ございません。	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s65/ja
+1	教祖の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	浮気性	_	NOUN	NOUN	_	0	root	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	あくなき	_	ADJ	ADJ	_	5	amod	_	_
+5	欲望。	_	NOUN	NOUN	_	2	conj	_	_
+
+# sent_id s66/ja
+1	さっぱり	_	ADV	ADV	_	3	advmod	_	_
+2	意味が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	わかりません。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s67/ja
+1	心より	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	お悔やみ	_	NOUN	NOUN	_	3	nmod	_	_
+3	申し上げます。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s68/ja
+1	そんな	_	ADJ	ADJ	_	2	amod	_	_
+2	俗世の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	快楽を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	楽しむ	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	彼も	_	PRON	PRON-POSTP	_	10	nmod	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	インタビューには	_	NOUN	NOUN-POSTP-PRT	_	10	nmod	_	_
+8	"洗礼を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	受けるつもり"と	_	VERB	VERB-AUX-NOUN-PRT	_	10	ccomp	_	_
+10	答えている。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s69/ja
+1	記者は	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+2	その	_	DET	DET	_	4	amod	_	_
+3	勝手な	_	ADJ	ADJ	_	4	acl:relcl	_	_
+4	言い分に対し	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	"暑い	_	ADJ	ADJ-AUX	_	7	acl:relcl	_	_
+7	中,	_	NOUN	NOUN	_	9	advcl	_	_
+8	わざわざ	_	ADV	ADV	_	9	advmod	_	_
+9	来てくれた	_	VERB	VERB-AUX-AUX	_	10	acl:relcl	_	_
+10	警官に	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	失礼だろう!	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s70/ja
+1	というか	_	PART	PRT-PRT	_	0	root	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	返す刀で	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	互いを	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	批判し合っています。	_	VERB	VERB-AUX-AUX-AUX	_	1	conj	_	_
+
+# sent_id s71/ja
+1	みな,	_	PRON	PRON	_	10	nmod	_	_
+2	事実に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	基づいて	_	VERB	VERB	_	0	root	_	_
+4	恐怖と	_	NOUN	NOUN-CONJ	_	7	nmod	_	_
+5	憎悪と	_	NOUN	NOUN-CONJ	_	4	conj	_	_
+6	嘲りを	_	NOUN	NOUN-PRT	_	4	conj	_	_
+7	込めて	_	VERB	VERB	_	3	conj	_	_
+8	ぼくを	_	PRON	PRON-PRT	_	10	nmod	_	_
+9	カルトくんと	_	NOUN	NOUN-PRT	_	10	ccomp	_	_
+10	呼んでくれています。	_	VERB	VERB-AUX-AUX-AUX	_	3	conj	_	_
+
+# sent_id s72/ja
+1	そうだろ?	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s73/ja
+1	すごい	_	ADJ	ADJ-AUX	_	0	root	_	_
+2	すごい。	_	ADJ	ADJ-AUX	_	1	conj	_	_
+
+# sent_id s74/ja
+1	もちろん	_	ADV	ADV	_	7	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	まじめに	_	ADJ	ADJ	_	4	advmod	_	_
+4	やっている	_	VERB	VERB-AUX-AUX	_	5	acl:relcl	_	_
+5	宗教法人も	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	あるとは	_	VERB	VERB-AUX-PRT-PRT	_	7	nmod	_	_
+7	思いますが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	やりたい	_	VERB	VERB-AUX-AUX	_	10	acl:relcl	_	_
+10	放題	_	NOUN	NOUN	_	11	nmod	_	_
+11	やろうと	_	VERB	VERB-AUX-PRT	_	12	ccomp	_	_
+12	_	_	VERB	VERB-AUX-CONJ	_	14	advcl	_	_
+13	思えば	_	PUNCT	.	_	12	punct	_	_
+14	できてしまう	_	VERB	VERB-AUX-AUX	_	15	acl:relcl	_	_
+15	構造は	_	NOUN	NOUN-PRT	_	16	nmod	_	_
+16	変える	_	VERB	VERB-AUX	_	17	ccomp	_	_
+17	必要が	_	NOUN	NOUN-PRT	_	18	nmod	_	_
+18	あるように	_	VERB	VERB-AUX-NOUN-POSTP	_	19	nmod	_	_
+19	思います。	_	VERB	VERB-AUX	_	7	conj	_	_
+
+# sent_id s75/ja
+1	きっと	_	ADV	ADV	_	5	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	地上天国の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	中に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	いるのでしょう。	_	VERB	VERB-AUX-NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s76/ja
+1	過去に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	自らが	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	主催した	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	飯田氏の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	講演の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	映像も	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+7	YouTubeから	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	削除しました。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s77/ja
+1	もう	_	ADJ	ADJ	_	2	amod	_	_
+2	一つ	_	NOUN	NOUN	_	5	ccomp	_	_
+3	びっくりした	_	VERB	VERB-AUX	_	2	ccomp	_	_
+4	ことと	_	NOUN	NOUN-PRT	_	2	name	_	_
+5	言えば	_	VERB	VERB-CONJ	_	12	advcl	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	公立学校の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	中には	_	NOUN	NOUN-POSTP-PRT	_	12	nmod	_	_
+9	保育所が	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	併設されている	_	VERB	VERB-PASSIVE-AUX-AUX	_	11	ccomp	_	_
+11	ところが	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	あるという	_	VERB	VERB-AUX-PRT	_	13	ccomp	_	_
+13	ことです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s78/ja
+1	おかしな	_	ADJ	ADJ	_	2	amod	_	_
+2	販売を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	していると	_	VERB	VERB-AUX-AUX-PRT	_	4	ccomp	_	_
+4	いっても	_	VERB	VERB-CONJ	_	9	advcl	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	それは	_	PRON	PRON-PRT	_	9	nmod	_	_
+7	あくまでも	_	ADV	ADV	_	9	advmod	_	_
+8	刑事事件の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	話であって	_	NOUN	NOUN-VERB	_	13	ccomp	_	_
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	公安部が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	出てくる	_	VERB	VERB-AUX-AUX	_	9	conj	_	_
+13	筋では	_	NOUN	NOUN-POSTP-PRT	_	14	nmod	_	_
+14	ありません。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s79/ja
+1	地方に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	住む	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+3	知人の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	僧侶に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	よると	_	VERB	VERB-AUX-CONJ	_	9	advcl	_	_
+6	,	_	PUNCT	.	_	5	punct	_	_
+7	こんな	_	ADJ	ADJ	_	8	amod	_	_
+8	話も	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	ありました。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s80/ja
+1	だから	_	ADV	ADV	_	7	advmod	_	_
+2	まあ	_	X	X	_	7	dep	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	もう	_	ADV	ADV	_	7	advmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	"殺ってくれ"とは	_	VERB	VERB-AUX-PRT-PRT	_	7	nmod	_	_
+7	言っておいたから。	_	VERB	VERB-AUX-AUX-CONJ	_	0	root	_	_
+
+# sent_id s81/ja
+1	右奥に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	見える	_	VERB	VERB-AUX-AUX	_	3	acl:relcl	_	_
+3	重機が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	我々に	_	PRON	PRON-POSTP	_	7	nmod	_	_
+6	何かを	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	物語っている	_	VERB	VERB-AUX-AUX	_	8	ccomp	_	_
+8	気が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	しないでもありません。	_	VERB	VERB-AUX-AUX-CONJ-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s82/ja
+1	とても	_	ADV	ADV	_	2	advmod	_	_
+2	賢い	_	ADJ	ADJ-AUX	_	3	acl:relcl	_	_
+3	生徒さんです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s83/ja
+1	たまたま	_	ADV	ADV	_	5	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	お互いに	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	潜入取材の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	最中だった。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s84/ja
+1	ホメオパシーの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	レメディは	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+3	毒にも	_	NOUN	NOUN-POSTP-CONJ	_	5	nmod	_	_
+4	薬にも	_	NOUN	NOUN-POSTP-CONJ	_	3	conj	_	_
+5	ならない	_	VERB	VERB-AUX-AUX	_	8	acl:relcl	_	_
+6	"ただの	_	ADJ	ADJ	_	7	amod	_	_
+7	水"と	_	NOUN	NOUN-CONJ	_	16	advcl	_	_
+8	砂糖玉なので	_	NOUN	NOUN-VERB-CONJ	_	7	conj	_	_
+9	,	_	PUNCT	.	_	7	punct	_	_
+10	司法解剖によって	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	わかる	_	VERB	VERB-AUX	_	13	acl:relcl	_	_
+12	類の	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	因果関係なんて	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	ある	_	VERB	VERB-AUX	_	15	ccomp	_	_
+15	はずも	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	ありません。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s85/ja
+1	まさか	_	ADV	ADV	_	9	advmod	_	_
+2	松田氏は	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	男性が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	倒れる	_	VERB	VERB-AUX	_	6	ccomp	_	_
+6	前から	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+7	消防に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	通報しいたとでも	_	VERB	VERB-AUX-PRT-CONJ	_	9	advcl	_	_
+9	いうつもりだったのでしょうか。	_	VERB	VERB-AUX-NOUN-VERB-AUX-NOUN-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s86/ja
+1	是非	_	ADV	ADV	_	2	advmod	_	_
+2	書けるようになってみたい。	_	VERB	VERB-AUX-AUX-NOUN-POSTP-VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s87/ja
+1	どう	_	ADV	ADV	_	2	advmod	_	_
+2	見ても	_	VERB	VERB-CONJ	_	5	advcl	_	_
+3	幸福の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	科学出版の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	広告です。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s88/ja
+1	で	_	ADV	ADV	_	28	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	上に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	引用した	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+5	米本氏の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	コメントの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	何が	_	PRON	PRON-PRT	_	8	nmod	_	_
+8	問題かと	_	NOUN	NOUN-PRT-PRT	_	9	ccomp	_	_
+9	いうと	_	VERB	VERB-AUX-CONJ	_	28	advcl	_	_
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	そもそも	_	ADV	ADV	_	27	advmod	_	_
+12	藤倉は	_	NOUN	NOUN-PRT	_	25	nmod	_	_
+13	"拉致監禁に	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	反対する	_	VERB	VERB-AUX	_	15	acl:relcl	_	_
+15	動きに	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+16	どう	_	NOUN	NOUN	_	17	advmod	_	_
+17	対処するかを	_	VERB	VERB-AUX-PRT-PRT	_	19	nmod	_	_
+18	テーマに	_	NOUN	NOUN-POSTP	_	19	nmod	_	_
+19	した	_	VERB	VERB-AUX	_	20	acl:relcl	_	_
+20	全国弁連	_	NOUN	NOUN	_	21	appos	_	_
+21	(全国霊感商法対策弁護士連絡会)の	_	NOUN	NOUN-POSTP	_	22	nmod	_	_
+22	秘密会合になど	_	NOUN	NOUN-POSTP-NOUN	_	25	nmod	_	_
+23	,	_	PUNCT	.	_	22	punct	_	_
+24	いちどたりとも	_	ADV	ADV	_	25	advmod	_	_
+25	出席した	_	VERB	VERB-AUX	_	26	ccomp	_	_
+26	ことが	_	NOUN	NOUN-PRT	_	27	nmod	_	_
+27	ない	_	ADJ	ADJ-AUX	_	28	acl:relcl	_	_
+28	点です。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s89/ja
+1	おおつた氏は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+2	数年前に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	勧誘され	_	VERB	VERB-PASSIVE	_	0	root	_	_
+4	足立教会の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	通教組織である	_	NOUN	NOUN-VERB-AUX	_	6	acl:relcl	_	_
+6	【びぎん】に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	所属	_	NOUN	NOUN	_	3	conj	_	_
+8	,	_	PUNCT	.	_	3	punct	_	_
+9	前線での	_	NOUN	NOUN-POSTP-POSTP	_	12	nmod	_	_
+10	違法な	_	ADJ	ADJ	_	12	acl:relcl	_	_
+11	勧誘や	_	NOUN	NOUN-CONJ	_	13	nmod	_	_
+12	霊感商法には	_	NOUN	NOUN-POSTP-PRT	_	11	conj	_	_
+13	関わっていなかったらしい。	_	VERB	VERB-AUX-AUX-AUX-AUX	_	3	conj	_	_
+
+# sent_id s90/ja
+1	昔	_	NOUN	NOUN	_	17	nmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	阪神淡路大震災の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	時は	_	NOUN	NOUN-PRT	_	17	nmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	駅から	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+7	重い	_	ADJ	ADJ-AUX	_	8	acl:relcl	_	_
+8	リックを	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	背負って	_	VERB	VERB	_	0	root	_	_
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	片道	_	NOUN	NOUN	_	13	advmod	_	_
+12	3時間	_	NUM	NUM-CL	_	11	name	_	_
+13	歩いて	_	VERB	VERB	_	9	conj	_	_
+14	仮設トイレ等の	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	設置の	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	ボランティアに	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+17	行きましたが	_	VERB	VERB-AUX-CONJ	_	9	conj	_	_
+18	,	_	PUNCT	.	_	9	punct	_	_
+19	被災地の	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	大変さは	_	NOUN	NOUN-PRT	_	22	nmod	_	_
+21	,	_	PUNCT	.	_	20	punct	_	_
+22	想像以上でした。	_	NOUN	NOUN-VERB-AUX	_	9	conj	_	_
+
+# sent_id s91/ja
+1	かなりの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	長文に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	なりますが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	どうか	_	ADV	ADV	_	7	advmod	_	_
+6	ご了解を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	お願いします。	_	VERB	VERB-AUX	_	3	conj	_	_
+
+# sent_id s92/ja
+1	政党と	_	NOUN	NOUN-CONJ	_	4	nmod	_	_
+2	柴犬を	_	NOUN	NOUN-PRT	_	1	conj	_	_
+3	同列に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	扱うというのも	_	VERB	VERB-AUX-PRT-NOUN-POSTP	_	6	nmod	_	_
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	なかなかです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s93/ja
+1	ですから	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	もろもろ	_	NOUN	NOUN	_	6	nmod	_	_
+4	客観的解説や	_	NOUN	NOUN-CONJ	_	3	conj	_	_
+5	ツッコミも	_	NOUN	NOUN-POSTP	_	3	name	_	_
+6	入ります。	_	VERB	VERB-AUX	_	1	conj	_	_
+
+# sent_id s94/ja
+1	その後	_	ADV	ADV	_	5	advmod	_	_
+2	一行は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	池袋駅に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	移動。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s95/ja
+1	学校法人幸福の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	科学学園が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	2013年に	_	NUM	NUM-CL-POSTP	_	5	nmod	_	_
+4	関西校を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	開校する	_	VERB	VERB-AUX	_	6	ccomp	_	_
+6	ため	_	NOUN	NOUN	_	15	advcl	_	_
+7	土地を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	購入した	_	VERB	VERB-AUX	_	9	acl:relcl	_	_
+9	滋賀県大津市内で	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	学園開校に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	反対する	_	VERB	VERB-AUX	_	13	acl:relcl	_	_
+13	声が	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+14	地元住民から	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	挙がっています。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s96/ja
+1	では	_	ADV	ADV	_	18	advmod	_	_
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	同じく	_	ADV	ADV	_	7	advmod	_	_
+4	メディアとしての	_	NOUN	NOUN-POSTP-POSTP	_	5	nmod	_	_
+5	品性の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	かけらも	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	_	_	ADJ	ADJ-AUX	_	10	acl:relcl	_	_
+8	ない	_	PUNCT	.	_	7	punct	_	_
+9	"やや	_	ADV	ADV	_	10	advmod	_	_
+10	日刊カルト新聞	_	NOUN	NOUN-PRT	_	18	nmod	_	_
+11	"が	_	PUNCT	.	_	10	punct	_	_
+12	,品性の	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	かけらも	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	ない	_	ADJ	ADJ-AUX	_	15	acl:relcl	_	_
+15	宗教者たちの	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	過去の	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+17	エロ事件を	_	NOUN	NOUN-PRT	_	18	nmod	_	_
+18	調べてみました。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s97/ja
+1	宗教は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	怖い?	_	ADJ	ADJ-AUX	_	0	root	_	_
+
+# sent_id s98/ja
+1	また	_	ADV	ADV	_	5	advmod	_	_
+2	渡辺弁護士は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	こうも	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	指摘します。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s99/ja
+1	その	_	DET	DET	_	2	amod	_	_
+2	流れというのも	_	NOUN	NOUN-PRT-NOUN-POSTP	_	3	nmod	_	_
+3	あるので???。	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+
+# sent_id s100/ja
+1	門司海上保安部は	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+2	１４日	_	NUM	NUM-CL	_	15	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	下関市豊北町沖で	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	座礁した	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	漁船から	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+7	男性船長	_	NOUN	NOUN	_	8	appos	_	_
+8	（７９）を	_	NUM	NUM-PRT	_	9	nmod	_	_
+9	救助した	_	VERB	VERB-AUX	_	13	acl:relcl	_	_
+10	同市豊北町神田の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	３人と	_	NUM	NUM-CL-CONJ	_	15	nmod	_	_
+12	、	_	PUNCT	.	_	11	punct	_	_
+13	県漁協豊浦統括支店に	_	NOUN	NOUN-POSTP	_	11	conj	_	_
+14	感謝状を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	贈った。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s101/ja
+1	勝利の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	女神が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	どちらに	_	PRON	PRON-POSTP	_	4	nmod	_	_
+4	ほほ笑むか	_	VERB	VERB-AUX-PRT	_	6	advcl	_	_
+5	全く	_	ADV	ADV	_	6	advmod	_	_
+6	分からない	_	VERB	VERB-AUX-AUX	_	7	acl:relcl	_	_
+7	展開。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s102/ja
+1	ストイコビッチ監督は	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+2	「浦和は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+3	最後まで	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	目を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	覚ます	_	VERB	VERB-AUX	_	6	ccomp	_	_
+6	ことが	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	なかった」と	_	ADJ	ADJ-AUX-CONJ	_	10	advcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	ジョークを	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	交えながら	_	VERB	VERB-CONJ	_	15	advcl	_	_
+11	「柏さんには	_	NOUN	NOUN-POSTP-PRT	_	13	nmod	_	_
+12	おめでとうと	_	VERB	VERB-AUX-PRT	_	13	ccomp	_	_
+13	言いたい」と	_	VERB	VERB-AUX-AUX-PRT	_	15	ccomp	_	_
+14	新王者を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	称えた。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s103/ja
+1	一団の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	脇を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	レスキューボードで	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	ライフセーバーが	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	泳ぎ	_	VERB	VERB	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	さらに	_	ADV	ADV	_	13	advmod	_	_
+8	カヌー	_	NOUN	NOUN	_	13	nmod	_	_
+9	、	_	PUNCT	.	_	8	punct	_	_
+10	水上バイクも	_	NOUN	NOUN-POSTP	_	8	conj	_	_
+11	その	_	DET	DET	_	12	amod	_	_
+12	外に	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	待機する。	_	VERB	VERB-AUX	_	5	conj	_	_
+
+# sent_id s104/ja
+1	…あなたが	_	PRON	PRON-PRT	_	3	nmod	_	_
+2	涙を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	流した	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+4	「SATC」の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	エピソードは？	_	NOUN	NOUN-PRT	_	0	root	_	_
+
+# sent_id s105/ja
+1	ジャンボ機の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	愛称で	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	知られる	_	VERB	VERB-PASSIVE-AUX	_	4	acl:relcl	_	_
+4	ボーイング７４７の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	うち	_	NOUN	NOUN	_	11	advcl	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	約２０年にわたって	_	NOUN	NOUN-NUM-CL-POSTP	_	9	nmod	_	_
+8	日航で	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	活躍してきた	_	VERB	VERB-AUX-AUX	_	11	acl:relcl	_	_
+10	国内線仕様の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	「４００Ｄ型」の	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	引退フライトツアーが	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+13	１９日	_	NUM	NUM-CL	_	14	nmod	_	_
+14	あり	_	VERB	VERB	_	0	root	_	_
+15	、	_	PUNCT	.	_	14	punct	_	_
+16	参加した	_	VERB	VERB-AUX	_	17	acl:relcl	_	_
+17	約４５０人が	_	NOUN	NOUN-NUM-CL-PRT	_	18	nmod	_	_
+18	乗り込み	_	VERB	VERB	_	14	conj	_	_
+19	別れを	_	NOUN	NOUN-PRT	_	20	nmod	_	_
+20	惜しんだ。	_	VERB	VERB-AUX	_	14	conj	_	_
+
+# sent_id s106/ja
+1	センター街の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	片隅で	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	撮影の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	準備を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	始める	_	VERB	VERB-AUX	_	7	acl:relcl	_	_
+7	大島優子さんと	_	NOUN	NOUN-CONJ	_	0	root	_	_
+8	スタッフ。	_	NOUN	NOUN	_	7	conj	_	_
+
+# sent_id s107/ja
+1	パトリック・チャン	_	NOUN	NOUN	_	2	appos	_	_
+2	（カナダ）が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	２位	_	NUM	NUM-CL	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	ＳＰ	_	NOUN	NOUN	_	9	nmod	_	_
+6	_	_	NUM	NUM-CL-POSTP	_	5	name	_	_
+7	１２位の	_	PUNCT	.	_	5	punct	_	_
+8	町田樹	_	NOUN	NOUN	_	9	appos	_	_
+9	フリー	_	NOUN	NOUN	_	3	conj	_	_
+10	９位で	_	NUM	NUM-CL-VERB	_	9	name	_	_
+11	合計１７７・０１点の	_	NOUN	NOUN-NUM-CL-POSTP	_	12	nmod	_	_
+12	１１位だった。	_	NUM	NUM-CL-VERB-AUX	_	3	conj	_	_
+
+# sent_id s108/ja
+1	この	_	DET	DET	_	2	amod	_	_
+2	背景には	_	NOUN	NOUN-POSTP-PRT	_	22	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	アメリカの	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	金融緩和の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	影響で	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+7	多額の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	資金が	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+9	原油の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	先物市場に	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	流れ込んでいる	_	VERB	VERB-AUX-AUX-AUX	_	12	ccomp	_	_
+12	ことや	_	NOUN	NOUN-CONJ	_	22	nmod	_	_
+13	、	_	PUNCT	.	_	12	punct	_	_
+14	新興国の	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	需要の	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	拡大で	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+17	国際的な	_	ADJ	ADJ	_	18	acl:relcl	_	_
+18	原油取引の	_	NOUN	NOUN-POSTP	_	19	nmod	_	_
+19	価格が	_	NOUN	NOUN-PRT	_	20	nmod	_	_
+20	上昇している	_	VERB	VERB-AUX-AUX	_	21	ccomp	_	_
+21	ことが	_	NOUN	NOUN-PRT	_	12	conj	_	_
+22	あります。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s109/ja
+1	本格的だし	_	ADJ	ADJ-AUX-CONJ	_	5	ccomp	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	絶対に	_	ADV	ADV	_	4	advmod	_	_
+4	効くと	_	VERB	VERB-AUX-PRT	_	1	conj	_	_
+5	思うので	_	VERB	VERB-AUX-CONJ	_	9	advcl	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	いろいろな	_	ADJ	ADJ	_	8	amod	_	_
+8	人に	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	覚えてもらいたいです。	_	VERB	VERB-AUX-AUX-AUX-VERB-AUX	_	0	root	_	_
+
+# sent_id s110/ja
+1	仮設を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	出た	_	VERB	VERB-AUX	_	3	ccomp	_	_
+3	後に	_	NOUN	NOUN-POSTP	_	4	advcl	_	_
+4	住みたい	_	VERB	VERB-AUX-AUX	_	5	acl:relcl	_	_
+5	場所では	_	NOUN	NOUN-POSTP-PRT	_	24	nmod	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	岩手	_	NOUN	NOUN	_	10	nmod	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	宮城の	_	NOUN	NOUN-POSTP	_	7	conj	_	_
+10	約６割が	_	NOUN	NOUN-NUM-CL-PRT	_	17	nmod	_	_
+11	「以前	_	NOUN	NOUN	_	12	nmod	_	_
+12	住んでいた	_	VERB	VERB-AUX-AUX	_	13	acl:relcl	_	_
+13	場所に	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	近い	_	ADJ	ADJ-AUX	_	15	acl:relcl	_	_
+15	高台」	_	NOUN	NOUN	_	0	root	_	_
+16	「同じ	_	ADJ	ADJ	_	17	amod	_	_
+17	市町村	_	NOUN	NOUN	_	15	conj	_	_
+18	」、	_	PUNCT	.	_	15	punct	_	_
+19	福島の	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	７割が	_	NUM	NUM-CL-PRT	_	24	nmod	_	_
+21	「以前	_	NOUN	NOUN	_	22	nmod	_	_
+22	住んでいた	_	VERB	VERB-AUX-AUX	_	23	acl:relcl	_	_
+23	場所」と	_	NOUN	NOUN-PRT	_	24	ccomp	_	_
+24	答えた。	_	VERB	VERB-AUX	_	15	conj	_	_
+
+# sent_id s111/ja
+1	当初	_	NOUN	NOUN	_	6	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	アメリカ映画として	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	作る	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	発想から	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	始まったので	_	VERB	VERB-AUX-CONJ	_	8	advcl	_	_
+7	英語映画に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	したが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+9	、	_	PUNCT	.	_	8	punct	_	_
+10	舞台に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	ニューヨークを	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	選ばなかったのは	_	VERB	VERB-AUX-AUX-NOUN-PRT	_	16	nmod	_	_
+13	、	_	PUNCT	.	_	12	punct	_	_
+14	東京を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	壊すべきだと	_	VERB	VERB-AUX-NOUN-VERB-AUX-PRT	_	16	ccomp	_	_
+16	思ったから。	_	VERB	VERB-AUX-CONJ	_	8	conj	_	_
+
+# sent_id s112/ja
+1	この	_	DET	DET	_	2	amod	_	_
+2	ページに	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	掲載されている	_	VERB	VERB-PASSIVE-AUX-AUX	_	5	acl:relcl	_	_
+4	記事・写真・図表などの	_	NOUN	NOUN-NOUN-NOUN-POSTP	_	5	nmod	_	_
+5	無断転載を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	禁じます。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s113/ja
+1	記者が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	アジアを	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	飛び回っている	_	VERB	VERB-AUX-AUX	_	4	ccomp	_	_
+4	せいか	_	NOUN	NOUN-PRT	_	9	advcl	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	やはり	_	ADV	ADV	_	9	advmod	_	_
+7	アジアの	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	方が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	多いです。	_	ADJ	ADJ-AUX-VERB-AUX	_	0	root	_	_
+
+# sent_id s114/ja
+1	警視庁は	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+2	今後	_	NOUN	NOUN	_	10	advmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	役員らから	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	事情を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	聴くなど	_	VERB	VERB-AUX-NOUN	_	10	advcl	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	検査妨害の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	全容を	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	解明する	_	VERB	VERB-AUX	_	11	acl:relcl	_	_
+11	方針。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s115/ja
+1	７０年ぶりに	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+2	生息が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	確認された	_	VERB	VERB-PASSIVE-AUX	_	4	acl:relcl	_	_
+4	クニマスの	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	保護に	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	向け	_	VERB	VERB	_	0	root	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	西湖で	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+9	地元の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	漁業協同組合が	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+11	、	_	PUNCT	.	_	10	punct	_	_
+12	禁漁区を	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+13	自主的に	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	設定しました。	_	VERB	VERB-AUX	_	6	conj	_	_
+
+# sent_id s116/ja
+1	谷川容疑者は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	政治団体の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	構成員を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	名乗っていて	_	VERB	VERB-AUX	_	15	ccomp	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	当時	_	NOUN	NOUN	_	14	advmod	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	団体の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	車両が	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+10	中国に対する	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	批判を	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	繰り返す	_	VERB	VERB-AUX	_	13	acl:relcl	_	_
+13	街宣活動を	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+14	行っていたと	_	VERB	VERB-AUX-AUX-PRT	_	4	conj	_	_
+15	いう。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s117/ja
+1	やがて	_	ADV	ADV	_	21	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	書きためた	_	VERB	VERB-AUX-AUX	_	4	acl:relcl	_	_
+4	曲を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	携え	_	VERB	VERB	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	「ウクレレわらべうた」として	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	児童館などで	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+9	ライブを	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	始め	_	VERB	VERB	_	5	conj	_	_
+11	、	_	PUNCT	.	_	5	punct	_	_
+12	そこで	_	PRON	PRON-POSTP	_	13	nmod	_	_
+13	出会った	_	VERB	VERB-AUX	_	19	acl:relcl	_	_
+14	絵本の	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	読み聞かせを	_	NOUN	NOUN-PRT	_	16	nmod	_	_
+16	する	_	VERB	VERB-AUX	_	17	acl:relcl	_	_
+17	父親たちの	_	NOUN	NOUN-POSTP	_	18	nmod	_	_
+18	グループ	_	NOUN	NOUN	_	19	appos	_	_
+19	「パパ'Ｓ絵本プロジェクト」の	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	活動に	_	NOUN	NOUN-POSTP	_	21	nmod	_	_
+21	合流。	_	NOUN	NOUN	_	5	conj	_	_
+
+# sent_id s118/ja
+1	昨年	_	NOUN	NOUN	_	9	nmod	_	_
+2	４月	_	NUM	NUM-CL	_	1	name	_	_
+3	、	_	PUNCT	.	_	1	punct	_	_
+4	オバマ米大統領が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+5	「核兵器の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	ない	_	ADJ	ADJ-AUX	_	7	acl:relcl	_	_
+7	世界を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	目指す」と	_	VERB	VERB-AUX-PRT	_	9	ccomp	_	_
+9	訴えた	_	VERB	VERB-AUX	_	10	acl:relcl	_	_
+10	プラハ演説以降	_	NOUN	NOUN-CONJ	_	13	advcl	_	_
+11	、	_	PUNCT	.	_	10	punct	_	_
+12	潮目が	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	変わってきているのかなと	_	VERB	VERB-AUX-AUX-AUX-NOUN-PRT-CONJ	_	17	advcl	_	_
+14	、	_	PUNCT	.	_	13	punct	_	_
+15	かすかな	_	ADJ	ADJ	_	16	amod	_	_
+16	期待を	_	NOUN	NOUN-PRT	_	17	nmod	_	_
+17	抱く。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s119/ja
+1	だが	_	ADV	ADV	_	8	advmod	_	_
+2	０８年４月	_	NUM	NUM-CL-NUM-CL	_	8	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	あごを	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	骨折し	_	VERB	VERB	_	0	root	_	_
+6	３つ目の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	王座から	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	陥落。	_	NOUN	NOUN	_	5	conj	_	_
+
+# sent_id s120/ja
+1	今期の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	経常利益は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	急回復する	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	見通しだが	_	NOUN	NOUN-VERB-AUX-CONJ	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	中期的に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	見れば	_	VERB	VERB-CONJ	_	12	advcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	震災の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	影響は	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+11	ジワジワ	_	NOUN	NOUN	_	12	advmod	_	_
+12	効いてくる。	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s121/ja
+1	鋭い	_	ADJ	ADJ-AUX	_	2	acl:relcl	_	_
+2	眼光で	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+3	こちらを	_	PRON	PRON-PRT	_	4	nmod	_	_
+4	睨み付ける	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	ニノ	_	NOUN	NOUN	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	ヴィジュアル系のように	_	NOUN	NOUN-POSTP-NOUN-POSTP	_	9	nmod	_	_
+8	自分を	_	PRON	PRON-PRT	_	9	nmod	_	_
+9	抱きしめる	_	VERB	VERB-AUX	_	10	acl:relcl	_	_
+10	ニノ	_	NOUN	NOUN	_	5	conj	_	_
+11	、	_	PUNCT	.	_	10	punct	_	_
+12	壁に	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	へばり付き	_	VERB	VERB	_	16	acl:relcl	_	_
+14	何かに	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	怯える	_	VERB	VERB-AUX	_	13	conj	_	_
+16	ニノ......。	_	NOUN	NOUN	_	5	conj	_	_
+
+# sent_id s122/ja
+1	パク・チウォン代表は	_	NOUN	NOUN-PRT	_	26	nmod	_	_
+2	「25人の	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+3	将軍級を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	懲戒すると	_	VERB	VERB-AUX-PRT	_	5	ccomp	_	_
+5	いうが	_	VERB	VERB-AUX-CONJ	_	26	ccomp	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	こうした	_	ADJ	ADJ	_	9	amod	_	_
+8	重大な	_	ADJ	ADJ	_	9	acl:relcl	_	_
+9	問題を	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+10	監査院の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	監査で	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+12	懲戒程度で	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	終わらせる	_	VERB	VERB-CAUSATIVE-AUX	_	14	ccomp	_	_
+14	ことは	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	ありえない	_	VERB	VERB-AUX-AUX-AUX	_	5	conj	_	_
+16	」、	_	PUNCT	.	_	5	punct	_	_
+17	「軍法会議に	_	NOUN	NOUN-POSTP	_	18	nmod	_	_
+18	回付して	_	VERB	VERB	_	24	ccomp	_	_
+19	、	_	PUNCT	.	_	18	punct	_	_
+20	軍検察が	_	NOUN	NOUN-PRT	_	23	nmod	_	_
+21	徹底した	_	VERB	VERB-AUX	_	22	acl:relcl	_	_
+22	調査を	_	NOUN	NOUN-PRT	_	23	nmod	_	_
+23	する	_	VERB	VERB-AUX	_	18	conj	_	_
+24	ように	_	NOUN	NOUN-POSTP	_	25	nmod	_	_
+25	要求する」と	_	VERB	VERB-AUX-PRT	_	5	conj	_	_
+26	述べた。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s123/ja
+1	ＳＭＢＣ日興証券は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+2	2012年	_	NUM	NUM-CL	_	4	nmod	_	_
+3	秋を	_	NOUN	NOUN-PRT	_	2	name	_	_
+4	めどに	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	シンガポール拠点を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	開設する。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s124/ja
+1	3年ぶりに	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+2	ボランチで	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	プレーしたので	_	VERB	VERB-AUX-CONJ	_	5	advcl	_	_
+4	自己評価は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	出来ない。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s125/ja
+1	わずか	_	ADV	ADV	_	2	advmod	_	_
+2	半年間に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+3	重賞を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	３勝し	_	VERB	VERB	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	血統馬に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	ふさわしい	_	ADJ	ADJ-AUX	_	8	acl:relcl	_	_
+8	活躍を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	見せてきた。	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s126/ja
+1	球場内の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	内野部分の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	照明器具	_	NOUN	NOUN	_	4	appos	_	_
+4	約５８０台は	_	NOUN	NOUN-NUM-CL-PRT	_	10	nmod	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	電力消費を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	抑えられる	_	VERB	VERB-AUX-AUX	_	9	acl:relcl	_	_
+8	発光ダイオード	_	NOUN	NOUN	_	9	appos	_	_
+9	（ＬＥＤ）照明に	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	切り替える。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s127/ja
+1	伏兵の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	一発を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	含む	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	１１安打	_	NUM	NUM-CL	_	9	nmod	_	_
+5	９得点で	_	NUM	NUM-CL-POSTP	_	4	name	_	_
+6	静岡県勢として	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+7	春通算	_	NOUN	NOUN	_	9	advmod	_	_
+8	５０勝を	_	NUM	NUM-CL-PRT	_	9	nmod	_	_
+9	達成。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s128/ja
+1	メディアから	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+2	「45年の	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+3	歴史を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	持つ	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+5	メジャーリーグの	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	ドラフト史上で	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+7	『最高の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	選手』」と	_	NOUN	NOUN-PRT	_	9	ccomp	_	_
+9	言われていた	_	VERB	VERB-PASSIVE-AUX-AUX	_	10	acl:relcl	_	_
+10	ストラスバーグだが	_	NOUN	NOUN-VERB-AUX-CONJ	_	0	root	_	_
+11	、	_	PUNCT	.	_	10	punct	_	_
+12	この	_	DET	DET	_	13	amod	_	_
+13	契約金は	_	NOUN	NOUN-PRT	_	16	nmod	_	_
+14	各方面で	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+15	話題に	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	なった。	_	VERB	VERB-AUX	_	10	conj	_	_
+
+# sent_id s129/ja
+1	私たち	_	PRON	PRON	_	2	appos	_	_
+2	去る	_	ADJ	ADJ	_	3	amod	_	_
+3	大戦の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	悲惨な	_	ADJ	ADJ	_	5	acl:relcl	_	_
+5	教訓から	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+6	戦後	_	NOUN	NOUN	_	7	advmod	_	_
+7	「命どぅ宝	_	NOUN	NOUN	_	13	appos	_	_
+8	」、	_	PUNCT	.	_	7	punct	_	_
+9	基地の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	ない	_	ADJ	ADJ-AUX	_	13	acl:relcl	_	_
+11	平和で	_	ADJ	ADJ	_	13	acl:relcl	_	_
+12	安全な	_	ADJ	ADJ	_	11	conj	_	_
+13	沖縄を	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+14	希求してきました。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s130/ja
+1	株式会社ケイビーエムジェイ	_	NOUN	NOUN	_	6	appos	_	_
+2	(本社：東京都渋谷区	_	NOUN	NOUN-NOUN	_	22	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	代表取締役社長：三原順	_	NOUN	NOUN-NOUN	_	2	conj	_	_
+5	、	_	PUNCT	.	_	2	punct	_	_
+6	以下KBMJ)は	_	NOUN	NOUN-PRT	_	2	conj	_	_
+7	、	_	PUNCT	.	_	2	punct	_	_
+8	株式会社ミクシィ	_	NOUN	NOUN	_	11	appos	_	_
+9	(本社：東京都渋谷区	_	NOUN	NOUN-NOUN	_	12	nmod	_	_
+10	、	_	PUNCT	.	_	9	punct	_	_
+11	代表取締役社長：笠原健治)が	_	NOUN	NOUN-NOUN-PRT	_	9	conj	_	_
+12	提供する	_	VERB	VERB-AUX	_	14	acl:relcl	_	_
+13	SNS	_	NOUN	NOUN	_	14	appos	_	_
+14	『mixi』にて	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	サービス中の	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+16	mixiアプリ	_	NOUN	NOUN	_	17	appos	_	_
+17	『エインヘリアルformixi』で	_	NOUN	NOUN-POSTP	_	22	nmod	_	_
+18	、	_	PUNCT	.	_	17	punct	_	_
+19	クレジットカードと	_	NOUN	NOUN-CONJ	_	21	nmod	_	_
+20	ウェブマネーでの	_	NOUN	NOUN-POSTP-POSTP	_	19	conj	_	_
+21	決済に	_	NOUN	NOUN-POSTP	_	22	nmod	_	_
+22	対応いたしました。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s131/ja
+1	週明け	_	NOUN	NOUN	_	4	nmod	_	_
+2	１９日	_	NUM	NUM-CL	_	1	name	_	_
+3	午前の	_	NOUN	NOUN-POSTP	_	1	name	_	_
+4	東京株式市場は、	_	NOUN	NOUN-PRT	_	25	nmod	_	_
+5	前週末の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	米株式市場の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	大幅下落や	_	NOUN	NOUN-CONJ	_	15	nmod	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	外為市場で	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+10	円が	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+11	一時	_	NOUN	NOUN	_	13	advmod	_	_
+12	１ドル＝９１円台後半に	_	NUM	NUM-CL-X-NUM-CL-NOUN-POSTP	_	13	nmod	_	_
+13	上昇した	_	VERB	VERB-AUX	_	14	ccomp	_	_
+14	ことを	_	NOUN	NOUN-PRT	_	7	conj	_	_
+15	嫌気し	_	VERB	VERB	_	0	root	_	_
+16	、	_	PUNCT	.	_	15	punct	_	_
+17	日経平均株価	_	NOUN	NOUN	_	18	appos	_	_
+18	（２２５種）が	_	NUM	NUM-CL-PRT	_	19	nmod	_	_
+19	大幅続落	_	NOUN	NOUN	_	15	conj	_	_
+20	、	_	PUNCT	.	_	15	punct	_	_
+21	一時	_	NOUN	NOUN	_	22	advmod	_	_
+22	節目と	_	NOUN	NOUN-PRT	_	23	ccomp	_	_
+23	される	_	VERB	VERB-PASSIVE-AUX	_	24	acl:relcl	_	_
+24	１万１千円を	_	NUM	NUM-CL-NUM-CL-NOUN-PRT	_	25	nmod	_	_
+25	割った。	_	VERB	VERB-AUX	_	15	conj	_	_
+
+# sent_id s132/ja
+1	5/13に	_	NUM	NUM-POSTP	_	2	nmod	_	_
+2	放送される	_	VERB	VERB-PASSIVE-AUX	_	5	acl:relcl	_	_
+3	フジテレビ系	_	NOUN	NOUN	_	5	appos	_	_
+4	「僕らの	_	PRON	PRON-POSTP	_	5	nmod	_	_
+5	音楽」にて	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	福原美穂と	_	NOUN	NOUN-CONJ	_	9	nmod	_	_
+8	AIという	_	NOUN	NOUN-PRT	_	7	conj	_	_
+9	豪華共演が	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	決定した。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s133/ja
+1	その	_	DET	DET	_	2	amod	_	_
+2	ため	_	NOUN	NOUN	_	11	advcl	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	左投手対策として	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	ＯＢの	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	東北福祉大１年	_	NOUN	NOUN-NUM-CL	_	8	appos	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	五代佳亨さん	_	NOUN	NOUN	_	11	nmod	_	_
+9	（１９）に	_	NUM	NUM-POSTP	_	8	name	_	_
+10	打撃投手を	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	依頼した。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s134/ja
+1	そして	_	ADV	ADV	_	8	advmod	_	_
+2	次巻	_	NOUN	NOUN	_	4	appos	_	_
+3	「約束の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	地で」では	_	NOUN	NOUN-POSTP-POSTP-PRT	_	8	nmod	_	_
+5	一気に	_	ADV	ADV	_	8	advmod	_	_
+6	時間が	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+7	20年後へと	_	NUM	NUM-CL-NOUN-POSTP-POSTP	_	8	nmod	_	_
+8	飛ぶ。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s135/ja
+1	もちろん	_	ADV	ADV	_	3	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	運転可能！	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s136/ja
+1	ビーチや	_	NOUN	NOUN-CONJ	_	8	nmod	_	_
+2	公園	_	NOUN	NOUN	_	1	conj	_	_
+3	、	_	PUNCT	.	_	1	punct	_	_
+4	家や	_	NOUN	NOUN-CONJ	_	1	conj	_	_
+5	オフィスなど	_	NOUN	NOUN	_	1	conj	_	_
+6	様々な	_	ADJ	ADJ	_	1	acl:relcl	_	_
+7	場所に	_	NOUN	NOUN-POSTP	_	1	name	_	_
+8	持ち運んで	_	VERB	VERB	_	10	ccomp	_	_
+9	楽しむ	_	VERB	VERB-AUX	_	8	conj	_	_
+10	ことが	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	できます。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s137/ja
+1	２人は	_	NUM	NUM-CL-PRT	_	16	nmod	_	_
+2	以前	_	NOUN	NOUN	_	13	advmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	男性に向かって	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	石を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	投げた	_	VERB	VERB-AUX	_	7	ccomp	_	_
+7	際に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	投げ返されたり	_	VERB	VERB-PASSIVE	_	12	ccomp	_	_
+9	、	_	PUNCT	.	_	8	punct	_	_
+10	喫煙していて	_	VERB	VERB-AUX	_	8	conj	_	_
+11	とがめられたりした	_	VERB	VERB-PASSIVE-VERB-AUX	_	8	conj	_	_
+12	ことが	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	あり	_	VERB	VERB	_	17	ccomp	_	_
+14	、	_	PUNCT	.	_	13	punct	_	_
+15	恨みを	_	NOUN	NOUN-PRT	_	16	nmod	_	_
+16	募らせていたと	_	VERB	VERB-AUX-AUX-AUX-PRT	_	13	conj	_	_
+17	いう。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s138/ja
+1	李明博(イ・ミョンバク)大統領は	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	老人が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+4	社会で	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	役割を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	果たせるように	_	VERB	VERB-AUX-AUX-NOUN-POSTP	_	7	nmod	_	_
+7	すべきだと	_	VERB	VERB-AUX-NOUN-VERB-AUX-PRT	_	8	ccomp	_	_
+8	考えると	_	VERB	VERB-AUX-PRT	_	9	ccomp	_	_
+9	話した。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s139/ja
+1	深刻度が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	もっとも	_	ADV	ADV	_	3	advmod	_	_
+3	高い	_	ADJ	ADJ-AUX	_	4	acl:relcl	_	_
+4	「緊急」と	_	NOUN	NOUN-PRT	_	5	ccomp	_	_
+5	されるのは	_	VERB	VERB-PASSIVE-AUX-NOUN-PRT	_	8	nmod	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	「Windows」に関する	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	プログラム	_	NOUN	NOUN	_	0	root	_	_
+9	4件。	_	NUM	NUM-CL	_	8	name	_	_
+
+# sent_id s140/ja
+1	売上高は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	53億円	_	NUM	NUM-CL-NOUN	_	17	nmod	_	_
+3	（前回予想比	_	NOUN	NOUN	_	2	name	_	_
+4	3．9％増	_	NUM	NUM-CL-NOUN	_	2	name	_	_
+5	）、	_	PUNCT	.	_	2	punct	_	_
+6	営業利益は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	3億5000万円	_	NUM	NUM-CL-NUM-CL-NOUN	_	2	conj	_	_
+8	（同25．0％増	_	NOUN	NOUN-NUM-CL-NOUN	_	7	name	_	_
+9	）、	_	PUNCT	.	_	2	punct	_	_
+10	経常利益は	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	3億5000万円	_	NUM	NUM-CL-NUM-CL-NOUN	_	2	conj	_	_
+12	（同25．0％増	_	NOUN	NOUN-NUM-CL-NOUN	_	11	name	_	_
+13	）、	_	PUNCT	.	_	2	punct	_	_
+14	当期純利益は	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	1億8000万円	_	NUM	NUM-CL-NUM-CL-NOUN	_	2	conj	_	_
+16	（同28．5％増）に	_	NOUN	NOUN-NUM-CL-NOUN-POSTP	_	15	name	_	_
+17	上方修正した。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s141/ja
+1	ただ	_	ADV	ADV	_	23	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	この	_	DET	DET	_	4	amod	_	_
+4	質問に対する	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	回答は	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	誰かに	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+8	回答が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	固まる	_	VERB	VERB-AUX	_	10	ccomp	_	_
+10	こと	_	NOUN	NOUN	_	11	nmod	_	_
+11	なく	_	ADJ	ADJ	_	0	root	_	_
+12	、	_	PUNCT	.	_	11	punct	_	_
+13	１位の	_	NUM	NUM-CL-POSTP	_	14	nmod	_	_
+14	木村拓哉さんでも	_	NOUN	NOUN-CONJ	_	17	advcl	_	_
+15	獲得率が	_	NOUN	NOUN-PRT	_	16	nmod	_	_
+16	５％以下と	_	NUM	NUM-CL-NOUN-POSTP	_	17	nmod	_	_
+17	幅広く	_	ADJ	ADJ	_	11	conj	_	_
+18	いろいろな	_	ADJ	ADJ	_	20	amod	_	_
+19	人の	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	名前が	_	NOUN	NOUN-PRT	_	21	nmod	_	_
+21	挙がる	_	VERB	VERB-AUX	_	22	acl:relcl	_	_
+22	結果と	_	NOUN	NOUN-PRT	_	23	ccomp	_	_
+23	なりました。	_	VERB	VERB-AUX	_	11	conj	_	_
+
+# sent_id s142/ja
+1	早ければ	_	ADJ	ADJ-CONJ	_	3	advcl	_	_
+2	２０１０年度から	_	NUM	NUM-CL-NOUN-POSTP	_	3	nmod	_	_
+3	行う	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	方向と	_	NOUN	NOUN-PRT	_	5	ccomp	_	_
+5	なった。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s143/ja
+1	車を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	所有する	_	VERB	VERB-AUX	_	3	acl:relcl	_	_
+3	人の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	割合は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	前回	_	NOUN	NOUN	_	7	nmod	_	_
+6	平成１３年度調査の	_	NOUN	NOUN-NUM-CL-NOUN-POSTP	_	5	name	_	_
+7	７１・２％から	_	NUM	NUM-CL-POSTP	_	8	nmod	_	_
+8	１１・９ポイント減少した。	_	NUM	NUM-CL-VERB-AUX	_	0	root	_	_
+
+# sent_id s144/ja
+1	大宮は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+2	終盤	_	NOUN	NOUN	_	4	advmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	攻勢を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	仕掛けるも	_	VERB	VERB-AUX-CONJ	_	7	advcl	_	_
+6	得点は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	奪えず。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s145/ja
+1	本当に	_	ADV	ADV	_	2	advmod	_	_
+2	申し訳ない。	_	ADJ	ADJ-AUX	_	0	root	_	_
+
+# sent_id s146/ja
+1	独立型チャペルは	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	本格的な	_	ADJ	ADJ	_	4	advmod	_	_
+4	ヨーロピアンテイスト。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s147/ja
+1	教室に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	火の気は	_	NOUN	NOUN-POSTP-NOUN-PRT	_	3	nmod	_	_
+3	なく	_	ADJ	ADJ	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	白河署と	_	NOUN	NOUN-CONJ	_	11	nmod	_	_
+6	矢吹消防署は	_	NOUN	NOUN-PRT	_	5	conj	_	_
+7	３０日	_	NUM	NUM-CL	_	11	nmod	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	実況見分し	_	VERB	VERB	_	3	conj	_	_
+10	原因を	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	調べる。	_	VERB	VERB-AUX	_	3	conj	_	_
+
+# sent_id s148/ja
+1	第8シードの	_	NOUN	NOUN-NUM-CL-POSTP	_	2	nmod	_	_
+2	サマンサ・ストーサー	_	NOUN	NOUN	_	3	appos	_	_
+3	（SamanthaStosur	_	NOUN	NOUN	_	6	nmod	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	オーストラリア）も	_	NOUN	NOUN-POSTP	_	3	name	_	_
+6	敗退した。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s149/ja
+1	一方で	_	ADV	ADV	_	15	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	西側の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	政治家や	_	NOUN	NOUN-CONJ	_	6	nmod	_	_
+5	専門家の	_	NOUN	NOUN-POSTP	_	4	conj	_	_
+6	多くは	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	ノーベル賞委員会の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	決定は	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+10	非常に	_	ADV	ADV	_	12	advmod	_	_
+11	理に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	かなった	_	VERB	VERB-AUX	_	13	ccomp	_	_
+13	ものであるとの	_	NOUN	NOUN-VERB-AUX-PRT	_	14	nmod	_	_
+14	評価を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	与えている。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s150/ja
+1	午後に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	入ると	_	VERB	VERB-AUX-CONJ	_	5	advcl	_	_
+3	139円80銭付近での	_	NUM	NUM-CL-NUM-CL-NOUN-POSTP-POSTP	_	4	nmod	_	_
+4	推移と	_	NOUN	NOUN-PRT	_	5	ccomp	_	_
+5	なり	_	VERB	VERB	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	結局は	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+8	14銭高の	_	NUM	NUM-CL-NOUN-POSTP	_	9	nmod	_	_
+9	139円78銭で	_	NUM	NUM-CL-NUM-CL-POSTP	_	10	nmod	_	_
+10	引けた。	_	VERB	VERB-AUX	_	5	conj	_	_
+
+# sent_id s151/ja
+1	ゴールドマン・サックス証券は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	257社	_	NUM	NUM-CL	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	日本最大手の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	野村証券は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	608社。	_	NUM	NUM-CL	_	2	conj	_	_
+
+# sent_id s152/ja
+1	知床半島も	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	はじめて	_	ADV	ADV	_	4	advmod	_	_
+4	訪れた	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	１９７１年から	_	NUM	NUM-CL-POSTP	_	7	nmod	_	_
+6	大きく	_	ADJ	ADJ	_	7	advmod	_	_
+7	変わり	_	VERB	VERB	_	0	root	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	羅臼の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	漁師の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	家も	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+12	番屋も	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	立派になり	_	NOUN	NOUN-POSTP-VERB	_	7	conj	_	_
+14	、	_	PUNCT	.	_	7	punct	_	_
+15	ウトロには	_	NOUN	NOUN-POSTP-PRT	_	18	nmod	_	_
+16	無数の	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+17	ホテルが	_	NOUN	NOUN-PRT	_	18	nmod	_	_
+18	建ち	_	VERB	VERB	_	7	conj	_	_
+19	、	_	PUNCT	.	_	7	punct	_	_
+20	「地の	_	NOUN	NOUN-POSTP	_	21	nmod	_	_
+21	果て」とは	_	NOUN	NOUN-PRT-PRT	_	22	nmod	_	_
+22	言えない	_	VERB	VERB-AUX-AUX-AUX	_	23	acl:relcl	_	_
+23	様変わりを	_	NOUN	NOUN-PRT	_	24	nmod	_	_
+24	しています。	_	VERB	VERB-AUX-AUX	_	7	conj	_	_
+
+# sent_id s153/ja
+1	企業経営者の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	そして	_	ADV	ADV	_	4	advmod	_	_
+4	企業人	_	NOUN	NOUN	_	6	nmod	_	_
+5	一人ひとりの	_	NOUN	NOUN-POSTP	_	4	name	_	_
+6	意識改革ではないだろうか。	_	NOUN	NOUN-POSTP-PRT-ADJ-AUX-AUX-PRT	_	0	root	_	_
+
+# sent_id s154/ja
+1	※世帯ごとに	_	X	X-NOUN-POSTP	_	4	nmod	_	_
+2	保険料の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	上限が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	決まっている。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s155/ja
+1	県では	_	NOUN	NOUN-POSTP-PRT	_	6	nmod	_	_
+2	「風評被害を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	防ぐ	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	ため」として	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	店舗名を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	公表していない。	_	VERB	VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s156/ja
+1	先が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	気に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	なる	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	ストーリー展開や	_	NOUN	NOUN-CONJ	_	8	nmod	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	3人の	_	NUM	NUM-CL-POSTP	_	7	nmod	_	_
+7	演技に	_	NOUN	NOUN-POSTP	_	4	conj	_	_
+8	引き込まれてしまう	_	VERB	VERB-PASSIVE-AUX-AUX	_	9	ccomp	_	_
+9	こと	_	NOUN	NOUN	_	10	nmod	_	_
+10	間違いナシだ！	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s157/ja
+1	これで	_	PRON	PRON-POSTP	_	4	nmod	_	_
+2	４日間の	_	NUM	NUM-CL-NOUN-POSTP	_	3	nmod	_	_
+3	事前合宿を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	打ち上げた。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s158/ja
+1	_	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+2	狙いは	_	PUNCT	.	_	1	punct	_	_
+3	「お客様中心主義」を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+4	どう	_	NOUN	NOUN	_	6	advmod	_	_
+5	形に	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	するかです。	_	VERB	VERB-AUX-PRT-VERB-AUX	_	0	root	_	_
+
+# sent_id s159/ja
+1	法案が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	上院を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	通過すれば	_	VERB	VERB-CONJ	_	12	advcl	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	昨年	_	NOUN	NOUN	_	8	nmod	_	_
+6	１２月に	_	NUM	NUM-CL-POSTP	_	5	name	_	_
+7	下院を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	通過した	_	VERB	VERB-AUX	_	9	acl:relcl	_	_
+9	法案と	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	統合する	_	VERB	VERB-AUX	_	11	ccomp	_	_
+11	必要が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	あり	_	VERB	VERB	_	0	root	_	_
+13	、	_	PUNCT	.	_	12	punct	_	_
+14	アナリストに	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	よると	_	VERB	VERB-AUX-CONJ	_	21	advcl	_	_
+16	、	_	PUNCT	.	_	15	punct	_	_
+17	その	_	DET	DET	_	18	amod	_	_
+18	時期は	_	NOUN	NOUN-PRT	_	21	nmod	_	_
+19	５月	_	NUM	NUM-CL	_	21	nmod	_	_
+20	下旬に	_	NOUN	NOUN-POSTP	_	19	name	_	_
+21	なると	_	VERB	VERB-AUX-PRT	_	22	ccomp	_	_
+22	見込まれている。	_	VERB	VERB-PASSIVE-AUX-AUX	_	12	conj	_	_
+
+# sent_id s160/ja
+1	来場者は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	熱心に	_	ADJ	ADJ	_	3	advmod	_	_
+3	見入っていた。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s161/ja
+1	（守備の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	乱れについて）	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+3	言い訳に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	ならない。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s162/ja
+1	入場無料。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s163/ja
+1	当面は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	同省職員	_	NOUN	NOUN	_	4	nmod	_	_
+3	２人を	_	NUM	NUM-CL-PRT	_	2	name	_	_
+4	派遣。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s164/ja
+1	株式会社ＧＣＩキャピタルは	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	信頼できる	_	VERB	VERB-AUX-AUX	_	4	acl:relcl	_	_
+4	情報を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	もとに	_	NOUN	NOUN-POSTP	_	7	advcl	_	_
+6	本資料を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	作成しておりますが	_	VERB	VERB-AUX-AUX-CONJ	_	0	root	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	正確性・完全性について	_	NOUN	NOUN-NOUN-POSTP	_	12	nmod	_	_
+10	株式会社ＧＣＩキャピタルが	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+11	責任を	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	負う	_	VERB	VERB-AUX	_	13	ccomp	_	_
+13	ものではありません。	_	NOUN	NOUN-POSTP-PRT-VERB-AUX-AUX	_	7	conj	_	_
+
+# sent_id s165/ja
+1	その	_	DET	DET	_	2	amod	_	_
+2	あだ名の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	通り	_	NOUN	NOUN	_	10	advcl	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	女性を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	見ると	_	VERB	VERB-AUX-CONJ	_	7	advcl	_	_
+7	口説き	_	VERB	VERB	_	10	acl:relcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	襲おうとする	_	VERB	VERB-AUX-PRT-VERB-AUX	_	7	conj	_	_
+10	リョウちゃん。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s166/ja
+1	男女が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	親交を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	深めやすいようにと	_	ADJ	ADJ-AUX-NOUN-POSTP-CONJ	_	9	advcl	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	ピザ作り体験などを	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+6	企画の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	柱に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	した	_	VERB	VERB-AUX	_	9	ccomp	_	_
+9	ところ	_	NOUN	NOUN	_	11	advcl	_	_
+10	大好評と	_	NOUN	NOUN-PRT	_	11	ccomp	_	_
+11	なった。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s167/ja
+1	恵まれた	_	VERB	VERB-PASSIVE-AUX	_	2	acl:relcl	_	_
+2	身体能力を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	生かした	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	守備は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	もちろん	_	ADV	ADV	_	13	nmod	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	闘争心を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	むき出しに	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+9	前線へと	_	NOUN	NOUN-POSTP-POSTP	_	10	nmod	_	_
+10	駆け上がる	_	VERB	VERB-AUX	_	11	acl:relcl	_	_
+11	プレーで	_	NOUN	NOUN-POSTP	_	5	conj	_	_
+12	相手を	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	翻弄。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s168/ja
+1	ベストアルバム	_	NOUN	NOUN	_	3	nmod	_	_
+2	『BADTIMES』を	_	NOUN	NOUN-PRT	_	1	name	_	_
+3	リリースする	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	ことが	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	明らかになりました！	_	NOUN	NOUN-POSTP-VERB-AUX	_	0	root	_	_
+
+# sent_id s169/ja
+1	震災を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	考慮して	_	VERB	VERB	_	6	nmod	_	_
+3	街頭運動が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+4	一部	_	NOUN	NOUN	_	5	advmod	_	_
+5	異例の	_	NOUN	NOUN-POSTP	_	2	conj	_	_
+6	選挙戦が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	スタートした。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s170/ja
+1	トッティは	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+2	試合後に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+3	「この	_	DET	DET	_	4	amod	_	_
+4	記録を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+5	誇りに	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	思うが	_	VERB	VERB-AUX-CONJ	_	12	ccomp	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	ここで	_	PRON	PRON-POSTP	_	9	nmod	_	_
+9	止まる	_	VERB	VERB-AUX	_	10	ccomp	_	_
+10	ことは	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	ない」と	_	ADJ	ADJ-AUX-PRT	_	6	conj	_	_
+12	コメント。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s171/ja
+1	ＳＡや	_	NOUN	NOUN-CONJ	_	5	nmod	_	_
+2	パーキングエリア	_	NOUN	NOUN	_	3	appos	_	_
+3	（ＰＡ）など	_	NOUN	NOUN	_	1	conj	_	_
+4	１４カ所に	_	NUM	NUM-CL-POSTP	_	5	nmod	_	_
+5	放置した	_	VERB	VERB-AUX	_	6	ccomp	_	_
+6	ことには	_	NOUN	NOUN-POSTP-PRT	_	15	nmod	_	_
+7	「１カ所に	_	NUM	NUM-CL-POSTP	_	8	nmod	_	_
+8	捨てると	_	VERB	VERB-AUX-CONJ	_	9	advcl	_	_
+9	目立つので	_	VERB	VERB-AUX-CONJ	_	12	advcl	_	_
+10	_	_	VERB	VERB	_	13	nmod	_	_
+11	分けて	_	PUNCT	.	_	10	punct	_	_
+12	捨てた」という	_	VERB	VERB-AUX-PRT	_	10	conj	_	_
+13	趣旨の	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	説明を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	している。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s172/ja
+1	尾崎淳介校長は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+2	「水筒を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	持たせ	_	VERB	VERB-CAUSATIVE	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	帽子を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	かぶるように	_	VERB	VERB-AUX-NOUN-POSTP	_	7	nmod	_	_
+7	指導していた。	_	VERB	VERB-AUX-AUX	_	3	conj	_	_
+
+# sent_id s173/ja
+1	自由で	_	ADJ	ADJ	_	7	appos	_	_
+2	不思議で	_	ADJ	ADJ	_	1	conj	_	_
+3	キュートな	_	ADJ	ADJ	_	4	acl:relcl	_	_
+4	女の子	_	NOUN	NOUN	_	1	conj	_	_
+5	、	_	PUNCT	.	_	1	punct	_	_
+6	AKB48チームBの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	メンバー	_	NOUN	NOUN	_	0	root	_	_
+8	メンバー小林香菜。	_	NOUN	NOUN	_	7	name	_	_
+
+# sent_id s174/ja
+1	景観・社会・文化・報道・文化遺産・近代史写真等	_	NOUN	NOUN-NOUN-NOUN-NOUN-NOUN-NOUN	_	0	root	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	豊富な	_	ADJ	ADJ	_	4	acl:relcl	_	_
+4	ジャンルで	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	ご対応！	_	NOUN	NOUN	_	1	conj	_	_
+
+# sent_id s175/ja
+1	過去に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+2	記者会見で	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+3	歌を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	歌った	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	選手などが	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	いたが	_	VERB	VERB-AUX-CONJ	_	12	advcl	_	_
+7	競技外の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	パフォーマンスが	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	どうであったとしても	_	NOUN	NOUN-POSTP-VERB-AUX-PRT-VERB-CONJ	_	6	conj	_	_
+10	競技で	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	結果を	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	残せなければ	_	VERB	VERB-AUX-AUX-CONJ	_	15	advcl	_	_
+13	何の	_	PRON	PRON-POSTP	_	14	nmod	_	_
+14	意味も	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	ない	_	ADJ	ADJ-AUX	_	16	ccomp	_	_
+16	事を	_	NOUN	NOUN-PRT	_	20	nmod	_	_
+17	トリノ以降、	_	NOUN	NOUN-NOUN	_	20	advmod	_	_
+18	協会が	_	NOUN	NOUN-PRT	_	20	nmod	_	_
+19	選手に	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	伝えきれていない。	_	VERB	VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s176/ja
+1	18分以降	_	NUM	NUM-CL-NOUN	_	7	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	SAGAWAが	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+4	ボールを	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	キープする	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	時間が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	増え出し行くのだが	_	VERB	VERB-AUX-AUX-NOUN-VERB-AUX-CONJ	_	0	root	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	これは	_	PRON	PRON-PRT	_	30	nmod	_	_
+10	ペースを	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	握っているのではなく	_	VERB	VERB-AUX-AUX-NOUN-POSTP-PRT-ADJ	_	16	ccomp	_	_
+12	、	_	PUNCT	.	_	11	punct	_	_
+13	前からの	_	NOUN	NOUN-POSTP-POSTP	_	14	nmod	_	_
+14	プレッシャーが	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	厳しい	_	ADJ	ADJ-AUX	_	11	conj	_	_
+16	ため	_	NOUN	NOUN	_	25	advcl	_	_
+17	、	_	PUNCT	.	_	16	punct	_	_
+18	一旦	_	ADV	ADV	_	19	advmod	_	_
+19	下げて	_	VERB	VERB	_	26	ccomp	_	_
+20	後ろで	_	NOUN	NOUN-POSTP	_	21	nmod	_	_
+21	回し	_	VERB	VERB	_	19	conj	_	_
+22	、	_	PUNCT	.	_	19	punct	_	_
+23	なんとか	_	ADV	ADV	_	25	advmod	_	_
+24	穴を	_	NOUN	NOUN-PRT	_	25	nmod	_	_
+25	探ろうとした	_	VERB	VERB-AUX-PRT-VERB-AUX	_	19	conj	_	_
+26	ために	_	NOUN	NOUN-POSTP	_	29	advcl	_	_
+27	ポゼッションする	_	VERB	VERB-AUX	_	28	acl:relcl	_	_
+28	時間が	_	NOUN	NOUN-PRT	_	29	nmod	_	_
+29	増えただけの	_	VERB	VERB-AUX-NOUN-POSTP	_	30	nmod	_	_
+30	こと。	_	NOUN	NOUN	_	7	conj	_	_
+
+# sent_id s177/ja
+1	通路を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	使って	_	VERB	VERB	_	0	root	_	_
+3	移動し	_	VERB	VERB	_	2	conj	_	_
+4	、	_	PUNCT	.	_	2	punct	_	_
+5	ホーム上の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	混雑を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	回避する。	_	VERB	VERB-AUX	_	2	conj	_	_
+
+# sent_id s178/ja
+1	２号機の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	西	_	NOUN	NOUN	_	4	nmod	_	_
+3	１・１キロに	_	NUM	NUM-CL-POSTP	_	2	name	_	_
+4	ある	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	西門付近で	_	NOUN	NOUN-POSTP	_	10	acl:relcl	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	１７日	_	NUM	NUM-CL	_	9	nmod	_	_
+8	午前０時半に	_	NOUN	NOUN-NUM-CL-NOUN-POSTP	_	7	name	_	_
+9	毎時３５１・４マイクロシーベルトだった	_	NOUN	NOUN-NUM-CL-VERB-AUX	_	5	conj	_	_
+10	放射線量が	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+11	、	_	PUNCT	.	_	10	punct	_	_
+12	１８日	_	NUM	NUM-CL	_	15	nmod	_	_
+13	午前８時には	_	NOUN	NOUN-NUM-CL-POSTP-PRT	_	12	name	_	_
+14	２７０・５マイクロシーベルトに	_	NUM	NUM-CL-POSTP	_	15	nmod	_	_
+15	下がった。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s179/ja
+1	簡単で	_	ADJ	ADJ	_	3	acl:relcl	_	_
+2	おいしい	_	ADJ	ADJ-AUX	_	1	conj	_	_
+3	上に	_	NOUN	NOUN-POSTP	_	8	advcl	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	栄養の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	バランスが	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	いいと	_	ADJ	ADJ-AUX-PRT	_	8	ccomp	_	_
+8	なれば	_	VERB	VERB-CONJ	_	9	advcl	_	_
+9	言う	_	VERB	VERB-AUX	_	10	ccomp	_	_
+10	こと	_	NOUN	NOUN	_	11	nmod	_	_
+11	なしです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s180/ja
+1	また	_	ADV	ADV	_	6	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	レートにより	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+4	金額が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+5	多少	_	ADV	ADV	_	6	advmod	_	_
+6	左右されます。	_	VERB	VERB-PASSIVE-AUX	_	0	root	_	_
+
+# sent_id s181/ja
+1	立件に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	消極的だったと	_	ADJ	ADJ-AUX-PRT	_	3	ccomp	_	_
+3	いう。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s182/ja
+1	わが	_	ADJ	ADJ	_	2	amod	_	_
+2	外相が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+3	「重要な	_	ADJ	ADJ	_	4	acl:relcl	_	_
+4	進展だ」と	_	NOUN	NOUN-VERB-AUX-PRT	_	6	ccomp	_	_
+5	胸を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	張っているように	_	VERB	VERB-AUX-AUX-NOUN-POSTP	_	7	nmod	_	_
+7	見えたのは	_	VERB	VERB-AUX-AUX-NOUN-PRT	_	10	nmod	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	きっと	_	ADV	ADV	_	10	advmod	_	_
+10	気のせいだ。	_	NOUN	NOUN-POSTP-NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s183/ja
+1	オバマ大統領は	_	NOUN	NOUN-PRT	_	22	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	雇用対策の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	恩恵を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	受ける	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	教師や	_	NOUN	NOUN-CONJ	_	10	nmod	_	_
+7	警官	_	NOUN	NOUN	_	6	conj	_	_
+8	、	_	PUNCT	.	_	6	punct	_	_
+9	建設労働者らを	_	NOUN	NOUN-PRT	_	6	conj	_	_
+10	背に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	演説に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	臨み	_	VERB	VERB	_	0	root	_	_
+13	、	_	PUNCT	.	_	12	punct	_	_
+14	「この	_	DET	DET	_	15	amod	_	_
+15	法案が	_	NOUN	NOUN-PRT	_	21	nmod	_	_
+16	、	_	PUNCT	.	_	15	punct	_	_
+17	人々を	_	NOUN	NOUN-PRT	_	19	nmod	_	_
+18	職場に	_	NOUN	NOUN-POSTP	_	19	nmod	_	_
+19	戻していく	_	VERB	VERB-AUX-AUX	_	20	ccomp	_	_
+20	ことに	_	NOUN	NOUN-POSTP	_	21	nmod	_	_
+21	つながる」と	_	VERB	VERB-AUX-PRT	_	22	ccomp	_	_
+22	アピール。	_	NOUN	NOUN	_	12	conj	_	_
+
+# sent_id s184/ja
+1	オーストラリア、	_	NOUN	NOUN	_	12	nmod	_	_
+2	カナダ	_	NOUN	NOUN	_	1	conj	_	_
+3	、	_	PUNCT	.	_	1	punct	_	_
+4	メキシコでも	_	NOUN	NOUN-POSTP-POSTP	_	1	conj	_	_
+5	、	_	PUNCT	.	_	1	punct	_	_
+6	それぞれの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	国の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	労働者が	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+9	転職先を	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	見つける	_	VERB	VERB-AUX	_	11	ccomp	_	_
+11	ことが	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	できるとの	_	VERB	VERB-AUX-PRT	_	13	nmod	_	_
+13	回答が	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+14	高い	_	ADJ	ADJ-AUX	_	15	ccomp	_	_
+15	ことが	_	NOUN	NOUN-PRT	_	16	nmod	_	_
+16	わかりました	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s185/ja
+1	橋下知事は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	立候補を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	明言こそ	_	NOUN	NOUN-PRT	_	4	advcl	_	_
+4	しなかったが	_	VERB	VERB-AUX-AUX-CONJ	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	「大都市	_	NOUN	NOUN	_	8	appos	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	大阪の	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	市長に	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+10	平松市長は	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	ふさわしくない。	_	ADJ	ADJ-AUX-AUX	_	4	conj	_	_
+
+# sent_id s186/ja
+1	米中戦略・経済対話初日の	_	NOUN	NOUN-NOUN-POSTP	_	2	nmod	_	_
+2	米側は	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+3	中国の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	反体制派への	_	NOUN	NOUN-POSTP-POSTP	_	5	nmod	_	_
+5	弾圧を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+6	厳しく	_	ADJ	ADJ	_	7	advmod	_	_
+7	批判したが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	世界の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	経済成長については	_	NOUN	NOUN-POSTP-PRT	_	13	nmod	_	_
+11	協調的な	_	ADJ	ADJ	_	12	acl:relcl	_	_
+12	姿勢を	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	示した。	_	VERB	VERB-AUX	_	7	conj	_	_
+
+# sent_id s187/ja
+1	ジャカルタの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	街中で	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+3	自転車を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	利用する	_	VERB	VERB-AUX	_	5	acl:relcl	_	_
+5	人が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	増えたように	_	VERB	VERB-AUX-NOUN-POSTP	_	7	nmod	_	_
+7	思う。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s188/ja
+1	サイトの	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	新しい	_	ADJ	ADJ-AUX	_	3	acl:relcl	_	_
+3	楽しみ方	_	NOUN	NOUN	_	5	nmod	_	_
+4	「屋上会議室」	_	NOUN	NOUN	_	3	name	_	_
+5	好評公開中！	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s189/ja
+1	その	_	DET	DET	_	2	amod	_	_
+2	名の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	通り	_	NOUN	NOUN	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	スライド全面に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+6	グラフィックを	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	配置。	_	NOUN	NOUN	_	3	conj	_	_
+
+# sent_id s190/ja
+1	高校時代の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	同級生と	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	あって	_	VERB	VERB	_	8	nmod	_	_
+4	合宿中も	_	NOUN	NOUN-POSTP	_	3	conj	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	不安を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	打ち明け合っていると	_	VERB	VERB-AUX-AUX-PRT	_	3	conj	_	_
+8	いう。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s191/ja
+1	現在は	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+2	亜大の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	本間篤史外野手	_	NOUN	NOUN	_	4	appos	_	_
+4	（４年）が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	１５日から	_	NUM	NUM-CL-POSTP	_	9	nmod	_	_
+7	教育実習生として	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+8	母校に	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	戻る	_	VERB	VERB-AUX	_	10	ccomp	_	_
+10	ことが	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+11	１２日	_	NUM	NUM-CL	_	13	nmod	_	_
+12	、	_	PUNCT	.	_	11	punct	_	_
+13	分かった。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s192/ja
+1	あるいは	_	ADV	ADV	_	5	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	試練に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	挑もうとしない	_	VERB	VERB-AUX-PRT-VERB-AUX-AUX	_	5	acl:relcl	_	_
+5	逃避癖だ。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s193/ja
+1	イランが、	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	ＩＥＦ国際エネルギー・フォーラム実行委員会の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	常任メンバー国に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	選出されました。	_	VERB	VERB-PASSIVE-AUX	_	0	root	_	_
+
+# sent_id s194/ja
+1	信号変換効率を	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	向上するとともに	_	VERB	VERB-AUX-CONJ	_	6	advcl	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	超低域の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	歪みを	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	改善し	_	VERB	VERB	_	0	root	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	低域から	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	高域まで	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+10	、	_	PUNCT	.	_	9	punct	_	_
+11	すぐれた	_	VERB	VERB-AUX	_	12	acl:relcl	_	_
+12	周波数特性を	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	実現している。	_	VERB	VERB-AUX-AUX	_	6	conj	_	_
+
+# sent_id s195/ja
+1	初期投資の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	いくらか	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	全ての	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	損失を	_	NOUN	NOUN-PRT	_	2	conj	_	_
+5	被る	_	VERB	VERB-AUX	_	6	ccomp	_	_
+6	可能性が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	存在します、	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s196/ja
+1	今回	_	NOUN	NOUN	_	21	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	新たに	_	ADV	ADV	_	4	advmod	_	_
+4	位置づけられたのは	_	VERB	VERB-PASSIVE-AUX-NOUN-PRT	_	21	nmod	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	国内では	_	NOUN	NOUN-POSTP-PRT	_	7	nmod	_	_
+7	初めて	_	NOUN	NOUN	_	18	acl:relcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	農業分野における	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	N2O	_	NOUN	NOUN	_	11	appos	_	_
+11	（一酸化二窒素）の	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	排出削減量を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+13	市場流通可能な	_	ADJ	ADJ	_	14	acl:relcl	_	_
+14	クレジットとして	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	認証する	_	VERB	VERB-AUX	_	16	ccomp	_	_
+16	ことが	_	NOUN	NOUN-PRT	_	17	nmod	_	_
+17	可能となる	_	NOUN	NOUN-PRT-VERB-AUX	_	7	conj	_	_
+18	「低タンパク配合飼料利用による	_	NOUN	NOUN-POSTP	_	19	nmod	_	_
+19	豚の	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	ふん尿処理からの	_	NOUN	NOUN-POSTP-POSTP	_	21	nmod	_	_
+21	N2O排出抑制」プロジェクト。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s197/ja
+1	最初の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	仕切りで	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+3	芳東に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	待ったを	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	かけられた	_	VERB	VERB-PASSIVE-AUX	_	6	acl:relcl	_	_
+6	宝智山は	_	NOUN	NOUN-PRT	_	23	nmod	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	仕切り直しの	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	立ち合いで	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+10	得意の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	右四つと	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	なり	_	VERB	VERB	_	0	root	_	_
+13	左上手を	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+14	取ると	_	VERB	VERB-AUX-CONJ	_	12	conj	_	_
+15	、	_	PUNCT	.	_	12	punct	_	_
+16	相手に	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+17	構う	_	VERB	VERB-AUX	_	18	ccomp	_	_
+18	こと	_	NOUN	NOUN	_	19	nmod	_	_
+19	なく	_	ADJ	ADJ	_	12	conj	_	_
+20	前に	_	NOUN	NOUN-POSTP	_	21	nmod	_	_
+21	出て	_	VERB	VERB	_	19	conj	_	_
+22	そのまま	_	ADV	ADV	_	23	advmod	_	_
+23	寄り倒した。	_	VERB	VERB-AUX	_	12	conj	_	_
+
+# sent_id s198/ja
+1	父から	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+2	「おまえが	_	PRON	PRON-PRT	_	6	nmod	_	_
+3	決意して	_	VERB	VERB	_	7	advcl	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	そこまで	_	PRON	PRON-POSTP	_	6	nmod	_	_
+6	やるなら	_	VERB	VERB-AUX-VERB-CONJ	_	3	conj	_	_
+7	応援する」と	_	VERB	VERB-AUX-PRT	_	11	ccomp	_	_
+8	思いも	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	よらない	_	VERB	VERB-AUX-AUX	_	10	acl:relcl	_	_
+10	言葉で	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	激励された。	_	VERB	VERB-PASSIVE-AUX	_	0	root	_	_
+
+# sent_id s199/ja
+1	西宮市は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	活動を	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	大規模災害に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	限っている	_	VERB	VERB-AUX-AUX	_	5	ccomp	_	_
+5	ため	_	NOUN	NOUN	_	8	advcl	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	日常的に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	活動する	_	VERB	VERB-AUX	_	9	acl:relcl	_	_
+9	機能別消防団員は	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	県内初。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s200/ja
+1	﻿東中本運動場まで	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	徒歩	_	NOUN	NOUN	_	0	root	_	_
+3	5分	_	NUM	NUM-CL	_	2	name	_	_
+4	一日	_	NUM	NUM-CL	_	2	conj	_	_
+5	600円/5台	_	NUM	NUM-CL-NUM-CL	_	4	name	_	_
+
+# sent_id s201/ja
+1	って	_	PART	PRT	_	2	ccomp	_	_
+2	言ってる	_	VERB	VERB-AUX	_	3	acl:relcl	_	_
+3	年齢不詳？	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s202/ja
+1	キレイで	_	ADJ	ADJ	_	3	acl:relcl	_	_
+2	オシャレな	_	ADJ	ADJ	_	1	conj	_	_
+3	店内は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+4	ずっと	_	ADV	ADV	_	5	advmod	_	_
+5	いてもいいぐらいですね。	_	VERB	VERB-PRT-ADJ-AUX-NOUN-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s203/ja
+1	自分は	_	PRON	PRON-PRT	_	6	nmod	_	_
+2	希望スタイルを	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+3	いつも	_	ADV	ADV	_	5	advmod	_	_
+4	複数	_	NOUN	NOUN	_	5	advmod	_	_
+5	抱えて	_	VERB	VERB	_	0	root	_	_
+6	来店しますが	_	VERB	VERB-AUX-CONJ	_	5	conj	_	_
+7	、	_	PUNCT	.	_	5	punct	_	_
+8	センスの	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	良い	_	ADJ	ADJ-AUX	_	10	acl:relcl	_	_
+10	スタッフの	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	意見が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	役に立って	_	VERB	VERB	_	5	conj	_	_
+13	いつも	_	ADV	ADV	_	17	advmod	_	_
+14	満足の	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	いく	_	VERB	VERB-AUX	_	16	acl:relcl	_	_
+16	仕上がりを	_	NOUN	NOUN-PRT	_	17	nmod	_	_
+17	施してくださいます。	_	VERB	VERB-AUX-AUX	_	5	conj	_	_
+
+# sent_id s204/ja
+1	あれじゃ	_	PRON	PRON-POSTP-PRT	_	3	nmod	_	_
+2	客は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	来ないね、	_	VERB	VERB-AUX-AUX-PRT	_	0	root	_	_
+
+# sent_id s205/ja
+1	診察は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	予約制なのに	_	NOUN	NOUN-VERB-CONJ	_	4	advcl	_	_
+3	１時間まちは	_	NUM	NUM-CL-NOUN-PRT	_	4	nmod	_	_
+4	ざらです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s206/ja
+1	”シールド工法”が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	良く	_	ADJ	ADJ	_	3	advmod	_	_
+3	わかります。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s207/ja
+1	エステは	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	受けた	_	VERB	VERB-AUX	_	3	ccomp	_	_
+3	ことが	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	無いので	_	ADJ	ADJ-AUX-CONJ	_	6	advcl	_	_
+5	相場は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	わかりませんでしたが	_	VERB	VERB-AUX-VERB-AUX-CONJ	_	12	ccomp	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	まぁ	_	X	X	_	11	dep	_	_
+9	、	_	PUNCT	.	_	8	punct	_	_
+10	これなら	_	PRON	PRON-VERB-CONJ	_	11	advcl	_	_
+11	妥当かな、という	_	NOUN	NOUN-PRT-PRT	_	6	conj	_	_
+12	感じでした。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s208/ja
+1	父には	_	NOUN	NOUN-POSTP-PRT	_	3	nmod	_	_
+2	９０分コースを	_	NUM	NUM-CL-NOUN-PRT	_	3	nmod	_	_
+3	セレクトしましたが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	新規価格という	_	NOUN	NOUN-PRT	_	6	ccomp	_	_
+6	ことで	_	NOUN	NOUN-VERB	_	3	conj	_	_
+7	少し	_	ADV	ADV	_	9	advmod	_	_
+8	お得に	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	なっていました。	_	VERB	VERB-AUX-AUX	_	3	conj	_	_
+
+# sent_id s209/ja
+1	友人の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	紹介で	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+3	東京の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	出張マッサージを	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	利用。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s210/ja
+1	スタッフが	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	フレンドリー。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s211/ja
+1	お皿は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	全て	_	ADV	ADV	_	3	advmod	_	_
+3	重ねてたのですが	_	VERB	VERB-AUX-AUX-NOUN-VERB-AUX-CONJ	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	しばらく	_	ADV	ADV	_	6	advmod	_	_
+6	すると	_	VERB	VERB-AUX-CONJ	_	3	conj	_	_
+7	女性の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	従業員が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	来て	_	VERB	VERB	_	3	conj	_	_
+10	、	_	PUNCT	.	_	3	punct	_	_
+11	こちらの	_	PRON	PRON-POSTP	_	12	nmod	_	_
+12	トロ刺身の	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	お皿は	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+14	お取りになられましたか？	_	NOUN	NOUN-POSTP-VERB-AUX-AUX-PRT	_	3	conj	_	_
+
+# sent_id s212/ja
+1	営業時間は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	朝9時～夜7時までみたいですが	_	NOUN	NOUN-NUM-CL-X-NOUN-NUM-CL-POSTP-NOUN-VERB-AUX-CONJ	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	人気の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	ある	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	パンは	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+7	すぐ	_	ADV	ADV	_	8	advmod	_	_
+8	なくなってしまいます。	_	VERB	VERB-AUX-AUX	_	2	conj	_	_
+
+# sent_id s213/ja
+1	大門側から	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	高野山に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	入って	_	VERB	VERB	_	7	acl:relcl	_	_
+4	最初の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	信号に	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	ある	_	VERB	VERB-AUX	_	3	conj	_	_
+7	出光興産系の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	ガソリンスタンド。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s214/ja
+1	テレビにて	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	こちらの	_	PRON	PRON-POSTP	_	4	nmod	_	_
+4	店を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	知りましたが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	こだわりの	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	店と	_	NOUN	NOUN-PRT	_	9	ccomp	_	_
+9	認識していたので	_	VERB	VERB-AUX-AUX-CONJ	_	11	advcl	_	_
+10	正直	_	NOUN	NOUN	_	11	advmod	_	_
+11	がっかりさせられました。	_	VERB	VERB-CAUSATIVE-PASSIVE-AUX	_	5	conj	_	_
+
+# sent_id s215/ja
+1	アアルトさんの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	コーヒー豆を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	使った	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	コーヒーは	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+5	文句の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	つけようなし！	_	VERB	VERB-AUX-NOUN	_	0	root	_	_
+
+# sent_id s216/ja
+1	値段も	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	普通くらいかな。	_	NOUN	NOUN-NOUN-PRT	_	0	root	_	_
+
+# sent_id s217/ja
+1	いつも	_	ADV	ADV	_	3	advmod	_	_
+2	割りと	_	ADV	ADV	_	3	advmod	_	_
+3	混んでる。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s218/ja
+1	宴会が	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	入って	_	VERB	VERB	_	0	root	_	_
+3	忙しかったのかも知れないが	_	ADJ	ADJ-AUX-NOUN-PRT-VERB-AUX-AUX-AUX-CONJ	_	2	conj	_	_
+4	、	_	PUNCT	.	_	2	punct	_	_
+5	接客は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	最悪	_	NOUN	NOUN	_	2	conj	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	味も	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	最低	_	NOUN	NOUN	_	6	conj	_	_
+10	、	_	PUNCT	.	_	6	punct	_	_
+11	刺身の	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	盛り合わせは	_	NOUN	NOUN-PRT	_	13	nmod	_	_
+13	水っぽく	_	ADJ	ADJ	_	6	conj	_	_
+14	、	_	PUNCT	.	_	6	punct	_	_
+15	町の	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	スーパーで	_	NOUN	NOUN-POSTP	_	17	nmod	_	_
+17	売っている	_	VERB	VERB-AUX-AUX	_	19	acl:relcl	_	_
+18	最低ランクの	_	NOUN	NOUN-POSTP	_	19	nmod	_	_
+19	刺身と	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	同じ	_	ADJ	ADJ	_	21	amod	_	_
+21	味。	_	NOUN	NOUN	_	2	conj	_	_
+
+# sent_id s219/ja
+1	夜は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	５時に	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+3	行くのが	_	VERB	VERB-AUX-NOUN-PRT	_	4	nmod	_	_
+4	１番です。	_	NUM	NUM-CL-VERB-AUX	_	0	root	_	_
+
+# sent_id s220/ja
+1	治療や	_	NOUN	NOUN-CONJ	_	3	nmod	_	_
+2	ケアの	_	NOUN	NOUN-POSTP	_	1	conj	_	_
+3	方も	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	素晴らしいく	_	ADJ	ADJ	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	待合室も	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+7	ここが	_	PRON	PRON-PRT	_	8	nmod	_	_
+8	歯医者だと	_	NOUN	NOUN-VERB-PRT	_	9	ccomp	_	_
+9	忘れてしまうくらい	_	VERB	VERB-AUX-AUX-NOUN	_	10	advcl	_	_
+10	立派です。	_	NOUN	NOUN-VERB-AUX	_	4	conj	_	_
+
+# sent_id s221/ja
+1	料理も	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	美味しいし	_	ADJ	ADJ-AUX-CONJ	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	女将・スタッフの	_	NOUN	NOUN-NOUN-POSTP	_	5	nmod	_	_
+5	皆さん	_	NOUN	NOUN	_	6	nmod	_	_
+6	よい	_	ADJ	ADJ-AUX	_	7	acl:relcl	_	_
+7	感じでしたよ！	_	NOUN	NOUN-VERB-AUX-PRT	_	2	conj	_	_
+
+# sent_id s222/ja
+1	夜は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+2	５時に	_	NUM	NUM-CL-POSTP	_	3	nmod	_	_
+3	行くのが	_	VERB	VERB-AUX-NOUN-PRT	_	4	nmod	_	_
+4	１番です。	_	NUM	NUM-CL-VERB-AUX	_	0	root	_	_
+
+# sent_id s223/ja
+1	治療や	_	NOUN	NOUN-CONJ	_	3	nmod	_	_
+2	ケアの	_	NOUN	NOUN-POSTP	_	1	conj	_	_
+3	方も	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	素晴らしいく	_	ADJ	ADJ	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	待合室も	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+7	ここが	_	PRON	PRON-PRT	_	8	nmod	_	_
+8	歯医者だと	_	NOUN	NOUN-VERB-PRT	_	9	ccomp	_	_
+9	忘れてしまうくらい	_	VERB	VERB-AUX-AUX-NOUN	_	10	advcl	_	_
+10	立派です。	_	NOUN	NOUN-VERB-AUX	_	4	conj	_	_
+
+# sent_id s224/ja
+1	料理も	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	美味しいし	_	ADJ	ADJ	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	女将・スタッフの	_	NOUN	NOUN-NOUN-POSTP	_	5	nmod	_	_
+5	皆さん	_	NOUN	NOUN	_	6	nmod	_	_
+6	よい	_	ADJ	ADJ-AUX	_	7	acl:relcl	_	_
+7	感じでしたよ！	_	NOUN	NOUN-VERB-AUX-PRT	_	2	conj	_	_
+
+# sent_id s225/ja
+1	この様な	_	DET	DET-NOUN-VERB	_	2	amod	_	_
+2	担当者の	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	姿勢	_	NOUN	NOUN	_	6	advmod	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	とても	_	ADV	ADV	_	3	conj	_	_
+6	良いと	_	ADJ	ADJ-AUX-PRT	_	7	ccomp	_	_
+7	思います。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s226/ja
+1	他社と	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	比べても	_	VERB	VERB-CONJ	_	10	advcl	_	_
+3	初めての	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	見積もりの	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	内容が	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+6	非常に	_	ADV	ADV	_	7	advmod	_	_
+7	具体的で	_	ADJ	ADJ	_	0	root	_	_
+8	イメージが	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	わきやすく	_	ADJ	ADJ	_	7	conj	_	_
+10	好印象でした。	_	NOUN	NOUN-VERB-AUX	_	7	conj	_	_
+
+# sent_id s227/ja
+1	持ってきてくれるのは	_	VERB	VERB-AUX-AUX-AUX-NOUN-PRT	_	2	nmod	_	_
+2	いいのですが	_	ADJ	ADJ-AUX-NOUN-VERB-AUX-CONJ	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	他の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	メニューは	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	食べ終わってしまって	_	VERB	VERB-AUX-AUX	_	2	conj	_	_
+7	「おあずけ」状態です。	_	NOUN	NOUN-VERB-AUX	_	2	conj	_	_
+
+# sent_id s228/ja
+1	また	_	ADV	ADV	_	9	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	この	_	DET	DET	_	4	amod	_	_
+4	店は	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	土日に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	なると	_	VERB	VERB-AUX-CONJ	_	9	advcl	_	_
+8	ドライブスルー渋滞が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	できます。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s229/ja
+1	料理は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	美味しい	_	ADJ	ADJ-AUX	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	雰囲気も	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	良い	_	ADJ	ADJ-AUX	_	2	conj	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	なにより	_	ADV	ADV	_	9	advmod	_	_
+8	お酒が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	美味しい。	_	ADJ	ADJ-AUX	_	2	conj	_	_
+
+# sent_id s230/ja
+1	最近	_	NOUN	NOUN	_	2	nmod	_	_
+2	かなり	_	ADV	ADV	_	3	advmod	_	_
+3	混んで来ましたが	_	VERB	VERB-AUX-AUX-CONJ	_	12	advcl	_	_
+4	先生は	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+5	相変わらず	_	ADV	ADV	_	6	advmod	_	_
+6	マイペースで	_	NOUN	NOUN-VERB	_	3	conj	_	_
+7	しっかり	_	ADV	ADV	_	8	advmod	_	_
+8	診療してくれるので	_	VERB	VERB-AUX-AUX-CONJ	_	3	conj	_	_
+9	予約が	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	遅くなっても	_	VERB	VERB-POSTP	_	12	advcl	_	_
+11	不満は	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	ありません。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s231/ja
+1	参ったなぁ、と	_	VERB	VERB-AUX-PRT-PRT	_	6	advcl	_	_
+2	途方に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	くれた	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	時	_	NOUN	NOUN	_	1	conj	_	_
+5	ふと	_	ADV	ADV	_	6	advmod	_	_
+6	最初に	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+7	「あれでは	_	PRON	PRON-POSTP-PRT	_	8	nmod	_	_
+8	ないよな」と	_	ADJ	ADJ-AUX-PRT-PRT	_	9	ccomp	_	_
+9	思っていた	_	VERB	VERB-AUX-AUX	_	10	acl:relcl	_	_
+10	不動明王の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	像が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	ある	_	VERB	VERB-AUX	_	13	acl:relcl	_	_
+13	お墓。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s232/ja
+1	バッティングセンターと	_	NOUN	NOUN-CONJ	_	3	nmod	_	_
+2	ビリヤード台も	_	NOUN	NOUN-POSTP	_	1	conj	_	_
+3	あって	_	VERB	VERB	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	仕出しを	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	とれる	_	VERB	VERB-AUX-AUX	_	7	acl:relcl	_	_
+7	会議室も	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	あり	_	VERB	VERB	_	3	conj	_	_
+9	、	_	PUNCT	.	_	8	punct	_	_
+10	小さいながらも	_	ADJ	ADJ-AUX-CONJ-CONJ	_	12	advcl	_	_
+11	施設機能は	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	充実してます。	_	VERB	VERB-AUX-AUX	_	3	conj	_	_
+
+# sent_id s233/ja
+1	子供お祝い返しに	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	買った	_	VERB	VERB-AUX	_	3	acl:relcl	_	_
+3	ロールケーキが	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	カビていたので	_	VERB	VERB-AUX-AUX-CONJ	_	7	advcl	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	本当に	_	ADV	ADV	_	7	advmod	_	_
+7	怒りしんとうでした	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s234/ja
+1	すごく	_	ADV	ADV	_	2	advmod	_	_
+2	親身に	_	ADJ	ADJ	_	3	advmod	_	_
+3	お世話してくれました。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s235/ja
+1	最近	_	NOUN	NOUN	_	2	nmod	_	_
+2	出来た	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+3	新しい	_	ADJ	ADJ-AUX	_	4	acl:relcl	_	_
+4	産婦人科と	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	悩みましたが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	こちらの	_	PRON	PRON-POSTP	_	8	nmod	_	_
+8	病院を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	選び	_	VERB	VERB	_	11	ccomp	_	_
+10	正解だったと	_	NOUN	NOUN-VERB-AUX-PRT	_	9	conj	_	_
+11	感じてます。	_	VERB	VERB-AUX-AUX	_	5	conj	_	_
+
+# sent_id s236/ja
+1	その	_	DET	DET	_	2	amod	_	_
+2	時からの	_	NOUN	NOUN-POSTP-POSTP	_	3	nmod	_	_
+3	だから？	_	CONJ	CONJ	_	0	root	_	_
+
+# sent_id s237/ja
+1	美味しい	_	ADJ	ADJ-AUX	_	2	acl:relcl	_	_
+2	おせんべいの	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	他	_	NOUN	NOUN	_	7	nmod	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	ワッフルや	_	NOUN	NOUN-CONJ	_	3	conj	_	_
+6	ゼリーなども	_	NOUN	NOUN-POSTP	_	3	conj	_	_
+7	オススメです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s238/ja
+1	例えば	_	ADV	ADV	_	14	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	脱毛する	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	際の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+5	ベットが	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	温かくなる	_	VERB	VERB-AUX	_	7	acl:relcl	_	_
+7	ベットだったり	_	NOUN	NOUN-VERB-AUX-CONJ	_	14	acl:relcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	メイク道具	_	NOUN	NOUN	_	13	nmod	_	_
+10	（スキンケアから	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	メイクアップまで）	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+12	すべて	_	ADV	ADV	_	13	advmod	_	_
+13	揃ってる	_	VERB	VERB-AUX-AUX	_	7	conj	_	_
+14	化粧室。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s239/ja
+1	ずっと	_	ADV	ADV	_	2	advmod	_	_
+2	コンプレックスだったので	_	NOUN	NOUN-VERB-AUX-CONJ	_	7	advcl	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	キレイに	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	していただけて	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+6	本当に	_	ADV	ADV	_	7	advmod	_	_
+7	良かったです。	_	ADJ	ADJ-AUX-VERB-AUX	_	5	conj	_	_
+
+# sent_id s240/ja
+1	例えば	_	ADV	ADV	_	14	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	脱毛する	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	際の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+5	ベットが	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	温かくなる	_	VERB	VERB-AUX	_	7	acl:relcl	_	_
+7	ベットだったり	_	NOUN	NOUN-VERB-AUX-CONJ	_	14	acl:relcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	メイク道具	_	NOUN	NOUN	_	13	nmod	_	_
+10	（スキンケアから	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	メイクアップまで）	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+12	すべて	_	ADV	ADV	_	13	advmod	_	_
+13	揃ってる	_	VERB	VERB-AUX-AUX	_	7	conj	_	_
+14	化粧室。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s241/ja
+1	ずっと	_	ADV	ADV	_	2	advmod	_	_
+2	コンプレックスだったので	_	NOUN	NOUN-VERB-AUX-CONJ	_	7	advcl	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	キレイに	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	していただけて	_	VERB	VERB-AUX	_	0	root	_	_
+6	本当に	_	ADV	ADV	_	7	advmod	_	_
+7	良かったです。	_	ADJ	ADJ-AUX-VERB-AUX	_	5	conj	_	_
+
+# sent_id s242/ja
+1	とりあえず	_	ADV	ADV	_	3	advmod	_	_
+2	生ビールから	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	始め	_	VERB	VERB	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	華のれんさんの	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	サイトで	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+7	気に	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	なってた	_	VERB	VERB-AUX-AUX	_	10	acl:relcl	_	_
+9	「ばくだん」という	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	名物料理で	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	まずは	_	ADV	ADV	_	12	advmod	_	_
+12	一杯。	_	NOUN	NOUN	_	3	conj	_	_
+
+# sent_id s243/ja
+1	Tacoは	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	１つ	_	NOUN	NOUN	_	3	advmod	_	_
+3	３ドルぐらい。	_	NUM	NUM-CL-NOUN	_	0	root	_	_
+
+# sent_id s244/ja
+1	ゼクシィを	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	見て	_	VERB	VERB	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	いろいろな	_	ADJ	ADJ	_	5	amod	_	_
+5	お店に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+6	体験に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	行きましたが	_	VERB	VERB-AUX-CONJ	_	2	conj	_	_
+8	、	_	PUNCT	.	_	2	punct	_	_
+9	この	_	DET	DET	_	10	amod	_	_
+10	お店が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+11	圧倒的に	_	ADJ	ADJ	_	12	advmod	_	_
+12	よかったので	_	ADJ	ADJ-AUX-CONJ	_	16	advcl	_	_
+13	、	_	PUNCT	.	_	12	punct	_	_
+14	通う	_	VERB	VERB-AUX	_	15	ccomp	_	_
+15	ことに	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	しました。	_	VERB	VERB-AUX	_	2	conj	_	_
+
+# sent_id s245/ja
+1	私は	_	PRON	PRON-PRT	_	5	nmod	_	_
+2	あまり	_	ADV	ADV	_	5	advmod	_	_
+3	エステに	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+4	お金を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	かけれないと	_	VERB	VERB-AUX-AUX-AUX-PRT	_	6	ccomp	_	_
+6	思い	_	VERB	VERB	_	11	advmod	_	_
+7	色々な	_	ADJ	ADJ	_	8	amod	_	_
+8	エステサロンに	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+9	相談に	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	すごく	_	ADJ	ADJ	_	6	conj	_	_
+11	親身に	_	ADJ	ADJ	_	12	advmod	_	_
+12	なって下さり	_	VERB	VERB-AUX	_	0	root	_	_
+13	他の	_	NOUN	NOUN-POSTP	_	14	nmod	_	_
+14	エステさんより	_	NOUN	NOUN-POSTP	_	15	nmod	_	_
+15	安心できました。	_	VERB	VERB-AUX-AUX	_	12	conj	_	_
+
+# sent_id s246/ja
+1	着付けや	_	NOUN	NOUN-CONJ	_	3	nmod	_	_
+2	和装ヘアスタイルが	_	NOUN	NOUN-PRT	_	1	conj	_	_
+3	得意。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s247/ja
+1	スタッフの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	皆さんが	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	笑顔で	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	接してくれて	_	VERB	VERB-AUX	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	全然	_	ADV	ADV	_	7	advmod	_	_
+7	緊張する	_	VERB	VERB-AUX	_	8	ccomp	_	_
+8	こと	_	NOUN	NOUN	_	9	nmod	_	_
+9	なく	_	ADJ	ADJ	_	4	conj	_	_
+10	過ごせました。	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s248/ja
+1	デスクワークで	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	固まった	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+3	肩や	_	NOUN	NOUN-CONJ	_	8	nmod	_	_
+4	背中を	_	NOUN	NOUN-PRT	_	3	conj	_	_
+5	、	_	PUNCT	.	_	3	punct	_	_
+6	アロママッサージで	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+7	気持ちよく	_	ADJ	ADJ	_	8	advmod	_	_
+8	ほぐしていただいて	_	VERB	VERB-AUX	_	0	root	_	_
+9	助かります。	_	VERB	VERB-AUX	_	8	conj	_	_
+
+# sent_id s249/ja
+1	最後まで	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	熱々で	_	ADJ	ADJ	_	3	advmod	_	_
+3	食べれる	_	VERB	VERB-AUX-AUX	_	5	acl:relcl	_	_
+4	温度管理白馬近辺で	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	ラーメンと	_	NOUN	NOUN-PRT	_	6	ccomp	_	_
+6	言ったら	_	VERB	VERB-AUX-CONJ	_	7	advcl	_	_
+7	ここですかね。	_	NOUN	NOUN-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s250/ja
+1	声も	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	ほとんど	_	ADV	ADV	_	3	advmod	_	_
+3	筒抜け状態であった。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s251/ja
+1	隠れ家居酒屋という	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	名前に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	ぴったり。	_	NOUN	NOUN	_	0	root	_	_
+
+# sent_id s252/ja
+1	私たちの	_	PRON	PRON-POSTP	_	2	nmod	_	_
+2	場合	_	NOUN	NOUN	_	6	advcl	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	金銭に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	絡んだ	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	多重債務の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	処理等	_	NOUN	NOUN	_	9	nmod	_	_
+8	たくさん	_	ADV	ADV	_	9	advmod	_	_
+9	手がけているとの	_	VERB	VERB-AUX-AUX-PRT	_	10	ccomp	_	_
+10	ことで	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	安心して	_	VERB	VERB	_	0	root	_	_
+12	相談できました。	_	VERB	VERB-AUX-AUX	_	11	conj	_	_
+
+# sent_id s253/ja
+1	在庫の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	様子が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	よく	_	ADV	ADV	_	4	advmod	_	_
+4	わからないけど	_	VERB	VERB-AUX-AUX-CONJ	_	9	advcl	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	デパートの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	中なので	_	NOUN	NOUN-VERB-CONJ	_	9	advcl	_	_
+8	たぶん	_	ADV	ADV	_	9	advmod	_	_
+9	小さい。	_	ADJ	ADJ-AUX	_	0	root	_	_
+
+# sent_id s254/ja
+1	若い	_	ADJ	ADJ-AUX	_	2	acl:relcl	_	_
+2	お客さんより	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+3	それ相応の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	年代の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	お客が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	多く	_	ADJ	ADJ	_	0	root	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	落ち着いて	_	VERB	VERB	_	10	acl:relcl	_	_
+9	飲める	_	VERB	VERB-AUX-AUX	_	8	conj	_	_
+10	Barです。	_	NOUN	NOUN-VERB-AUX	_	6	conj	_	_
+
+# sent_id s255/ja
+1	出入り口の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	交差点は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+3	もともと	_	ADV	ADV	_	6	advmod	_	_
+4	歩行者や	_	NOUN	NOUN-CONJ	_	6	nmod	_	_
+5	自転車が	_	NOUN	NOUN-PRT	_	4	conj	_	_
+6	多いので	_	ADJ	ADJ-AUX-CONJ	_	9	advcl	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	かなり	_	ADV	ADV	_	9	advmod	_	_
+9	混雑しています。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s256/ja
+1	食べきれないくらい	_	VERB	VERB-AUX-AUX-AUX-NOUN	_	2	advcl	_	_
+2	出てきました。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s257/ja
+1	小さい	_	ADJ	ADJ-AUX	_	2	acl:relcl	_	_
+2	お子さんが	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	いる	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	お母さんには	_	NOUN	NOUN-POSTP-PRT	_	6	nmod	_	_
+5	最高の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	お店です。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s258/ja
+1	工事中の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	物件	_	NOUN	NOUN	_	14	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	まだ	_	ADV	ADV	_	7	advmod	_	_
+5	もうすぐ	_	ADV	ADV	_	7	advmod	_	_
+6	空室に	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	なる	_	VERB	VERB-AUX	_	8	acl:relcl	_	_
+8	物件など	_	NOUN	NOUN	_	2	conj	_	_
+9	、	_	PUNCT	.	_	2	punct	_	_
+10	まだ	_	ADV	ADV	_	12	advmod	_	_
+11	広告に	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	でていない	_	VERB	VERB-AUX-AUX-AUX	_	13	acl:relcl	_	_
+13	部屋も	_	NOUN	NOUN-POSTP	_	2	conj	_	_
+14	教えてくれるので	_	VERB	VERB-AUX-AUX-CONJ	_	22	advcl	_	_
+15	、	_	PUNCT	.	_	14	punct	_	_
+16	自分に	_	PRON	PRON-POSTP	_	17	nmod	_	_
+17	あう	_	VERB	VERB-AUX	_	18	acl:relcl	_	_
+18	部屋を	_	NOUN	NOUN-PRT	_	20	nmod	_	_
+19	じっくり	_	ADV	ADV	_	20	advmod	_	_
+20	探す	_	VERB	VERB-AUX	_	21	ccomp	_	_
+21	ことが	_	NOUN	NOUN-PRT	_	22	nmod	_	_
+22	できました。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s259/ja
+1	値段は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	間違えて	_	VERB	VERB	_	0	root	_	_
+3	ぼられるし	_	VERB	VERB-PASSIVE-AUX-CONJ	_	2	conj	_	_
+4	刺身は	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	最悪でした	_	NOUN	NOUN-VERB-AUX	_	2	conj	_	_
+
+# sent_id s260/ja
+1	ソフトバンク直営店より	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	高く	_	ADJ	ADJ	_	3	advmod	_	_
+3	売っています	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s261/ja
+1	しかし	_	ADV	ADV	_	18	advmod	_	_
+2	この	_	DET	DET	_	3	amod	_	_
+3	フロントの	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	女性は、	_	NOUN	NOUN-PRT	_	18	nmod	_	_
+5	結局	_	ADV	ADV	_	7	advmod	_	_
+6	エレベーターに	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	乗れずに	_	VERB	VERB-AUX-AUX-POSTP	_	9	nmod	_	_
+8	階段を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	下りてきた	_	VERB	VERB-AUX-AUX	_	10	acl:relcl	_	_
+10	私たちに	_	PRON	PRON-POSTP	_	11	nmod	_	_
+11	向かって	_	VERB	VERB	_	0	root	_	_
+12	、	_	PUNCT	.	_	11	punct	_	_
+13	「タクシーが	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+14	ずーーーっと	_	ADV	ADV	_	15	advmod	_	_
+15	待ってますので	_	VERB	VERB-AUX-CONJ	_	17	advcl	_	_
+16	、	_	PUNCT	.	_	15	punct	_	_
+17	急いでください」と	_	VERB	VERB-AUX-PRT	_	18	ccomp	_	_
+18	言ってきました。	_	VERB	VERB-AUX-AUX	_	11	conj	_	_
+
+# sent_id s262/ja
+1	ビンや	_	NOUN	NOUN-CONJ	_	3	nmod	_	_
+2	缶に	_	NOUN	NOUN-POSTP	_	1	conj	_	_
+3	入っているのは	_	VERB	VERB-AUX-AUX-NOUN-PRT	_	5	nmod	_	_
+4	糀が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	死んでいるのですね。	_	VERB	VERB-AUX-AUX-NOUN-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s263/ja
+1	大きな	_	ADJ	ADJ	_	2	amod	_	_
+2	お店は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	苦手なので	_	NOUN	NOUN-VERB-CONJ	_	12	advcl	_	_
+4	私にとっては	_	PRON	PRON-POSTP-PRT	_	6	nmod	_	_
+5	アットホームな	_	ADJ	ADJ	_	6	acl:relcl	_	_
+6	感じで	_	NOUN	NOUN-VERB	_	0	root	_	_
+7	楽しい	_	ADJ	ADJ-AUX	_	8	acl:relcl	_	_
+8	時間を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	過ごす	_	VERB	VERB-AUX	_	10	ccomp	_	_
+10	ことが	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	でき	_	VERB	VERB	_	6	conj	_	_
+12	大満足です。	_	NOUN	NOUN-VERB-AUX	_	6	conj	_	_
+
+# sent_id s264/ja
+1	大きな	_	ADJ	ADJ	_	2	amod	_	_
+2	お店は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	苦手なので	_	NOUN	NOUN-VERB-CONJ	_	12	advcl	_	_
+4	私にとっては	_	PRON	PRON-POSTP-PRT	_	6	nmod	_	_
+5	アットホームな	_	ADJ	ADJ	_	6	acl:relcl	_	_
+6	感じで	_	NOUN	NOUN-VERB	_	0	root	_	_
+7	楽しい	_	ADJ	ADJ-AUX	_	8	acl:relcl	_	_
+8	時間を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	過ごす	_	VERB	VERB-AUX	_	10	ccomp	_	_
+10	ことが	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	でき	_	VERB	VERB	_	6	conj	_	_
+12	大満足です。	_	NOUN	NOUN-VERB-AUX	_	6	conj	_	_
+
+# sent_id s265/ja
+1	まだまだ	_	ADV	ADV	_	2	advmod	_	_
+2	聞きとれない	_	VERB	VERB-AUX-AUX-AUX	_	3	acl:relcl	_	_
+3	単語も	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	いっぱいですが	_	NOUN	NOUN-VERB-AUX-CONJ	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	最近は	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+7	英語を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	聞いても	_	VERB	VERB-CONJ	_	10	advcl	_	_
+9	ビクッと	_	ADV	ADV	_	10	advmod	_	_
+10	構える	_	VERB	VERB-AUX	_	11	ccomp	_	_
+11	こと	_	NOUN	NOUN	_	12	nmod	_	_
+12	なく	_	ADJ	ADJ	_	4	conj	_	_
+13	どんどん	_	ADV	ADV	_	14	advmod	_	_
+14	質問しちゃってます、	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s266/ja
+1	ﾚｯｽﾝが	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	楽しみで	_	NOUN	NOUN-VERB	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	何を	_	PRON	PRON-PRT	_	5	nmod	_	_
+5	しても	_	VERB	VERB-CONJ	_	6	advcl	_	_
+6	長続きしない	_	VERB	VERB-AUX-AUX	_	7	acl:relcl	_	_
+7	私でも	_	PRON	PRON-VERB-CONJ	_	12	advcl	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	週	_	NOUN	NOUN	_	10	nummod	_	_
+10	1回	_	NUM	NUM-CL	_	12	advmod	_	_
+11	きっちり	_	ADV	ADV	_	12	advmod	_	_
+12	通えています。	_	VERB	VERB-AUX-AUX	_	2	conj	_	_
+
+# sent_id s267/ja
+1	また	_	ADV	ADV	_	2	advmod	_	_
+2	問診についてですが	_	NOUN	NOUN-POSTP-VERB-AUX-CONJ	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	他所受診にて	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+5	原因不明の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	ままの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	痛みについて	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+8	しばらくの	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	間	_	NOUN	NOUN	_	10	advmod	_	_
+10	レントゲンではなく	_	NOUN	NOUN-POSTP-PRT-ADJ	_	12	nmod	_	_
+11	MRI検査を	_	NOUN	NOUN-PRT	_	10	conj	_	_
+12	検討していた為、	_	VERB	VERB-AUX-AUX-NOUN	_	16	advcl	_	_
+13	やはり	_	ADV	ADV	_	16	advmod	_	_
+14	検査手段について	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+15	医師と	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	相談したかったです。	_	VERB	VERB-AUX-AUX-VERB-AUX	_	2	conj	_	_
+
+# sent_id s268/ja
+1	なかなか	_	ADV	ADV	_	10	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	女性	_	NOUN	NOUN	_	4	nummod	_	_
+4	一人で	_	NOUN	NOUN-VERB	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	ゆっくり	_	ADV	ADV	_	8	advmod	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	休める	_	VERB	VERB-AUX-AUX	_	9	acl:relcl	_	_
+9	宿は	_	NOUN	NOUN-PRT	_	10	nmod	_	_
+10	少ない、	_	ADJ	ADJ-AUX	_	4	conj	_	_
+
+# sent_id s269/ja
+1	高松以外の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	ホテルエリアワンを	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	利用した	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	ことが	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	あり	_	VERB	VERB	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	その	_	DET	DET	_	8	amod	_	_
+8	際に	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+9	サービス	_	NOUN	NOUN	_	13	nmod	_	_
+10	、	_	PUNCT	.	_	9	punct	_	_
+11	ホテルの	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	施設などが	_	NOUN	NOUN-PRT	_	9	conj	_	_
+13	気に入って	_	VERB	VERB	_	5	conj	_	_
+14	、	_	PUNCT	.	_	13	punct	_	_
+15	今回も	_	NOUN	NOUN-POSTP	_	16	nmod	_	_
+16	利用させていただく	_	VERB	VERB-AUX-AUX	_	17	ccomp	_	_
+17	ことに	_	NOUN	NOUN-POSTP	_	18	nmod	_	_
+18	しました。	_	VERB	VERB-AUX	_	5	conj	_	_
+
+# sent_id s270/ja
+1	色々な	_	ADJ	ADJ	_	2	amod	_	_
+2	飲食店が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	乱立する	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	中	_	NOUN	NOUN	_	9	advcl	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	老舗の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	安定感と	_	NOUN	NOUN-CONJ	_	9	nmod	_	_
+8	手軽さを	_	NOUN	NOUN-PRT	_	7	conj	_	_
+9	兼ね揃えています。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s271/ja
+1	なにしろ	_	ADV	ADV	_	4	advmod	_	_
+2	こちらは	_	PRON	PRON-PRT	_	4	nmod	_	_
+3	スペイン料理は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	初めてで	_	NOUN	NOUN-VERB	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	店員さんに	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	聞いてばかりだったのですが	_	VERB	VERB-NOUN-VERB-AUX-NOUN-VERB-AUX-CONJ	_	4	conj	_	_
+8	、	_	PUNCT	.	_	4	punct	_	_
+9	嫌な	_	ADJ	ADJ	_	10	acl:relcl	_	_
+10	顔	_	NOUN	NOUN	_	11	nummod	_	_
+11	一つ	_	NOUN	NOUN	_	12	dep	_	_
+12	丁寧に	_	ADJ	ADJ	_	13	advmod	_	_
+13	応対して頂きました。	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s272/ja
+1	ただ	_	ADV	ADV	_	9	advmod	_	_
+2	、	_	PUNCT	.	_	1	punct	_	_
+3	自分で	_	PRON	PRON-POSTP	_	7	nmod	_	_
+4	同じような	_	NOUN	NOUN-NOUN-VERB	_	6	acl:relcl	_	_
+5	柔軟や	_	NOUN	NOUN-CONJ	_	7	nmod	_	_
+6	マッサージを	_	NOUN	NOUN-PRT	_	5	conj	_	_
+7	してみても	_	VERB	VERB-AUX-CONJ	_	9	advcl	_	_
+8	うまく	_	ADJ	ADJ	_	9	advmod	_	_
+9	できないようだ。	_	VERB	VERB-AUX-AUX-NOUN-VERB	_	0	root	_	_
+
+# sent_id s273/ja
+1	席数は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	あまり	_	ADV	ADV	_	3	advmod	_	_
+3	多くない	_	ADJ	ADJ-AUX-AUX	_	4	acl:relcl	_	_
+4	お店だが	_	NOUN	NOUN-VERB-CONJ	_	0	root	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	食事の	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	内容には	_	NOUN	NOUN-POSTP-PRT	_	8	nmod	_	_
+8	満足出来る。	_	VERB	VERB-AUX	_	4	conj	_	_
+
+# sent_id s274/ja
+1	整体や	_	NOUN	NOUN-CONJ	_	4	nmod	_	_
+2	マッサージで	_	NOUN	NOUN-POSTP	_	1	conj	_	_
+3	良く	_	ADJ	ADJ	_	4	advmod	_	_
+4	ならなかった	_	VERB	VERB-AUX-AUX	_	5	acl:relcl	_	_
+5	人にも	_	NOUN	NOUN-POSTP-POSTP	_	6	nmod	_	_
+6	オススメします。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s275/ja
+1	こちらの	_	PRON	PRON-POSTP	_	2	nmod	_	_
+2	ホテルは	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+3	多少の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	設備の	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	古さは	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	感じなくも無いものの	_	VERB	VERB-AUX-POSTP-ADJ-AUX-NOUN-POSTP	_	0	root	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	スタッフさんの	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	サービスが	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+10	普通の	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	ホテルのように	_	NOUN	NOUN-POSTP-NOUN-POSTP	_	12	nmod	_	_
+12	行き届います。	_	VERB	VERB-AUX	_	6	conj	_	_
+
+# sent_id s276/ja
+1	この	_	DET	DET	_	2	amod	_	_
+2	低料金で	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+3	この	_	DET	DET	_	4	amod	_	_
+4	設備を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	提供してくれるのは	_	VERB	VERB-AUX-AUX-NOUN-PRT	_	6	nmod	_	_
+6	ありがたいですね。	_	ADJ	ADJ-AUX-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s277/ja
+1	仕事に	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	疲れて	_	VERB	VERB	_	18	advcl	_	_
+3	フラフラで	_	ADJ	ADJ	_	4	advmod	_	_
+4	チェックインしても	_	VERB	VERB-CONJ	_	2	conj	_	_
+5	、	_	PUNCT	.	_	2	punct	_	_
+6	フロントの	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	方を	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	はじめ	_	VERB	VERB	_	15	nmod	_	_
+9	ホテルの	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	スタッフの	_	NOUN	NOUN-POSTP	_	11	nmod	_	_
+11	方々が	_	NOUN	NOUN-PRT	_	8	conj	_	_
+12	気持ちの	_	NOUN	NOUN-POSTP	_	13	nmod	_	_
+13	いい	_	ADJ	ADJ-AUX	_	14	acl:relcl	_	_
+14	対応を	_	NOUN	NOUN-PRT	_	15	nmod	_	_
+15	してくれるので	_	VERB	VERB-AUX-AUX-CONJ	_	18	advcl	_	_
+16	、	_	PUNCT	.	_	15	punct	_	_
+17	泊まりに	_	NOUN	NOUN-POSTP	_	18	nmod	_	_
+18	行きたくなります。	_	VERB	VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s278/ja
+1	値段相応と	_	NOUN	NOUN-PRT	_	2	ccomp	_	_
+2	いえば	_	VERB	VERB-CONJ	_	3	advcl	_	_
+3	それまでですが	_	PRON	PRON-POSTP-VERB-AUX-CONJ	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	風呂が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	狭い	_	ADJ	ADJ-AUX	_	7	ccomp	_	_
+7	ことだけが	_	NOUN	NOUN-PRT	_	8	nmod	_	_
+8	残念。	_	NOUN	NOUN	_	3	conj	_	_
+
+# sent_id s279/ja
+1	従業員の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	方々も	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+3	いつも	_	ADV	ADV	_	4	advmod	_	_
+4	暖かく	_	ADJ	ADJ	_	5	advmod	_	_
+5	送り出してくれるので	_	VERB	VERB-AUX-AUX-CONJ	_	12	advcl	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	私が	_	PRON	PRON-PRT	_	9	nmod	_	_
+8	千葉で	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	宿泊する	_	VERB	VERB-AUX	_	10	acl:relcl	_	_
+10	ホテルは	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+11	ここで	_	PRON	PRON-POSTP	_	12	nmod	_	_
+12	きまりです。	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s280/ja
+1	ビジネスマンに対しての	_	NOUN	NOUN-POSTP-POSTP	_	2	nmod	_	_
+2	細かい	_	ADJ	ADJ-AUX	_	3	ccomp	_	_
+3	ところにまで	_	NOUN	NOUN-POSTP-POSTP	_	5	nmod	_	_
+4	気を	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	配った	_	VERB	VERB-AUX	_	6	acl:relcl	_	_
+6	サービスが	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	ありがたく	_	ADJ	ADJ	_	16	ccomp	_	_
+8	、	_	PUNCT	.	_	7	punct	_	_
+9	ネットに	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+10	キッチンに	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	ランドリーまで	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+12	使えて	_	VERB	VERB	_	14	advcl	_	_
+13	この	_	DET	DET	_	14	amod	_	_
+14	お値段というのは	_	NOUN	NOUN-PRT-NOUN-PRT	_	15	nmod	_	_
+15	安いと	_	ADJ	ADJ-AUX-PRT	_	7	conj	_	_
+16	思います。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s281/ja
+1	初めて	_	ADV	ADV	_	2	advmod	_	_
+2	宿泊したのですが	_	VERB	VERB-AUX-NOUN-VERB-AUX-CONJ	_	0	root	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	はじめてに	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	感じない	_	VERB	VERB-AUX-AUX	_	2	conj	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	そんな	_	ADJ	ADJ	_	9	amod	_	_
+8	アットホームな	_	ADJ	ADJ	_	9	acl:relcl	_	_
+9	雰囲気も	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	ある	_	VERB	VERB-AUX	_	11	acl:relcl	_	_
+11	ホテルでした。	_	NOUN	NOUN-VERB-AUX	_	2	conj	_	_
+
+# sent_id s282/ja
+1	ですが	_	VERB	VERB-AUX-CONJ	_	0	root	_	_
+2	ほかの	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	ブックオフの	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	中型店では	_	NOUN	NOUN-POSTP-PRT	_	9	nmod	_	_
+5	多くの	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	店員を	_	NOUN	NOUN-PRT	_	7	nmod	_	_
+7	雇うと	_	VERB	VERB-AUX-CONJ	_	9	advcl	_	_
+8	教育が	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	されておらず	_	VERB	VERB-PASSIVE-AUX-AUX	_	1	conj	_	_
+10	、	_	PUNCT	.	_	9	punct	_	_
+11	私語が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	うるさいと	_	ADJ	ADJ-AUX-CONJ	_	1	conj	_	_
+13	店員は	_	NOUN	NOUN-PRT	_	14	nmod	_	_
+14	そちらを	_	PRON	PRON-PRT	_	15	nmod	_	_
+15	向くと	_	VERB	VERB-AUX-CONJ	_	19	advcl	_	_
+16	、	_	PUNCT	.	_	15	punct	_	_
+17	なんと	_	ADV	ADV	_	19	advmod	_	_
+18	店員が	_	NOUN	NOUN-PRT	_	19	nmod	_	_
+19	おしゃべりしていた。	_	VERB	VERB-AUX-AUX	_	1	conj	_	_
+
+# sent_id s283/ja
+1	もう少し	_	ADV	ADV-ADV	_	2	advmod	_	_
+2	早い	_	ADJ	ADJ-AUX	_	3	acl:relcl	_	_
+3	時間に	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+4	営業していると	_	VERB	VERB-AUX-AUX-CONJ	_	5	advcl	_	_
+5	嬉しいですが	_	ADJ	ADJ-AUX-VERB-AUX-CONJ	_	0	root	_	_
+6	、	_	PUNCT	.	_	5	punct	_	_
+7	お店の	_	NOUN	NOUN-POSTP	_	8	nmod	_	_
+8	スタンスは	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	ｇｏｏｄです。	_	NOUN	NOUN-VERB-AUX	_	5	conj	_	_
+
+# sent_id s284/ja
+1	利用してみると	_	VERB	VERB-AUX-AUX-CONJ	_	4	advcl	_	_
+2	よさに	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+3	気が	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	東京で	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	ブランド物を	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	売りたいなと	_	VERB	VERB-AUX-AUX-PRT-PRT	_	7	ccomp	_	_
+7	思っている	_	VERB	VERB-AUX-AUX	_	8	ccomp	_	_
+8	方は	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+9	ぜひ	_	ADV	ADV	_	11	advmod	_	_
+10	足を	_	NOUN	NOUN-PRT	_	11	nmod	_	_
+11	運んでみてください。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s285/ja
+1	あまり	_	ADV	ADV	_	2	advmod	_	_
+2	期待していなかったのに	_	VERB	VERB-AUX-AUX-AUX-CONJ	_	5	advcl	_	_
+3	結構な	_	ADJ	ADJ	_	4	amod	_	_
+4	額に	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	なったので	_	VERB	VERB-AUX-CONJ	_	7	advcl	_	_
+6	とても	_	ADV	ADV	_	7	advmod	_	_
+7	うれしかったです。	_	ADJ	ADJ-AUX-VERB-AUX	_	0	root	_	_
+
+# sent_id s286/ja
+1	西友の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	中に	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+3	あり	_	VERB	VERB	_	0	root	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	入りやすい	_	ADJ	ADJ-AUX	_	6	acl:relcl	_	_
+6	雰囲気なので	_	NOUN	NOUN-VERB-CONJ	_	10	advcl	_	_
+7	、	_	PUNCT	.	_	6	punct	_	_
+8	初めての	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+9	方にも	_	NOUN	NOUN-POSTP-POSTP	_	10	nmod	_	_
+10	オススメできます。	_	VERB	VERB-AUX-AUX	_	3	conj	_	_
+
+# sent_id s287/ja
+1	リーズナブルな	_	ADJ	ADJ	_	2	acl:relcl	_	_
+2	価格	_	NOUN	NOUN	_	13	nmod	_	_
+3	、	_	PUNCT	.	_	2	punct	_	_
+4	味は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+5	勿論の	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+6	こと	_	NOUN	NOUN	_	2	conj	_	_
+7	、	_	PUNCT	.	_	2	punct	_	_
+8	若い	_	ADJ	ADJ-AUX	_	9	acl:relcl	_	_
+9	マスター夫婦の	_	NOUN	NOUN-POSTP	_	10	nmod	_	_
+10	温かい	_	ADJ	ADJ-AUX	_	11	acl:relcl	_	_
+11	雰囲気に	_	NOUN	NOUN-POSTP	_	2	conj	_	_
+12	ついつい	_	ADV	ADV	_	13	advmod	_	_
+13	長居してしまいます。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s288/ja
+1	姫路の	_	NOUN	NOUN-POSTP	_	4	nmod	_	_
+2	良く	_	ADJ	ADJ	_	3	advmod	_	_
+3	行く	_	VERB	VERB-AUX	_	4	acl:relcl	_	_
+4	美容室でしたっ	_	NOUN	NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s289/ja
+1	感じの	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	いい	_	ADJ	ADJ-AUX	_	3	acl:relcl	_	_
+3	スタッフさんなので	_	NOUN	NOUN-VERB-CONJ	_	5	advcl	_	_
+4	安心して	_	VERB	VERB	_	0	root	_	_
+5	通えます。	_	VERB	VERB-AUX-AUX	_	4	conj	_	_
+
+# sent_id s290/ja
+1	駐車場は	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	あるものの	_	VERB	VERB-AUX-NOUN-POSTP	_	3	advcl	_	_
+3	立体駐車場で	_	NOUN	NOUN-VERB	_	0	root	_	_
+4	出入りに	_	NOUN	NOUN-POSTP	_	6	nmod	_	_
+5	時間が	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	かかり	_	VERB	VERB	_	3	conj	_	_
+7	、	_	PUNCT	.	_	3	punct	_	_
+8	6号と	_	NUM	NUM-CL-CONJ	_	10	nmod	_	_
+9	14号の	_	NUM	NUM-CL-POSTP	_	8	conj	_	_
+10	交差点前で	_	NOUN	NOUN-POSTP	_	12	nmod	_	_
+11	交通量が	_	NOUN	NOUN-PRT	_	12	nmod	_	_
+12	かつ	_	ADV	ADV	_	13	advmod	_	_
+13	駅前直結な	_	NOUN	NOUN-VERB	_	14	ccomp	_	_
+14	ため	_	NOUN	NOUN	_	16	advcl	_	_
+15	常に	_	ADV	ADV	_	16	advmod	_	_
+16	混雑しており	_	VERB	VERB-AUX	_	3	conj	_	_
+17	、	_	PUNCT	.	_	16	punct	_	_
+18	事実上	_	ADV	ADV	_	22	advmod	_	_
+19	地元の	_	NOUN	NOUN-POSTP	_	20	nmod	_	_
+20	人以外の	_	NOUN	NOUN-POSTP	_	21	nmod	_	_
+21	アクセスは	_	NOUN	NOUN-PRT	_	22	nmod	_	_
+22	辛いです。	_	ADJ	ADJ-AUX-VERB-AUX	_	3	conj	_	_
+
+# sent_id s291/ja
+1	テキストも	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	とても	_	ADV	ADV	_	3	advmod	_	_
+3	分かりやすいですし	_	ADJ	ADJ-VERB-AUX-CONJ	_	13	advcl	_	_
+4	、	_	PUNCT	.	_	3	punct	_	_
+5	旅行や	_	NOUN	NOUN-CONJ	_	7	nmod	_	_
+6	ホームステイに	_	NOUN	NOUN-POSTP	_	5	conj	_	_
+7	使える	_	VERB	VERB-AUX-AUX	_	8	acl:relcl	_	_
+8	英語を	_	NOUN	NOUN-PRT	_	9	nmod	_	_
+9	勉強	_	NOUN	NOUN	_	3	conj	_	_
+10	、	_	PUNCT	.	_	9	punct	_	_
+11	練習できるので	_	VERB	VERB-AUX-AUX-CONJ	_	3	conj	_	_
+12	大変	_	ADV	ADV	_	13	advmod	_	_
+13	気に入っております。	_	VERB	VERB-AUX-AUX	_	0	root	_	_
+
+# sent_id s292/ja
+1	小さい	_	ADJ	ADJ-AUX	_	2	acl:relcl	_	_
+2	お店なので	_	NOUN	NOUN-VERB-CONJ	_	3	advcl	_	_
+3	常連さん優先なのは	_	NOUN	NOUN-VERB-NOUN-PRT	_	5	nmod	_	_
+4	仕方が	_	NOUN	NOUN-PRT	_	5	nmod	_	_
+5	ないですね。	_	ADJ	ADJ-AUX-VERB-AUX-PRT	_	0	root	_	_
+
+# sent_id s293/ja
+1	振袖は	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	かなり	_	ADV	ADV	_	3	advmod	_	_
+3	豊富で	_	ADJ	ADJ	_	0	root	_	_
+4	流行りの	_	NOUN	NOUN-POSTP	_	5	nmod	_	_
+5	トレンド着物から	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+6	ベーシックな	_	ADJ	ADJ	_	7	acl:relcl	_	_
+7	ものまで	_	NOUN	NOUN-POSTP	_	9	nmod	_	_
+8	色々と	_	ADV	ADV	_	9	advmod	_	_
+9	ありました。	_	VERB	VERB-AUX	_	3	conj	_	_
+
+# sent_id s294/ja
+1	つけ麺の	_	NOUN	NOUN-POSTP	_	2	nmod	_	_
+2	王様は	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+3	間違いなく	_	ADJ	ADJ	_	4	advmod	_	_
+4	ここ。	_	PRON	PRON	_	0	root	_	_
+
+# sent_id s295/ja
+1	袋や	_	NOUN	NOUN-CONJ	_	5	nmod	_	_
+2	箱が	_	NOUN	NOUN-PRT	_	1	conj	_	_
+3	、	_	PUNCT	.	_	1	punct	_	_
+4	簡素で	_	ADJ	ADJ	_	6	ccomp	_	_
+5	格好いいと	_	ADJ	ADJ-AUX-PRT	_	4	conj	_	_
+6	思います。	_	VERB	VERB-AUX	_	0	root	_	_
+
+# sent_id s296/ja
+1	味が	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+2	少し	_	ADV	ADV	_	3	advmod	_	_
+3	濃いかなぁ。	_	ADJ	ADJ-AUX-PRT	_	0	root	_	_
+
+# sent_id s297/ja
+1	院長と	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	話を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	した	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	ところ	_	NOUN	NOUN	_	7	advcl	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	腰痛治療も	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	得意なようです。	_	NOUN	NOUN-VERB-NOUN-VERB-AUX	_	0	root	_	_
+
+# sent_id s298/ja
+1	お客さんは	_	NOUN	NOUN-PRT	_	2	nmod	_	_
+2	ガヤガヤした	_	VERB	VERB-AUX	_	3	ccomp	_	_
+3	ところが	_	NOUN	NOUN-PRT	_	4	nmod	_	_
+4	イヤな	_	ADJ	ADJ	_	5	acl:relcl	_	_
+5	方は	_	NOUN	NOUN-PRT	_	6	nmod	_	_
+6	いいかもしれません。	_	ADJ	ADJ-AUX-PRT-VERB-AUX-AUX-AUX	_	0	root	_	_
+
+# sent_id s299/ja
+1	院長と	_	NOUN	NOUN-POSTP	_	3	nmod	_	_
+2	話を	_	NOUN	NOUN-PRT	_	3	nmod	_	_
+3	した	_	VERB	VERB-AUX	_	4	ccomp	_	_
+4	ところ	_	NOUN	NOUN	_	7	advcl	_	_
+5	、	_	PUNCT	.	_	4	punct	_	_
+6	腰痛治療も	_	NOUN	NOUN-POSTP	_	7	nmod	_	_
+7	得意なようです。	_	ADJ	ADJ-NOUN-VERB-AUX	_	0	root	_	_
+
