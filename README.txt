@@ -1,7 +1,7 @@
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic
-Data available since: unknown
+Data available since: UD v1.4
 License: CC BY-NC-SA 3.0 US
 Genre: news blog
 Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
