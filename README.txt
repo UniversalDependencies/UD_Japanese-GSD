@@ -1,11 +1,11 @@
 === Machine-readable metadata =================================================
-Documentation status: stub
+Documentation status: partial
 Data source: automatic
 Data available since: UD v1.4
 License: CC BY-NC-SA 3.0 US
 Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
-Contact: zeman@ufal.mff.cuni.cz
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
+Contact: hkana@jp.ibm.com
 ===============================================================================
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
