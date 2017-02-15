@@ -5,44 +5,54 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>9494</sentences><tokens>92033</tokens><words>92033</words><fused>0</fused></total>
+    <total><sentences>8232</sentences><tokens>186073</tokens><words>186073</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="56746" /><!-- 、, ,, この, その, また, ことが, ため, ある, ある。, なった。, ことを, しかし, あり, ことに, ）、 -->
+  <lemmas unique="22920" /><!-- の, 。, 、, する, は, に, を, た, が, て, だ, と, で, いる, れる -->
+  <forms unique="24029" /><!-- の, 。, 、, に, は, を, た, が, て, と, し, で, も, れ, , -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="12">
-    <tag name="ADJ">3393</tag><!-- _ -->
-    <tag name="ADP">2</tag><!-- _ -->
-    <tag name="ADV">3061</tag><!-- _ -->
-    <tag name="CONJ">180</tag><!-- _ -->
-    <tag name="DET">925</tag><!-- _ -->
-    <tag name="NOUN">50340</tag><!-- _ -->
-    <tag name="NUM">4184</tag><!-- _ -->
-    <tag name="PART">3</tag><!-- _ -->
-    <tag name="PRON">1113</tag><!-- _ -->
-    <tag name="PUNCT">10247</tag><!-- _ -->
-    <tag name="VERB">18567</tag><!-- _ -->
-    <tag name="X">18</tag><!-- _ -->
+  <tags unique="14">
+    <tag name="ADJ">5366</tag><!-- この, その, ない, 多い, 同, 高い, いい, よい, 的だ, 良い -->
+    <tag name="ADP">41016</tag><!-- の, は, に, を, が, と, で, も, から, や -->
+    <tag name="ADV">1927</tag><!-- とても, さらに, 特に, 初めて, ほとんど, かつて, 少し, こう, もう, 最も -->
+    <tag name="AUX">23896</tag><!-- た, する, だ, いる, れる, ます, ない, ようだ, られる, なる -->
+    <tag name="CCONJ">855</tag><!-- また, しかし, および, そして, なお, ただし, ただ, 一方, あるいは, だが -->
+    <tag name="NOUN">50996</tag><!-- 年, こと, 日, 人, お, 後, もの, 者, 中, 時 -->
+    <tag name="NUM">4402</tag><!-- 1, 2, 3, 4, 一, 5, 10, 6, 二, 7 -->
+    <tag name="PART">2472</tag><!-- の, か, 第, 約, とともに, において, さ, よ, -, ん -->
+    <tag name="PRON">1015</tag><!-- これ, それ, ここ, 私, 彼, こちら, そこ, これら, 彼女, いずれ -->
+    <tag name="PROPN">8986</tag><!-- 日本, 東京, m, 中国, アメリカ, a, ドイツ, km, 台湾, 韓国 -->
+    <tag name="PUNCT">19089</tag><!-- 。, 、, ,, 「, 」, “, ”, 『, !, ? -->
+    <tag name="SCONJ">7215</tag><!-- て, が, と, ので, ため, ば, たり, ながら, から, し -->
+    <tag name="SYM">1342</tag><!-- ・, 』, -, ;, &, ~, :, *, #, ― -->
+    <tag name="VERB">17496</tag><!-- する, ある, なる, 行う, 思う, いう, できる, 受ける, 持つ, いる -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <feats unique="1">
+    <feat name="NumType" value="Card" upos="NUM">4402</feat><!-- 1, 2, 3, 4, 一, 5, 10, 6, 二, 7 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="14">
-    <dep name="acl:relcl">5780</dep>
-    <dep name="advcl">2239</dep>
-    <dep name="advmod">4579</dep>
-    <dep name="amod">1296</dep>
-    <dep name="appos">1188</dep>
-    <dep name="cc">176</dep>
-    <dep name="ccomp">2835</dep>
-    <dep name="conj">8348</dep>
-    <dep name="dep">38</dep>
-    <dep name="name">1940</dep>
-    <dep name="nmod">43867</dep>
-    <dep name="nummod">6</dep>
-    <dep name="punct">10247</dep>
-    <dep name="root">9494</dep>
+  <deps unique="21">
+    <dep name="acl">15047</dep>
+    <dep name="advmod">2739</dep>
+    <dep name="amod">2587</dep>
+    <dep name="aux">22364</dep>
+    <dep name="case">41192</dep>
+    <dep name="cc">632</dep>
+    <dep name="compound">17263</dep>
+    <dep name="cop">2220</dep>
+    <dep name="csubj">225</dep>
+    <dep name="dep">22</dep>
+    <dep name="det">824</dep>
+    <dep name="fixed">340</dep>
+    <dep name="iobj">4498</dep>
+    <dep name="mark">10989</dep>
+    <dep name="nmod">13064</dep>
+    <dep name="nsubj">7542</dep>
+    <dep name="nummod">4201</dep>
+    <dep name="obj">5036</dep>
+    <dep name="obl">8981</dep>
+    <dep name="punct">18075</dep>
+    <dep name="root">8232</dep>
   </deps>
 </treebank>
