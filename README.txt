@@ -17,9 +17,7 @@ https://github.com/ryanmcd/uni-dep-tb
 
 The README for that project is included below.
 
-IMPORTANT: The word segmentation of Google UDT 2.0 has not been modified and
-differs significantly from UD_Japanese-KTC 1.3. The syntactic word units in the present
-treebank correspond to what is usually called "bunsetsu" in Japanese grammar.
+IMPORTANT: The words are automtically sengmented.  The word unit is significantly different from that in bunsetsu-style segmentation in Google UDT 2.0, and slightly diffent from UD_Japanese-KTC 1.3 as well. 
 This divergence of the two Japanese treebanks should be fixed in the future.
 
 
