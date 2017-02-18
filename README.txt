@@ -17,8 +17,17 @@ https://github.com/ryanmcd/uni-dep-tb
 
 The README for that project is included below.
 
-IMPORTANT: The words are automtically sengmented.  The word unit is significantly different from that in bunsetsu-style segmentation in Google UDT 2.0, and slightly diffent from UD_Japanese-KTC 1.3 as well. 
+IMPORTANT: The words are automatically sengmented.  The word unit is significantly different from that in bunsetsu-style segmentation in Google UDT 2.0, and slightly diffent from UD_Japanese-KTC 1.3 as well. 
 This divergence of the two Japanese treebanks should be fixed in the future.
+
+
+
+Changelog
+
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
+2016-11-15 v1.4
+  * Initial release in Universal Dependencies.
 
 
 
