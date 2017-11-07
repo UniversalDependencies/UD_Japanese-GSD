@@ -1,10 +1,14 @@
 === Machine-readable metadata =================================================
 Documentation status: partial
-Data source: automatic
 Data available since: UD v1.4
 License: CC BY-NC-SA 3.0 US
 Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
+Lemmas: automatic with corrections
+UPOS: converted with corrections
+XPOS: not available
+Features: not available
+Relations: converted with corrections
+Contributors: Kanayama, Hiroshi; Asahara, Masayuki; Miyao, Yusuke; Tanaka, Takaaki; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire
 Contact: hkana@jp.ibm.com
 ===============================================================================
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
@@ -17,13 +21,15 @@ https://github.com/ryanmcd/uni-dep-tb
 
 The README for that project is included below.
 
-IMPORTANT: The words are automatically sengmented.  The word unit is significantly different from that in bunsetsu-style segmentation in Google UDT 2.0, and slightly diffent from UD_Japanese-KTC 1.3 as well. 
+IMPORTANT: The words are automatically segmented.  The word unit is significantly different from that in bunsetsu-style segmentation in Google UDT 2.0, and slightly different from UD_Japanese-KTC 1.3 as well. 
 This divergence of the two Japanese treebanks should be fixed in the future.
 
 
 
 Changelog
 
+2017-11-   v2.1
+  * Updates for v2.1.  Several errors are removed by adding PoS/label rules and merging the manual dependency annotations in the original bunsetsu-style annotations in Google UDT 2.0.
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
 2016-11-15 v1.4
