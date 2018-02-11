@@ -1,0 +1,41 @@
+Sun Feb 11 20:44:50 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Japanese-GSD
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Japanese-GSD:
+commit 4b4bb23adf7ad3a35996b2b6180bd6a556225f41
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 14:01:37 2017 +0100
+Size: counted 186071 of 186071 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.4522566426132.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.5.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 4401 out of 186071 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 23 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.9.
+Udapi: found 20391 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 186071 words.
+Genres: found 2 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
+(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
+(weight=0.256410256410256) * (score{size}=0.756559563887254) = 0.193989631765962
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.559459459459459) = 0.043035343035343
+(TOTAL score=0.411151240692277) * (availability=1) * (validity=1) = 0.411151240692277
+STARS = 2
+UD_Japanese-GSD	0.411151240692277	2
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
