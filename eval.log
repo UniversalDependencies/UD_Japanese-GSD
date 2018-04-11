@@ -1,15 +1,11 @@
-Sun Feb 11 20:44:50 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Japanese-GSD
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_Japanese-GSD:
-commit 4b4bb23adf7ad3a35996b2b6180bd6a556225f41
+commit 0ca84c6d64a62077950a102363829b50cac2d301
+Merge: 9e7eb85 fdf2772
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 14:01:37 2017 +0100
 Size: counted 186071 of 186071 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.4522566426132.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,6 +22,13 @@ Universal relations: source of annotation (from README) factor is 0.9.
 Udapi: found 20391 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 186071 words.
 Genres: found 2 out of 14 known.
+validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-dev.conllu
+*** PASSED ***
+validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-test.conllu
+*** PASSED ***
+validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
 (weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
@@ -37,5 +40,3 @@ Genres: found 2 out of 14 known.
 (TOTAL score=0.411151240692277) * (availability=1) * (validity=1) = 0.411151240692277
 STARS = 2
 UD_Japanese-GSD	0.411151240692277	2
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
