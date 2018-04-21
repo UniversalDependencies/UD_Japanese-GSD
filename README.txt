@@ -49,23 +49,8 @@ See file LICENSE.txt
 
 [1] Tanaka, T., Miyao, Y., Asahara, M., Uematsu, S., Kanayama, H., Mori, S., & Matsumoto, Y. (2016). Universal Dependencies for Japanese. In LREC.
 
-=== Machine-readable metadata =================================================
-Data available since: UD v1.4
-License: CC BY-NC-SA 3.0 US
-Includes text: yes 
-Genre: news blog
-Lemmas: automatic with corrections
-UPOS: converted with corrections
-XPOS: not available
-Features: not available
-Relations: converted with corrections
-Contributors: Kanayama, Hiroshi; Asahara, Masayuki; Miyao, Yusuke; Tanaka, Takaaki; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire
-Contact: hkana@jp.ibm.com
-===============================================================================
-(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
-
-Changelog
+# Changelog
 
 2017-11-   v2.1
   * Updates for v2.1.  Several errors are removed by adding PoS/label rules and merging the manual dependency annotations in the original bunsetsu-style annotations in Google UDT 2.0.
@@ -74,3 +59,19 @@ Changelog
 2016-11-15 v1.4
   * Initial release in Universal Dependencies.
 
+
+=== Machine-readable metadata =================================================
+Data available since: UD v1.4
+License: CC BY-NC-SA 3.0 US
+Includes text: yes
+Genre: news blog
+Lemmas: automatic with corrections
+UPOS: converted with corrections
+XPOS: not available
+Features: not available
+Relations: converted with corrections
+Contributors: Kanayama, Hiroshi; Asahara, Masayuki; Miyao, Yusuke; Tanaka, Takaaki; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire
+Contributing: here
+Contact: hkana@jp.ibm.com
+===============================================================================
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
