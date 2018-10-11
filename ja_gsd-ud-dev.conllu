@@ -671,7 +671,7 @@
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	直径	直径	PART	XPC	_	6	amod	_	SpaceAfter=No
 4	2	2	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
-5	~	~	PART	XPC	_	6	amod	_	SpaceAfter=No
+5	～	～	PART	XPC	_	6	amod	_	SpaceAfter=No
 6	3	3	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
 7	cm	cm	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 8	、	、	PUNCT	S,	_	7	punct	_	SpaceAfter=No
@@ -1613,11 +1613,11 @@
 3	、	、	PUNCT	S,	_	1	punct	_	SpaceAfter=No
 4	農業	農業	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
 5	が	が	ADP	PS	_	4	case	_	SpaceAfter=No
-6	圧倒的	圧倒的	ADJ	JN	_	16	advcl	_	SpaceAfter=No
+6	圧倒的	圧倒的	ADJ	JN	_	21	advcl	_	SpaceAfter=No
 7	で	だ	AUX	XV	_	6	aux	_	SpaceAfter=No
 8	、	、	PUNCT	S,	_	6	punct	_	SpaceAfter=No
 9	バーデン	バーデン	PROPN	NNP	_	10	compound	_	SpaceAfter=No
-10	=	=	NOUN	NN	_	13	nmod	_	SpaceAfter=No
+10	＝	＝	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 11	ヴュルテンベルク	ヴュルテンベルク	PROPN	NNP	_	13	compound	_	SpaceAfter=No
 12	州	州	NOUN	NN	_	13	compound	_	SpaceAfter=No
 13	内	内	NOUN	XS	_	16	obl	_	SpaceAfter=No
