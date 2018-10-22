@@ -48,13 +48,14 @@ See file LICENSE.txt
 # Reference
 
 [1] Tanaka, T., Miyao, Y., Asahara, M., Uematsu, S., Kanayama, H., Mori, S., & Matsumoto, Y. (2016). Universal Dependencies for Japanese. In LREC.
+
 [2] Asahara, M., Kanayama, H., Tanaka, T., Miyao, Y., Uematsu, S., Mori, S., Matsumoto, Y., Omura, M, & Murawaki, Y. (2018). Universal Dependencies Version 2 for Japanese. In LREC.
 
 
 # Changelog
 
-2018-11-   v2.3
-  * Updates for v2.3.  Errors in morphologies are fixed, and unknown words and dep labels are reduced.  XPOS is added.
+2018-11-1   v2.3
+  * Updates for v2.3.  More consistent with the labeling convensions discussed in UD Japanese team.  Many errors in morphologies have been fixed, and unknown words and dep labels are reduced.  XPOS is newly added.
 2017-11-   v2.1
   * Updates for v2.1.  Several errors are removed by adding PoS/label rules and merging the manual dependency annotations in the original bunsetsu-style annotations in Google UDT 2.0.
 2017-03-01 v2.0
