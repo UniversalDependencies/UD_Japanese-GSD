@@ -155,7 +155,7 @@
 15	談話	談話	NOUN	NN	_	31	obl	_	SpaceAfter=No
 16	について	について	ADP	PS	_	15	case	_	SpaceAfter=No
 17	“	“	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
-18	当	当	NOUN	XP	_	19	amod	_	SpaceAfter=No
+18	当	当	NOUN	XP	_	19	compound	_	SpaceAfter=No
 19	会	会	NOUN	XS	_	31	obl	_	SpaceAfter=No
 20	で	で	ADP	PS	_	19	case	_	SpaceAfter=No
 21	は	は	ADP	PK	_	19	case	_	SpaceAfter=No
@@ -226,7 +226,7 @@
 23	という	という	ADP	PQ	_	19	case	_	SpaceAfter=No
 24	前提	前提	NOUN	NN	_	29	obl	_	SpaceAfter=No
 25	で	で	ADP	PS	_	24	case	_	SpaceAfter=No
-26	お	お	NOUN	XP	_	27	amod	_	SpaceAfter=No
+26	お	お	NOUN	XP	_	27	compound	_	SpaceAfter=No
 27	話	話	NOUN	NN	_	29	obj	_	SpaceAfter=No
 28	を	を	ADP	PS	_	27	case	_	SpaceAfter=No
 29	さ	する	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -286,9 +286,9 @@
 
 # sent_id = test-s16
 # text = 25日も楽しみにされてください。
-1	25	25	NUM	CD	NumType=Card	6	advmod	_	SpaceAfter=No
-2	日	日	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	も	も	ADP	PK	_	1	case	_	SpaceAfter=No
+1	25	25	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	日	日	NOUN	XSC	_	6	obl	_	SpaceAfter=No
+3	も	も	ADP	PK	_	2	case	_	SpaceAfter=No
 4	楽しみ	楽しみ	NOUN	NN	_	6	iobj	_	SpaceAfter=No
 5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
 6	さ	する	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -842,7 +842,7 @@
 3	も	も	ADP	PK	_	1	case	_	SpaceAfter=No
 4	周り	周り	NOUN	NN	_	10	iobj	_	SpaceAfter=No
 5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
-6	お	お	NOUN	XP	_	7	amod	_	SpaceAfter=No
+6	お	お	NOUN	XP	_	7	compound	_	SpaceAfter=No
 7	砂糖	砂糖	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
 8	が	が	ADP	PS	_	7	case	_	SpaceAfter=No
 9	たっぷり	たっぷり	ADV	RB	_	10	advmod	_	SpaceAfter=No
@@ -870,7 +870,7 @@
 1	いったい	いったい	ADV	RB	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	“	“	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
-4	次	次	NOUN	XP	_	7	amod	_	SpaceAfter=No
+4	次	次	NOUN	XP	_	7	compound	_	SpaceAfter=No
 5	世紀	世紀	NOUN	NN	_	7	compound	_	SpaceAfter=No
 6	ファーム	ファーム	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	研究所	研究所	NOUN	NN	_	11	obl	_	SpaceAfter=No
@@ -919,11 +919,11 @@
 4	代表	代表	NOUN	NN	_	12	obl	_	SpaceAfter=No
 5	から	から	ADP	PS	_	4	case	_	SpaceAfter=No
 6	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
-7	“	“	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
-8	40	40	NUM	CD	NumType=Card	12	obl	_	SpaceAfter=No
-9	歳	歳	NOUN	XSC	_	8	mark	_	SpaceAfter=No
-10	くらい	くらい	ADP	PA	_	8	case	_	SpaceAfter=No
-11	と	と	ADP	PS	_	8	case	_	SpaceAfter=No
+7	“	“	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
+8	40	40	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	歳	歳	NOUN	XSC	_	12	obl	_	SpaceAfter=No
+10	くらい	くらい	ADP	PA	_	9	case	_	SpaceAfter=No
+11	と	と	ADP	PS	_	9	case	_	SpaceAfter=No
 12	お若い	お若い	ADJ	JJ	_	24	advcl	_	SpaceAfter=No
 13	けれど	けれど	SCONJ	PC	_	12	mark	_	SpaceAfter=No
 14	,	,	PUNCT	SYM	_	12	punct	_	SpaceAfter=No
@@ -1031,28 +1031,26 @@
 
 # sent_id = test-s53
 # text = “天聖稲荷大権現神社”を出て,“箱根大天狗山神社”へ向かう。
-1	“	“	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
-2	天	天	NOUN	NN	_	7	compound	_	SpaceAfter=No
-3	聖	聖	NOUN	XP	_	7	amod	_	SpaceAfter=No
-4	稲荷	稲荷	NOUN	NN	_	7	compound	_	SpaceAfter=No
-5	大	大	NOUN	XP	_	7	amod	_	SpaceAfter=No
-6	権現	権現	NOUN	NN	_	7	compound	_	SpaceAfter=No
-7	神社	神社	NOUN	NN	_	10	obj	_	SpaceAfter=No
-8	”	”	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
-9	を	を	ADP	PS	_	7	case	_	SpaceAfter=No
-10	出	出る	VERB	VV	_	21	advcl	_	SpaceAfter=No
-11	て	て	SCONJ	PC	_	10	mark	_	SpaceAfter=No
-12	,	,	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
-13	“	“	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
-14	箱根	箱根	PROPN	NNP	_	18	compound	_	SpaceAfter=No
-15	大	大	NOUN	XP	_	18	amod	_	SpaceAfter=No
-16	天狗	天狗	NOUN	NN	_	18	compound	_	SpaceAfter=No
-17	山神	山神	NOUN	NN	_	18	compound	_	SpaceAfter=No
-18	社	社	NOUN	XS	_	21	obl	_	SpaceAfter=No
-19	”	”	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
-20	へ	へ	ADP	PS	_	18	case	_	SpaceAfter=No
-21	向かう	向かう	VERB	VV	_	0	root	_	SpaceAfter=No
-22	。	。	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
+1	“	“	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
+2	天聖	天聖	PROPN	NNP	_	6	compound	_	SpaceAfter=No
+3	稲荷	稲荷	NOUN	NN	_	6	compound	_	SpaceAfter=No
+4	大	大	NOUN	XP	_	6	compound	_	SpaceAfter=No
+5	権現	権現	NOUN	NN	_	6	compound	_	SpaceAfter=No
+6	神社	神社	NOUN	NN	_	9	obj	_	SpaceAfter=No
+7	”	”	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
+8	を	を	ADP	PS	_	6	case	_	SpaceAfter=No
+9	出	出る	VERB	VV	_	19	advcl	_	SpaceAfter=No
+10	て	て	SCONJ	PC	_	9	mark	_	SpaceAfter=No
+11	,	,	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
+12	“	“	PUNCT	SYM	_	16	punct	_	SpaceAfter=No
+13	箱根	箱根	PROPN	NNP	_	16	compound	_	SpaceAfter=No
+14	大	大	NOUN	XP	_	16	compound	_	SpaceAfter=No
+15	天狗山	天狗山	PROPN	NNP	_	16	compound	_	SpaceAfter=No
+16	神社	神社	NOUN	NN	_	19	obl	_	SpaceAfter=No
+17	”	”	PUNCT	SYM	_	16	punct	_	SpaceAfter=No
+18	へ	へ	ADP	PS	_	16	case	_	SpaceAfter=No
+19	向かう	向かう	VERB	VV	_	0	root	_	SpaceAfter=No
+20	。	。	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
 
 # sent_id = test-s54
 # text = みんな自分の立場から主張しています。
@@ -1473,9 +1471,9 @@
 
 # sent_id = test-s77
 # text = もう一つびっくりしたことと言えば,公立学校の中には保育所が併設されているところがあるということです。
-1	もう	もう	ADV	RB	_	2	advmod	_	SpaceAfter=No
-2	一	一	NUM	CD	NumType=Card	4	advmod	_	SpaceAfter=No
-3	つ	つ	NOUN	XSC	_	2	mark	_	SpaceAfter=No
+1	もう	もう	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	一	一	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+3	つ	つ	NOUN	XSC	_	4	obl	_	SpaceAfter=No
 4	びっくり	びっくり	VERB	VV	_	9	ccomp	_	SpaceAfter=No
 5	し	する	AUX	XV	_	4	aux	_	SpaceAfter=No
 6	た	た	AUX	AV	_	4	aux	_	SpaceAfter=No
@@ -1587,27 +1585,26 @@
 1	右	右	NOUN	NN	_	2	compound	_	SpaceAfter=No
 2	奥	奥	NOUN	NN	_	4	iobj	_	SpaceAfter=No
 3	に	に	ADP	PS	_	2	case	_	SpaceAfter=No
-4	見える	見える	VERB	VV	_	6	acl	_	SpaceAfter=No
-5	重	重	NOUN	XP	_	6	amod	_	SpaceAfter=No
-6	機	機	NOUN	XS	_	13	nsubj	_	SpaceAfter=No
-7	が	が	ADP	PS	_	6	case	_	SpaceAfter=No
-8	,	,	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
-9	我々	我々	PRON	NP	_	13	iobj	_	SpaceAfter=No
-10	に	に	ADP	PS	_	9	case	_	SpaceAfter=No
-11	何か	何か	PRON	NP	_	13	obj	_	SpaceAfter=No
-12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
-13	物語っ	物語る	VERB	VV	_	16	acl	_	SpaceAfter=No
-14	て	て	SCONJ	PC	_	13	mark	_	SpaceAfter=No
-15	いる	いる	AUX	AV	_	13	aux	_	SpaceAfter=No
-16	気	気	NOUN	NB	_	18	nsubj	_	SpaceAfter=No
-17	が	が	ADP	PS	_	16	case	_	SpaceAfter=No
-18	し	する	VERB	VV	_	0	root	_	SpaceAfter=No
-19	ない	ない	AUX	AV	_	18	aux	_	SpaceAfter=No
-20	でも	だ	AUX	AV	_	18	cop	_	SpaceAfter=No
-21	あ	ある	AUX	XA	_	18	fixed	_	SpaceAfter=No
-22	りませ	ます	AUX	AV	_	18	aux	_	SpaceAfter=No
-23	ん	ない	AUX	AV	_	18	aux	_	SpaceAfter=No
-24	。	。	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
+4	見える	見える	VERB	VV	_	5	acl	_	SpaceAfter=No
+5	重機	重機	NOUN	NN	_	12	nsubj	_	SpaceAfter=No
+6	が	が	ADP	PS	_	5	case	_	SpaceAfter=No
+7	,	,	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
+8	我々	我々	PRON	NP	_	12	iobj	_	SpaceAfter=No
+9	に	に	ADP	PS	_	8	case	_	SpaceAfter=No
+10	何か	何か	PRON	NP	_	12	obj	_	SpaceAfter=No
+11	を	を	ADP	PS	_	10	case	_	SpaceAfter=No
+12	物語っ	物語る	VERB	VV	_	15	acl	_	SpaceAfter=No
+13	て	て	SCONJ	PC	_	12	mark	_	SpaceAfter=No
+14	いる	いる	AUX	AV	_	12	aux	_	SpaceAfter=No
+15	気	気	NOUN	NB	_	17	nsubj	_	SpaceAfter=No
+16	が	が	ADP	PS	_	15	case	_	SpaceAfter=No
+17	し	する	VERB	VV	_	0	root	_	SpaceAfter=No
+18	ない	ない	AUX	AV	_	17	aux	_	SpaceAfter=No
+19	でも	だ	AUX	AV	_	17	cop	_	SpaceAfter=No
+20	あり	ある	AUX	XA	_	17	fixed	_	SpaceAfter=No
+21	ませ	ます	AUX	AV	_	17	aux	_	SpaceAfter=No
+22	ん	ない	AUX	AV	_	17	aux	_	SpaceAfter=No
+23	。	。	PUNCT	SYM	_	17	punct	_	SpaceAfter=No
 
 # sent_id = test-s82
 # text = とても賢い生徒さんです。
@@ -1622,7 +1619,7 @@
 # text = たまたま,お互いに潜入取材の最中だった。
 1	たまたま	たまたま	ADV	RB	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
-3	お	お	NOUN	XP	_	4	amod	_	SpaceAfter=No
+3	お	お	NOUN	XP	_	4	compound	_	SpaceAfter=No
 4	互い	互い	NOUN	NN	_	9	iobj	_	SpaceAfter=No
 5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
 6	潜入	潜入	NOUN	NN	_	7	compound	_	SpaceAfter=No
@@ -1789,9 +1786,9 @@
 13	背負っ	背負う	VERB	VV	_	19	advcl	_	SpaceAfter=No
 14	て	て	SCONJ	PC	_	13	mark	_	SpaceAfter=No
 15	,	,	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
-16	片道	片道	NOUN	NN	_	17	compound	_	SpaceAfter=No
-17	3	3	NUM	CD	NumType=Card	19	advmod	_	SpaceAfter=No
-18	時間	時間	NOUN	XSC	_	17	mark	_	SpaceAfter=No
+16	片道	片道	NOUN	NN	_	18	compound	_	SpaceAfter=No
+17	3	3	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+18	時間	時間	NOUN	XSC	_	19	advmod	_	SpaceAfter=No
 19	歩い	歩く	VERB	VV	_	28	advcl	_	SpaceAfter=No
 20	て	て	SCONJ	PC	_	19	mark	_	SpaceAfter=No
 21	仮設トイレ	仮設トイレ	NOUN	NN	_	22	compound	_	SpaceAfter=No
@@ -1829,10 +1826,10 @@
 7	が	が	SCONJ	PC	_	5	mark	_	SpaceAfter=No
 8	,	,	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 9	どうか	どうか	ADV	RB	_	14	advmod	_	SpaceAfter=No
-10	ご	ご	NOUN	XP	_	11	amod	_	SpaceAfter=No
+10	ご	ご	NOUN	XP	_	11	compound	_	SpaceAfter=No
 11	了解	了解	NOUN	NN	_	14	obj	_	SpaceAfter=No
 12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
-13	お	お	NOUN	XP	_	14	amod	_	SpaceAfter=No
+13	お	お	NOUN	XP	_	14	compound	_	SpaceAfter=No
 14	願いし	願う	VERB	VV	_	0	root	_	SpaceAfter=No
 15	ます	ます	AUX	AV	_	14	aux	_	SpaceAfter=No
 16	。	。	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
@@ -1888,9 +1885,9 @@
 4	科学	科学	NOUN	NN	_	5	compound	_	SpaceAfter=No
 5	学園	学園	NOUN	NN	_	13	nsubj	_	SpaceAfter=No
 6	が	が	ADP	PS	_	5	case	_	SpaceAfter=No
-7	2013	2013	NUM	CD	NumType=Card	13	iobj	_	SpaceAfter=No
-8	年	年	NOUN	XSC	_	7	mark	_	SpaceAfter=No
-9	に	に	ADP	PS	_	7	case	_	SpaceAfter=No
+7	2013	2013	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	年	年	NOUN	XSC	_	13	iobj	_	SpaceAfter=No
+9	に	に	ADP	PS	_	8	case	_	SpaceAfter=No
 10	関西	関西	PROPN	NNP	_	11	compound	_	SpaceAfter=No
 11	校	校	NOUN	XS	_	13	obj	_	SpaceAfter=No
 12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
@@ -2052,7 +2049,7 @@
 31	たい	たい	AUX	AV	_	30	aux	_	SpaceAfter=No
 32	」	」	PUNCT	SYM	_	30	punct	_	SpaceAfter=No
 33	と	と	ADP	PQ	_	30	case	_	SpaceAfter=No
-34	新	新	NOUN	XP	_	35	amod	_	SpaceAfter=No
+34	新	新	NOUN	XP	_	35	compound	_	SpaceAfter=No
 35	王者	王者	NOUN	NN	_	37	obj	_	SpaceAfter=No
 36	を	を	ADP	PS	_	35	case	_	SpaceAfter=No
 37	称え	称える	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -2114,10 +2111,10 @@
 9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
 10	うち	うち	NOUN	NB	_	52	obl	_	SpaceAfter=No
 11	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
-12	約	約	PART	XPC	_	13	amod	_	SpaceAfter=No
-13	20	20	NUM	CD	NumType=Card	16	iobj	_	SpaceAfter=No
-14	年	年	NOUN	XSC	_	13	mark	_	SpaceAfter=No
-15	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
+12	約	約	PART	XPC	_	14	compound	_	SpaceAfter=No
+13	20	20	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
+14	年	年	NOUN	XSC	_	16	iobj	_	SpaceAfter=No
+15	に	に	ADP	PS	_	14	case	_	SpaceAfter=No
 16	わたっ	わたる	VERB	VV	_	20	advcl	_	SpaceAfter=No
 17	て	て	SCONJ	PC	_	16	mark	_	SpaceAfter=No
 18	日航	日航	PROPN	NNP	_	20	obl	_	SpaceAfter=No
@@ -2140,17 +2137,17 @@
 35	フライト	フライト	NOUN	NN	_	36	compound	_	SpaceAfter=No
 36	ツアー	ツアー	NOUN	NN	_	40	nsubj	_	SpaceAfter=No
 37	が	が	ADP	PS	_	36	case	_	SpaceAfter=No
-38	19	19	NUM	CD	NumType=Card	40	advmod	_	SpaceAfter=No
-39	日	日	NOUN	XSC	_	38	mark	_	SpaceAfter=No
+38	19	19	NUM	CD	NumType=Card	39	nummod	_	SpaceAfter=No
+39	日	日	NOUN	XSC	_	40	obl	_	SpaceAfter=No
 40	あり	ある	VERB	VV	_	42	advcl	_	SpaceAfter=No
 41	、	、	PUNCT	SYM	_	40	punct	_	SpaceAfter=No
-42	参加	参加	VERB	VV	_	46	acl	_	SpaceAfter=No
+42	参加	参加	VERB	VV	_	47	acl	_	SpaceAfter=No
 43	し	する	AUX	XV	_	42	aux	_	SpaceAfter=No
 44	た	た	AUX	AV	_	42	aux	_	SpaceAfter=No
-45	約	約	PART	XPC	_	46	amod	_	SpaceAfter=No
-46	450	450	NUM	CD	NumType=Card	52	nsubj	_	SpaceAfter=No
-47	人	人	NOUN	XSC	_	46	mark	_	SpaceAfter=No
-48	が	が	ADP	PS	_	46	case	_	SpaceAfter=No
+45	約	約	PART	XPC	_	47	compound	_	SpaceAfter=No
+46	450	450	NUM	CD	NumType=Card	47	nummod	_	SpaceAfter=No
+47	人	人	NOUN	XSC	_	52	nsubj	_	SpaceAfter=No
+48	が	が	ADP	PS	_	47	case	_	SpaceAfter=No
 49	乗り込み	乗り込み	NOUN	NN	_	50	compound	_	SpaceAfter=No
 50	別れ	別れ	NOUN	NN	_	52	obj	_	SpaceAfter=No
 51	を	を	ADP	PS	_	50	case	_	SpaceAfter=No
@@ -2268,12 +2265,12 @@
 12	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 13	岩手	岩手	PROPN	NNP	_	15	nmod	_	SpaceAfter=No
 14	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
-15	宮城	宮城	NOUN	NN	_	18	nmod	_	SpaceAfter=No
+15	宮城	宮城	NOUN	NN	_	19	nmod	_	SpaceAfter=No
 16	の	の	ADP	PN	_	15	case	_	SpaceAfter=No
-17	約	約	PART	XPC	_	18	amod	_	SpaceAfter=No
-18	6	6	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
-19	割	割	NOUN	XSC	_	18	mark	_	SpaceAfter=No
-20	が	が	ADP	PS	_	18	case	_	SpaceAfter=No
+17	約	約	PART	XPC	_	19	compound	_	SpaceAfter=No
+18	6	6	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	割	割	NOUN	XSC	_	34	nmod	_	SpaceAfter=No
+20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
 21	「	「	PUNCT	SYM	_	22	punct	_	SpaceAfter=No
 22	以前	以前	NOUN	NR	_	23	obl	_	SpaceAfter=No
 23	住ん	住む	VERB	VV	_	27	acl	_	SpaceAfter=No
@@ -2290,11 +2287,11 @@
 34	市町村	市町村	NOUN	NN	_	37	nmod	_	SpaceAfter=No
 35	」	」	PUNCT	SYM	_	34	punct	_	SpaceAfter=No
 36	、	、	PUNCT	SYM	_	34	punct	_	SpaceAfter=No
-37	福島	福島	PROPN	NNP	_	39	nmod	_	SpaceAfter=No
+37	福島	福島	PROPN	NNP	_	40	nmod	_	SpaceAfter=No
 38	の	の	ADP	PN	_	37	case	_	SpaceAfter=No
-39	7	7	NUM	CD	NumType=Card	51	nsubj	_	SpaceAfter=No
-40	割	割	NOUN	XSC	_	39	mark	_	SpaceAfter=No
-41	が	が	ADP	PS	_	39	case	_	SpaceAfter=No
+39	7	7	NUM	CD	NumType=Card	40	nummod	_	SpaceAfter=No
+40	割	割	NOUN	XSC	_	51	nsubj	_	SpaceAfter=No
+41	が	が	ADP	PS	_	40	case	_	SpaceAfter=No
 42	「	「	PUNCT	SYM	_	43	punct	_	SpaceAfter=No
 43	以前	以前	NOUN	NR	_	44	obl	_	SpaceAfter=No
 44	住ん	住む	VERB	VV	_	48	acl	_	SpaceAfter=No
@@ -2433,25 +2430,24 @@
 12	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
 13	保護	保護	NOUN	NN	_	15	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
-15	向け	向ける	VERB	VV	_	29	advcl	_	SpaceAfter=No
+15	向け	向ける	VERB	VV	_	28	advcl	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	15	punct	_	SpaceAfter=No
-17	西湖	西湖	PROPN	NNP	_	29	obl	_	SpaceAfter=No
+17	西湖	西湖	PROPN	NNP	_	28	obl	_	SpaceAfter=No
 18	で	で	ADP	PS	_	17	case	_	SpaceAfter=No
 19	地元	地元	NOUN	NN	_	21	nmod	_	SpaceAfter=No
 20	の	の	ADP	PN	_	19	case	_	SpaceAfter=No
-21	漁業協同組合	漁業協同組合	NOUN	NN	_	29	nsubj	_	SpaceAfter=No
+21	漁業協同組合	漁業協同組合	NOUN	NN	_	28	nsubj	_	SpaceAfter=No
 22	が	が	ADP	PS	_	21	case	_	SpaceAfter=No
 23	、	、	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
-24	禁	禁	NOUN	XP	_	25	amod	_	SpaceAfter=No
-25	漁区	漁区	NOUN	NN	_	29	obj	_	SpaceAfter=No
-26	を	を	ADP	PS	_	25	case	_	SpaceAfter=No
-27	自主的	自主的	ADJ	JN	_	29	advcl	_	SpaceAfter=No
-28	に	だ	AUX	XV	_	27	aux	_	SpaceAfter=No
-29	設定	設定	VERB	VV	_	0	root	_	SpaceAfter=No
-30	し	する	AUX	XV	_	29	aux	_	SpaceAfter=No
-31	まし	ます	AUX	AV	_	29	aux	_	SpaceAfter=No
-32	た	た	AUX	AV	_	29	aux	_	SpaceAfter=No
-33	。	。	PUNCT	SYM	_	29	punct	_	SpaceAfter=No
+24	禁漁区	禁漁区	NOUN	NN	_	28	obj	_	SpaceAfter=No
+25	を	を	ADP	PS	_	24	case	_	SpaceAfter=No
+26	自主的	自主的	ADJ	JN	_	28	advcl	_	SpaceAfter=No
+27	に	だ	AUX	XV	_	26	aux	_	SpaceAfter=No
+28	設定	設定	VERB	VV	_	0	root	_	SpaceAfter=No
+29	し	する	AUX	XV	_	28	aux	_	SpaceAfter=No
+30	まし	ます	AUX	AV	_	28	aux	_	SpaceAfter=No
+31	た	た	AUX	AV	_	28	aux	_	SpaceAfter=No
+32	。	。	PUNCT	SYM	_	28	punct	_	SpaceAfter=No
 
 # sent_id = test-s113
 # text = 谷川容疑者は政治団体の構成員を名乗っていて、当時、団体の車両が中国に対する批判を繰り返す街宣活動を行っていたという。
@@ -2587,8 +2583,8 @@
 # sent_id = test-s116
 # text = だが08年4月、あごを骨折し3つ目の王座から陥落。
 1	だが	だが	CCONJ	CC	_	16	advmod	_	SpaceAfter=No
-2	08	08	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
-3	年	年	NOUN	XSC	_	2	mark	_	SpaceAfter=No
+2	08	08	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+3	年	年	NOUN	XSC	_	4	nmod	_	SpaceAfter=No
 4	4月	4月	NOUN	NR	_	16	obl	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 6	あご	あご	NOUN	NN	_	8	obj	_	SpaceAfter=No
@@ -2668,10 +2664,10 @@
 3	チウォン	チウォン	PROPN	NNP	_	4	compound	_	SpaceAfter=No
 4	代表	代表	NOUN	NN	_	62	nsubj	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
-6	「	「	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
-7	25	25	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
-8	人	人	NOUN	XSC	_	7	mark	_	SpaceAfter=No
-9	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
+6	「	「	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
+7	25	25	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	人	人	NOUN	XSC	_	11	nmod	_	SpaceAfter=No
+9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
 10	将軍	将軍	NOUN	NN	_	11	compound	_	SpaceAfter=No
 11	級	級	NOUN	XS	_	13	obj	_	SpaceAfter=No
 12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
@@ -2733,8 +2729,8 @@
 1	SMBC	SMBC	PROPN	NNP	_	2	compound	_	SpaceAfter=No
 2	日興証券	日興証券	PROPN	NNP	_	13	nsubj	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
-4	2012	2012	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
-5	年	年	NOUN	XSC	_	4	mark	_	SpaceAfter=No
+4	2012	2012	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	年	年	NOUN	XSC	_	6	nmod	_	SpaceAfter=No
 6	秋	秋	NOUN	NR	_	8	nmod	_	SpaceAfter=No
 7	を	を	ADP	PS	_	6	case	_	SpaceAfter=No
 8	めど	めど	NOUN	NN	_	13	iobj	_	SpaceAfter=No
@@ -2767,10 +2763,10 @@
 # sent_id = test-s122
 # text = わずか半年間に重賞を3勝し、血統馬にふさわしい活躍を見せてきた。
 1	わずか	わずか	ADV	RB	_	9	advmod	_	SpaceAfter=No
-2	半	半	NOUN	XP	_	3	amod	_	SpaceAfter=No
-3	年間	年間	NOUN	NN	_	9	iobj	_	SpaceAfter=No
+2	半年	半年	NOUN	NN	_	3	compound	_	SpaceAfter=No
+3	間	間	NOUN	XS	_	9	iobj	_	SpaceAfter=No
 4	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
-5	重	重	NOUN	XP	_	6	amod	_	SpaceAfter=No
+5	重	重	NOUN	XP	_	6	compound	_	SpaceAfter=No
 6	賞	賞	NOUN	XS	_	9	obj	_	SpaceAfter=No
 7	を	を	ADP	PS	_	6	case	_	SpaceAfter=No
 8	3	3	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
@@ -2796,8 +2792,8 @@
 3	一発	一発	NOUN	NN	_	5	obj	_	SpaceAfter=No
 4	を	を	ADP	PS	_	3	case	_	SpaceAfter=No
 5	含む	含む	VERB	VV	_	9	acl	_	SpaceAfter=No
-6	11	11	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
-7	安打	安打	NOUN	XSC	_	6	mark	_	SpaceAfter=No
+6	11	11	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	安打	安打	NOUN	XSC	_	9	nmod	_	SpaceAfter=No
 8	9	9	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
 9	得点	得点	NOUN	NN	_	21	obl	_	SpaceAfter=No
 10	で	で	ADP	PS	_	9	case	_	SpaceAfter=No
@@ -2806,11 +2802,11 @@
 13	と	と	ADP	PQ	_	12	case	_	SpaceAfter=No
 14	し	する	VERB	VV	_	21	advcl	_	SpaceAfter=No
 15	て	て	SCONJ	PC	_	14	mark	_	SpaceAfter=No
-16	春	春	NOUN	NN	_	18	compound	_	SpaceAfter=No
-17	通算	通算	NOUN	NN	_	18	compound	_	SpaceAfter=No
-18	50	50	NUM	CD	NumType=Card	21	obj	_	SpaceAfter=No
-19	勝	勝	NOUN	XSC	_	18	mark	_	SpaceAfter=No
-20	を	を	ADP	PS	_	18	case	_	SpaceAfter=No
+16	春	春	NOUN	NN	_	19	compound	_	SpaceAfter=No
+17	通算	通算	NOUN	NN	_	19	compound	_	SpaceAfter=No
+18	50	50	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	勝	勝	NOUN	XSC	_	21	obj	_	SpaceAfter=No
+20	を	を	ADP	PS	_	19	case	_	SpaceAfter=No
 21	達成	達成	VERB	VV	_	0	root	_	SpaceAfter=No
 22	。	。	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
 
@@ -2818,10 +2814,10 @@
 # text = メディアから「45年の歴史を持つメジャーリーグのドラフト史上で『最高の選手』」と言われていたストラスバーグだが、この契約金は各方面で話題になった。
 1	メディア	メディア	NOUN	NN	_	22	obl	_	SpaceAfter=No
 2	から	から	ADP	PS	_	1	case	_	SpaceAfter=No
-3	「	「	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
-4	45	45	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
-5	年	年	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	の	の	ADP	PN	_	4	case	_	SpaceAfter=No
+3	「	「	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
+4	45	45	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	年	年	NOUN	XSC	_	7	nmod	_	SpaceAfter=No
+6	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
 7	歴史	歴史	NOUN	NN	_	9	obj	_	SpaceAfter=No
 8	を	を	ADP	PS	_	7	case	_	SpaceAfter=No
 9	持つ	持つ	VERB	VV	_	13	acl	_	SpaceAfter=No
@@ -2834,7 +2830,7 @@
 16	最高	最高	NOUN	NN	_	18	nmod	_	SpaceAfter=No
 17	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
 18	選手	選手	NOUN	NN	_	22	obl	_	SpaceAfter=No
-19	』	』	SYM	SYM	_	18	compound	_	SpaceAfter=No
+19	』	』	PUNCT	SYM	_	18	compound	_	SpaceAfter=No
 20	」	」	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
 21	と	と	ADP	PQ	_	18	case	_	SpaceAfter=No
 22	言わ	言う	VERB	VV	_	27	acl	_	SpaceAfter=No
@@ -2849,7 +2845,7 @@
 31	この	この	DET	JR	_	32	det	_	SpaceAfter=No
 32	契約金	契約金	NOUN	NN	_	39	nsubj	_	SpaceAfter=No
 33	は	は	ADP	PK	_	32	case	_	SpaceAfter=No
-34	各	各	NOUN	XP	_	35	amod	_	SpaceAfter=No
+34	各	各	NOUN	XP	_	35	compound	_	SpaceAfter=No
 35	方面	方面	NOUN	NN	_	39	obl	_	SpaceAfter=No
 36	で	で	ADP	PS	_	35	case	_	SpaceAfter=No
 37	話題	話題	NOUN	NN	_	39	iobj	_	SpaceAfter=No
@@ -2922,7 +2918,7 @@
 # sent_id = test-s127
 # text = そして次巻「約束の地で」では一気に時間が20年後へと飛ぶ。
 1	そして	そして	CCONJ	CC	_	19	advmod	_	SpaceAfter=No
-2	次	次	NOUN	XP	_	3	amod	_	SpaceAfter=No
+2	次	次	NOUN	XP	_	3	compound	_	SpaceAfter=No
 3	巻	巻	NOUN	XS	_	19	obl	_	SpaceAfter=No
 4	「	「	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 5	約束の地	約束の地	NOUN	NN	_	19	advcl	_	SpaceAfter=No
@@ -2975,9 +2971,9 @@
 
 # sent_id = test-s130
 # text = 2人は以前、男性に向かって石を投げた際に投げ返されたり、喫煙していてとがめられたりしたことがあり、恨みを募らせていたという。
-1	2	2	NUM	CD	NumType=Card	42	nsubj	_	SpaceAfter=No
-2	人	人	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
+1	2	2	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	人	人	NOUN	XSC	_	42	nsubj	_	SpaceAfter=No
+3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	以前	以前	NOUN	NR	_	42	obl	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 6	男性	男性	NOUN	NN	_	8	iobj	_	SpaceAfter=No
@@ -3030,19 +3026,19 @@
 7	緊急	緊急	NOUN	NN	_	10	obl	_	SpaceAfter=No
 8	」	」	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 9	と	と	ADP	PQ	_	7	case	_	SpaceAfter=No
-10	さ	する	VERB	VV	_	20	csubj	_	SpaceAfter=No
+10	さ	する	VERB	VV	_	21	csubj	_	SpaceAfter=No
 11	れる	れる	AUX	AV	_	10	aux	_	SpaceAfter=No
 12	の	の	SCONJ	PNB	_	10	mark	_	SpaceAfter=No
 13	は	は	ADP	PK	_	10	case	_	SpaceAfter=No
 14	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
 15	「	「	PUNCT	SYM	_	16	punct	_	SpaceAfter=No
-16	Windows	Windows	NOUN	NN	_	20	nmod	_	SpaceAfter=No
+16	Windows	Windows	NOUN	NN	_	21	nmod	_	SpaceAfter=No
 17	」	」	PUNCT	SYM	_	16	punct	_	SpaceAfter=No
 18	に関する	に関する	ADP	PS	_	16	case	_	SpaceAfter=No
-19	プログラム	プログラム	NOUN	NN	_	20	compound	_	SpaceAfter=No
-20	4	4	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-21	件	件	NOUN	XSC	_	20	mark	_	SpaceAfter=No
-22	。	。	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
+19	プログラム	プログラム	NOUN	NN	_	21	compound	_	SpaceAfter=No
+20	4	4	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+21	件	件	NOUN	XSC	_	0	root	_	SpaceAfter=No
+22	。	。	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
 
 # sent_id = test-s132
 # text = ただ、この質問に対する回答は、誰かに回答が固まることなく、1位の木村拓哉さんでも獲得率が5%以下と幅広くいろいろな人の名前が挙がる結果となりました。
@@ -3063,9 +3059,9 @@
 15	こと	こと	NOUN	NN	_	16	obl	_	SpaceAfter=No
 16	なく	ない	ADJ	JJ	_	43	advcl	_	SpaceAfter=No
 17	、	、	PUNCT	SYM	_	16	punct	_	SpaceAfter=No
-18	1	1	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
-19	位	位	NOUN	XSC	_	18	mark	_	SpaceAfter=No
-20	の	の	ADP	PN	_	18	case	_	SpaceAfter=No
+18	1	1	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	位	位	NOUN	XSC	_	23	nmod	_	SpaceAfter=No
+20	の	の	ADP	PN	_	19	case	_	SpaceAfter=No
 21	木村	木村	PROPN	NNP	_	23	compound	_	SpaceAfter=No
 22	拓哉	拓哉	PROPN	NNP	_	23	compound	_	SpaceAfter=No
 23	さん	さん	NOUN	XS	_	43	obl	_	SpaceAfter=No
@@ -3097,9 +3093,9 @@
 # text = 早ければ2010年度から行う方向となった。
 1	早けれ	早い	ADJ	JJ	_	6	advcl	_	SpaceAfter=No
 2	ば	ば	SCONJ	PC	_	1	mark	_	SpaceAfter=No
-3	2010	2010	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
-4	年度	年度	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	から	から	ADP	PS	_	3	case	_	SpaceAfter=No
+3	2010	2010	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	年度	年度	NOUN	XSC	_	6	obl	_	SpaceAfter=No
+5	から	から	ADP	PS	_	4	case	_	SpaceAfter=No
 6	行う	行う	VERB	VV	_	7	acl	_	SpaceAfter=No
 7	方向	方向	NOUN	NN	_	9	obl	_	SpaceAfter=No
 8	と	と	ADP	PS	_	7	case	_	SpaceAfter=No
@@ -3118,20 +3114,20 @@
 7	割合	割合	NOUN	NN	_	24	nsubj	_	SpaceAfter=No
 8	は	は	ADP	PK	_	7	case	_	SpaceAfter=No
 9	前回	前回	NOUN	NN	_	13	compound	_	SpaceAfter=No
-10	平成	平成	PART	XPC	_	13	amod	_	SpaceAfter=No
+10	平成	平成	PART	XPC	_	13	compound	_	SpaceAfter=No
 11	13	13	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
 12	年度	年度	NOUN	XSC	_	13	compound	_	SpaceAfter=No
-13	調査	調査	NOUN	NN	_	17	nmod	_	SpaceAfter=No
+13	調査	調査	NOUN	NN	_	18	nmod	_	SpaceAfter=No
 14	の	の	ADP	PN	_	13	case	_	SpaceAfter=No
-15	71	71	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+15	71	71	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
 16	・	・	SYM	SYM	_	15	compound	_	SpaceAfter=No
-17	2	2	NUM	CD	NumType=Card	24	obl	_	SpaceAfter=No
-18	%	%	NOUN	XSC	_	17	mark	_	SpaceAfter=No
-19	から	から	ADP	PS	_	17	case	_	SpaceAfter=No
-20	11	11	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
+17	2	2	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	NOUN	XSC	_	24	obl	_	SpaceAfter=No
+19	から	から	ADP	PS	_	18	case	_	SpaceAfter=No
+20	11	11	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
 21	・	・	SYM	SYM	_	20	compound	_	SpaceAfter=No
-22	9	9	NUM	CD	NumType=Card	24	advmod	_	SpaceAfter=No
-23	ポイント	ポイント	NOUN	XSC	_	22	mark	_	SpaceAfter=No
+22	9	9	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+23	ポイント	ポイント	NOUN	XSC	_	24	obl	_	SpaceAfter=No
 24	減少	減少	VERB	VV	_	0	root	_	SpaceAfter=No
 25	し	する	AUX	XV	_	24	aux	_	SpaceAfter=No
 26	た	た	AUX	AV	_	24	aux	_	SpaceAfter=No
@@ -3187,9 +3183,9 @@
 10	矢吹	矢吹	PROPN	NNP	_	11	compound	_	SpaceAfter=No
 11	消防署	消防署	NOUN	NN	_	22	nsubj	_	SpaceAfter=No
 12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
-13	30	30	NUM	CD	NumType=Card	22	advmod	_	SpaceAfter=No
-14	日	日	NOUN	XSC	_	13	mark	_	SpaceAfter=No
-15	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
+13	30	30	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
+14	日	日	NOUN	XSC	_	22	obl	_	SpaceAfter=No
+15	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
 16	実況	実況	NOUN	NN	_	17	compound	_	SpaceAfter=No
 17	見	見	NOUN	NN	_	18	obl	_	SpaceAfter=No
 18	分	分	VERB	VV	_	22	advcl	_	SpaceAfter=No
@@ -3241,8 +3237,8 @@
 2	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
 3	入る	入る	VERB	VV	_	14	advcl	_	SpaceAfter=No
 4	と	と	SCONJ	PC	_	3	mark	_	SpaceAfter=No
-5	139	139	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
-6	円	円	NOUN	XSC	_	5	mark	_	SpaceAfter=No
+5	139	139	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	円	円	NOUN	XSC	_	9	nmod	_	SpaceAfter=No
 7	80	80	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
 8	銭	銭	NOUN	XSC	_	9	compound	_	SpaceAfter=No
 9	付近	付近	NOUN	NN	_	12	nmod	_	SpaceAfter=No
@@ -3256,13 +3252,13 @@
 17	は	は	ADP	PK	_	16	case	_	SpaceAfter=No
 18	14	14	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
 19	銭	銭	NOUN	XSC	_	20	compound	_	SpaceAfter=No
-20	高	高	NOUN	XS	_	24	nmod	_	SpaceAfter=No
+20	高	高	NOUN	XS	_	25	nmod	_	SpaceAfter=No
 21	の	の	ADP	PN	_	20	case	_	SpaceAfter=No
-22	139	139	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
-23	円	円	NOUN	XSC	_	22	mark	_	SpaceAfter=No
-24	78	78	NUM	CD	NumType=Card	27	obl	_	SpaceAfter=No
-25	銭	銭	NOUN	XSC	_	24	mark	_	SpaceAfter=No
-26	で	で	ADP	PS	_	24	case	_	SpaceAfter=No
+22	139	139	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+23	円	円	NOUN	XSC	_	25	nmod	_	SpaceAfter=No
+24	78	78	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+25	銭	銭	NOUN	XSC	_	27	obl	_	SpaceAfter=No
+26	で	で	ADP	PS	_	25	case	_	SpaceAfter=No
 27	引け	引ける	VERB	VV	_	0	root	_	SpaceAfter=No
 28	た	た	AUX	AV	_	27	aux	_	SpaceAfter=No
 29	。	。	PUNCT	SYM	_	27	punct	_	SpaceAfter=No
@@ -3270,19 +3266,19 @@
 # sent_id = test-s141
 # text = ゴールドマン・サックス証券は257社、日本最大手の野村証券は608社。
 1	ゴールドマン・サックス	ゴールドマン・サックス	PROPN	NNP	_	2	compound	_	SpaceAfter=No
-2	証券	証券	NOUN	NN	_	4	nmod	_	SpaceAfter=No
+2	証券	証券	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
-4	257	257	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
-5	社	社	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
+4	257	257	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	社	社	NOUN	XSC	_	13	nmod	_	SpaceAfter=No
+6	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 7	日本	日本	PROPN	NNP	_	8	compound	_	SpaceAfter=No
 8	最大手	最大手	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
-10	野村証券	野村証券	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
+10	野村証券	野村証券	PROPN	NNP	_	13	nsubj	_	SpaceAfter=No
 11	は	は	ADP	PK	_	10	case	_	SpaceAfter=No
-12	608	608	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-13	社	社	NOUN	XSC	_	12	mark	_	SpaceAfter=No
-14	。	。	PUNCT	SYM	_	12	punct	_	SpaceAfter=No
+12	608	608	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+13	社	社	NOUN	XSC	_	0	root	_	SpaceAfter=No
+14	。	。	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
 
 # sent_id = test-s142
 # text = 知床半島も、はじめて訪れた1971年から大きく変わり、羅臼の漁師の家も番屋も立派になり、ウトロには無数のホテルが建ち、「地の果て」とは言えない様変わりをしています。
@@ -3291,11 +3287,11 @@
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	はじめ	はじめる	VERB	VV	_	6	advcl	_	SpaceAfter=No
 5	て	て	SCONJ	PC	_	4	mark	_	SpaceAfter=No
-6	訪れ	訪れる	VERB	VV	_	8	acl	_	SpaceAfter=No
+6	訪れ	訪れる	VERB	VV	_	9	acl	_	SpaceAfter=No
 7	た	た	AUX	AV	_	6	aux	_	SpaceAfter=No
-8	1971	1971	NUM	CD	NumType=Card	12	obl	_	SpaceAfter=No
-9	年	年	NOUN	XSC	_	8	mark	_	SpaceAfter=No
-10	から	から	ADP	PS	_	8	case	_	SpaceAfter=No
+8	1971	1971	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	年	年	NOUN	XSC	_	12	obl	_	SpaceAfter=No
+10	から	から	ADP	PS	_	9	case	_	SpaceAfter=No
 11	大きく	大きい	ADJ	JJ	_	12	advcl	_	SpaceAfter=No
 12	変わり	変わる	VERB	VV	_	22	advcl	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	12	punct	_	SpaceAfter=No
@@ -3408,9 +3404,9 @@
 7	展開	展開	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 8	や	や	ADP	PH	_	7	cc	_	SpaceAfter=No
 9	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
-10	3	3	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
-11	人	人	NOUN	XSC	_	10	mark	_	SpaceAfter=No
-12	の	の	ADP	PN	_	10	case	_	SpaceAfter=No
+10	3	3	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+11	人	人	NOUN	XSC	_	13	nmod	_	SpaceAfter=No
+12	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
 13	演技	演技	NOUN	NN	_	15	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
 15	引き込ま	引き込む	VERB	VV	_	21	acl	_	SpaceAfter=No
@@ -3496,12 +3492,11 @@
 35	に	に	ADP	PS	_	34	case	_	SpaceAfter=No
 36	なる	なる	VERB	VV	_	38	advcl	_	SpaceAfter=No
 37	と	と	ADP	PQ	_	36	case	_	SpaceAfter=No
-38	見	見る	VERB	VV	_	0	root	_	SpaceAfter=No
-39	込ま	込む	AUX	AV	_	38	aux	_	SpaceAfter=No
-40	れ	れる	AUX	AV	_	38	aux	_	SpaceAfter=No
-41	て	て	SCONJ	PC	_	38	mark	_	SpaceAfter=No
-42	いる	いる	AUX	AV	_	38	aux	_	SpaceAfter=No
-43	。	。	PUNCT	SYM	_	38	punct	_	SpaceAfter=No
+38	見込ま	見込う	VERB	VV	_	0	root	_	SpaceAfter=No
+39	れ	れる	AUX	AV	_	38	aux	_	SpaceAfter=No
+40	て	て	SCONJ	PC	_	38	mark	_	SpaceAfter=No
+41	いる	いる	AUX	AV	_	38	aux	_	SpaceAfter=No
+42	。	。	PUNCT	SYM	_	38	punct	_	SpaceAfter=No
 
 # sent_id = test-s150
 # text = 来場者は熱心に見入っていた。
@@ -3525,11 +3520,11 @@
 # text = 当面は同省職員2人を派遣。
 1	当面	当面	NOUN	NR	_	8	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	同省	同省	NOUN	NN	_	5	compound	_	SpaceAfter=No
-4	職員	職員	NOUN	NN	_	5	compound	_	SpaceAfter=No
-5	2	2	NUM	CD	NumType=Card	8	obj	_	SpaceAfter=No
-6	人	人	NOUN	XSC	_	5	mark	_	SpaceAfter=No
-7	を	を	ADP	PS	_	5	case	_	SpaceAfter=No
+3	同省	同省	NOUN	NN	_	6	compound	_	SpaceAfter=No
+4	職員	職員	NOUN	NN	_	6	compound	_	SpaceAfter=No
+5	2	2	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	人	人	NOUN	XSC	_	8	obj	_	SpaceAfter=No
+7	を	を	ADP	PS	_	6	case	_	SpaceAfter=No
 8	派遣	派遣	VERB	VV	_	0	root	_	SpaceAfter=No
 9	。	。	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 
@@ -3544,7 +3539,7 @@
 7	できる	できる	AUX	AV	_	6	aux	_	SpaceAfter=No
 8	情報	情報	NOUN	NN	_	13	obl	_	SpaceAfter=No
 9	をもとに	をもとに	ADP	PX	_	8	case	_	SpaceAfter=No
-10	本	本	NOUN	XP	_	11	amod	_	SpaceAfter=No
+10	本	本	NOUN	XP	_	11	compound	_	SpaceAfter=No
 11	資料	資料	NOUN	NN	_	13	obj	_	SpaceAfter=No
 12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
 13	作成	作成	VERB	VV	_	33	advcl	_	SpaceAfter=No
@@ -3619,7 +3614,7 @@
 19	し	する	VERB	VV	_	21	acl	_	SpaceAfter=No
 20	た	た	AUX	AV	_	19	aux	_	SpaceAfter=No
 21	ところ	ところ	NOUN	NB	_	23	obl	_	SpaceAfter=No
-22	大	大	NOUN	XP	_	23	amod	_	SpaceAfter=No
+22	大	大	NOUN	XP	_	23	compound	_	SpaceAfter=No
 23	好評	好評	ADJ	JN	_	0	root	_	SpaceAfter=No
 24	と	と	ADP	PQ	_	23	case	_	SpaceAfter=No
 25	なっ	なる	AUX	AV	_	23	aux	_	SpaceAfter=No
@@ -3660,7 +3655,7 @@
 1	ベストアルバム	ベストアルバム	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	『	『	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 3	BADTIMES	BADTIMES	PROPN	NNP	_	6	obj	_	SpaceAfter=No
-4	』	』	SYM	SYM	_	3	compound	_	SpaceAfter=No
+4	』	』	PUNCT	SYM	_	3	compound	_	SpaceAfter=No
 5	を	を	ADP	PS	_	3	case	_	SpaceAfter=No
 6	リリース	リリース	VERB	VV	_	10	csubj	_	SpaceAfter=No
 7	する	する	AUX	XV	_	6	aux	_	SpaceAfter=No
@@ -3784,7 +3779,7 @@
 16	な	だ	AUX	XV	_	15	aux	_	SpaceAfter=No
 17	ジャンル	ジャンル	NOUN	NN	_	20	obl	_	SpaceAfter=No
 18	で	で	ADP	PS	_	17	case	_	SpaceAfter=No
-19	ご	ご	NOUN	XP	_	20	amod	_	SpaceAfter=No
+19	ご	ご	NOUN	XP	_	20	compound	_	SpaceAfter=No
 20	対応	対応	VERB	VV	_	0	root	_	SpaceAfter=No
 21	!	!	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
 
@@ -3937,27 +3932,27 @@
 # text = 2号機の西1・1キロにある西門付近で、17日午前0時半に毎時351・4マイクロシーベルトだった放射線量が、18日午前8時には270・5マイクロシーベルトに下がった。
 1	2	2	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
 2	号	号	NOUN	XSC	_	3	compound	_	SpaceAfter=No
-3	機	機	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+3	機	機	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
 5	西	西	NOUN	NN	_	6	compound	_	SpaceAfter=No
-6	1	1	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+6	1	1	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
 7	・	・	SYM	SYM	_	6	compound	_	SpaceAfter=No
-8	1	1	NUM	CD	NumType=Card	11	iobj	_	SpaceAfter=No
-9	キロ	キロ	NOUN	XSC	_	8	mark	_	SpaceAfter=No
-10	に	に	ADP	PS	_	8	case	_	SpaceAfter=No
+8	1	1	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	キロ	キロ	NOUN	XSC	_	11	iobj	_	SpaceAfter=No
+10	に	に	ADP	PS	_	9	case	_	SpaceAfter=No
 11	ある	ある	VERB	VV	_	14	acl	_	SpaceAfter=No
 12	西	西	NOUN	NN	_	14	compound	_	SpaceAfter=No
 13	門	門	NOUN	NN	_	14	compound	_	SpaceAfter=No
 14	付近	付近	NOUN	NN	_	47	obl	_	SpaceAfter=No
 15	で	で	ADP	PS	_	14	case	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
-17	17	17	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
-18	日	日	NOUN	XSC	_	17	mark	_	SpaceAfter=No
-19	午前	午前	NOUN	NR	_	20	nmod	_	SpaceAfter=No
-20	0	0	NUM	CD	NumType=Card	28	iobj	_	SpaceAfter=No
-21	時半	時半	NOUN	XSC	_	20	mark	_	SpaceAfter=No
-22	に	に	ADP	PS	_	20	case	_	SpaceAfter=No
-23	毎時	毎時	PART	XPC	_	24	amod	_	SpaceAfter=No
+17	17	17	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+18	日	日	NOUN	XSC	_	19	nmod	_	SpaceAfter=No
+19	午前	午前	NOUN	NR	_	21	nmod	_	SpaceAfter=No
+20	0	0	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+21	時半	時半	NOUN	XSC	_	28	iobj	_	SpaceAfter=No
+22	に	に	ADP	PS	_	21	case	_	SpaceAfter=No
+23	毎時	毎時	PART	XPC	_	24	compound	_	SpaceAfter=No
 24	351	351	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
 25	・	・	SYM	SYM	_	24	compound	_	SpaceAfter=No
 26	4	4	NUM	CD	NumType=Card	28	advmod	_	SpaceAfter=No
@@ -3968,13 +3963,13 @@
 31	放射線量	放射線量	NOUN	NN	_	47	nsubj	_	SpaceAfter=No
 32	が	が	ADP	PS	_	31	case	_	SpaceAfter=No
 33	、	、	PUNCT	SYM	_	31	punct	_	SpaceAfter=No
-34	18	18	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No
-35	日	日	NOUN	XSC	_	34	mark	_	SpaceAfter=No
-36	午前	午前	NOUN	NR	_	37	nmod	_	SpaceAfter=No
-37	8	8	NUM	CD	NumType=Card	47	iobj	_	SpaceAfter=No
-38	時	時	NOUN	XSC	_	37	mark	_	SpaceAfter=No
-39	に	に	ADP	PS	_	37	case	_	SpaceAfter=No
-40	は	は	ADP	PK	_	37	case	_	SpaceAfter=No
+34	18	18	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+35	日	日	NOUN	XSC	_	36	nmod	_	SpaceAfter=No
+36	午前	午前	NOUN	NR	_	38	nmod	_	SpaceAfter=No
+37	8	8	NUM	CD	NumType=Card	38	nummod	_	SpaceAfter=No
+38	時	時	NOUN	XSC	_	47	iobj	_	SpaceAfter=No
+39	に	に	ADP	PS	_	38	case	_	SpaceAfter=No
+40	は	は	ADP	PK	_	38	case	_	SpaceAfter=No
 41	270	270	NUM	CD	NumType=Card	43	nummod	_	SpaceAfter=No
 42	・	・	SYM	SYM	_	41	compound	_	SpaceAfter=No
 43	5	5	NUM	CD	NumType=Card	45	nummod	_	SpaceAfter=No
@@ -4173,7 +4168,7 @@
 
 # sent_id = test-s174
 # text = 米中戦略・経済対話初日の米側は中国の反体制派への弾圧を厳しく批判したが、世界の経済成長については協調的な姿勢を示した。
-1	米	米	NOUN	XP	_	3	amod	_	SpaceAfter=No
+1	米	米	NOUN	XP	_	3	compound	_	SpaceAfter=No
 2	中	中	PROPN	NNP	_	3	compound	_	SpaceAfter=No
 3	戦略	戦略	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 4	・	・	SYM	SYM	_	3	compound	_	SpaceAfter=No
@@ -4336,25 +4331,24 @@
 11	の	の	ADP	PN	_	10	case	_	SpaceAfter=No
 12	歪み	歪み	NOUN	NN	_	14	obj	_	SpaceAfter=No
 13	を	を	ADP	PS	_	12	case	_	SpaceAfter=No
-14	改善	改善	VERB	VV	_	28	advcl	_	SpaceAfter=No
+14	改善	改善	VERB	VV	_	27	advcl	_	SpaceAfter=No
 15	し	する	AUX	XV	_	14	aux	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
-17	低域	低域	NOUN	NN	_	20	nmod	_	SpaceAfter=No
+17	低域	低域	NOUN	NN	_	19	nmod	_	SpaceAfter=No
 18	から	から	ADP	PS	_	17	case	_	SpaceAfter=No
-19	高	高	NOUN	XP	_	20	amod	_	SpaceAfter=No
-20	域	域	NOUN	XS	_	28	obl	_	SpaceAfter=No
-21	まで	まで	ADP	PA	_	20	case	_	SpaceAfter=No
-22	、	、	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
-23	すぐれ	すぐれる	VERB	VV	_	26	acl	_	SpaceAfter=No
-24	た	た	AUX	AV	_	23	aux	_	SpaceAfter=No
-25	周波数	周波数	NOUN	NN	_	26	compound	_	SpaceAfter=No
-26	特性	特性	NOUN	NN	_	28	obj	_	SpaceAfter=No
-27	を	を	ADP	PS	_	26	case	_	SpaceAfter=No
-28	実現	実現	VERB	VV	_	0	root	_	SpaceAfter=No
-29	し	する	AUX	XV	_	28	aux	_	SpaceAfter=No
-30	て	て	SCONJ	PC	_	28	mark	_	SpaceAfter=No
-31	いる	いる	AUX	AV	_	28	aux	_	SpaceAfter=No
-32	。	。	PUNCT	SYM	_	28	punct	_	SpaceAfter=No
+19	高域	高域	NOUN	NN	_	27	obl	_	SpaceAfter=No
+20	まで	まで	ADP	PA	_	19	case	_	SpaceAfter=No
+21	、	、	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
+22	すぐれ	すぐれる	VERB	VV	_	25	acl	_	SpaceAfter=No
+23	た	た	AUX	AV	_	22	aux	_	SpaceAfter=No
+24	周波数	周波数	NOUN	NN	_	25	compound	_	SpaceAfter=No
+25	特性	特性	NOUN	NN	_	27	obj	_	SpaceAfter=No
+26	を	を	ADP	PS	_	25	case	_	SpaceAfter=No
+27	実現	実現	VERB	VV	_	0	root	_	SpaceAfter=No
+28	し	する	AUX	XV	_	27	aux	_	SpaceAfter=No
+29	て	て	SCONJ	PC	_	27	mark	_	SpaceAfter=No
+30	いる	いる	AUX	AV	_	27	aux	_	SpaceAfter=No
+31	。	。	PUNCT	SYM	_	27	punct	_	SpaceAfter=No
 
 # sent_id = test-s182
 # text = 初期投資のいくらか全ての損失を被る可能性が存在します、
@@ -4481,20 +4475,19 @@
 
 # sent_id = test-s186
 # text = 東中本運動場まで徒歩5分一日600円/5台
-1	東中	東中	PROPN	NNP	_	3	compound	_	SpaceAfter=No
-2	本	本	NOUN	XP	_	3	amod	_	SpaceAfter=No
-3	運動場	運動場	NOUN	NN	_	13	nmod	_	SpaceAfter=No
-4	まで	まで	ADP	PA	_	3	case	_	SpaceAfter=No
-5	徒歩	徒歩	NOUN	NN	_	6	compound	_	SpaceAfter=No
-6	5	5	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
-7	分	分	NOUN	XSC	_	6	mark	_	SpaceAfter=No
-8	一	一	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
-9	日	日	NOUN	XSC	_	8	mark	_	SpaceAfter=No
-10	600	600	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
-11	円	円	NOUN	XSC	_	10	mark	_	SpaceAfter=No
-12	/	/	NOUN	NN	_	13	compound	_	SpaceAfter=No
-13	5	5	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-14	台	台	NOUN	XSC	_	13	mark	_	SpaceAfter=No
+1	東中本	東中本	PROPN	NNP	_	2	compound	_	SpaceAfter=No
+2	運動場	運動場	NOUN	NN	_	13	obl	_	SpaceAfter=No
+3	まで	まで	ADP	PA	_	2	case	_	SpaceAfter=No
+4	徒歩	徒歩	NOUN	NN	_	6	compound	_	SpaceAfter=No
+5	5	5	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	分	分	NOUN	XSC	_	8	nmod	_	SpaceAfter=No
+7	一	一	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	日	日	NOUN	XSC	_	10	nmod	_	SpaceAfter=No
+9	600	600	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+10	円	円	NOUN	XSC	_	13	nmod	_	SpaceAfter=No
+11	/	/	NOUN	NN	_	13	compound	_	SpaceAfter=No
+12	5	5	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+13	台	台	NOUN	XSC	_	0	root	_	SpaceAfter=No
 
 # sent_id = test-s187
 # text = って言ってる年齢不詳?
@@ -4639,27 +4632,26 @@
 5	分	分	NOUN	XSC	_	6	compound	_	SpaceAfter=No
 6	コース	コース	NOUN	NN	_	8	obj	_	SpaceAfter=No
 7	を	を	ADP	PS	_	6	case	_	SpaceAfter=No
-8	セレクト	セレクト	VERB	VV	_	23	advcl	_	SpaceAfter=No
+8	セレクト	セレクト	VERB	VV	_	22	advcl	_	SpaceAfter=No
 9	し	する	AUX	XV	_	8	aux	_	SpaceAfter=No
 10	まし	ます	AUX	AV	_	8	aux	_	SpaceAfter=No
 11	た	た	AUX	AV	_	8	aux	_	SpaceAfter=No
 12	が	が	SCONJ	PC	_	8	mark	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 14	新規	新規	ADJ	JN	_	15	amod	_	SpaceAfter=No
-15	価格	価格	NOUN	NN	_	23	obl	_	SpaceAfter=No
+15	価格	価格	NOUN	NN	_	22	obl	_	SpaceAfter=No
 16	という	という	ADP	PQ	_	15	case	_	SpaceAfter=No
 17	こと	こと	NOUN	NB	_	15	aux	_	SpaceAfter=No
 18	で	で	ADP	PS	_	15	case	_	SpaceAfter=No
-19	少し	少し	ADV	RB	_	23	advmod	_	SpaceAfter=No
-20	お	お	NOUN	XP	_	23	amod	_	SpaceAfter=No
-21	得	得る	VERB	VV	_	23	amod	_	SpaceAfter=No
-22	に	に	ADP	PS	_	21	case	_	SpaceAfter=No
-23	なっ	なる	VERB	VV	_	0	root	_	SpaceAfter=No
-24	て	て	SCONJ	PC	_	23	mark	_	SpaceAfter=No
-25	い	いる	AUX	AV	_	23	aux	_	SpaceAfter=No
-26	まし	ます	AUX	AV	_	23	aux	_	SpaceAfter=No
-27	た	た	AUX	AV	_	23	aux	_	SpaceAfter=No
-28	。	。	PUNCT	SYM	_	23	punct	_	SpaceAfter=No
+19	少し	少し	ADV	RB	_	22	advmod	_	SpaceAfter=No
+20	お得	お得	NOUN	NN	_	22	compound	_	SpaceAfter=No
+21	に	に	ADP	PS	_	20	case	_	SpaceAfter=No
+22	なっ	なる	VERB	VV	_	0	root	_	SpaceAfter=No
+23	て	て	SCONJ	PC	_	22	mark	_	SpaceAfter=No
+24	い	いる	AUX	AV	_	22	aux	_	SpaceAfter=No
+25	まし	ます	AUX	AV	_	22	aux	_	SpaceAfter=No
+26	た	た	AUX	AV	_	22	aux	_	SpaceAfter=No
+27	。	。	PUNCT	SYM	_	22	punct	_	SpaceAfter=No
 
 # sent_id = test-s195
 # text = 友人の紹介で東京の出張マッサージを利用。
@@ -4684,7 +4676,7 @@
 
 # sent_id = test-s197
 # text = お皿は全て重ねてたのですが、しばらくすると女性の従業員が来て、こちらのトロ刺身のお皿はお取りになられましたか?
-1	お	お	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	お	お	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	皿	皿	NOUN	NN	_	5	nsubj	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	全て	全て	ADV	RB	_	5	advmod	_	SpaceAfter=No
@@ -4710,10 +4702,10 @@
 24	トロ	トロ	NOUN	NN	_	25	compound	_	SpaceAfter=No
 25	刺身	刺身	NOUN	NN	_	28	nmod	_	SpaceAfter=No
 26	の	の	ADP	PN	_	25	case	_	SpaceAfter=No
-27	お	お	NOUN	XP	_	28	amod	_	SpaceAfter=No
+27	お	お	NOUN	XP	_	28	compound	_	SpaceAfter=No
 28	皿	皿	NOUN	NN	_	33	nsubj	_	SpaceAfter=No
 29	は	は	ADP	PK	_	28	case	_	SpaceAfter=No
-30	お	お	NOUN	XP	_	33	amod	_	SpaceAfter=No
+30	お	お	NOUN	XP	_	33	compound	_	SpaceAfter=No
 31	取り	取る	VERB	VV	_	33	amod	_	SpaceAfter=No
 32	に	に	ADP	PS	_	31	case	_	SpaceAfter=No
 33	なら	なる	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -4725,20 +4717,20 @@
 
 # sent_id = test-s198
 # text = 営業時間は朝9時~夜7時までみたいですが、人気のあるパンはすぐなくなってしまいます。
-1	営業時間	営業時間	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+1	営業時間	営業時間	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	朝	朝	NOUN	NR	_	4	nmod	_	SpaceAfter=No
-4	9	9	NUM	CD	NumType=Card	8	advmod	_	SpaceAfter=No
-5	時	時	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	~	~	SYM	SYM	_	8	nmod	_	SpaceAfter=No
-7	夜	夜	PART	XPC	_	8	amod	_	SpaceAfter=No
-8	7	7	NUM	CD	NumType=Card	21	advcl	_	SpaceAfter=No
-9	時	時	NOUN	XSC	_	8	mark	_	SpaceAfter=No
-10	まで	まで	ADP	PA	_	8	case	_	SpaceAfter=No
-11	みたい	みたいだ	AUX	AV	_	8	aux	_	SpaceAfter=No
-12	です	だ	AUX	AV	_	8	cop	_	SpaceAfter=No
-13	が	が	SCONJ	PC	_	8	mark	_	SpaceAfter=No
-14	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
+3	朝	朝	NOUN	NR	_	5	nmod	_	SpaceAfter=No
+4	9	9	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	時	時	NOUN	XSC	_	9	nmod	_	SpaceAfter=No
+6	~	~	SYM	SYM	_	9	nmod	_	SpaceAfter=No
+7	夜	夜	PART	XPC	_	9	compound	_	SpaceAfter=No
+8	7	7	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	時	時	NOUN	XSC	_	21	advcl	_	SpaceAfter=No
+10	まで	まで	ADP	PA	_	9	case	_	SpaceAfter=No
+11	みたい	みたいだ	AUX	AV	_	9	aux	_	SpaceAfter=No
+12	です	だ	AUX	AV	_	9	cop	_	SpaceAfter=No
+13	が	が	SCONJ	PC	_	9	mark	_	SpaceAfter=No
+14	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 15	人気	人気	NOUN	NN	_	17	obl	_	SpaceAfter=No
 16	の	の	ADP	PN	_	15	case	_	SpaceAfter=No
 17	ある	ある	VERB	VV	_	18	acl	_	SpaceAfter=No
@@ -4889,16 +4881,16 @@
 # text = 夜は5時に行くのが1番です。
 1	夜	夜	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	5	5	NUM	CD	NumType=Card	6	iobj	_	SpaceAfter=No
-4	時	時	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
-6	行く	行く	VERB	VV	_	9	csubj	_	SpaceAfter=No
+3	5	5	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	時	時	NOUN	XSC	_	6	iobj	_	SpaceAfter=No
+5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
+6	行く	行く	VERB	VV	_	10	csubj	_	SpaceAfter=No
 7	の	の	SCONJ	PNB	_	6	mark	_	SpaceAfter=No
 8	が	が	ADP	PS	_	6	case	_	SpaceAfter=No
-9	1	1	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-10	番	番	NOUN	XSC	_	9	mark	_	SpaceAfter=No
-11	です	だ	AUX	AV	_	9	cop	_	SpaceAfter=No
-12	。	。	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
+9	1	1	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+10	番	番	NOUN	XSC	_	0	root	_	SpaceAfter=No
+11	です	だ	AUX	AV	_	10	cop	_	SpaceAfter=No
+12	。	。	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
 
 # sent_id = test-s206
 # text = 治療やケアの方も素晴らしいく、待合室もここが歯医者だと忘れてしまうくらい立派です。
@@ -4983,7 +4975,7 @@
 17	が	が	ADP	PS	_	16	case	_	SpaceAfter=No
 18	わき	わく	VERB	VV	_	21	advcl	_	SpaceAfter=No
 19	やすく	やすい	AUX	AJ	_	18	aux	_	SpaceAfter=No
-20	好	好	NOUN	XP	_	21	amod	_	SpaceAfter=No
+20	好	好	NOUN	XP	_	21	compound	_	SpaceAfter=No
 21	印象	印象	NOUN	NN	_	0	root	_	SpaceAfter=No
 22	でし	だ	AUX	AV	_	21	cop	_	SpaceAfter=No
 23	た	た	AUX	AV	_	21	aux	_	SpaceAfter=No
@@ -5050,7 +5042,7 @@
 8	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 9	なに	なに	NOUN	NN	_	14	obl	_	SpaceAfter=No
 10	より	より	ADP	PS	_	9	case	_	SpaceAfter=No
-11	お	お	NOUN	XP	_	12	amod	_	SpaceAfter=No
+11	お	お	NOUN	XP	_	12	compound	_	SpaceAfter=No
 12	酒	酒	NOUN	XS	_	14	nsubj	_	SpaceAfter=No
 13	が	が	ADP	PS	_	12	case	_	SpaceAfter=No
 14	美味しい	美味しい	ADJ	JJ	_	0	root	_	SpaceAfter=No
@@ -5122,7 +5114,7 @@
 28	像	像	NOUN	NN	_	30	nsubj	_	SpaceAfter=No
 29	が	が	ADP	PS	_	28	case	_	SpaceAfter=No
 30	ある	ある	VERB	VV	_	32	acl	_	SpaceAfter=No
-31	お	お	NOUN	XP	_	32	amod	_	SpaceAfter=No
+31	お	お	NOUN	XP	_	32	compound	_	SpaceAfter=No
 32	墓	墓	NOUN	XS	_	0	root	_	SpaceAfter=No
 33	。	。	PUNCT	SYM	_	32	punct	_	SpaceAfter=No
 
@@ -5184,7 +5176,7 @@
 1	すごく	すごい	ADJ	JJ	_	5	advcl	_	SpaceAfter=No
 2	親身	親身	ADJ	JN	_	5	advcl	_	SpaceAfter=No
 3	に	だ	AUX	XV	_	2	aux	_	SpaceAfter=No
-4	お	お	NOUN	XP	_	5	amod	_	SpaceAfter=No
+4	お	お	NOUN	XP	_	5	compound	_	SpaceAfter=No
 5	世話	世話	VERB	VV	_	0	root	_	SpaceAfter=No
 6	し	する	AUX	XV	_	5	aux	_	SpaceAfter=No
 7	て	て	SCONJ	PC	_	5	mark	_	SpaceAfter=No
@@ -5233,7 +5225,7 @@
 # sent_id = test-s223
 # text = 美味しいおせんべいの他、ワッフルやゼリーなどもオススメです。
 1	美味しい	美味しい	ADJ	JJ	_	3	acl	_	SpaceAfter=No
-2	お	お	NOUN	XP	_	3	amod	_	SpaceAfter=No
+2	お	お	NOUN	XP	_	3	compound	_	SpaceAfter=No
 3	せんべい	せんべい	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
 5	他	他	NOUN	NB	_	7	nmod	_	SpaceAfter=No
@@ -5273,7 +5265,7 @@
 1	とりあえず	とりあえず	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	生ビール	生ビール	NOUN	NN	_	4	obl	_	SpaceAfter=No
 3	から	から	ADP	PS	_	2	case	_	SpaceAfter=No
-4	始め	始める	VERB	VV	_	24	acl	_	SpaceAfter=No
+4	始め	始める	VERB	VV	_	25	advcl	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 6	華	華	PROPN	NNP	_	8	compound	_	SpaceAfter=No
 7	のれん	のれん	NOUN	NN	_	8	compound	_	SpaceAfter=No
@@ -5290,23 +5282,23 @@
 18	ばくだん	ばくだん	NOUN	NN	_	21	nmod	_	SpaceAfter=No
 19	」	」	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
 20	という	という	ADP	PQ	_	18	case	_	SpaceAfter=No
-21	名物料理	名物料理	NOUN	NN	_	24	nmod	_	SpaceAfter=No
+21	名物料理	名物料理	NOUN	NN	_	25	obl	_	SpaceAfter=No
 22	で	で	ADP	PS	_	21	case	_	SpaceAfter=No
-23	まずは	まずは	CCONJ	CC	_	24	advmod	_	SpaceAfter=No
-24	一	一	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-25	杯	杯	NOUN	XSC	_	24	mark	_	SpaceAfter=No
-26	。	。	PUNCT	SYM	_	24	punct	_	SpaceAfter=No
+23	まずは	まずは	CCONJ	CC	_	25	advmod	_	SpaceAfter=No
+24	一	一	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+25	杯	杯	NOUN	XSC	_	0	root	_	SpaceAfter=No
+26	。	。	PUNCT	SYM	_	25	punct	_	SpaceAfter=No
 
 # sent_id = test-s227
 # text = Tacoは1つ3ドルぐらい。
-1	Taco	Taco	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
+1	Taco	Taco	PROPN	NNP	_	6	nmod	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	1	1	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
-4	つ	つ	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	3	3	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-6	ドル	ドル	NOUN	XSC	_	5	mark	_	SpaceAfter=No
-7	ぐらい	ぐらい	ADP	PA	_	5	case	_	SpaceAfter=No
-8	。	。	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
+3	1	1	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	つ	つ	NOUN	XSC	_	6	nmod	_	SpaceAfter=No
+5	3	3	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	ドル	ドル	NOUN	XSC	_	0	root	_	SpaceAfter=No
+7	ぐらい	ぐらい	ADP	PA	_	6	case	_	SpaceAfter=No
+8	。	。	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
 
 # sent_id = test-s228
 # text = ゼクシィを見て、いろいろなお店に体験に行きましたが、このお店が圧倒的によかったので、通うことにしました。
@@ -5317,7 +5309,7 @@
 5	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 6	いろいろ	いろいろ	ADJ	JN	_	9	acl	_	SpaceAfter=No
 7	な	だ	AUX	XV	_	6	aux	_	SpaceAfter=No
-8	お	お	NOUN	XP	_	9	amod	_	SpaceAfter=No
+8	お	お	NOUN	XP	_	9	compound	_	SpaceAfter=No
 9	店	店	NOUN	XS	_	13	iobj	_	SpaceAfter=No
 10	に	に	ADP	PS	_	9	case	_	SpaceAfter=No
 11	体験	体験	NOUN	NN	_	13	iobj	_	SpaceAfter=No
@@ -5328,7 +5320,7 @@
 16	が	が	SCONJ	PC	_	13	mark	_	SpaceAfter=No
 17	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
 18	この	この	DET	JR	_	20	det	_	SpaceAfter=No
-19	お	お	NOUN	XP	_	20	amod	_	SpaceAfter=No
+19	お	お	NOUN	XP	_	20	compound	_	SpaceAfter=No
 20	店	店	NOUN	XS	_	24	nsubj	_	SpaceAfter=No
 21	が	が	ADP	PS	_	20	case	_	SpaceAfter=No
 22	圧倒的	圧倒的	ADJ	JN	_	24	advcl	_	SpaceAfter=No
@@ -5544,7 +5536,7 @@
 6	の	だ	AUX	XV	_	5	aux	_	SpaceAfter=No
 7	年代	年代	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 8	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
-9	お	お	NOUN	XP	_	10	amod	_	SpaceAfter=No
+9	お	お	NOUN	XP	_	10	compound	_	SpaceAfter=No
 10	客	客	NOUN	NN	_	12	nsubj	_	SpaceAfter=No
 11	が	が	ADP	PS	_	10	case	_	SpaceAfter=No
 12	多く	多い	ADJ	JJ	_	18	advcl	_	SpaceAfter=No
@@ -5596,7 +5588,7 @@
 # sent_id = test-s241
 # text = 小さいお子さんがいるお母さんには最高のお店です。
 1	小さい	小さい	ADJ	JJ	_	4	acl	_	SpaceAfter=No
-2	お	お	NOUN	XP	_	4	amod	_	SpaceAfter=No
+2	お	お	NOUN	XP	_	4	compound	_	SpaceAfter=No
 3	子	子	NOUN	NN	_	4	compound	_	SpaceAfter=No
 4	さん	さん	NOUN	XS	_	6	nsubj	_	SpaceAfter=No
 5	が	が	ADP	PS	_	4	case	_	SpaceAfter=No
@@ -5606,7 +5598,7 @@
 9	は	は	ADP	PK	_	7	case	_	SpaceAfter=No
 10	最高	最高	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 11	の	の	ADP	PN	_	10	case	_	SpaceAfter=No
-12	お	お	NOUN	XP	_	13	amod	_	SpaceAfter=No
+12	お	お	NOUN	XP	_	13	compound	_	SpaceAfter=No
 13	店	店	NOUN	XS	_	0	root	_	SpaceAfter=No
 14	です	だ	AUX	AV	_	13	cop	_	SpaceAfter=No
 15	。	。	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
@@ -5748,7 +5740,7 @@
 # sent_id = test-s247
 # text = 大きなお店は苦手なので私にとってはアットホームな感じで楽しい時間を過ごすことができ大満足です。
 1	大きな	大きな	ADJ	JR	_	3	amod	_	SpaceAfter=No
-2	お	お	NOUN	XP	_	3	amod	_	SpaceAfter=No
+2	お	お	NOUN	XP	_	3	compound	_	SpaceAfter=No
 3	店	店	NOUN	XS	_	5	nsubj	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	苦手	苦手	ADJ	JN	_	23	advcl	_	SpaceAfter=No
@@ -5768,7 +5760,7 @@
 19	こと	こと	NOUN	NB	_	18	aux	_	SpaceAfter=No
 20	が	が	ADP	PS	_	18	case	_	SpaceAfter=No
 21	でき	できる	VERB	VV	_	23	advcl	_	SpaceAfter=No
-22	大	大	NOUN	XP	_	23	amod	_	SpaceAfter=No
+22	大	大	NOUN	XP	_	23	compound	_	SpaceAfter=No
 23	満足	満足	NOUN	NN	_	0	root	_	SpaceAfter=No
 24	です	だ	AUX	AV	_	23	cop	_	SpaceAfter=No
 25	。	。	PUNCT	SYM	_	23	punct	_	SpaceAfter=No
@@ -5824,9 +5816,9 @@
 15	で	で	ADP	PS	_	14	case	_	SpaceAfter=No
 16	も	も	ADP	PK	_	14	case	_	SpaceAfter=No
 17	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
-18	週	週	NOUN	NN	_	19	compound	_	SpaceAfter=No
-19	1	1	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
-20	回	回	NOUN	XSC	_	19	mark	_	SpaceAfter=No
+18	週	週	NOUN	NN	_	20	compound	_	SpaceAfter=No
+19	1	1	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+20	回	回	NOUN	XSC	_	21	nmod	_	SpaceAfter=No
 21	きっちり	きっちり	ADV	RB	_	22	advmod	_	SpaceAfter=No
 22	通	通う	VERB	VV	_	0	root	_	SpaceAfter=No
 23	え	える	AUX	AV	_	22	aux	_	SpaceAfter=No
@@ -5887,11 +5879,11 @@
 # text = なかなか、女性一人で、ゆっくり、休める宿は少ない、
 1	なかなか	なかなか	ADV	RB	_	13	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
-3	女性	女性	NOUN	NN	_	4	compound	_	SpaceAfter=No
-4	一	一	NUM	CD	NumType=Card	13	obl	_	SpaceAfter=No
-5	人	人	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	で	で	ADP	PS	_	4	case	_	SpaceAfter=No
-7	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
+3	女性	女性	NOUN	NN	_	5	compound	_	SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	人	人	NOUN	XSC	_	13	obl	_	SpaceAfter=No
+6	で	で	ADP	PS	_	5	case	_	SpaceAfter=No
+7	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 8	ゆっくり	ゆっくり	ADV	RB	_	10	advmod	_	SpaceAfter=No
 9	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 10	休める	休める	VERB	VV	_	11	acl	_	SpaceAfter=No
@@ -6035,7 +6027,7 @@
 4	あまり	あまり	ADV	RB	_	5	advmod	_	SpaceAfter=No
 5	多く	多い	ADJ	JJ	_	8	acl	_	SpaceAfter=No
 6	ない	ない	AUX	AV	_	5	aux	_	SpaceAfter=No
-7	お	お	NOUN	XP	_	8	amod	_	SpaceAfter=No
+7	お	お	NOUN	XP	_	8	compound	_	SpaceAfter=No
 8	店	店	NOUN	XS	_	17	advcl	_	SpaceAfter=No
 9	だ	だ	AUX	AV	_	8	cop	_	SpaceAfter=No
 10	が	が	SCONJ	PC	_	8	mark	_	SpaceAfter=No
@@ -6235,7 +6227,7 @@
 22	使え	使える	VERB	VV	_	28	advcl	_	SpaceAfter=No
 23	て	て	SCONJ	PC	_	22	mark	_	SpaceAfter=No
 24	この	この	DET	JR	_	26	det	_	SpaceAfter=No
-25	お	お	NOUN	XP	_	26	amod	_	SpaceAfter=No
+25	お	お	NOUN	XP	_	26	compound	_	SpaceAfter=No
 26	値段	値段	NOUN	NN	_	28	obl	_	SpaceAfter=No
 27	と	と	ADP	PQ	_	26	case	_	SpaceAfter=No
 28	いう	いう	VERB	VV	_	31	csubj	_	SpaceAfter=No
@@ -6312,7 +6304,7 @@
 34	なんと	なんと	ADV	RB	_	38	advmod	_	SpaceAfter=No
 35	店員	店員	NOUN	NN	_	38	nsubj	_	SpaceAfter=No
 36	が	が	ADP	PS	_	35	case	_	SpaceAfter=No
-37	お	お	NOUN	XP	_	38	amod	_	SpaceAfter=No
+37	お	お	NOUN	XP	_	38	compound	_	SpaceAfter=No
 38	しゃべりし	しゃべる	VERB	VV	_	0	root	_	SpaceAfter=No
 39	て	て	SCONJ	PC	_	38	mark	_	SpaceAfter=No
 40	い	いる	AUX	AV	_	38	aux	_	SpaceAfter=No
@@ -6334,7 +6326,7 @@
 11	嬉しいです	嬉しい	ADJ	JJ	_	19	advcl	_	SpaceAfter=No
 12	が	が	SCONJ	PC	_	11	mark	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
-14	お	お	NOUN	XP	_	15	amod	_	SpaceAfter=No
+14	お	お	NOUN	XP	_	15	compound	_	SpaceAfter=No
 15	店	店	NOUN	XS	_	17	nmod	_	SpaceAfter=No
 16	の	の	ADP	PN	_	15	case	_	SpaceAfter=No
 17	スタンス	スタンス	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
@@ -6496,12 +6488,12 @@
 10	が	が	ADP	PS	_	9	case	_	SpaceAfter=No
 11	かかり	かかる	VERB	VV	_	30	advcl	_	SpaceAfter=No
 12	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
-13	6	6	NUM	CD	NumType=Card	16	nmod	_	SpaceAfter=No
-14	号	号	NOUN	XSC	_	13	mark	_	SpaceAfter=No
-15	と	と	ADP	PS	_	13	case	_	SpaceAfter=No
-16	14	14	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
-17	号	号	NOUN	XSC	_	16	mark	_	SpaceAfter=No
-18	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
+13	6	6	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
+14	号	号	NOUN	XSC	_	17	nmod	_	SpaceAfter=No
+15	と	と	ADP	PS	_	14	case	_	SpaceAfter=No
+16	14	14	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+17	号	号	NOUN	XSC	_	20	nmod	_	SpaceAfter=No
+18	の	の	ADP	PN	_	17	case	_	SpaceAfter=No
 19	交差	交差	NOUN	NN	_	20	compound	_	SpaceAfter=No
 20	点前	点前	NOUN	NN	_	24	obl	_	SpaceAfter=No
 21	で	で	ADP	PS	_	20	case	_	SpaceAfter=No
@@ -6561,7 +6553,7 @@
 # sent_id = test-s276
 # text = 小さいお店なので常連さん優先なのは仕方がないですね。
 1	小さい	小さい	ADJ	JJ	_	3	acl	_	SpaceAfter=No
-2	お	お	NOUN	XP	_	3	amod	_	SpaceAfter=No
+2	お	お	NOUN	XP	_	3	compound	_	SpaceAfter=No
 3	店	店	NOUN	XS	_	12	advcl	_	SpaceAfter=No
 4	な	だ	AUX	AV	_	3	cop	_	SpaceAfter=No
 5	ので	ので	SCONJ	PC	_	3	mark	_	SpaceAfter=No
@@ -6755,10 +6747,10 @@
 12	た	た	AUX	AV	_	10	aux	_	SpaceAfter=No
 13	が	が	SCONJ	PC	_	10	mark	_	SpaceAfter=No
 14	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
-15	1909	1909	NUM	CD	NumType=Card	23	obl	_	SpaceAfter=No
-16	年	年	NOUN	XSC	_	15	mark	_	SpaceAfter=No
-17	から	から	ADP	PS	_	15	case	_	SpaceAfter=No
-18	は	は	ADP	PK	_	15	case	_	SpaceAfter=No
+15	1909	1909	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+16	年	年	NOUN	XSC	_	23	obl	_	SpaceAfter=No
+17	から	から	ADP	PS	_	16	case	_	SpaceAfter=No
+18	は	は	ADP	PK	_	16	case	_	SpaceAfter=No
 19	市庁舎	市庁舎	NOUN	NN	_	21	obl	_	SpaceAfter=No
 20	と	と	ADP	PQ	_	19	case	_	SpaceAfter=No
 21	し	する	VERB	VV	_	23	advcl	_	SpaceAfter=No
@@ -6772,10 +6764,10 @@
 # sent_id = test-s290
 # text = 誕生日10月 16日。
 1	誕生日	誕生日	NOUN	NN	_	2	compound	_	SpaceAfter=No
-2	10月	10月	NOUN	NR	_	3	nmod	_	_
-3	16	16	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-4	日	日	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	。	。	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
+2	10月	10月	NOUN	NR	_	4	nmod	_	_
+3	16	16	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	日	日	NOUN	XSC	_	0	root	_	SpaceAfter=No
+5	。	。	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 
 # sent_id = test-s291
 # text = また、先生方をサポートする人材の育成、教員養成のあり方を詰めていく必要がある。
@@ -6808,7 +6800,7 @@
 1	事件	事件	NOUN	NN	_	13	nsubj	_	SpaceAfter=No
 2	が	が	ADP	PS	_	1	case	_	SpaceAfter=No
 3	朝刊	朝刊	NOUN	NN	_	5	compound	_	SpaceAfter=No
-4	各	各	NOUN	XP	_	5	amod	_	SpaceAfter=No
+4	各	各	NOUN	XP	_	5	compound	_	SpaceAfter=No
 5	版	版	NOUN	XS	_	8	nmod	_	SpaceAfter=No
 6	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
 7	締め切り	締め切り	NOUN	NN	_	8	compound	_	SpaceAfter=No
@@ -6821,7 +6813,7 @@
 14	た	た	AUX	AV	_	13	aux	_	SpaceAfter=No
 15	ため	ため	SCONJ	PC	_	13	mark	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
-17	各	各	NOUN	XP	_	18	amod	_	SpaceAfter=No
+17	各	各	NOUN	XP	_	18	compound	_	SpaceAfter=No
 18	新聞	新聞	NOUN	NN	_	27	nsubj	_	SpaceAfter=No
 19	は	は	ADP	PK	_	18	case	_	SpaceAfter=No
 20	配達	配達	NOUN	NN	_	21	compound	_	SpaceAfter=No
@@ -6916,11 +6908,11 @@
 
 # sent_id = test-s297
 # text = 1967年『シラノ・ド・ベルジュラック』で初舞台。
-1	1967	1967	NUM	CD	NumType=Card	7	advmod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
+1	1967	1967	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	7	nmod	_	SpaceAfter=No
 3	『	『	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 4	シラノ・ド・ベルジュラック	シラノ・ド・ベルジュラック	PROPN	NNP	_	7	obl	_	SpaceAfter=No
-5	』	』	SYM	SYM	_	4	compound	_	SpaceAfter=No
+5	』	』	PUNCT	SYM	_	4	compound	_	SpaceAfter=No
 6	で	で	ADP	PS	_	4	case	_	SpaceAfter=No
 7	初舞台	初舞台	NOUN	NN	_	0	root	_	SpaceAfter=No
 8	。	。	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
@@ -7079,11 +7071,11 @@
 
 # sent_id = test-s303
 # text = 2007年9月 5日発売。
-1	2007	2007	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	9月	9月	NOUN	NR	_	4	nmod	_	_
-4	5	5	NUM	CD	NumType=Card	6	advmod	_	SpaceAfter=No
-5	日	日	NOUN	XSC	_	4	mark	_	SpaceAfter=No
+1	2007	2007	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	3	nmod	_	SpaceAfter=No
+3	9月	9月	NOUN	NR	_	5	nmod	_	_
+4	5	5	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	日	日	NOUN	XSC	_	6	nmod	_	SpaceAfter=No
 6	発売	発売	NOUN	NN	_	0	root	_	SpaceAfter=No
 7	。	。	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
 
@@ -7173,7 +7165,7 @@
 6	弦楽四重奏	弦楽四重奏	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	団	団	NOUN	XS	_	9	obl	_	SpaceAfter=No
 8	と	と	ADP	PQ	_	7	case	_	SpaceAfter=No
-9	し	する	VERB	VV	_	22	acl	_	SpaceAfter=No
+9	し	する	VERB	VV	_	23	advcl	_	SpaceAfter=No
 10	て	て	SCONJ	PC	_	9	mark	_	SpaceAfter=No
 11	は	は	ADP	PK	_	9	case	_	SpaceAfter=No
 12	日本	日本	PROPN	NNP	_	17	obl	_	SpaceAfter=No
@@ -7184,11 +7176,11 @@
 17	重ね	重ねる	VERB	VV	_	20	acl	_	SpaceAfter=No
 18	て	て	SCONJ	PC	_	17	mark	_	SpaceAfter=No
 19	いる	いる	AUX	AV	_	17	aux	_	SpaceAfter=No
-20	団体	団体	NOUN	NN	_	22	nmod	_	SpaceAfter=No
+20	団体	団体	NOUN	NN	_	23	nmod	_	SpaceAfter=No
 21	の	の	ADP	PN	_	20	case	_	SpaceAfter=No
-22	一	一	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-23	つ	つ	NOUN	XSC	_	22	mark	_	SpaceAfter=No
-24	。	。	PUNCT	SYM	_	22	punct	_	SpaceAfter=No
+22	一	一	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+23	つ	つ	NOUN	XSC	_	0	root	_	SpaceAfter=No
+24	。	。	PUNCT	SYM	_	23	punct	_	SpaceAfter=No
 
 # sent_id = test-s308
 # text = そののち、連隊はレンドリースにより供与されたボストンに装備を変更した。
@@ -7265,10 +7257,10 @@
 19	諸国	諸国	NOUN	NN	_	31	nsubj	_	SpaceAfter=No
 20	は	は	ADP	PK	_	19	case	_	SpaceAfter=No
 21	、	、	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
-22	19	19	NUM	CD	NumType=Card	31	iobj	_	SpaceAfter=No
-23	世紀	世紀	NOUN	XSC	_	22	mark	_	SpaceAfter=No
-24	に	に	ADP	PS	_	22	case	_	SpaceAfter=No
-25	は	は	ADP	PK	_	22	case	_	SpaceAfter=No
+22	19	19	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+23	世紀	世紀	NOUN	XSC	_	31	iobj	_	SpaceAfter=No
+24	に	に	ADP	PS	_	23	case	_	SpaceAfter=No
+25	は	は	ADP	PK	_	23	case	_	SpaceAfter=No
 26	宗主国	宗主国	NOUN	NN	_	27	compound	_	SpaceAfter=No
 27	オスマン帝国	オスマン帝国	PROPN	NNP	_	29	nmod	_	SpaceAfter=No
 28	の	の	ADP	PN	_	27	case	_	SpaceAfter=No
@@ -7415,10 +7407,10 @@
 2	この	この	DET	JR	_	3	det	_	SpaceAfter=No
 3	協議	協議	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
-5	1	1	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
-6	〜	〜	NOUN	NN	_	7	compound	_	SpaceAfter=No
-7	4	4	NUM	CD	NumType=Card	9	advmod	_	SpaceAfter=No
-8	年	年	NOUN	XSC	_	7	mark	_	SpaceAfter=No
+5	1	1	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+6	〜	〜	NOUN	NN	_	8	compound	_	SpaceAfter=No
+7	4	4	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	年	年	NOUN	XSC	_	9	advmod	_	SpaceAfter=No
 9	かかる	かかる	VERB	VV	_	11	advcl	_	SpaceAfter=No
 10	と	と	SCONJ	PC	_	9	mark	_	SpaceAfter=No
 11	さ	する	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -7440,10 +7432,10 @@
 # text = 昨日も仲間8人で楽しくおいしくいただきました。
 1	昨日	昨日	NOUN	NR	_	9	obl	_	SpaceAfter=No
 2	も	も	ADP	PK	_	1	case	_	SpaceAfter=No
-3	仲間	仲間	NOUN	NN	_	4	compound	_	SpaceAfter=No
-4	8	8	NUM	CD	NumType=Card	9	obl	_	SpaceAfter=No
-5	人	人	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	で	で	ADP	PS	_	4	case	_	SpaceAfter=No
+3	仲間	仲間	NOUN	NN	_	5	compound	_	SpaceAfter=No
+4	8	8	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	人	人	NOUN	XSC	_	9	obl	_	SpaceAfter=No
+6	で	で	ADP	PS	_	5	case	_	SpaceAfter=No
 7	楽しく	楽しい	ADJ	JJ	_	8	advcl	_	SpaceAfter=No
 8	おいしく	おいしい	ADJ	JJ	_	9	advcl	_	SpaceAfter=No
 9	いただき	いただく	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -7566,7 +7558,7 @@
 16	ルート	ルート	NOUN	NN	_	25	obl	_	SpaceAfter=No
 17	で	で	ADP	PS	_	16	case	_	SpaceAfter=No
 18	は	は	ADP	PK	_	16	case	_	SpaceAfter=No
-19	全	全	NOUN	XP	_	21	amod	_	SpaceAfter=No
+19	全	全	NOUN	XP	_	21	compound	_	SpaceAfter=No
 20	ヒロイン	ヒロイン	NOUN	NN	_	21	compound	_	SpaceAfter=No
 21	中	中	NOUN	XS	_	25	advmod	_	SpaceAfter=No
 22	、	、	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
@@ -7604,7 +7596,7 @@
 # text = 会社がお世話をしてくれなかったので自分で探したのですが、価格的にも割と負担のすくないこちらのマンスリーマンションを借りることになりました。
 1	会社	会社	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
 2	が	が	ADP	PS	_	1	case	_	SpaceAfter=No
-3	お	お	NOUN	XP	_	4	amod	_	SpaceAfter=No
+3	お	お	NOUN	XP	_	4	compound	_	SpaceAfter=No
 4	世話	世話	NOUN	NN	_	6	obj	_	SpaceAfter=No
 5	を	を	ADP	PS	_	4	case	_	SpaceAfter=No
 6	し	する	VERB	VV	_	14	advcl	_	SpaceAfter=No
@@ -7665,7 +7657,7 @@
 
 # sent_id = test-s327
 # text = 第1期終了後、素顔を晒して謎のレスラー「キャプテン・モロー」として過ごし、チャンピオンにまでなっていた。
-1	第	第	PART	XPC	_	4	amod	_	SpaceAfter=No
+1	第	第	PART	XPC	_	4	compound	_	SpaceAfter=No
 2	1	1	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
 3	期	期	NOUN	XSC	_	4	compound	_	SpaceAfter=No
 4	終了後	終了後	NOUN	NN	_	21	advmod	_	SpaceAfter=No
@@ -7718,9 +7710,9 @@
 18	を	を	ADP	PS	_	17	case	_	SpaceAfter=No
 19	伝え	伝える	VERB	VV	_	24	acl	_	SpaceAfter=No
 20	た	た	AUX	AV	_	19	aux	_	SpaceAfter=No
-21	亜	亜	NOUN	XP	_	24	amod	_	SpaceAfter=No
+21	亜	亜	NOUN	XP	_	24	compound	_	SpaceAfter=No
 22	使徒	使徒	NOUN	NN	_	24	compound	_	SpaceAfter=No
-23	聖	聖	NOUN	XP	_	24	amod	_	SpaceAfter=No
+23	聖	聖	NOUN	XP	_	24	compound	_	SpaceAfter=No
 24	ニコライ	ニコライ	PROPN	NNP	_	33	nsubj	_	SpaceAfter=No
 25	が	が	ADP	PS	_	24	case	_	SpaceAfter=No
 26	日本	日本	PROPN	NNP	_	28	compound	_	SpaceAfter=No
@@ -7833,7 +7825,7 @@
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
 3	原因	原因	NOUN	NN	_	11	nsubj	_	SpaceAfter=No
 4	が	が	ADP	PS	_	3	case	_	SpaceAfter=No
-5	新	新	NOUN	XP	_	7	amod	_	SpaceAfter=No
+5	新	新	NOUN	XP	_	7	compound	_	SpaceAfter=No
 6	健康	健康	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	協会	協会	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 8	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
@@ -7889,7 +7881,7 @@
 58	て	て	SCONJ	PC	_	56	mark	_	SpaceAfter=No
 59	しまっ	しまう	AUX	AV	_	56	aux	_	SpaceAfter=No
 60	た	た	AUX	AV	_	56	aux	_	SpaceAfter=No
-61	新	新	NOUN	XP	_	63	amod	_	SpaceAfter=No
+61	新	新	NOUN	XP	_	63	compound	_	SpaceAfter=No
 62	健康	健康	NOUN	NN	_	63	compound	_	SpaceAfter=No
 63	協会	協会	NOUN	NN	_	71	nsubj	_	SpaceAfter=No
 64	は	は	ADP	PK	_	63	case	_	SpaceAfter=No
@@ -7943,14 +7935,14 @@
 2	基本計画	基本計画	NOUN	NN	_	28	nsubj	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-5	昭和	昭和	PART	XPC	_	6	amod	_	SpaceAfter=No
-6	20	20	NUM	CD	NumType=Card	9	nmod	_	SpaceAfter=No
-7	年	年	NOUN	XSC	_	6	mark	_	SpaceAfter=No
-8	から	から	ADP	PS	_	6	case	_	SpaceAfter=No
-9	21	21	NUM	CD	NumType=Card	28	obl	_	SpaceAfter=No
-10	年	年	NOUN	XSC	_	9	mark	_	SpaceAfter=No
-11	にかけて	にかけて	ADP	PS	_	9	case	_	SpaceAfter=No
-12	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
+5	昭和	昭和	PART	XPC	_	7	compound	_	SpaceAfter=No
+6	20	20	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	年	年	NOUN	XSC	_	10	nmod	_	SpaceAfter=No
+8	から	から	ADP	PS	_	7	case	_	SpaceAfter=No
+9	21	21	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+10	年	年	NOUN	XSC	_	28	obl	_	SpaceAfter=No
+11	にかけて	にかけて	ADP	PS	_	10	case	_	SpaceAfter=No
+12	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
 13	市	市	NOUN	NN	_	16	nmod	_	SpaceAfter=No
 14	の	の	ADP	PN	_	13	case	_	SpaceAfter=No
 15	関係	関係	NOUN	NN	_	16	compound	_	SpaceAfter=No
@@ -8046,9 +8038,9 @@
 5	仕事	仕事	NOUN	NN	_	6	compound	_	SpaceAfter=No
 6	帰り	帰り	NOUN	NN	_	11	iobj	_	SpaceAfter=No
 7	に	に	ADP	PS	_	6	case	_	SpaceAfter=No
-8	一	一	NUM	CD	NumType=Card	11	obl	_	SpaceAfter=No
-9	人	人	NOUN	XSC	_	8	mark	_	SpaceAfter=No
-10	で	で	ADP	PS	_	8	case	_	SpaceAfter=No
+8	一	一	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	人	人	NOUN	XSC	_	11	obl	_	SpaceAfter=No
+10	で	で	ADP	PS	_	9	case	_	SpaceAfter=No
 11	ふらりと立ち寄り	ふらりと立ち寄る	VERB	VV	_	0	root	_	SpaceAfter=No
 12	まし	ます	AUX	AV	_	11	aux	_	SpaceAfter=No
 13	た	た	AUX	AV	_	11	aux	_	SpaceAfter=No
@@ -8058,7 +8050,7 @@
 # text = 最高裁の御威光によって,文科省の判断が“違法”認定。
 1	最高裁	最高裁	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	御	御	NOUN	XP	_	4	amod	_	SpaceAfter=No
+3	御	御	NOUN	XP	_	4	compound	_	SpaceAfter=No
 4	威光	威光	NOUN	NN	_	14	obl	_	SpaceAfter=No
 5	によって	によって	ADP	PS	_	4	case	_	SpaceAfter=No
 6	,	,	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
@@ -8074,12 +8066,12 @@
 
 # sent_id = test-s337
 # text = 2009年地方競馬通算900勝達成。
-1	2009	2009	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	5	compound	_	SpaceAfter=No
-3	地方競馬	地方競馬	NOUN	NN	_	5	compound	_	SpaceAfter=No
-4	通算	通算	NOUN	NN	_	5	compound	_	SpaceAfter=No
-5	900	900	NUM	CD	NumType=Card	7	advmod	_	SpaceAfter=No
-6	勝	勝	NOUN	XSC	_	5	mark	_	SpaceAfter=No
+1	2009	2009	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	6	compound	_	SpaceAfter=No
+3	地方競馬	地方競馬	NOUN	NN	_	6	compound	_	SpaceAfter=No
+4	通算	通算	NOUN	NN	_	6	compound	_	SpaceAfter=No
+5	900	900	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	勝	勝	NOUN	XSC	_	7	nmod	_	SpaceAfter=No
 7	達成	達成	NOUN	NN	_	0	root	_	SpaceAfter=No
 8	。	。	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 
@@ -8118,7 +8110,7 @@
 1	漫画	漫画	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	『	『	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 3	DEATHNOTE	DEATHNOTE	PROPN	NNP	_	6	nmod	_	SpaceAfter=No
-4	』	』	SYM	SYM	_	3	compound	_	SpaceAfter=No
+4	』	』	PUNCT	SYM	_	3	compound	_	SpaceAfter=No
 5	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
 6	パロディ	パロディ	NOUN	NN	_	0	root	_	SpaceAfter=No
 7	。	。	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
@@ -8160,7 +8152,7 @@
 5	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
 6	中国	中国	PROPN	NNP	_	10	nmod	_	SpaceAfter=No
 7	・	・	SYM	SYM	_	6	compound	_	SpaceAfter=No
-8	後	後	NOUN	XP	_	10	amod	_	SpaceAfter=No
+8	後	後	NOUN	XP	_	10	compound	_	SpaceAfter=No
 9	漢	漢	NOUN	NN	_	10	compound	_	SpaceAfter=No
 10	末期	末期	NOUN	NN	_	12	iobj	_	SpaceAfter=No
 11	に	に	ADP	PS	_	10	case	_	SpaceAfter=No
@@ -8323,8 +8315,8 @@
 11	ナノセイル	ナノセイル	PROPN	NNP	_	12	compound	_	SpaceAfter=No
 12	D	D	PROPN	NNP	_	22	nsubj	_	SpaceAfter=No
 13	は	は	ADP	PK	_	12	case	_	SpaceAfter=No
-14	2008	2008	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
-15	年	年	NOUN	XSC	_	14	mark	_	SpaceAfter=No
+14	2008	2008	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+15	年	年	NOUN	XSC	_	16	nmod	_	SpaceAfter=No
 16	8月	8月	NOUN	NR	_	22	iobj	_	SpaceAfter=No
 17	に	に	ADP	PS	_	16	case	_	SpaceAfter=No
 18	ファルコン	ファルコン	NOUN	NN	_	20	compound	_	SpaceAfter=No
@@ -8439,8 +8431,8 @@
 15	菊池	菊池	PROPN	NNP	_	16	compound	_	SpaceAfter=No
 16	氏	氏	NOUN	XS	_	20	nsubj	_	SpaceAfter=No
 17	が	が	ADP	PS	_	16	case	_	SpaceAfter=No
-18	数	数	NUM	CD	NumType=Card	20	advmod	_	SpaceAfter=No
-19	流	流	NOUN	XSC	_	18	mark	_	SpaceAfter=No
+18	数	数	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	流	流	NOUN	XSC	_	20	advmod	_	SpaceAfter=No
 20	見える	見える	VERB	VV	_	0	root	_	SpaceAfter=No
 21	。	。	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
 
@@ -8514,17 +8506,17 @@
 13	センター	センター	NOUN	NN	_	35	nsubj	_	SpaceAfter=No
 14	は	は	ADP	PK	_	13	case	_	SpaceAfter=No
 15	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
-16	2002	2002	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
-17	年	年	NOUN	XSC	_	16	mark	_	SpaceAfter=No
-18	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
+16	2002	2002	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+17	年	年	NOUN	XSC	_	19	nmod	_	SpaceAfter=No
+18	の	の	ADP	PN	_	17	case	_	SpaceAfter=No
 19	時点	時点	NOUN	NN	_	30	obl	_	SpaceAfter=No
 20	で	で	ADP	PS	_	19	case	_	SpaceAfter=No
-21	最大	最大	NOUN	NN	_	24	nmod	_	SpaceAfter=No
+21	最大	最大	NOUN	NN	_	25	nmod	_	SpaceAfter=No
 22	で	で	ADP	PS	_	21	case	_	SpaceAfter=No
-23	200	200	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
-24	万	万	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
-25	枚	枚	NOUN	XSC	_	24	mark	_	SpaceAfter=No
-26	の	の	ADP	PN	_	24	case	_	SpaceAfter=No
+23	200	200	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+24	万	万	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+25	枚	枚	NOUN	XSC	_	28	nmod	_	SpaceAfter=No
+26	の	の	ADP	PN	_	25	case	_	SpaceAfter=No
 27	偽造	偽造	NOUN	NN	_	28	compound	_	SpaceAfter=No
 28	硬貨	硬貨	NOUN	NN	_	30	nsubj	_	SpaceAfter=No
 29	が	が	ADP	PS	_	28	case	_	SpaceAfter=No
@@ -8541,7 +8533,7 @@
 
 # sent_id = test-s356
 # text = 新ルールを聞いて、各々に想いを語った。
-1	新	新	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	新	新	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	ルール	ルール	NOUN	NN	_	4	obj	_	SpaceAfter=No
 3	を	を	ADP	PS	_	2	case	_	SpaceAfter=No
 4	聞い	聞く	VERB	VV	_	11	advcl	_	SpaceAfter=No
@@ -8648,8 +8640,8 @@
 # text = 直純より一年早く務め始めている。
 1	直純	直純	PROPN	NNP	_	5	obl	_	SpaceAfter=No
 2	より	より	ADP	PS	_	1	case	_	SpaceAfter=No
-3	一	一	NUM	CD	NumType=Card	6	advmod	_	SpaceAfter=No
-4	年	年	NOUN	XSC	_	3	mark	_	SpaceAfter=No
+3	一	一	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	年	年	NOUN	XSC	_	5	advmod	_	SpaceAfter=No
 5	早く	早い	ADJ	JJ	_	6	advcl	_	SpaceAfter=No
 6	務め	務める	VERB	VV	_	0	root	_	SpaceAfter=No
 7	始め	始める	AUX	AV	_	6	aux	_	SpaceAfter=No
@@ -8666,13 +8658,13 @@
 5	『	『	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 6	仮面ライダー	仮面ライダー	PROPN	NNP	_	7	compound	_	SpaceAfter=No
 7	BLACK	BLACK	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
-8	』	』	SYM	SYM	_	7	compound	_	SpaceAfter=No
+8	』	』	PUNCT	SYM	_	7	compound	_	SpaceAfter=No
 9	や	や	ADP	PH	_	7	cc	_	SpaceAfter=No
 10	『	『	PUNCT	SYM	_	12	punct	_	SpaceAfter=No
 11	機動	機動	NOUN	NN	_	12	compound	_	SpaceAfter=No
 12	刑事	刑事	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 13	ジバン	ジバン	PROPN	NNP	_	16	nsubj	_	SpaceAfter=No
-14	』	』	SYM	SYM	_	13	compound	_	SpaceAfter=No
+14	』	』	PUNCT	SYM	_	13	compound	_	SpaceAfter=No
 15	が	が	ADP	PS	_	13	case	_	SpaceAfter=No
 16	好き	好き	ADJ	JN	_	0	root	_	SpaceAfter=No
 17	だっ	だ	AUX	XV	_	16	aux	_	SpaceAfter=No
@@ -8740,13 +8732,13 @@
 
 # sent_id = test-s364
 # text = コウスケたち三年二組の担任。
-1	コウスケ	コウスケ	PROPN	NNP	_	5	compound	_	SpaceAfter=No
-2	たち	たち	NOUN	XS	_	5	compound	_	SpaceAfter=No
-3	三	三	NOUN	NN	_	5	compound	_	SpaceAfter=No
-4	年	年	PART	XPC	_	5	amod	_	SpaceAfter=No
-5	二	二	NUM	CD	NumType=Card	8	advmod	_	SpaceAfter=No
-6	組	組	NOUN	XSC	_	5	mark	_	SpaceAfter=No
-7	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
+1	コウスケ	コウスケ	PROPN	NNP	_	4	compound	_	SpaceAfter=No
+2	たち	たち	NOUN	XS	_	4	compound	_	SpaceAfter=No
+3	三	三	NOUN	NN	_	4	compound	_	SpaceAfter=No
+4	年	年	NOUN	XSC	_	6	nmod	_	SpaceAfter=No
+5	二	二	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	組	組	NOUN	XSC	_	8	nmod	_	SpaceAfter=No
+7	の	の	ADP	PN	_	6	case	_	SpaceAfter=No
 8	担任	担任	NOUN	NN	_	0	root	_	SpaceAfter=No
 9	。	。	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 
@@ -8930,9 +8922,9 @@
 4	利用	利用	VERB	VV	_	17	advcl	_	SpaceAfter=No
 5	し	する	AUX	XV	_	4	aux	_	SpaceAfter=No
 6	て	て	SCONJ	PC	_	4	mark	_	SpaceAfter=No
-7	一	一	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
-8	台	台	NOUN	XSC	_	7	mark	_	SpaceAfter=No
-9	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
+7	一	一	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	台	台	NOUN	XSC	_	10	nmod	_	SpaceAfter=No
+9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
 10	コンピュータ	コンピュータ	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 11	の	の	ADP	PN	_	10	case	_	SpaceAfter=No
 12	処理	処理	NOUN	NN	_	13	compound	_	SpaceAfter=No
@@ -9216,9 +9208,9 @@
 # text = 戦後は1906年に装甲巡洋艦リューリク艦長に着任。
 1	戦後	戦後	NOUN	NN	_	11	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	1906	1906	NUM	CD	NumType=Card	11	iobj	_	SpaceAfter=No
-4	年	年	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
+3	1906	1906	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	年	年	NOUN	XSC	_	11	iobj	_	SpaceAfter=No
+5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
 6	装甲	装甲	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	巡洋艦	巡洋艦	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 8	リューリク	リューリク	PROPN	NNP	_	9	compound	_	SpaceAfter=No
@@ -9233,7 +9225,7 @@
 2	GK	GK	PROPN	NNP	_	6	nmod	_	SpaceAfter=No
 3	と	と	ADP	PS	_	2	case	_	SpaceAfter=No
 4	1	1	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
-5	対	対	PART	XPC	_	6	amod	_	SpaceAfter=No
+5	対	対	PART	XPC	_	6	compound	_	SpaceAfter=No
 6	1	1	NUM	CD	NumType=Card	8	iobj	_	SpaceAfter=No
 7	に	に	ADP	PS	_	6	case	_	SpaceAfter=No
 8	なっ	なる	VERB	VV	_	25	advcl	_	SpaceAfter=No
@@ -9404,8 +9396,8 @@
 38	コース	コース	NOUN	NN	_	39	obl	_	SpaceAfter=No
 39	あり	ある	VERB	VV	_	46	advcl	_	SpaceAfter=No
 40	、	、	PUNCT	SYM	_	39	punct	_	SpaceAfter=No
-41	一	一	NUM	CD	NumType=Card	44	nummod	_	SpaceAfter=No
-42	日	日	NOUN	XSC	_	41	mark	_	SpaceAfter=No
+41	一	一	NUM	CD	NumType=Card	42	nummod	_	SpaceAfter=No
+42	日	日	NOUN	XSC	_	44	nmod	_	SpaceAfter=No
 43	2	2	NUM	CD	NumType=Card	44	nummod	_	SpaceAfter=No
 44	コース	コース	NOUN	NN	_	46	obl	_	SpaceAfter=No
 45	ずつ	ずつ	ADP	PA	_	44	case	_	SpaceAfter=No
@@ -9430,7 +9422,7 @@
 14	一族	一族	NOUN	NN	_	16	nmod	_	SpaceAfter=No
 15	の	の	ADP	PN	_	14	case	_	SpaceAfter=No
 16	陰謀	陰謀	NOUN	NN	_	19	obl	_	SpaceAfter=No
-17	』	』	SYM	SYM	_	16	compound	_	SpaceAfter=No
+17	』	』	PUNCT	SYM	_	16	compound	_	SpaceAfter=No
 18	にて	にて	ADP	PS	_	16	case	_	SpaceAfter=No
 19	流用	流用	VERB	VV	_	0	root	_	SpaceAfter=No
 20	さ	する	AUX	XV	_	19	aux	_	SpaceAfter=No
@@ -9458,12 +9450,12 @@
 17	清水	清水	PROPN	NNP	_	18	compound	_	SpaceAfter=No
 18	茂次	茂次	PROPN	NNP	_	26	nsubj	_	SpaceAfter=No
 19	が	が	ADP	PS	_	18	case	_	SpaceAfter=No
-20	20	20	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
-21	戦	戦	NOUN	XSC	_	23	compound	_	SpaceAfter=No
-22	中	中	NOUN	XS	_	23	compound	_	SpaceAfter=No
-23	19	19	NUM	CD	NumType=Card	26	iobj	_	SpaceAfter=No
-24	戦	戦	NOUN	XSC	_	23	mark	_	SpaceAfter=No
-25	に	に	ADP	PS	_	23	case	_	SpaceAfter=No
+20	20	20	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+21	戦	戦	NOUN	XSC	_	24	compound	_	SpaceAfter=No
+22	中	中	NOUN	XS	_	24	compound	_	SpaceAfter=No
+23	19	19	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+24	戦	戦	NOUN	XSC	_	26	iobj	_	SpaceAfter=No
+25	に	に	ADP	PS	_	24	case	_	SpaceAfter=No
 26	騎乗	騎乗	VERB	VV	_	0	root	_	SpaceAfter=No
 27	し	する	AUX	XV	_	26	aux	_	SpaceAfter=No
 28	て	て	SCONJ	PC	_	26	mark	_	SpaceAfter=No
@@ -9599,10 +9591,10 @@
 
 # sent_id = test-s395
 # text = 翌12日より五島産業汽船が同航路の運航を開始したが、2006年4月をもって廃止。
-1	翌	翌	PART	XPC	_	2	amod	_	SpaceAfter=No
-2	12	12	NUM	CD	NumType=Card	14	obl	_	SpaceAfter=No
-3	日	日	NOUN	XSC	_	2	mark	_	SpaceAfter=No
-4	より	より	ADP	PS	_	2	case	_	SpaceAfter=No
+1	翌	翌	PART	XPC	_	3	compound	_	SpaceAfter=No
+2	12	12	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+3	日	日	NOUN	XSC	_	14	obl	_	SpaceAfter=No
+4	より	より	ADP	PS	_	3	case	_	SpaceAfter=No
 5	五島	五島	PROPN	NNP	_	7	compound	_	SpaceAfter=No
 6	産業	産業	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	汽船	汽船	NOUN	NN	_	14	nsubj	_	SpaceAfter=No
@@ -9617,8 +9609,8 @@
 16	た	た	AUX	AV	_	14	aux	_	SpaceAfter=No
 17	が	が	SCONJ	PC	_	14	mark	_	SpaceAfter=No
 18	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
-19	2006	2006	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
-20	年	年	NOUN	XSC	_	19	mark	_	SpaceAfter=No
+19	2006	2006	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+20	年	年	NOUN	XSC	_	21	nmod	_	SpaceAfter=No
 21	4月	4月	NOUN	NR	_	23	obj	_	SpaceAfter=No
 22	を	を	ADP	PS	_	21	case	_	SpaceAfter=No
 23	もっ	もつ	VERB	VV	_	25	advcl	_	SpaceAfter=No
@@ -9822,15 +9814,15 @@
 7	と	と	ADP	PS	_	6	case	_	SpaceAfter=No
 8	なり	なる	VERB	VV	_	19	advcl	_	SpaceAfter=No
 9	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
-10	3	3	NUM	CD	NumType=Card	19	nsubj	_	SpaceAfter=No
-11	人	人	NOUN	XSC	_	10	mark	_	SpaceAfter=No
-12	は	は	ADP	PK	_	10	case	_	SpaceAfter=No
+10	3	3	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+11	人	人	NOUN	XSC	_	19	nsubj	_	SpaceAfter=No
+12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
 13	来場者	来場者	NOUN	NN	_	15	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
 15	向け	向ける	VERB	VV	_	19	advcl	_	SpaceAfter=No
-16	1	1	NUM	CD	NumType=Card	19	advmod	_	SpaceAfter=No
-17	人	人	NOUN	XSC	_	16	mark	_	SpaceAfter=No
-18	ずつ	ずつ	ADP	PA	_	16	case	_	SpaceAfter=No
+16	1	1	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+17	人	人	NOUN	XSC	_	19	advmod	_	SpaceAfter=No
+18	ずつ	ずつ	ADP	PA	_	17	case	_	SpaceAfter=No
 19	コメント	コメント	NOUN	NN	_	0	root	_	SpaceAfter=No
 20	。	。	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
 
@@ -9895,13 +9887,13 @@
 4	で	で	ADP	PS	_	3	case	_	SpaceAfter=No
 5	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 6	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
-7	20	20	NUM	CD	NumType=Card	10	nmod	_	SpaceAfter=No
-8	代	代	NOUN	XSC	_	7	mark	_	SpaceAfter=No
-9	から	から	ADP	PS	_	7	case	_	SpaceAfter=No
-10	30	30	NUM	CD	NumType=Card	14	nmod	_	SpaceAfter=No
-11	代	代	NOUN	XSC	_	10	mark	_	SpaceAfter=No
-12	まで	まで	ADP	PA	_	10	case	_	SpaceAfter=No
-13	の	の	ADP	PN	_	10	case	_	SpaceAfter=No
+7	20	20	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	代	代	NOUN	XSC	_	11	nmod	_	SpaceAfter=No
+9	から	から	ADP	PS	_	8	case	_	SpaceAfter=No
+10	30	30	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+11	代	代	NOUN	XSC	_	14	nmod	_	SpaceAfter=No
+12	まで	まで	ADP	PA	_	11	case	_	SpaceAfter=No
+13	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
 14	票	票	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
 15	が	が	ADP	PS	_	14	case	_	SpaceAfter=No
 16	いろんな	いろんな	ADJ	JR	_	17	amod	_	SpaceAfter=No
@@ -9912,13 +9904,13 @@
 21	の	の	SCONJ	PNB	_	19	mark	_	SpaceAfter=No
 22	に対し	に対し	ADP	PS	_	19	case	_	SpaceAfter=No
 23	、	、	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
-24	40	40	NUM	CD	NumType=Card	27	nmod	_	SpaceAfter=No
-25	代	代	NOUN	XSC	_	24	mark	_	SpaceAfter=No
-26	から	から	ADP	PS	_	24	case	_	SpaceAfter=No
-27	60	60	NUM	CD	NumType=Card	31	nmod	_	SpaceAfter=No
-28	代	代	NOUN	XSC	_	27	mark	_	SpaceAfter=No
-29	まで	まで	ADP	PA	_	27	case	_	SpaceAfter=No
-30	の	の	ADP	PN	_	27	case	_	SpaceAfter=No
+24	40	40	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+25	代	代	NOUN	XSC	_	28	nmod	_	SpaceAfter=No
+26	から	から	ADP	PS	_	25	case	_	SpaceAfter=No
+27	60	60	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+28	代	代	NOUN	XSC	_	31	nmod	_	SpaceAfter=No
+29	まで	まで	ADP	PA	_	28	case	_	SpaceAfter=No
+30	の	の	ADP	PN	_	28	case	_	SpaceAfter=No
 31	票	票	NOUN	NN	_	38	nsubj	_	SpaceAfter=No
 32	が	が	ADP	PS	_	31	case	_	SpaceAfter=No
 33	、	、	PUNCT	SYM	_	31	punct	_	SpaceAfter=No
@@ -9954,9 +9946,9 @@
 2	直人	直人	PROPN	NNP	_	3	compound	_	SpaceAfter=No
 3	首相	首相	NOUN	NN	_	52	nsubj	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
-5	28	28	NUM	CD	NumType=Card	52	advmod	_	SpaceAfter=No
-6	日	日	NOUN	XSC	_	5	mark	_	SpaceAfter=No
-7	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
+5	28	28	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	日	日	NOUN	XSC	_	52	obl	_	SpaceAfter=No
+7	、	、	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
 8	円高	円高	NOUN	NN	_	10	obl	_	SpaceAfter=No
 9	で	で	ADP	PS	_	8	case	_	SpaceAfter=No
 10	加速	加速	VERB	VV	_	14	acl	_	SpaceAfter=No
@@ -10091,8 +10083,8 @@
 
 # sent_id = test-s411
 # text = 2011年8月に行われた韓国プロ野球ドラフト会議にて、LGツインズより8位指名を受けたが、宋は日本のドラフト会議でも指名の対象になっており、日本でのプレーを希望していることからLGの指名を拒否。
-1	2011	2011	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
+1	2011	2011	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	3	nmod	_	SpaceAfter=No
 3	8月	8月	NOUN	NR	_	5	iobj	_	SpaceAfter=No
 4	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
 5	行わ	行う	VERB	VV	_	10	acl	_	SpaceAfter=No
@@ -10155,7 +10147,7 @@
 4	で	で	ADP	PS	_	3	case	_	SpaceAfter=No
 5	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 6	初めて	初めて	ADV	RB	_	20	advmod	_	SpaceAfter=No
-7	他	他	NOUN	XP	_	9	amod	_	SpaceAfter=No
+7	他	他	NOUN	XP	_	9	compound	_	SpaceAfter=No
 8	事業者	事業者	NOUN	NN	_	9	compound	_	SpaceAfter=No
 9	路線	路線	NOUN	NN	_	12	nmod	_	SpaceAfter=No
 10	へ	へ	ADP	PS	_	9	case	_	SpaceAfter=No
@@ -10271,7 +10263,7 @@
 
 # sent_id = test-s417
 # text = お料理が気にここにしたのです。
-1	お	お	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	お	お	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	料理	料理	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 3	が	が	ADP	PS	_	2	case	_	SpaceAfter=No
 4	気	気	NOUN	NN	_	6	nmod	_	SpaceAfter=No
@@ -10363,9 +10355,9 @@
 15	フレティリン	フレティリン	PROPN	NNP	_	23	nsubj	_	SpaceAfter=No
 16	は	は	ADP	PK	_	15	case	_	SpaceAfter=No
 17	、	、	PUNCT	SYM	_	15	punct	_	SpaceAfter=No
-18	何	何	NUM	CD	NumType=Card	23	advmod	_	SpaceAfter=No
-19	週間	週間	NOUN	XSC	_	18	mark	_	SpaceAfter=No
-20	も	も	ADP	PK	_	18	case	_	SpaceAfter=No
+18	何	何	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	週間	週間	NOUN	XSC	_	23	obl	_	SpaceAfter=No
+20	も	も	ADP	PK	_	19	case	_	SpaceAfter=No
 21	論争	論争	NOUN	NN	_	23	obj	_	SpaceAfter=No
 22	を	を	ADP	PS	_	21	case	_	SpaceAfter=No
 23	繰り返し	繰り返す	VERB	VV	_	29	advcl	_	SpaceAfter=No
@@ -10381,12 +10373,12 @@
 
 # sent_id = test-s423
 # text = 1635年か36年にアントワープの画家組合に加入。
-1	1635	1635	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	か	か	PART	PF	_	1	mark	_	SpaceAfter=No
-4	36	36	NUM	CD	NumType=Card	12	iobj	_	SpaceAfter=No
-5	年	年	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
+1	1635	1635	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	5	nmod	_	SpaceAfter=No
+3	か	か	PART	PF	_	2	mark	_	SpaceAfter=No
+4	36	36	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	年	年	NOUN	XSC	_	12	iobj	_	SpaceAfter=No
+6	に	に	ADP	PS	_	5	case	_	SpaceAfter=No
 7	アントワープ	アントワープ	PROPN	NNP	_	10	nmod	_	SpaceAfter=No
 8	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
 9	画家	画家	NOUN	NN	_	10	compound	_	SpaceAfter=No
@@ -10397,15 +10389,15 @@
 
 # sent_id = test-s424
 # text = 2004年の推計では100,771人に減少している。
-1	2004	2004	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
+1	2004	2004	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	4	nmod	_	SpaceAfter=No
+3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	推計	推計	NOUN	NN	_	10	obl	_	SpaceAfter=No
 5	で	で	ADP	PS	_	4	case	_	SpaceAfter=No
 6	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
-7	100,771	100,771	NUM	CD	NumType=Card	10	iobj	_	SpaceAfter=No
-8	人	人	NOUN	XSC	_	7	mark	_	SpaceAfter=No
-9	に	に	ADP	PS	_	7	case	_	SpaceAfter=No
+7	100,771	100,771	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	人	人	NOUN	XSC	_	10	iobj	_	SpaceAfter=No
+9	に	に	ADP	PS	_	8	case	_	SpaceAfter=No
 10	減少	減少	VERB	VV	_	0	root	_	SpaceAfter=No
 11	し	する	AUX	XV	_	10	aux	_	SpaceAfter=No
 12	て	て	SCONJ	PC	_	10	mark	_	SpaceAfter=No
@@ -10414,8 +10406,8 @@
 
 # sent_id = test-s425
 # text = 2007年3月にFIFA女子ワールドカップの出場権をかけた大陸間プレーオフで2003年と同様にメキシコとホーム・アンド・アウェーで対戦。
-1	2007	2007	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
+1	2007	2007	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	3	nmod	_	SpaceAfter=No
 3	3月	3月	NOUN	NR	_	12	iobj	_	SpaceAfter=No
 4	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
 5	FIFA	FIFA	PROPN	NNP	_	7	compound	_	SpaceAfter=No
@@ -10431,9 +10423,9 @@
 15	間	間	NOUN	XS	_	16	compound	_	SpaceAfter=No
 16	プレーオフ	プレーオフ	NOUN	NN	_	31	obl	_	SpaceAfter=No
 17	で	で	ADP	PS	_	16	case	_	SpaceAfter=No
-18	2003	2003	NUM	CD	NumType=Card	21	obl	_	SpaceAfter=No
-19	年	年	NOUN	XSC	_	18	mark	_	SpaceAfter=No
-20	と	と	ADP	PS	_	18	case	_	SpaceAfter=No
+18	2003	2003	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	年	年	NOUN	XSC	_	21	obl	_	SpaceAfter=No
+20	と	と	ADP	PS	_	19	case	_	SpaceAfter=No
 21	同様	同様	ADJ	JN	_	31	advcl	_	SpaceAfter=No
 22	に	だ	AUX	XV	_	21	aux	_	SpaceAfter=No
 23	メキシコ	メキシコ	PROPN	NNP	_	31	obl	_	SpaceAfter=No
@@ -10573,10 +10565,10 @@
 12	通用	通用	NOUN	NN	_	13	compound	_	SpaceAfter=No
 13	門前	門前	NOUN	NN	_	21	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
-15	30	30	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
-16	名	名	NOUN	XSC	_	15	mark	_	SpaceAfter=No
-17	程	ほど	ADP	PA	_	15	case	_	SpaceAfter=No
-18	の	の	ADP	PN	_	15	case	_	SpaceAfter=No
+15	30	30	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+16	名	名	NOUN	XSC	_	19	nmod	_	SpaceAfter=No
+17	程	ほど	ADP	PA	_	16	case	_	SpaceAfter=No
+18	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
 19	信者	信者	NOUN	NN	_	21	nsubj	_	SpaceAfter=No
 20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
 21	並び	並ぶ	VERB	VV	_	38	advcl	_	SpaceAfter=No
@@ -10591,9 +10583,9 @@
 30	の	の	ADP	PN	_	29	case	_	SpaceAfter=No
 31	号令	号令	NOUN	NN	_	41	obl	_	SpaceAfter=No
 32	で	で	ADP	PS	_	31	case	_	SpaceAfter=No
-33	一	一	NUM	CD	NumType=Card	41	advmod	_	SpaceAfter=No
-34	人	人	NOUN	XSC	_	33	mark	_	SpaceAfter=No
-35	ずつ	ずつ	ADP	PA	_	33	case	_	SpaceAfter=No
+33	一	一	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
+34	人	人	NOUN	XSC	_	38	advmod	_	SpaceAfter=No
+35	ずつ	ずつ	ADP	PA	_	34	case	_	SpaceAfter=No
 36	ビル	ビル	NOUN	NN	_	38	nmod	_	SpaceAfter=No
 37	に	に	ADP	PS	_	36	case	_	SpaceAfter=No
 38	向かい	向かい	NOUN	NN	_	39	compound	_	SpaceAfter=No
@@ -10628,7 +10620,7 @@
 3	横滑り	横滑り	NOUN	NN	_	4	compound	_	SpaceAfter=No
 4	側	側	NOUN	XS	_	7	nmod	_	SpaceAfter=No
 5	の	の	ADP	PN	_	4	case	_	SpaceAfter=No
-6	片	片	NOUN	XP	_	7	amod	_	SpaceAfter=No
+6	片	片	NOUN	XP	_	7	compound	_	SpaceAfter=No
 7	翼	翼	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 8	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
 9	揚力	揚力	NOUN	NN	_	14	nsubj	_	SpaceAfter=No
@@ -10669,11 +10661,11 @@
 1	艦	艦	NOUN	NN	_	2	compound	_	SpaceAfter=No
 2	名	名	NOUN	XS	_	11	nsubj	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
-4	エイ	エイ	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+4	エイ	エイ	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 5	の	の	ADP	PN	_	4	case	_	SpaceAfter=No
-6	一	一	NUM	CD	NumType=Card	9	acl	_	SpaceAfter=No
-7	種	種	NOUN	XSC	_	6	mark	_	SpaceAfter=No
-8	である	だ	AUX	AV	_	6	cop	_	SpaceAfter=No
+6	一	一	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	種	種	NOUN	XSC	_	9	acl	_	SpaceAfter=No
+8	である	だ	AUX	AV	_	7	cop	_	SpaceAfter=No
 9	スケート	スケート	NOUN	NN	_	11	iobj	_	SpaceAfter=No
 10	に	に	ADP	PS	_	9	case	_	SpaceAfter=No
 11	因む	因む	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -10724,7 +10716,7 @@
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
 5	後	後	NOUN	NR	_	9	nmod	_	SpaceAfter=No
 6	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
-7	大	大	NOUN	XP	_	9	amod	_	SpaceAfter=No
+7	大	大	NOUN	XP	_	9	compound	_	SpaceAfter=No
 8	洪水	洪水	NOUN	NN	_	9	compound	_	SpaceAfter=No
 9	時代	時代	NOUN	NN	_	12	obl	_	SpaceAfter=No
 10	において	において	ADP	PP	_	9	case	_	SpaceAfter=No
@@ -10757,9 +10749,9 @@
 1	ペリュー	ペリュー	PROPN	NNP	_	9	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
-4	1804	1804	NUM	CD	NumType=Card	9	iobj	_	SpaceAfter=No
-5	年	年	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
+4	1804	1804	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	年	年	NOUN	XSC	_	9	iobj	_	SpaceAfter=No
+6	に	に	ADP	PS	_	5	case	_	SpaceAfter=No
 7	少将	少将	NOUN	NN	_	9	iobj	_	SpaceAfter=No
 8	に	に	ADP	PS	_	7	case	_	SpaceAfter=No
 9	昇進	昇進	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -10877,9 +10869,9 @@
 
 # sent_id = test-s443
 # text = 13歳の頃から数々の舞台に出演しており、アル・パチーノとの共演歴もある。
-1	13	13	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
-2	歳	歳	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
+1	13	13	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	歳	歳	NOUN	XSC	_	4	nmod	_	SpaceAfter=No
+3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	頃	頃	NOUN	NB	_	10	obl	_	SpaceAfter=No
 5	から	から	ADP	PS	_	4	case	_	SpaceAfter=No
 6	数々	数々	NOUN	NR	_	8	nmod	_	SpaceAfter=No
@@ -10912,9 +10904,9 @@
 8	「	「	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 9	審議	審議	NOUN	NN	_	14	iobj	_	SpaceAfter=No
 10	に	に	ADP	PS	_	9	case	_	SpaceAfter=No
-11	100	100	NUM	CD	NumType=Card	14	nsubj	_	SpaceAfter=No
-12	時間	時間	NOUN	XSC	_	11	mark	_	SpaceAfter=No
-13	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
+11	100	100	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+12	時間	時間	NOUN	XSC	_	14	nsubj	_	SpaceAfter=No
+13	は	は	ADP	PK	_	12	case	_	SpaceAfter=No
 14	必要	必要	ADJ	JN	_	18	advcl	_	SpaceAfter=No
 15	だ	だ	AUX	XV	_	14	aux	_	SpaceAfter=No
 16	」	」	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
@@ -10936,7 +10928,7 @@
 32	こと	こと	NOUN	NB	_	30	aux	_	SpaceAfter=No
 33	から	から	ADP	PS	_	30	case	_	SpaceAfter=No
 34	、	、	PUNCT	SYM	_	30	punct	_	SpaceAfter=No
-35	第	第	PART	XPC	_	38	amod	_	SpaceAfter=No
+35	第	第	PART	XPC	_	38	compound	_	SpaceAfter=No
 36	171	171	NUM	CD	NumType=Card	38	nummod	_	SpaceAfter=No
 37	回	回	NOUN	XSC	_	38	compound	_	SpaceAfter=No
 38	国会	国会	NOUN	NN	_	45	nmod	_	SpaceAfter=No
@@ -10981,9 +10973,9 @@
 
 # sent_id = test-s447
 # text = 1883年に家族に連れられてドイツに移住。
-1	1883	1883	NUM	CD	NumType=Card	6	iobj	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
+1	1883	1883	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	6	iobj	_	SpaceAfter=No
+3	に	に	ADP	PS	_	2	case	_	SpaceAfter=No
 4	家族	家族	NOUN	NN	_	6	iobj	_	SpaceAfter=No
 5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
 6	連れ	連れる	VERB	VV	_	11	advcl	_	SpaceAfter=No
@@ -11022,19 +11014,19 @@
 16	、	、	PUNCT	SYM	_	15	punct	_	SpaceAfter=No
 17	売上	売上	NOUN	NN	_	19	compound	_	SpaceAfter=No
 18	枚数	枚数	NOUN	NN	_	19	compound	_	SpaceAfter=No
-19	30	30	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
-20	万	万	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
-21	枚	枚	NOUN	XSC	_	20	mark	_	SpaceAfter=No
-22	、	、	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
+19	30	30	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+20	万	万	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+21	枚	枚	NOUN	XSC	_	27	nmod	_	SpaceAfter=No
+22	、	、	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
 23	ダウンロード	ダウンロード	NOUN	NN	_	25	compound	_	SpaceAfter=No
 24	件数	件数	NOUN	NN	_	25	compound	_	SpaceAfter=No
-25	400	400	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
-26	万	万	NUM	CD	NumType=Card	29	obl	_	SpaceAfter=No
-27	件	件	NOUN	XSC	_	26	mark	_	SpaceAfter=No
-28	と	と	ADP	PS	_	26	case	_	SpaceAfter=No
+25	400	400	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+26	万	万	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+27	件	件	NOUN	XSC	_	29	obl	_	SpaceAfter=No
+28	と	と	ADP	PS	_	27	case	_	SpaceAfter=No
 29	なり	なる	VERB	VV	_	40	advcl	_	SpaceAfter=No
 30	、	、	PUNCT	SYM	_	29	punct	_	SpaceAfter=No
-31	同	同	NOUN	XP	_	32	amod	_	SpaceAfter=No
+31	同	同	NOUN	XP	_	32	compound	_	SpaceAfter=No
 32	曲	曲	NOUN	XS	_	40	obl	_	SpaceAfter=No
 33	で	で	ADP	PS	_	32	case	_	SpaceAfter=No
 34	初	初	ADJ	JN	_	38	acl	_	SpaceAfter=No
@@ -11081,20 +11073,20 @@
 # text = バスは園児19人と運転手、幼稚園の職員の計21人が乗車し、幼稚園に向かう途中だった。
 1	バス	バス	NOUN	NN	_	23	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	園児	園児	NOUN	NN	_	4	compound	_	SpaceAfter=No
-4	19	19	NUM	CD	NumType=Card	7	nmod	_	SpaceAfter=No
-5	人	人	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	と	と	ADP	PS	_	4	case	_	SpaceAfter=No
+3	園児	園児	NOUN	NN	_	5	compound	_	SpaceAfter=No
+4	19	19	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	人	人	NOUN	XSC	_	7	nmod	_	SpaceAfter=No
+6	と	と	ADP	PS	_	5	case	_	SpaceAfter=No
 7	運転手	運転手	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 8	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 9	幼稚園	幼稚園	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 10	の	の	ADP	PN	_	9	case	_	SpaceAfter=No
-11	職員	職員	NOUN	NN	_	14	nmod	_	SpaceAfter=No
+11	職員	職員	NOUN	NN	_	15	nmod	_	SpaceAfter=No
 12	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
-13	計	計	PART	XPC	_	14	amod	_	SpaceAfter=No
-14	21	21	NUM	CD	NumType=Card	17	nsubj	_	SpaceAfter=No
-15	人	人	NOUN	XSC	_	14	mark	_	SpaceAfter=No
-16	が	が	ADP	PS	_	14	case	_	SpaceAfter=No
+13	計	計	PART	XPC	_	15	compound	_	SpaceAfter=No
+14	21	21	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+15	人	人	NOUN	XSC	_	17	nsubj	_	SpaceAfter=No
+16	が	が	ADP	PS	_	15	case	_	SpaceAfter=No
 17	乗車	乗車	VERB	VV	_	22	advcl	_	SpaceAfter=No
 18	し	する	AUX	XV	_	17	aux	_	SpaceAfter=No
 19	、	、	PUNCT	SYM	_	17	punct	_	SpaceAfter=No
@@ -11138,8 +11130,8 @@
 
 # sent_id = test-s456
 # text = 14日未明、ジャーヴィスはスペイン艦隊が風上35マイルにあることを知った。
-1	14	14	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
-2	日	日	NOUN	XSC	_	1	mark	_	SpaceAfter=No
+1	14	14	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	日	日	NOUN	XSC	_	3	nmod	_	SpaceAfter=No
 3	未明	未明	NOUN	NR	_	17	obl	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 5	ジャーヴィス	ジャーヴィス	PROPN	NNP	_	17	nsubj	_	SpaceAfter=No
@@ -11147,10 +11139,10 @@
 7	スペイン	スペイン	PROPN	NNP	_	8	compound	_	SpaceAfter=No
 8	艦隊	艦隊	NOUN	NN	_	14	nsubj	_	SpaceAfter=No
 9	が	が	ADP	PS	_	8	case	_	SpaceAfter=No
-10	風上	風上	NOUN	NN	_	11	compound	_	SpaceAfter=No
-11	35	35	NUM	CD	NumType=Card	14	iobj	_	SpaceAfter=No
-12	マイル	マイル	NOUN	XSC	_	11	mark	_	SpaceAfter=No
-13	に	に	ADP	PS	_	11	case	_	SpaceAfter=No
+10	風上	風上	NOUN	NN	_	12	compound	_	SpaceAfter=No
+11	35	35	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+12	マイル	マイル	NOUN	XSC	_	14	iobj	_	SpaceAfter=No
+13	に	に	ADP	PS	_	12	case	_	SpaceAfter=No
 14	ある	ある	VERB	VV	_	17	advcl	_	SpaceAfter=No
 15	こと	こと	NOUN	NB	_	14	aux	_	SpaceAfter=No
 16	を	を	ADP	PS	_	14	case	_	SpaceAfter=No
@@ -11228,7 +11220,7 @@
 18	・	・	SYM	SYM	_	17	compound	_	SpaceAfter=No
 19	トランメル	トランメル	PROPN	NNP	_	22	nsubj	_	SpaceAfter=No
 20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
-21	初	初	NOUN	XP	_	22	amod	_	SpaceAfter=No
+21	初	初	NOUN	XP	_	22	compound	_	SpaceAfter=No
 22	選出	選出	NOUN	NN	_	0	root	_	SpaceAfter=No
 23	。	。	PUNCT	SYM	_	22	punct	_	SpaceAfter=No
 
@@ -11250,7 +11242,7 @@
 14	の	の	ADP	PM	_	13	case	_	SpaceAfter=No
 15	場合	場合	NOUN	NB	_	21	obl	_	SpaceAfter=No
 16	あまり	あまり	ADV	RB	_	21	advmod	_	SpaceAfter=No
-17	高	高	NOUN	XP	_	18	amod	_	SpaceAfter=No
+17	高	高	NOUN	XP	_	18	compound	_	SpaceAfter=No
 18	濃度	濃度	NOUN	NN	_	21	obl	_	SpaceAfter=No
 19	で	で	ADP	PS	_	18	case	_	SpaceAfter=No
 20	は	は	ADP	PK	_	18	case	_	SpaceAfter=No
@@ -11370,8 +11362,8 @@
 30	「	「	PUNCT	SYM	_	32	punct	_	SpaceAfter=No
 31	有史	有史	NOUN	NN	_	32	compound	_	SpaceAfter=No
 32	以来	以来	NOUN	NR	_	35	obl	_	SpaceAfter=No
-33	一	一	NUM	CD	NumType=Card	35	advmod	_	SpaceAfter=No
-34	枚	枚	NOUN	XSC	_	33	mark	_	SpaceAfter=No
+33	一	一	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
+34	枚	枚	NOUN	XSC	_	35	advmod	_	SpaceAfter=No
 35	見下げる	見下げる	VERB	VV	_	39	acl	_	SpaceAfter=No
 36	べき	べし	AUX	AV	_	35	aux	_	SpaceAfter=No
 37	文化的	文化的	ADJ	JN	_	39	amod	_	SpaceAfter=No
@@ -11461,9 +11453,9 @@
 # text = 同校は1923年に創立された、ヒューストンでは最も長い歴史を誇る法学校で、模擬裁判プログラムがつとに良く知られている。
 1	同校	同校	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	1923	1923	NUM	CD	NumType=Card	6	iobj	_	SpaceAfter=No
-4	年	年	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
+3	1923	1923	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	年	年	NOUN	XSC	_	6	iobj	_	SpaceAfter=No
+5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
 6	創立	創立	VERB	VV	_	20	acl	_	SpaceAfter=No
 7	さ	する	AUX	XV	_	6	aux	_	SpaceAfter=No
 8	れ	れる	AUX	AV	_	6	aux	_	SpaceAfter=No
@@ -11507,12 +11499,12 @@
 10	強力	強力	ADJ	JN	_	11	amod	_	SpaceAfter=No
 11	形	形	NOUN	XS	_	13	iobj	_	SpaceAfter=No
 12	に	に	ADP	PS	_	11	case	_	SpaceAfter=No
-13	交換	交換	VERB	VV	_	16	acl	_	SpaceAfter=No
+13	交換	交換	VERB	VV	_	17	acl	_	SpaceAfter=No
 14	し	する	AUX	XV	_	13	aux	_	SpaceAfter=No
 15	た	た	AUX	AV	_	13	aux	_	SpaceAfter=No
-16	7	7	NUM	CD	NumType=Card	25	nsubj	_	SpaceAfter=No
-17	両	両	NOUN	XSC	_	16	mark	_	SpaceAfter=No
-18	が	が	ADP	PS	_	16	case	_	SpaceAfter=No
+16	7	7	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+17	両	両	NOUN	XSC	_	25	nsubj	_	SpaceAfter=No
+18	が	が	ADP	PS	_	17	case	_	SpaceAfter=No
 19	新形式	新形式	NOUN	NN	_	23	nmod	_	SpaceAfter=No
 20	の	の	ADP	PN	_	19	case	_	SpaceAfter=No
 21	モハ	モハ	PROPN	NNP	_	23	compound	_	SpaceAfter=No
@@ -11607,10 +11599,10 @@
 
 # sent_id = test-s468
 # text = 12月 2日の午後、ドイツ空軍パイロット、ヴェルナー・ハーンはMe 210でバーリを上空から偵察した。
-1	12月	12月	NOUN	NR	_	2	nmod	_	_
-2	2	2	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
-3	日	日	NOUN	XSC	_	2	mark	_	SpaceAfter=No
-4	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
+1	12月	12月	NOUN	NR	_	3	nmod	_	_
+2	2	2	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+3	日	日	NOUN	XSC	_	5	nmod	_	SpaceAfter=No
+4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
 5	午後	午後	NOUN	NR	_	22	obl	_	SpaceAfter=No
 6	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 7	ドイツ	ドイツ	PROPN	NNP	_	9	compound	_	SpaceAfter=No
@@ -11666,7 +11658,7 @@
 3	科学	科学	NOUN	NN	_	4	compound	_	SpaceAfter=No
 4	学園	学園	NOUN	NN	_	11	obl	_	SpaceAfter=No
 5	の	の	ADP	PN	_	4	case	_	SpaceAfter=No
-6	毎時	毎時	PART	XPC	_	7	amod	_	SpaceAfter=No
+6	毎時	毎時	PART	XPC	_	7	compound	_	SpaceAfter=No
 7	4.20	4.20	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
 8	マイクロ	マイクロ	NOUN	NN	_	9	compound	_	SpaceAfter=No
 9	シーベルト	シーベルト	PROPN	NNP	_	11	obl	_	SpaceAfter=No
@@ -11684,7 +11676,7 @@
 2	拘束	拘束	VERB	VV	_	11	advcl	_	SpaceAfter=No
 3	さ	する	AUX	XV	_	2	aux	_	SpaceAfter=No
 4	れ	れる	AUX	AV	_	2	aux	_	SpaceAfter=No
-5	半	半	NOUN	XP	_	7	amod	_	SpaceAfter=No
+5	半	半	NOUN	XP	_	7	compound	_	SpaceAfter=No
 6	軟禁	軟禁	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	状態	状態	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 8	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
@@ -11802,17 +11794,17 @@
 
 # sent_id = test-s476
 # text = 13世紀の建築は1456年から1466年にかけて新しいサンクチュアリに合うように改築された。
-1	13	13	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
-2	世紀	世紀	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
+1	13	13	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	世紀	世紀	NOUN	XSC	_	4	nmod	_	SpaceAfter=No
+3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	建築	建築	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
-6	1456	1456	NUM	CD	NumType=Card	9	nmod	_	SpaceAfter=No
-7	年	年	NOUN	XSC	_	6	mark	_	SpaceAfter=No
-8	から	から	ADP	PS	_	6	case	_	SpaceAfter=No
-9	1466	1466	NUM	CD	NumType=Card	17	obl	_	SpaceAfter=No
-10	年	年	NOUN	XSC	_	9	mark	_	SpaceAfter=No
-11	にかけて	にかけて	ADP	PS	_	9	case	_	SpaceAfter=No
+6	1456	1456	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	年	年	NOUN	XSC	_	10	nmod	_	SpaceAfter=No
+8	から	から	ADP	PS	_	7	case	_	SpaceAfter=No
+9	1466	1466	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+10	年	年	NOUN	XSC	_	17	obl	_	SpaceAfter=No
+11	にかけて	にかけて	ADP	PS	_	10	case	_	SpaceAfter=No
 12	新しい	新しい	ADJ	JJ	_	13	acl	_	SpaceAfter=No
 13	サンクチュアリ	サンクチュアリ	NOUN	NN	_	15	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
@@ -11836,11 +11828,11 @@
 8	入り	入り	NOUN	XS	_	11	nmod	_	SpaceAfter=No
 9	と	と	ADP	PS	_	8	case	_	SpaceAfter=No
 10	カートリッジ	カートリッジ	NOUN	NN	_	11	compound	_	SpaceAfter=No
-11	入り	入り	NOUN	XS	_	13	nmod	_	SpaceAfter=No
+11	入り	入り	NOUN	XS	_	14	nmod	_	SpaceAfter=No
 12	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
-13	2	2	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
-14	種類	種類	NOUN	XSC	_	13	mark	_	SpaceAfter=No
-15	の	の	ADP	PN	_	13	case	_	SpaceAfter=No
+13	2	2	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
+14	種類	種類	NOUN	XSC	_	16	nmod	_	SpaceAfter=No
+15	の	の	ADP	PN	_	14	case	_	SpaceAfter=No
 16	形態	形態	NOUN	NN	_	18	obl	_	SpaceAfter=No
 17	で	で	ADP	PS	_	16	case	_	SpaceAfter=No
 18	流通	流通	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -11894,16 +11886,16 @@
 33	発生	発生	NOUN	NN	_	34	compound	_	SpaceAfter=No
 34	件数	件数	NOUN	NN	_	46	nsubj	_	SpaceAfter=No
 35	は	は	ADP	PK	_	34	case	_	SpaceAfter=No
-36	2009	2009	NUM	CD	NumType=Card	40	nummod	_	SpaceAfter=No
-37	年	年	NOUN	XSC	_	36	mark	_	SpaceAfter=No
-38	の	の	ADP	PN	_	36	case	_	SpaceAfter=No
+36	2009	2009	NUM	CD	NumType=Card	37	nummod	_	SpaceAfter=No
+37	年	年	NOUN	XSC	_	40	nmod	_	SpaceAfter=No
+38	の	の	ADP	PN	_	37	case	_	SpaceAfter=No
 39	ピーク	ピーク	NOUN	NN	_	40	compound	_	SpaceAfter=No
 40	時	時	NOUN	XS	_	42	iobj	_	SpaceAfter=No
 41	に	に	ADP	PS	_	40	case	_	SpaceAfter=No
 42	比べ	比べる	VERB	VV	_	46	advcl	_	SpaceAfter=No
 43	て	て	SCONJ	PC	_	42	mark	_	SpaceAfter=No
-44	82	82	NUM	CD	NumType=Card	46	advmod	_	SpaceAfter=No
-45	%	%	NOUN	XSC	_	44	mark	_	SpaceAfter=No
+44	82	82	NUM	CD	NumType=Card	45	nummod	_	SpaceAfter=No
+45	%	%	NOUN	XSC	_	46	obl	_	SpaceAfter=No
 46	減少	減少	VERB	VV	_	66	advcl	_	SpaceAfter=No
 47	し	する	AUX	XV	_	46	aux	_	SpaceAfter=No
 48	た	た	AUX	AV	_	46	aux	_	SpaceAfter=No
@@ -12026,14 +12018,14 @@
 6	を	を	ADP	PS	_	5	case	_	SpaceAfter=No
 7	しのぎ	しのぐ	VERB	VV	_	17	advcl	_	SpaceAfter=No
 8	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
-9	おにぎり	おにぎり	NOUN	NN	_	10	compound	_	SpaceAfter=No
-10	1	1	NUM	CD	NumType=Card	17	obj	_	SpaceAfter=No
-11	個	個	NOUN	XSC	_	10	mark	_	SpaceAfter=No
-12	を	を	ADP	PS	_	10	case	_	SpaceAfter=No
-13	家族	家族	NOUN	NN	_	14	compound	_	SpaceAfter=No
-14	4	4	NUM	CD	NumType=Card	17	obl	_	SpaceAfter=No
-15	人	人	NOUN	XSC	_	14	mark	_	SpaceAfter=No
-16	で	で	ADP	PS	_	14	case	_	SpaceAfter=No
+9	おにぎり	おにぎり	NOUN	NN	_	11	compound	_	SpaceAfter=No
+10	1	1	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+11	個	個	NOUN	XSC	_	17	obj	_	SpaceAfter=No
+12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
+13	家族	家族	NOUN	NN	_	15	compound	_	SpaceAfter=No
+14	4	4	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+15	人	人	NOUN	XSC	_	17	obl	_	SpaceAfter=No
+16	で	で	ADP	PS	_	15	case	_	SpaceAfter=No
 17	分け	分ける	VERB	VV	_	0	root	_	SpaceAfter=No
 18	合っ	合う	AUX	AV	_	17	aux	_	SpaceAfter=No
 19	た	た	AUX	AV	_	17	aux	_	SpaceAfter=No
@@ -12150,7 +12142,7 @@
 13	漆黒	漆黒	NOUN	NN	_	15	nmod	_	SpaceAfter=No
 14	の	の	ADP	PN	_	13	case	_	SpaceAfter=No
 15	シンフォニー	シンフォニー	NOUN	NN	_	18	iobj	_	SpaceAfter=No
-16	』	』	SYM	SYM	_	15	compound	_	SpaceAfter=No
+16	』	』	PUNCT	SYM	_	15	compound	_	SpaceAfter=No
 17	に	に	ADP	PS	_	15	case	_	SpaceAfter=No
 18	収録	収録	VERB	VV	_	24	advcl	_	SpaceAfter=No
 19	さ	する	AUX	XV	_	18	aux	_	SpaceAfter=No
@@ -12313,9 +12305,9 @@
 36	が	が	ADP	PS	_	35	case	_	SpaceAfter=No
 37	原書	原書	NOUN	NN	_	42	obl	_	SpaceAfter=No
 38	から	から	ADP	PS	_	37	case	_	SpaceAfter=No
-39	1	1	NUM	CD	NumType=Card	42	advmod	_	SpaceAfter=No
-40	年	年	NOUN	XSC	_	39	mark	_	SpaceAfter=No
-41	も	も	ADP	PK	_	39	case	_	SpaceAfter=No
+39	1	1	NUM	CD	NumType=Card	40	nummod	_	SpaceAfter=No
+40	年	年	NOUN	XSC	_	42	obl	_	SpaceAfter=No
+41	も	も	ADP	PK	_	40	case	_	SpaceAfter=No
 42	し	する	VERB	VV	_	45	advcl	_	SpaceAfter=No
 43	ない	ない	AUX	AV	_	42	aux	_	SpaceAfter=No
 44	で	て	SCONJ	PC	_	42	mark	_	SpaceAfter=No
@@ -12347,7 +12339,7 @@
 13	た	た	AUX	AV	_	11	aux	_	SpaceAfter=No
 14	年	年	NOUN	NN	_	19	obl	_	SpaceAfter=No
 15	から	から	ADP	PS	_	14	case	_	SpaceAfter=No
-16	本	本	NOUN	XP	_	17	amod	_	SpaceAfter=No
+16	本	本	NOUN	XP	_	17	compound	_	SpaceAfter=No
 17	作	作	NOUN	XS	_	19	nsubj	_	SpaceAfter=No
 18	が	が	ADP	PS	_	17	case	_	SpaceAfter=No
 19	発売	発売	VERB	VV	_	23	acl	_	SpaceAfter=No
@@ -12411,9 +12403,9 @@
 11	ディストリクト	ディストリクト	NOUN	NN	_	25	iobj	_	SpaceAfter=No
 12	に	に	ADP	PS	_	11	case	_	SpaceAfter=No
 13	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
-14	9	9	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
-15	つ	つ	NOUN	XSC	_	14	mark	_	SpaceAfter=No
-16	の	の	ADP	PN	_	14	case	_	SpaceAfter=No
+14	9	9	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+15	つ	つ	NOUN	XSC	_	21	nmod	_	SpaceAfter=No
+16	の	の	ADP	PN	_	15	case	_	SpaceAfter=No
 17	著名	著名	ADJ	JN	_	21	acl	_	SpaceAfter=No
 18	な	だ	AUX	XV	_	17	aux	_	SpaceAfter=No
 19	演技	演技	NOUN	NN	_	21	compound	_	SpaceAfter=No
@@ -12424,9 +12416,9 @@
 24	を	を	ADP	PS	_	23	case	_	SpaceAfter=No
 25	置き	置く	VERB	VV	_	32	advcl	_	SpaceAfter=No
 26	、	、	PUNCT	SYM	_	25	punct	_	SpaceAfter=No
-27	6	6	NUM	CD	NumType=Card	30	nummod	_	SpaceAfter=No
-28	ヶ所	ヶ所	NOUN	XSC	_	27	mark	_	SpaceAfter=No
-29	の	の	ADP	PN	_	27	case	_	SpaceAfter=No
+27	6	6	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+28	ヶ所	ヶ所	NOUN	XSC	_	30	nmod	_	SpaceAfter=No
+29	の	の	ADP	PN	_	28	case	_	SpaceAfter=No
 30	ホール	ホール	NOUN	NN	_	32	nsubj	_	SpaceAfter=No
 31	が	が	ADP	PS	_	30	case	_	SpaceAfter=No
 32	立地	立地	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -12502,7 +12494,7 @@
 10	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 11	退社	退社	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
 12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
-13	夜	夜	PART	XPC	_	16	amod	_	SpaceAfter=No
+13	夜	夜	PART	XPC	_	16	compound	_	SpaceAfter=No
 14	12	12	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
 15	時	時	NOUN	XSC	_	16	compound	_	SpaceAfter=No
 16	前後	前後	NOUN	XS	_	0	root	_	SpaceAfter=No
@@ -12513,13 +12505,13 @@
 1	現在	現在	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
 3	計画	計画	NOUN	NN	_	4	compound	_	SpaceAfter=No
-4	停電	停電	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+4	停電	停電	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 5	の	の	ADP	PN	_	4	case	_	SpaceAfter=No
-6	3	3	NUM	CD	NumType=Card	18	advcl	_	SpaceAfter=No
-7	時間	時間	NOUN	XSC	_	6	mark	_	SpaceAfter=No
-8	であれ	だ	AUX	AV	_	6	cop	_	SpaceAfter=No
-9	ば	ば	SCONJ	PC	_	6	mark	_	SpaceAfter=No
-10	、	、	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
+6	3	3	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	時間	時間	NOUN	XSC	_	18	advcl	_	SpaceAfter=No
+8	であれ	だ	AUX	AV	_	7	cop	_	SpaceAfter=No
+9	ば	ば	SCONJ	PC	_	7	mark	_	SpaceAfter=No
+10	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 11	つ	つく	VERB	VV	_	15	advcl	_	SpaceAfter=No
 12	け	ける	AUX	AV	_	11	aux	_	SpaceAfter=No
 13	っぱなし	っぱなし	AUX	AV	_	11	aux	_	SpaceAfter=No
@@ -12566,7 +12558,7 @@
 10	生物	生物	NOUN	NN	_	11	compound	_	SpaceAfter=No
 11	過程	過程	NOUN	NN	_	19	obl	_	SpaceAfter=No
 12	による	による	ADP	PS	_	11	case	_	SpaceAfter=No
-13	全	全	NOUN	XP	_	14	amod	_	SpaceAfter=No
+13	全	全	NOUN	XP	_	14	compound	_	SpaceAfter=No
 14	エネルギー	エネルギー	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 15	・	・	SYM	SYM	_	14	compound	_	SpaceAfter=No
 16	炭素	炭素	NOUN	NN	_	17	compound	_	SpaceAfter=No
@@ -12618,7 +12610,7 @@
 
 # sent_id = test-s507
 # text = 前作では10枚以上コインを取るとスーパーキノコが出てきたが、本作ではコインが5枚散らばるようになっている。
-1	前	前	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	前	前	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	作	作	NOUN	XS	_	15	obl	_	SpaceAfter=No
 3	で	で	ADP	PS	_	2	case	_	SpaceAfter=No
 4	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
@@ -12638,14 +12630,14 @@
 18	た	た	AUX	AV	_	15	aux	_	SpaceAfter=No
 19	が	が	SCONJ	PC	_	15	mark	_	SpaceAfter=No
 20	、	、	PUNCT	SYM	_	15	punct	_	SpaceAfter=No
-21	本	本	NOUN	XP	_	22	amod	_	SpaceAfter=No
+21	本	本	NOUN	XP	_	22	compound	_	SpaceAfter=No
 22	作	作	NOUN	XS	_	29	obl	_	SpaceAfter=No
 23	で	で	ADP	PS	_	22	case	_	SpaceAfter=No
 24	は	は	ADP	PK	_	22	case	_	SpaceAfter=No
 25	コイン	コイン	NOUN	NN	_	29	nsubj	_	SpaceAfter=No
 26	が	が	ADP	PS	_	25	case	_	SpaceAfter=No
-27	5	5	NUM	CD	NumType=Card	29	advmod	_	SpaceAfter=No
-28	枚	枚	NOUN	XSC	_	27	mark	_	SpaceAfter=No
+27	5	5	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+28	枚	枚	NOUN	XSC	_	29	advmod	_	SpaceAfter=No
 29	散らばる	散らばる	VERB	VV	_	0	root	_	SpaceAfter=No
 30	ように	ようだ	AUX	AV	_	29	aux	_	SpaceAfter=No
 31	なっ	なる	AUX	AV	_	29	aux	_	SpaceAfter=No
@@ -12704,12 +12696,12 @@
 
 # sent_id = test-s509
 # text = 2006年11月 8日、関東地方から東北地方にかけてカリオペとリヌスによる恒星の掩蔽がアマチュア天文家たちによって観測され、カリオペとリヌスの正確な大きさと位置が求められた。
-1	2006	2006	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	11月	11月	NOUN	NR	_	4	nmod	_	_
-4	8	8	NUM	CD	NumType=Card	39	advmod	_	SpaceAfter=No
-5	日	日	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
+1	2006	2006	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	3	nmod	_	SpaceAfter=No
+3	11月	11月	NOUN	NR	_	5	nmod	_	_
+4	8	8	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	日	日	NOUN	XSC	_	39	obl	_	SpaceAfter=No
+6	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 7	関東	関東	PROPN	NNP	_	8	compound	_	SpaceAfter=No
 8	地方	地方	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 9	から	から	ADP	PS	_	8	case	_	SpaceAfter=No
@@ -12775,7 +12767,7 @@
 24	を	を	ADP	PS	_	23	case	_	SpaceAfter=No
 25	中心	中心	NOUN	NN	_	43	iobj	_	SpaceAfter=No
 26	に	に	ADP	PS	_	25	case	_	SpaceAfter=No
-27	低	低	NOUN	XP	_	29	amod	_	SpaceAfter=No
+27	低	低	NOUN	XP	_	29	compound	_	SpaceAfter=No
 28	開発	開発	NOUN	NN	_	29	compound	_	SpaceAfter=No
 29	状態	状態	NOUN	NN	_	32	nmod	_	SpaceAfter=No
 30	の	の	ADP	PN	_	29	case	_	SpaceAfter=No
@@ -12891,7 +12883,7 @@
 
 # sent_id = test-s512
 # text = 当駅の所在する地名より。
-1	当	当	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	当	当	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	駅	駅	NOUN	XS	_	4	obl	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	所在	所在	VERB	VV	_	6	acl	_	SpaceAfter=No
@@ -12997,7 +12989,7 @@
 6	に	に	ADP	PS	_	5	case	_	SpaceAfter=No
 7	ある	ある	VERB	VV	_	10	acl	_	SpaceAfter=No
 8	牛込	牛込	PROPN	NNP	_	10	compound	_	SpaceAfter=No
-9	大	大	NOUN	XP	_	10	amod	_	SpaceAfter=No
+9	大	大	NOUN	XP	_	10	compound	_	SpaceAfter=No
 10	教会	教会	NOUN	NN	_	12	obj	_	SpaceAfter=No
 11	を	を	ADP	PS	_	10	case	_	SpaceAfter=No
 12	開放	開放	VERB	VV	_	0	root	_	SpaceAfter=No
@@ -13114,8 +13106,8 @@
 
 # sent_id = test-s523
 # text = 2008年1月から6月に振り込め詐欺・オレオレ詐欺で使用された携帯電話約2,300台のうち約7割がソフトバンク携帯だったとの報道が12月にあった。
-1	2008	2008	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
+1	2008	2008	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	3	nmod	_	SpaceAfter=No
 3	1月	1月	NOUN	NR	_	5	nmod	_	SpaceAfter=No
 4	から	から	ADP	PS	_	3	case	_	SpaceAfter=No
 5	6月	6月	NOUN	NR	_	13	iobj	_	SpaceAfter=No
@@ -13130,16 +13122,16 @@
 14	さ	する	AUX	XV	_	13	aux	_	SpaceAfter=No
 15	れ	れる	AUX	AV	_	13	aux	_	SpaceAfter=No
 16	た	た	AUX	AV	_	13	aux	_	SpaceAfter=No
-17	携帯電話	携帯電話	NOUN	NN	_	19	compound	_	SpaceAfter=No
-18	約	約	PART	XPC	_	19	amod	_	SpaceAfter=No
-19	2,300	2,300	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
-20	台	台	NOUN	XSC	_	19	mark	_	SpaceAfter=No
-21	の	の	ADP	PN	_	19	case	_	SpaceAfter=No
+17	携帯電話	携帯電話	NOUN	NN	_	20	compound	_	SpaceAfter=No
+18	約	約	PART	XPC	_	20	compound	_	SpaceAfter=No
+19	2,300	2,300	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+20	台	台	NOUN	XSC	_	22	nmod	_	SpaceAfter=No
+21	の	の	ADP	PN	_	20	case	_	SpaceAfter=No
 22	うち	うち	NOUN	NB	_	28	advmod	_	SpaceAfter=No
-23	約	約	PART	XPC	_	24	amod	_	SpaceAfter=No
-24	7	7	NUM	CD	NumType=Card	28	nsubj	_	SpaceAfter=No
-25	割	割	NOUN	XSC	_	24	mark	_	SpaceAfter=No
-26	が	が	ADP	PS	_	24	case	_	SpaceAfter=No
+23	約	約	PART	XPC	_	25	compound	_	SpaceAfter=No
+24	7	7	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+25	割	割	NOUN	XSC	_	28	nsubj	_	SpaceAfter=No
+26	が	が	ADP	PS	_	25	case	_	SpaceAfter=No
 27	ソフトバンク	ソフトバンク	PROPN	NNP	_	28	compound	_	SpaceAfter=No
 28	携帯	携帯	NOUN	NN	_	33	acl	_	SpaceAfter=No
 29	だっ	だ	AUX	AV	_	28	cop	_	SpaceAfter=No
@@ -13217,7 +13209,7 @@
 6	ない	ない	AUX	AV	_	3	aux	_	SpaceAfter=No
 7	の	の	SCONJ	PNB	_	3	mark	_	SpaceAfter=No
 8	か	か	PART	PF	_	3	mark	_	SpaceAfter=No
-9	未	未	NOUN	XP	_	10	amod	_	SpaceAfter=No
+9	未	未	NOUN	XP	_	10	compound	_	SpaceAfter=No
 10	採択	採択	NOUN	NN	_	15	acl	_	SpaceAfter=No
 11	な	だ	AUX	AV	_	10	cop	_	SpaceAfter=No
 12	の	の	SCONJ	PNB	_	10	mark	_	SpaceAfter=No
@@ -13309,7 +13301,7 @@
 12	が	が	SCONJ	PC	_	11	mark	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
 14	BA	BA	PROPN	NNP	_	16	nmod	_	SpaceAfter=No
-15	-	-	PART	XPC	_	16	amod	_	SpaceAfter=No
+15	-	-	PART	XPC	_	16	compound	_	SpaceAfter=No
 16	27	27	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
 17	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
 18	27	27	NUM	CD	NumType=Card	23	nsubj	_	SpaceAfter=No
@@ -13339,14 +13331,14 @@
 
 # sent_id = test-s529
 # text = ご理解とご協力,よろしくお願いいたします。
-1	ご	ご	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	ご	ご	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	理解	理解	NOUN	NN	_	5	obl	_	SpaceAfter=No
 3	と	と	ADP	PS	_	2	case	_	SpaceAfter=No
-4	ご	ご	NOUN	XP	_	5	amod	_	SpaceAfter=No
+4	ご	ご	NOUN	XP	_	5	compound	_	SpaceAfter=No
 5	協力	協力	VERB	VV	_	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 7	よろしく	よろしく	ADV	RB	_	10	advmod	_	SpaceAfter=No
-8	お	お	NOUN	XP	_	9	amod	_	SpaceAfter=No
+8	お	お	NOUN	XP	_	9	compound	_	SpaceAfter=No
 9	願い	願い	NOUN	NN	_	10	obl	_	SpaceAfter=No
 10	いたし	いたす	VERB	VV	_	0	root	_	SpaceAfter=No
 11	ます	ます	AUX	AV	_	10	aux	_	SpaceAfter=No
@@ -13354,14 +13346,14 @@
 
 # sent_id = test-s530
 # text = 亜大の東浜も6回で12三振を奪った。
-1	亜	亜	NOUN	XP	_	2	amod	_	SpaceAfter=No
+1	亜	亜	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	大	大	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	東浜	東浜	PROPN	NNP	_	12	obl	_	SpaceAfter=No
 5	も	も	ADP	PK	_	4	case	_	SpaceAfter=No
-6	6	6	NUM	CD	NumType=Card	12	obl	_	SpaceAfter=No
-7	回	回	NOUN	XSC	_	6	mark	_	SpaceAfter=No
-8	で	で	ADP	PS	_	6	case	_	SpaceAfter=No
+6	6	6	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	回	回	NOUN	XSC	_	12	obl	_	SpaceAfter=No
+8	で	で	ADP	PS	_	7	case	_	SpaceAfter=No
 9	12	12	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
 10	三振	三振	NOUN	NN	_	12	obj	_	SpaceAfter=No
 11	を	を	ADP	PS	_	10	case	_	SpaceAfter=No
@@ -13411,10 +13403,10 @@
 
 # sent_id = test-s533
 # text = 2006年には柏レイソルの監督に就任。
-1	2006	2006	NUM	CD	NumType=Card	9	iobj	_	SpaceAfter=No
-2	年	年	NOUN	XSC	_	1	mark	_	SpaceAfter=No
-3	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
-4	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
+1	2006	2006	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+2	年	年	NOUN	XSC	_	9	iobj	_	SpaceAfter=No
+3	に	に	ADP	PS	_	2	case	_	SpaceAfter=No
+4	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 5	柏レイソル	柏レイソル	PROPN	NNP	_	7	nmod	_	SpaceAfter=No
 6	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
 7	監督	監督	NOUN	NN	_	9	iobj	_	SpaceAfter=No
@@ -13595,7 +13587,7 @@
 8	と	と	ADP	PS	_	7	case	_	SpaceAfter=No
 9	称さ	称する	VERB	VV	_	13	acl	_	SpaceAfter=No
 10	れる	れる	AUX	AV	_	9	aux	_	SpaceAfter=No
-11	新	新	NOUN	XP	_	13	amod	_	SpaceAfter=No
+11	新	新	NOUN	XP	_	13	compound	_	SpaceAfter=No
 12	正統	正統	NOUN	NN	_	13	compound	_	SpaceAfter=No
 13	主義	主義	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 14	の	の	ADP	PN	_	13	case	_	SpaceAfter=No
@@ -13609,16 +13601,16 @@
 22	主著	主著	NOUN	NN	_	25	nmod	_	SpaceAfter=No
 23	「	「	PUNCT	SYM	_	25	punct	_	SpaceAfter=No
 24	教会	教会	NOUN	NN	_	25	compound	_	SpaceAfter=No
-25	教義学	教義学	NOUN	NN	_	28	nmod	_	SpaceAfter=No
+25	教義学	教義学	NOUN	NN	_	29	nmod	_	SpaceAfter=No
 26	」	」	PUNCT	SYM	_	25	punct	_	SpaceAfter=No
-27	全	全	NOUN	NN	_	28	compound	_	SpaceAfter=No
-28	4	4	NUM	CD	NumType=Card	32	nummod	_	SpaceAfter=No
-29	巻	巻	NOUN	XSC	_	28	mark	_	SpaceAfter=No
-30	における	における	ADP	PP	_	28	case	_	SpaceAfter=No
-31	第	第	PART	XPC	_	32	amod	_	SpaceAfter=No
-32	3	3	NUM	CD	NumType=Card	47	advmod	_	SpaceAfter=No
-33	巻	巻	NOUN	XSC	_	32	mark	_	SpaceAfter=No
-34	、	、	PUNCT	SYM	_	32	punct	_	SpaceAfter=No
+27	全	全	NOUN	NN	_	29	compound	_	SpaceAfter=No
+28	4	4	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
+29	巻	巻	NOUN	XSC	_	33	nmod	_	SpaceAfter=No
+30	における	における	ADP	PP	_	29	case	_	SpaceAfter=No
+31	第	第	PART	XPC	_	33	compound	_	SpaceAfter=No
+32	3	3	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
+33	巻	巻	NOUN	XSC	_	47	obl	_	SpaceAfter=No
+34	、	、	PUNCT	SYM	_	33	punct	_	SpaceAfter=No
 35	邦訳	邦訳	NOUN	NN	_	42	compound	_	SpaceAfter=No
 36	全	全	NOUN	NN	_	42	compound	_	SpaceAfter=No
 37	36	36	NUM	CD	NumType=Card	42	nummod	_	SpaceAfter=No
@@ -13640,10 +13632,10 @@
 # text = 日産は8月 6日、軽自動車「オッティ」の一部仕様を変更し、同日より発売した。
 1	日産	日産	NOUN	NN	_	20	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	8月	8月	NOUN	NR	_	4	nmod	_	_
-4	6	6	NUM	CD	NumType=Card	20	advmod	_	SpaceAfter=No
-5	日	日	NOUN	XSC	_	4	mark	_	SpaceAfter=No
-6	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
+3	8月	8月	NOUN	NR	_	5	nmod	_	_
+4	6	6	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	日	日	NOUN	XSC	_	20	obl	_	SpaceAfter=No
+6	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 7	軽自動車	軽自動車	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 8	「	「	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 9	オッティ	オッティ	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
@@ -13671,7 +13663,7 @@
 5	て	て	SCONJ	PC	_	4	mark	_	SpaceAfter=No
 6	い	いる	AUX	AV	_	4	aux	_	SpaceAfter=No
 7	た	た	AUX	AV	_	4	aux	_	SpaceAfter=No
-8	増	増	NOUN	XP	_	9	amod	_	SpaceAfter=No
+8	増	増	NOUN	XP	_	9	compound	_	SpaceAfter=No
 9	槽	槽	NOUN	NN	_	21	nsubj	_	SpaceAfter=No
 10	は	は	ADP	PK	_	9	case	_	SpaceAfter=No
 11	機体	機体	NOUN	NN	_	13	nmod	_	SpaceAfter=No
@@ -13700,7 +13692,7 @@
 34	装着	装着	VERB	VV	_	38	advcl	_	SpaceAfter=No
 35	できる	できる	AUX	AV	_	34	aux	_	SpaceAfter=No
 36	ように	ようだ	AUX	AV	_	34	aux	_	SpaceAfter=No
-37	再	再	NOUN	XP	_	38	amod	_	SpaceAfter=No
+37	再	再	NOUN	XP	_	38	compound	_	SpaceAfter=No
 38	設計	設計	VERB	VV	_	0	root	_	SpaceAfter=No
 39	さ	する	AUX	XV	_	38	aux	_	SpaceAfter=No
 40	れ	れる	AUX	AV	_	38	aux	_	SpaceAfter=No
@@ -13799,7 +13791,7 @@
 
 # sent_id = test-s546
 # text = 第7回以降の大会で、サッカーのビクトリーゴールのように条件を満たした時点で勝ちとなる特別な勝利条件が加えられることが度々あった。
-1	第	第	PART	XPC	_	4	amod	_	SpaceAfter=No
+1	第	第	PART	XPC	_	4	compound	_	SpaceAfter=No
 2	7	7	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
 3	回	回	NOUN	XSC	_	4	compound	_	SpaceAfter=No
 4	以降	以降	NOUN	NR	_	6	nmod	_	SpaceAfter=No
@@ -13838,11 +13830,11 @@
 
 # sent_id = test-s547
 # text = 反乱軍の一人。
-1	反乱軍	反乱軍	NOUN	NN	_	3	nmod	_	SpaceAfter=No
+1	反乱軍	反乱軍	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	一	一	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
-4	人	人	NOUN	XSC	_	3	mark	_	SpaceAfter=No
-5	。	。	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
+3	一	一	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	人	人	NOUN	XSC	_	0	root	_	SpaceAfter=No
+5	。	。	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 
 # sent_id = test-s548
 # text = 建築評論家。
@@ -13881,9 +13873,9 @@
 14	走り	走る	VERB	VV	_	20	advcl	_	SpaceAfter=No
 15	ぬき	ぬく	AUX	AV	_	14	aux	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
-17	30	30	NUM	CD	NumType=Card	20	iobj	_	SpaceAfter=No
-18	位	位	NOUN	XSC	_	17	mark	_	SpaceAfter=No
-19	に	に	ADP	PS	_	17	case	_	SpaceAfter=No
+17	30	30	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+18	位	位	NOUN	XSC	_	20	iobj	_	SpaceAfter=No
+19	に	に	ADP	PS	_	18	case	_	SpaceAfter=No
 20	入る	入る	VERB	VV	_	21	acl	_	SpaceAfter=No
 21	健闘	健闘	NOUN	NN	_	23	obj	_	SpaceAfter=No
 22	を	を	ADP	PS	_	21	case	_	SpaceAfter=No
