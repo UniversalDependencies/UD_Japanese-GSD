@@ -477,8 +477,8 @@
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
 3	ユダヤ人	ユダヤ人	NOUN	NN	_	18	nsubj	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
-5	1942	1942	NUM	CD	NumType=Card	12	obl	_	SpaceAfter=No
-6	年	年	NOUN	XSC	_	12	iobj	_	SpaceAfter=No
+5	1942	1942	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+6	年	年	NOUN	XSC	_	18	iobj	_	SpaceAfter=No
 7	まで	まで	ADP	PA	_	6	case	_	SpaceAfter=No
 8	に	に	ADP	PS	_	6	case	_	SpaceAfter=No
 9	その	その	DET	JR	_	10	det	_	SpaceAfter=No
