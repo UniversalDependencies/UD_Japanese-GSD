@@ -2871,7 +2871,7 @@
 13	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
 14	基地	基地	NOUN	NN	_	16	obl	_	SpaceAfter=No
 15	の	の	ADP	PN	_	14	case	_	SpaceAfter=No
-16	ない	ない	ADJ	JJ	_	21	acl	_	SpaceAfter=No
+16	ない	ない	ADJ	JJ	_	17	acl	_	SpaceAfter=No
 17	平和	平和	NOUN	NN	_	23	obl	_	SpaceAfter=No
 18	で	で	ADP	PS	_	17	case	_	SpaceAfter=No
 19	安全	安全	ADJ	JN	_	21	acl	_	SpaceAfter=No
@@ -3336,7 +3336,7 @@
 # sent_id = test-s143
 # text = 企業経営者の、そして企業人一人ひとりの意識改革ではないだろうか。
 1	企業	企業	NOUN	NN	_	2	compound	_	SpaceAfter=No
-2	経営者	経営者	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+2	経営者	経営者	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
 5	そして	そして	CCONJ	CC	_	10	advmod	_	SpaceAfter=No
@@ -4603,7 +4603,7 @@
 8	ので	ので	SCONJ	PC	_	7	mark	_	SpaceAfter=No
 9	相場	相場	NOUN	NN	_	11	nsubj	_	SpaceAfter=No
 10	は	は	ADP	PK	_	9	case	_	SpaceAfter=No
-11	わかり	わかる	VERB	VV	_	25	advcl	_	SpaceAfter=No
+11	わかり	わかる	VERB	VV	_	26	advcl	_	SpaceAfter=No
 12	ませ	ます	AUX	AV	_	11	aux	_	SpaceAfter=No
 13	ん	ない	AUX	AV	_	11	aux	_	SpaceAfter=No
 14	でした	でした	AUX	AV	_	11	aux	_	SpaceAfter=No
@@ -5052,7 +5052,7 @@
 # text = 最近かなり混んで来ましたが先生は相変わらずマイペースでしっかり診療してくれるので予約が遅くなっても不満はありません。
 1	最近	最近	NOUN	NR	_	2	compound	_	SpaceAfter=No
 2	かなり	かなり	NOUN	NR	_	3	obl	_	SpaceAfter=No
-3	混ん	混む	VERB	VV	_	12	advcl	_	SpaceAfter=No
+3	混ん	混む	VERB	VV	_	28	advcl	_	SpaceAfter=No
 4	で	て	SCONJ	PC	_	3	mark	_	SpaceAfter=No
 5	来	来る	AUX	AV	_	3	aux	_	SpaceAfter=No
 6	まし	ます	AUX	AV	_	3	aux	_	SpaceAfter=No
@@ -6115,7 +6115,7 @@
 # text = 仕事に疲れてフラフラでチェックインしても、フロントの方をはじめホテルのスタッフの方々が気持ちのいい対応をしてくれるので、泊まりに行きたくなります。
 1	仕事	仕事	NOUN	NN	_	3	iobj	_	SpaceAfter=No
 2	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
-3	疲れ	疲れる	VERB	VV	_	7	advcl	_	SpaceAfter=No
+3	疲れ	疲れる	VERB	VV	_	5	advcl	_	SpaceAfter=No
 4	て	て	SCONJ	PC	_	3	mark	_	SpaceAfter=No
 5	フラフラ	フラフラ	ADJ	JN	_	35	advcl	_	SpaceAfter=No
 6	で	だ	AUX	XV	_	5	aux	_	SpaceAfter=No
@@ -6337,7 +6337,7 @@
 
 # sent_id = test-s268
 # text = 利用してみるとよさに気が東京でブランド物を売りたいなと思っている方はぜひ足を運んでみてください。
-1	利用	利用	VERB	VV	_	11	advcl	_	SpaceAfter=No
+1	利用	利用	VERB	VV	_	16	advcl	_	SpaceAfter=No
 2	し	する	AUX	XV	_	1	aux	_	SpaceAfter=No
 3	て	て	SCONJ	PC	_	1	mark	_	SpaceAfter=No
 4	みる	みる	AUX	AV	_	1	aux	_	SpaceAfter=No
@@ -8673,7 +8673,7 @@
 
 # sent_id = test-s362
 # text = 注文をすぐにとりにこない。
-1	注文	注文	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+1	注文	注文	NOUN	NN	_	7	obj	_	SpaceAfter=No
 2	を	を	ADP	PS	_	1	case	_	SpaceAfter=No
 3	すぐ	すぐ	ADJ	JN	_	7	advcl	_	SpaceAfter=No
 4	に	だ	AUX	XV	_	3	aux	_	SpaceAfter=No
@@ -9532,7 +9532,7 @@
 10	が	が	ADP	PS	_	9	case	_	SpaceAfter=No
 11	延期	延期	NOUN	NN	_	13	obl	_	SpaceAfter=No
 12	と	と	ADP	PS	_	11	case	_	SpaceAfter=No
-13	なり	なる	VERB	VV	_	27	advcl	_	SpaceAfter=No
+13	なり	なる	VERB	VV	_	34	advcl	_	SpaceAfter=No
 14	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
 15	姉	姉	NOUN	NN	_	30	nsubj	_	SpaceAfter=No
 16	は	は	ADP	PK	_	15	case	_	SpaceAfter=No
@@ -9689,7 +9689,7 @@
 26	する	する	AUX	AV	_	23	aux	_	SpaceAfter=No
 27	ため	ため	SCONJ	PC	_	23	mark	_	SpaceAfter=No
 28	に	に	ADP	PS	_	23	case	_	SpaceAfter=No
-29	プログラム	プログラム	NOUN	NN	_	38	nsubj	_	SpaceAfter=No
+29	プログラム	プログラム	NOUN	NN	_	33	nsubj	_	SpaceAfter=No
 30	が	が	ADP	PS	_	29	case	_	SpaceAfter=No
 31	自動的	自動的	ADJ	JN	_	33	advcl	_	SpaceAfter=No
 32	に	だ	AUX	XV	_	31	aux	_	SpaceAfter=No
@@ -10571,7 +10571,7 @@
 18	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
 19	信者	信者	NOUN	NN	_	21	nsubj	_	SpaceAfter=No
 20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
-21	並び	並ぶ	VERB	VV	_	38	advcl	_	SpaceAfter=No
+21	並び	並ぶ	VERB	VV	_	27	advcl	_	SpaceAfter=No
 22	,	,	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
 23	初日	初日	NOUN	NN	_	27	obl	_	SpaceAfter=No
 24	から	から	ADP	PS	_	23	case	_	SpaceAfter=No
@@ -10677,13 +10677,13 @@
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
 3	原因	原因	NOUN	NN	_	5	nsubj	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
-5	不明	不明	ADJ	JN	_	25	advcl	_	SpaceAfter=No
+5	不明	不明	ADJ	JN	_	31	advcl	_	SpaceAfter=No
 6	で	だ	AUX	XV	_	5	aux	_	SpaceAfter=No
 7	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 8	地元	地元	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
 10	消防	消防	NOUN	NN	_	11	compound	_	SpaceAfter=No
-11	局	局	NOUN	XS	_	25	nmod	_	SpaceAfter=No
+11	局	局	NOUN	XS	_	31	nsubj	_	SpaceAfter=No
 12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
 14	煙	煙	NOUN	NN	_	18	iobj	_	SpaceAfter=No
@@ -12537,7 +12537,7 @@
 10	以上	以上	NOUN	NB	_	13	iobj	_	SpaceAfter=No
 11	に	に	ADP	PS	_	10	case	_	SpaceAfter=No
 12	北朝鮮	北朝鮮	PROPN	NNP	_	13	compound	_	SpaceAfter=No
-13	的な	的だ	ADJ	JN	_	17	acl	_	SpaceAfter=No
+13	的な	的だ	ADJ	JN	_	14	acl	_	SpaceAfter=No
 14	街	街	NOUN	NN	_	17	advcl	_	SpaceAfter=No
 15	な	だ	AUX	AV	_	14	cop	_	SpaceAfter=No
 16	ので	ので	SCONJ	PC	_	14	mark	_	SpaceAfter=No
@@ -13263,7 +13263,7 @@
 19	,	,	PUNCT	SYM	_	17	punct	_	SpaceAfter=No
 20	何	何	ADV	RB	_	22	advmod	_	SpaceAfter=No
 21	も	も	ADP	PK	_	20	case	_	SpaceAfter=No
-22	し	する	VERB	VV	_	34	advcl	_	SpaceAfter=No
+22	し	する	VERB	VV	_	31	advcl	_	SpaceAfter=No
 23	ない	ない	AUX	AV	_	22	aux	_	SpaceAfter=No
 24	で	て	SCONJ	PC	_	22	mark	_	SpaceAfter=No
 25	足	足	NOUN	NN	_	27	nmod	_	SpaceAfter=No
@@ -13373,7 +13373,7 @@
 1	まあ	まあ	ADV	RB	_	6	advmod	_	SpaceAfter=No
 2	AIDMA	AIDMA	PROPN	NNP	_	4	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-4	AISAS	AISAS	PROPN	NNP	_	8	obj	_	SpaceAfter=No
+4	AISAS	AISAS	PROPN	NNP	_	6	obj	_	SpaceAfter=No
 5	を	を	ADP	PS	_	4	case	_	SpaceAfter=No
 6	はじめ	はじめる	VERB	VV	_	8	advcl	_	SpaceAfter=No
 7	と	と	ADP	PQ	_	6	case	_	SpaceAfter=No
