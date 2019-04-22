@@ -2032,8 +2032,8 @@
 21	初めて	初めて	ADV	RB	_	29	advmod	_	SpaceAfter=No
 22	国土交通省	国土交通省	PROPN	NNP	_	29	obl	_	SpaceAfter=No
 23	から	から	ADP	PS	_	22	case	_	SpaceAfter=No
-24	不燃材	不燃材	NOUN	NN	_	25	compound	_	SpaceAfter=No
-25	料	料	NOUN	XS	_	27	nmod	_	SpaceAfter=No
+24	不燃	不燃	NOUN	NN	_	25	compound	_	SpaceAfter=No
+25	材料	材料	NOUN	NN	_	27	nmod	_	SpaceAfter=No
 26	の	の	ADP	PN	_	25	case	_	SpaceAfter=No
 27	認定	認定	NOUN	NN	_	29	obj	_	SpaceAfter=No
 28	を	を	ADP	PS	_	27	case	_	SpaceAfter=No
