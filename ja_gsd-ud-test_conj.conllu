@@ -5007,7 +5007,7 @@
 1	また	また	CCONJ	CC	_	15	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	この	この	DET	JR	_	4	det	_	SpaceAfter=No
-4	店	店	NOUN	NN	_	15	nsubj	_	SpaceAfter=No
+4	店	店	NOUN	NN	_	15	dislocated	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 6	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 7	土	土	NOUN	NN	_	8	compound	_	SpaceAfter=No
@@ -5545,7 +5545,7 @@
 # text = 出入り口の交差点はもともと歩行者や自転車が多いので、かなり混雑しています。
 1	出入り口	出入り口	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	交差点	交差点	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
+3	交差点	交差点	NOUN	NN	_	10	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	もともと	もともと	ADV	RB	_	10	advmod	_	SpaceAfter=No
 6	歩行者	歩行者	NOUN	NN	_	8	conj	_	SpaceAfter=No
@@ -6055,7 +6055,7 @@
 # text = こちらのホテルは多少の設備の古さは感じなくも無いものの、スタッフさんのサービスが普通のホテルのように行き届いています。
 1	こちら	こちら	PRON	NP	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	ホテル	ホテル	NOUN	NN	_	27	nsubj	_	SpaceAfter=No
+3	ホテル	ホテル	NOUN	NN	_	27	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	多少	多少	NOUN	NR	_	7	nmod	_	SpaceAfter=No
 6	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
@@ -6805,7 +6805,7 @@
 15	ため	ため	SCONJ	PC	_	13	mark	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	13	punct	_	SpaceAfter=No
 17	各	各	NOUN	XP	_	18	compound	_	SpaceAfter=No
-18	新聞	新聞	NOUN	NN	_	27	nsubj	_	SpaceAfter=No
+18	新聞	新聞	NOUN	NN	_	27	dislocated	_	SpaceAfter=No
 19	は	は	ADP	PK	_	18	case	_	SpaceAfter=No
 20	配達	配達	NOUN	NN	_	21	compound	_	SpaceAfter=No
 21	先	先	NOUN	XS	_	27	obl	_	SpaceAfter=No
@@ -7245,7 +7245,7 @@
 16	北アフリカ	北アフリカ	PROPN	NNP	_	19	nmod	_	SpaceAfter=No
 17	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
 18	イスラム	イスラム	NOUN	NN	_	19	compound	_	SpaceAfter=No
-19	諸国	諸国	NOUN	NN	_	31	nsubj	_	SpaceAfter=No
+19	諸国	諸国	NOUN	NN	_	31	dislocated	_	SpaceAfter=No
 20	は	は	ADP	PK	_	19	case	_	SpaceAfter=No
 21	、	、	PUNCT	SYM	_	19	punct	_	SpaceAfter=No
 22	19	19	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
@@ -8643,7 +8643,7 @@
 # text = 子供の頃は『仮面ライダーBLACK』や『機動刑事ジバン』が好きだった。
 1	子供	子供	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	頃	頃	NOUN	NB	_	16	nsubj	_	SpaceAfter=No
+3	頃	頃	NOUN	NB	_	16	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	『	『	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 6	仮面ライダー	仮面ライダー	PROPN	NNP	_	7	compound	_	SpaceAfter=No
@@ -11160,7 +11160,7 @@
 
 # sent_id = test-s459
 # text = MVPは打率.450、2本塁打、6打点の成績をあげたアラン・トランメルが初選出。
-1	MVP	MVP	NOUN	NN	_	22	nsubj	_	SpaceAfter=No
+1	MVP	MVP	NOUN	NN	_	22	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	打率	打率	NOUN	NN	_	22	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
@@ -11186,7 +11186,7 @@
 
 # sent_id = test-s460
 # text = ラジカルは反応性が高く、生物学的環境ではたいていの場合あまり高濃度では存在せず、ラジカルに1電子を奪われた分子が他の分子から電子を引き抜くとその分子がさらにラジカルを形成するので反応は連鎖的に進行する。
-1	ラジカル	ラジカル	PROPN	NNP	_	6	nsubj	_	SpaceAfter=No
+1	ラジカル	ラジカル	PROPN	NNP	_	6	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	反応	反応	NOUN	NN	_	4	compound	_	SpaceAfter=No
 4	性	性	NOUN	XS	_	6	nsubj	_	SpaceAfter=No
@@ -12862,7 +12862,7 @@
 7	「	「	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 8	ハイパー	ハイパー	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 9	ZERO	ZERO	PROPN	NNP	_	10	compound	_	SpaceAfter=No
-10	ブラスター	ブラスター	NOUN	NN	_	15	nsubj	_	SpaceAfter=No
+10	ブラスター	ブラスター	NOUN	NN	_	15	dislocated	_	SpaceAfter=No
 11	」	」	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
 12	は	は	ADP	PK	_	10	case	_	SpaceAfter=No
 13	火力	火力	NOUN	NN	_	15	nsubj	_	SpaceAfter=No
@@ -12922,7 +12922,7 @@
 15	いる	いる	AUX	AV	_	10	aux	_	SpaceAfter=No
 16	が	が	SCONJ	PC	_	10	mark	_	SpaceAfter=No
 17	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
-18	ここ	ここ	PRON	NP	_	22	nsubj	_	SpaceAfter=No
+18	ここ	ここ	PRON	NP	_	22	dislocated	_	SpaceAfter=No
 19	は	は	ADP	PK	_	18	case	_	SpaceAfter=No
 20	カット	カット	NOUN	NN	_	22	nsubj	_	SpaceAfter=No
 21	が	が	ADP	PS	_	20	case	_	SpaceAfter=No
@@ -13275,7 +13275,7 @@
 27	と	と	ADP	PS	_	26	case	_	SpaceAfter=No
 28	以降	以降	NOUN	NR	_	30	nmod	_	SpaceAfter=No
 29	の	の	ADP	PN	_	28	case	_	SpaceAfter=No
-30	車両	車両	NOUN	NN	_	38	nsubj	_	SpaceAfter=No
+30	車両	車両	NOUN	NN	_	38	dislocated	_	SpaceAfter=No
 31	は	は	ADP	PK	_	30	case	_	SpaceAfter=No
 32	ほぼ	ほぼ	ADV	RB	_	38	advmod	_	SpaceAfter=No
 33	製作	製作	NOUN	NN	_	34	compound	_	SpaceAfter=No
