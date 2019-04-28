@@ -7,7 +7,7 @@
 5	ソング	ソング	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 6	に	に	ADP	PS	_	5	case	_	SpaceAfter=No
 7	変更	変更	NOUN	NN	_	8	compound	_	SpaceAfter=No
-8	後	後	NOUN	XS	_	18	nsubj	_	SpaceAfter=No
+8	後	後	NOUN	XS	_	18	dislocated	_	SpaceAfter=No
 9	は	は	ADP	PK	_	8	case	_	SpaceAfter=No
 10	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 11	ED	ED	PROPN	NNP	_	18	obl	_	SpaceAfter=No
@@ -666,7 +666,7 @@
 
 # sent_id = dev-s25
 # text = 麺棒は直径2～3cm、長さ1m程度のものが一般的という。
-1	麺棒	麺棒	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
+1	麺棒	麺棒	NOUN	NN	_	16	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	直径	直径	PART	XPC	_	6	compound	_	SpaceAfter=No
 4	2	2	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
@@ -1052,7 +1052,7 @@
 5	一門	一門	NOUN	NN	_	8	compound	_	SpaceAfter=No
 6	家	家	NOUN	XS	_	8	compound	_	SpaceAfter=No
 7	新設	新設	NOUN	NN	_	8	compound	_	SpaceAfter=No
-8	時	時	NOUN	XS	_	19	nsubj	_	SpaceAfter=No
+8	時	時	NOUN	XS	_	19	dislocated	_	SpaceAfter=No
 9	は	は	ADP	PK	_	8	case	_	SpaceAfter=No
 10	加治木	加治木	PROPN	NNP	_	11	compound	_	SpaceAfter=No
 11	家	家	NOUN	XS	_	14	nmod	_	SpaceAfter=No
@@ -1914,7 +1914,7 @@
 
 # sent_id = dev-s74
 # text = 施設は大阪市が所有し、指定管理者は財団法人大阪市スポーツ・みどり振興協会である。
-1	施設	施設	NOUN	NN	_	5	nsubj	_	SpaceAfter=No
+1	施設	施設	NOUN	NN	_	5	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	大阪市	大阪市	PROPN	NNP	_	5	nsubj	_	SpaceAfter=No
 4	が	が	ADP	PS	_	3	case	_	SpaceAfter=No
@@ -2012,7 +2012,7 @@
 1	同社	同社	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
 3	不燃	不燃	NOUN	NN	_	4	compound	_	SpaceAfter=No
-4	木材	木材	NOUN	NN	_	13	nsubj	_	SpaceAfter=No
+4	木材	木材	NOUN	NN	_	13	dislocated	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 6	浅野	浅野	PROPN	NNP	_	8	compound	_	SpaceAfter=No
 7	木材	木材	NOUN	NN	_	8	compound	_	SpaceAfter=No
@@ -3521,7 +3521,7 @@
 
 # sent_id = dev-s135
 # text = 現在は主に飼育下繁殖個体が流通する。
-1	現在	現在	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+1	現在	現在	NOUN	NN	_	9	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	主に	主に	ADV	RB	_	9	advmod	_	SpaceAfter=No
 4	飼育	飼育	NOUN	NN	_	7	compound	_	SpaceAfter=No
@@ -3598,7 +3598,7 @@
 
 # sent_id = dev-s139
 # text = 今日はランチにお刺身が食べたかったので、前々から気になっていたこちらにお邪魔しました。
-1	今日	今日	NOUN	NR	_	8	nsubj	_	SpaceAfter=No
+1	今日	今日	NOUN	NR	_	8	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	ランチ	ランチ	NOUN	NN	_	8	iobj	_	SpaceAfter=No
 4	に	に	ADP	PS	_	3	case	_	SpaceAfter=No
@@ -6223,7 +6223,7 @@
 
 # sent_id = dev-s242
 # text = それでも小原は1963年4月に持っていた金は事件と無関係と言い張ったが、平塚らは「これだけ材料を突きつけられてまだ逃れられると思っているのか」と小原を追い詰め、それからほどなくして小原は金が吉展ちゃん事件と関係のあるものだと供述した。
-1	それ	それ	PRON	NP	_	71	obl	_	SpaceAfter=No
+1	それ	それ	PRON	NP	_	69	obl	_	SpaceAfter=No
 2	で	で	ADP	PS	_	1	case	_	SpaceAfter=No
 3	も	も	ADP	PK	_	1	case	_	SpaceAfter=No
 4	小原	小原	PROPN	NNP	_	20	nsubj	_	SpaceAfter=No
@@ -6236,7 +6236,7 @@
 11	て	て	SCONJ	PC	_	10	mark	_	SpaceAfter=No
 12	い	いる	AUX	AV	_	10	aux	_	SpaceAfter=No
 13	た	た	AUX	AV	_	10	aux	_	SpaceAfter=No
-14	金	金	NOUN	NN	_	20	nsubj	_	SpaceAfter=No
+14	金	金	PROPN	NNP	_	20	nsubj	_	SpaceAfter=No
 15	は	は	ADP	PK	_	14	case	_	SpaceAfter=No
 16	事件	事件	NOUN	NN	_	18	obl	_	SpaceAfter=No
 17	と	と	ADP	PS	_	16	case	_	SpaceAfter=No
@@ -6257,7 +6257,7 @@
 32	突きつけ	突きつける	VERB	VV	_	39	advcl	_	SpaceAfter=No
 33	られ	られる	AUX	AV	_	32	aux	_	SpaceAfter=No
 34	て	て	SCONJ	PC	_	32	mark	_	SpaceAfter=No
-35	まだ	まだ	ADV	RB	_	36	advmod	_	SpaceAfter=No
+35	まだ	まだ	ADV	RB	_	39	advmod	_	SpaceAfter=No
 36	逃れ	逃れる	VERB	VV	_	39	ccomp	_	SpaceAfter=No
 37	られる	られる	AUX	AV	_	36	aux	_	SpaceAfter=No
 38	と	と	ADP	PQ	_	36	case	_	SpaceAfter=No
@@ -6274,29 +6274,27 @@
 49	、	、	PUNCT	SYM	_	48	punct	_	SpaceAfter=No
 50	それ	それ	PRON	NP	_	53	obl	_	SpaceAfter=No
 51	から	から	ADP	PS	_	50	case	_	SpaceAfter=No
-52	ほど	ほど	ADP	PA	_	50	case	_	SpaceAfter=No
-53	なく	ない	ADJ	JJ	_	67	advcl	_	SpaceAfter=No
-54	し	する	AUX	AV	_	53	aux	_	SpaceAfter=No
-55	て	て	SCONJ	PC	_	53	mark	_	SpaceAfter=No
-56	小原	小原	PROPN	NNP	_	67	nsubj	_	SpaceAfter=No
-57	は	は	ADP	PK	_	56	case	_	SpaceAfter=No
-58	金	金	NOUN	NN	_	67	nsubj	_	SpaceAfter=No
-59	が	が	ADP	PS	_	58	case	_	SpaceAfter=No
-60	吉	吉	NOUN	NN	_	63	compound	_	SpaceAfter=No
-61	展	展	NOUN	XS	_	63	compound	_	SpaceAfter=No
-62	ちゃん	ちゃん	NOUN	XS	_	63	compound	_	SpaceAfter=No
-63	事件	事件	NOUN	NN	_	67	obl	_	SpaceAfter=No
-64	と	と	ADP	PS	_	63	case	_	SpaceAfter=No
-65	関係	関係	NOUN	NN	_	67	obl	_	SpaceAfter=No
-66	の	の	ADP	PN	_	65	case	_	SpaceAfter=No
-67	ある	ある	VERB	VV	_	68	acl	_	SpaceAfter=No
-68	もの	もの	NOUN	NB	_	71	advcl	_	SpaceAfter=No
-69	だ	だ	AUX	AV	_	68	cop	_	SpaceAfter=No
-70	と	と	SCONJ	PC	_	68	mark	_	SpaceAfter=No
-71	供述	供述	VERB	VV	_	0	root	_	SpaceAfter=No
-72	し	する	AUX	XV	_	71	aux	_	SpaceAfter=No
-73	た	た	AUX	AV	_	71	aux	_	SpaceAfter=No
-74	。	。	PUNCT	SYM	_	71	punct	_	SpaceAfter=No
+52	ほどなく	ほどなく	ADV	RB	_	53	advmod	_	SpaceAfter=No
+53	し	し	VERB	VV	_	69	advcl	_	SpaceAfter=No
+54	て	て	SCONJ	PC	_	53	mark	_	SpaceAfter=No
+55	小原	小原	PROPN	NNP	_	69	nsubj	_	SpaceAfter=No
+56	は	は	ADP	PK	_	55	case	_	SpaceAfter=No
+57	金	金	PROPN	NNP	_	66	nmod	_	SpaceAfter=No
+58	が	が	ADP	PS	_	57	case	_	SpaceAfter=No
+59	吉展	吉展	PROPN	NNP	_	61	compound	_	SpaceAfter=No
+60	ちゃん	ちゃん	NOUN	XS	_	61	compound	_	SpaceAfter=No
+61	事件	事件	NOUN	NN	_	65	obl	_	SpaceAfter=No
+62	と	と	ADP	PS	_	61	case	_	SpaceAfter=No
+63	関係	関係	NOUN	NN	_	65	obl	_	SpaceAfter=No
+64	の	の	ADP	PN	_	63	case	_	SpaceAfter=No
+65	ある	ある	VERB	VV	_	66	acl	_	SpaceAfter=No
+66	もの	もの	NOUN	NB	_	69	advcl	_	SpaceAfter=No
+67	だ	だ	AUX	AV	_	66	cop	_	SpaceAfter=No
+68	と	と	SCONJ	PC	_	66	mark	_	SpaceAfter=No
+69	供述	供述	VERB	VV	_	0	root	_	SpaceAfter=No
+70	し	する	AUX	XV	_	69	aux	_	SpaceAfter=No
+71	た	た	AUX	AV	_	69	aux	_	SpaceAfter=No
+72	。	。	PUNCT	SYM	_	69	punct	_	SpaceAfter=No
 
 # sent_id = dev-s243
 # text = 同基金では、ひとり親家庭の就業支援も新規に実施。
@@ -6638,7 +6636,7 @@
 4	と	と	ADP	PS	_	3	case	_	SpaceAfter=No
 5	なり	なる	VERB	VV	_	14	advcl	_	SpaceAfter=No
 6	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
-7	最近	最近	NOUN	NR	_	14	nsubj	_	SpaceAfter=No
+7	最近	最近	NOUN	NR	_	14	dislocated	_	SpaceAfter=No
 8	は	は	ADP	PK	_	7	case	_	SpaceAfter=No
 9	ドラマ	ドラマ	NOUN	NN	_	14	obl	_	SpaceAfter=No
 10	で	で	ADP	PS	_	9	case	_	SpaceAfter=No
@@ -7718,7 +7716,7 @@
 8	れ	れる	AUX	AV	_	7	aux	_	SpaceAfter=No
 9	て	て	SCONJ	PC	_	7	mark	_	SpaceAfter=No
 10	いる	いる	AUX	AV	_	7	aux	_	SpaceAfter=No
-11	サイト	サイト	NOUN	NN	_	20	nsubj	_	SpaceAfter=No
+11	サイト	サイト	NOUN	NN	_	20	dislocated	_	SpaceAfter=No
 12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
 13	日本	日本	PROPN	NNP	_	15	nmod	_	SpaceAfter=No
 14	や	や	ADP	PH	_	13	cc	_	SpaceAfter=No
@@ -9683,7 +9681,7 @@
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	設計	設計	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 5	と	と	ADP	PS	_	4	case	_	SpaceAfter=No
-6	形状	形状	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
+6	形状	形状	NOUN	NN	_	17	dislocated	_	SpaceAfter=No
 7	は	は	ADP	PK	_	6	case	_	SpaceAfter=No
 8	前任	前任	NOUN	NN	_	12	nmod	_	SpaceAfter=No
 9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
@@ -11143,7 +11141,7 @@
 
 # sent_id = dev-s432
 # text = 治療はステロイドの内服が中心だという。
-1	治療	治療	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+1	治療	治療	NOUN	NN	_	7	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	ステロイド	ステロイド	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
