@@ -5,58 +5,63 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>8195</sentences><tokens>184348</tokens><words>184348</words><fused>0</fused></total>
+    <total><sentences>8186</sentences><tokens>184118</tokens><words>184118</words><fused>0</fused></total>
+    <train><sentences>7125</sentences><tokens>160240</tokens><words>160240</words><fused>0</fused></train>
+    <dev><sentences>511</sentences><tokens>11478</tokens><words>11478</words><fused>0</fused></dev>
+    <test><sentences>550</sentences><tokens>12400</tokens><words>12400</words><fused>0</fused></test>
   </size>
-  <lemmas unique="23442" /><!-- の, 。, 、, する, は, に, を, た, が, て, だ, と, で, いる, れる -->
-  <forms unique="24555" /><!-- の, 。, 、, に, は, を, た, が, て, と, し, で, も, れ, , -->
+  <lemmas unique="23444" /><!-- の, 。, 、, する, は, に, を, た, が, て, だ, と, で, いる, れる -->
+  <forms unique="24558" /><!-- の, 。, 、, に, は, を, た, が, て, と, で, し, も, れ, , -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">4496</tag><!-- ない, 多い, 同, 高い, いい, 的だ, 良い, よい, 可能, 同じ -->
-    <tag name="ADP">41840</tag><!-- の, は, に, を, が, と, で, も, から, や -->
-    <tag name="ADV">1929</tag><!-- とても, さらに, 特に, 初めて, ほとんど, かつて, 少し, こう, もう, 最も -->
-    <tag name="AUX">23797</tag><!-- た, する, だ, いる, れる, ます, ない, ようだ, られる, なる -->
-    <tag name="CCONJ">843</tag><!-- また, しかし, および, そして, なお, ただし, ただ, 一方, あるいは, だが -->
-    <tag name="DET">814</tag><!-- この, その, どの, あの -->
+    <tag name="ADJ">4498</tag><!-- ない, 多い, 同, 高い, いい, 的だ, 良い, よい, 可能, 同じ -->
+    <tag name="ADP">41794</tag><!-- の, は, に, を, が, と, で, も, から, や -->
+    <tag name="ADV">1927</tag><!-- とても, さらに, 特に, 初めて, ほとんど, かつて, 少し, こう, 最も, あまり -->
+    <tag name="AUX">23778</tag><!-- た, する, だ, いる, れる, ます, ない, ようだ, られる, なる -->
+    <tag name="CCONJ">841</tag><!-- また, しかし, および, そして, なお, ただし, ただ, 一方, あるいは, だが -->
+    <tag name="DET">811</tag><!-- この, その, どの, あの -->
     <tag name="INTJ">12</tag><!-- ありがとう, いや, おめでとう, ごめんなさい, すいません, そらあ, ま -->
-    <tag name="NOUN">49977</tag><!-- 年, こと, 日, 人, お, 後, もの, 中, 時, 店 -->
-    <tag name="NUM">4349</tag><!-- 1, 2, 3, 4, 一, 5, 10, 6, 二, 7 -->
-    <tag name="PART">1001</tag><!-- か, 第, 約, さ, ね, よ, -, な, 翌, 年 -->
-    <tag name="PRON">1013</tag><!-- これ, それ, ここ, 私, 彼, こちら, そこ, これら, 彼女, いずれ -->
-    <tag name="PROPN">8784</tag><!-- 日本, 東京, m, 中国, アメリカ, a, ドイツ, km, 台湾, 韓国 -->
-    <tag name="PUNCT">19268</tag><!-- 。, 、, ,, 「, 」, “, ”, 『, 』, ! -->
-    <tag name="SCONJ">7751</tag><!-- て, が, と, の, ので, ため, ば, たり, ながら, から -->
-    <tag name="SYM">1064</tag><!-- ・, -, :, &, *, ~, #, ―, ", ' -->
-    <tag name="VERB">17410</tag><!-- する, ある, なる, 行う, 思う, いう, できる, 受ける, 持つ, いる -->
+    <tag name="NOUN">49113</tag><!-- 年, 日, 人, お, 後, もの, 中, 時, 店, 氏 -->
+    <tag name="NUM">4347</tag><!-- 1, 2, 3, 4, 一, 5, 10, 6, 二, 7 -->
+    <tag name="PART">999</tag><!-- か, 第, 約, ね, さ, よ, -, な, 翌, 年 -->
+    <tag name="PRON">1012</tag><!-- これ, それ, ここ, 私, 彼, こちら, そこ, これら, 彼女, いずれ -->
+    <tag name="PROPN">8775</tag><!-- 日本, 東京, 中国, m, アメリカ, a, ドイツ, km, 台湾, 韓国 -->
+    <tag name="PUNCT">19264</tag><!-- 。, 、, ,, 「, 」, ”, “, 『, 』, ! -->
+    <tag name="SCONJ">8521</tag><!-- て, こと, が, と, の, ので, ため, ば, たり, ながら -->
+    <tag name="SYM">1047</tag><!-- ・, -, *, ~, &, :, #, ―, ', ※ -->
+    <tag name="VERB">17379</tag><!-- する, ある, なる, 行う, 思う, いう, 受ける, 持つ, できる, 見る -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="NumType" value="Card" upos="NUM">4349</feat><!-- 1, 2, 3, 4, 一, 5, 10, 6, 二, 7 -->
+    <feat name="NumType" value="Card" upos="NUM">4347</feat><!-- 1, 2, 3, 4, 一, 5, 10, 6, 二, 7 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="23">
-    <dep name="acl">6086</dep>
-    <dep name="advcl">8800</dep>
-    <dep name="advmod">3233</dep>
-    <dep name="amod">800</dep>
-    <dep name="aux">22211</dep>
-    <dep name="case">41128</dep>
+  <deps unique="25">
+    <dep name="acl">6081</dep>
+    <dep name="advcl">8781</dep>
+    <dep name="advmod">2683</dep>
+    <dep name="amod">797</dep>
+    <dep name="aux">21416</dep>
+    <dep name="case">41084</dep>
     <dep name="cc">628</dep>
-    <dep name="ccomp">402</dep>
-    <dep name="compound">16915</dep>
-    <dep name="cop">2181</dep>
-    <dep name="csubj">529</dep>
-    <dep name="dep">6</dep>
-    <dep name="det">814</dep>
-    <dep name="fixed">322</dep>
-    <dep name="iobj">4912</dep>
-    <dep name="mark">8290</dep>
-    <dep name="nmod">14678</dep>
-    <dep name="nsubj">7094</dep>
-    <dep name="nummod">4147</dep>
-    <dep name="obj">5076</dep>
-    <dep name="obl">8868</dep>
-    <dep name="punct">19033</dep>
-    <dep name="root">8195</dep>
+    <dep name="ccomp">400</dep>
+    <dep name="compound">16628</dep>
+    <dep name="cop">2176</dep>
+    <dep name="csubj">528</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">811</dep>
+    <dep name="discourse">9</dep>
+    <dep name="dislocated">200</dep>
+    <dep name="fixed">321</dep>
+    <dep name="iobj">4911</dep>
+    <dep name="mark">9057</dep>
+    <dep name="nmod">14660</dep>
+    <dep name="nsubj">6905</dep>
+    <dep name="nummod">4196</dep>
+    <dep name="obj">5072</dep>
+    <dep name="obl">9330</dep>
+    <dep name="punct">19255</dep>
+    <dep name="root">8186</dep>
   </deps>
 </treebank>
