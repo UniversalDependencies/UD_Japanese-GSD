@@ -6726,7 +6726,7 @@
 2	建物	建物	NOUN	NN	_	23	nsubj	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-5	初め	初め	NOUN	NR	_	10	advmod	_	SpaceAfter=No
+5	初め	初め	NOUN	NR	_	10	obl	_	SpaceAfter=No
 6	オフィス	オフィス	NOUN	NN	_	8	obl	_	SpaceAfter=No
 7	と	と	ADP	PQ	_	6	case	_	SpaceAfter=No
 8	し	する	VERB	VV	_	10	advcl	_	SpaceAfter=No
@@ -7392,7 +7392,7 @@
 
 # sent_id = test-s316
 # text = 通常この協議は1〜4年かかるとされている。
-1	通常	通常	NOUN	NN	_	9	advmod	_	SpaceAfter=No
+1	通常	通常	NOUN	NN	_	9	obl	_	SpaceAfter=No
 2	この	この	DET	JR	_	3	det	_	SpaceAfter=No
 3	協議	協議	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
@@ -7605,7 +7605,7 @@
 20	価格的	価格的	ADJ	JN	_	27	advcl	_	SpaceAfter=No
 21	に	だ	AUX	XV	_	20	aux	_	SpaceAfter=No
 22	も	も	ADP	PK	_	20	case	_	SpaceAfter=No
-23	割	割	NOUN	NN	_	27	advmod	_	SpaceAfter=No
+23	割	割	NOUN	NN	_	27	obl	_	SpaceAfter=No
 24	と	と	ADP	PS	_	23	case	_	SpaceAfter=No
 25	負担	負担	NOUN	NN	_	27	obl	_	SpaceAfter=No
 26	の	の	ADP	PN	_	25	case	_	SpaceAfter=No
@@ -10917,7 +10917,7 @@
 
 # sent_id = test-s446
 # text = 唯一、最初から冥術を使用できるクラス。
-1	唯一	唯一	NOUN	NN	_	7	advmod	_	SpaceAfter=No
+1	唯一	唯一	NOUN	NN	_	7	obl	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	最初	最初	NOUN	NN	_	7	obl	_	SpaceAfter=No
 4	から	から	ADP	PS	_	3	case	_	SpaceAfter=No
