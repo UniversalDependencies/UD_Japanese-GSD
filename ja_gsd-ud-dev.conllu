@@ -8231,7 +8231,7 @@
 # text = 私はよく通ってますが、親切丁寧に対応してくださって安心です。
 1	私	私	PRON	NP	_	4	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	よく	よい	ADJ	JJ	_	4	advcl	_	SpaceAfter=No
+3	よく	よく	ADV	RB	_	4	advmod	_	SpaceAfter=No
 4	通っ	通う	VERB	VV	_	12	advcl	_	SpaceAfter=No
 5	て	て	SCONJ	PC	_	4	mark	_	SpaceAfter=No
 6	ます	ます	AUX	AV	_	4	aux	_	SpaceAfter=No
@@ -11677,18 +11677,17 @@
 12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
 13	身	身	NOUN	NN	_	15	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
-15	つ	つく	VERB	VV	_	17	acl	_	SpaceAfter=No
-16	ける	ける	AUX	AV	_	15	aux	_	SpaceAfter=No
-17	社員教育	社員教育	NOUN	NN	_	19	nmod	_	SpaceAfter=No
-18	の	の	ADP	PN	_	17	case	_	SpaceAfter=No
-19	方	方	NOUN	NB	_	21	nsubj	_	SpaceAfter=No
-20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
-21	優先	優先	VERB	VV	_	0	root	_	SpaceAfter=No
-22	す	する	AUX	XV	_	21	aux	_	SpaceAfter=No
-23	べき	べし	AUX	AV	_	21	aux	_	SpaceAfter=No
-24	だろ	だ	AUX	AV	_	21	cop	_	SpaceAfter=No
-25	う	う	AUX	AV	_	21	aux	_	SpaceAfter=No
-26	。	。	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
+15	つける	つける	VERB	VV	_	16	acl	_	SpaceAfter=No
+16	社員教育	社員教育	NOUN	NN	_	18	nmod	_	SpaceAfter=No
+17	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
+18	方	方	NOUN	NB	_	20	nsubj	_	SpaceAfter=No
+19	が	が	ADP	PS	_	18	case	_	SpaceAfter=No
+20	優先	優先	VERB	VV	_	0	root	_	SpaceAfter=No
+21	す	する	AUX	XV	_	20	aux	_	SpaceAfter=No
+22	べき	べし	AUX	AV	_	20	aux	_	SpaceAfter=No
+23	だろ	だ	AUX	AV	_	20	cop	_	SpaceAfter=No
+24	う	う	AUX	AV	_	20	aux	_	SpaceAfter=No
+25	。	。	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
 
 # sent_id = dev-s453
 # text = 本作より昔の話である『ドラゴンクエストIII』の時代では魔物に滅ぼされておらず活気のある町として存在していた。
@@ -12947,7 +12946,7 @@
 19	の	の	ADP	PN	_	18	case	_	SpaceAfter=No
 20	証言	証言	NOUN	NN	_	23	obl	_	SpaceAfter=No
 21	と	と	ADP	PS	_	20	case	_	SpaceAfter=No
-22	よく	よい	ADJ	JJ	_	23	advcl	_	SpaceAfter=No
+22	よく	よく	ADV	RB	_	23	advmod	_	SpaceAfter=No
 23	似	似る	VERB	VV	_	0	root	_	SpaceAfter=No
 24	て	て	SCONJ	PC	_	23	mark	_	SpaceAfter=No
 25	い	いる	AUX	AV	_	23	aux	_	SpaceAfter=No
