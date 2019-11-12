@@ -748,7 +748,7 @@
 5	高台	高台	NOUN	NN	_	8	obj	_	SpaceAfter=No
 6	」	」	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 7	を	を	ADP	PS	_	5	case	_	SpaceAfter=No
-8	選ん	選ぶ	VERB	VV	_	27	csubj	_	SpaceAfter=No
+8	選ん	選ぶ	VERB	VV	_	16	csubj	_	SpaceAfter=No
 9	だ	た	AUX	AV	_	8	aux	_	SpaceAfter=No
 10	の	の	SCONJ	PNB	_	8	mark	_	SpaceAfter=No
 11	は	は	ADP	PK	_	8	case	_	SpaceAfter=No
@@ -943,7 +943,7 @@
 
 # sent_id = dev-s37
 # text = 久しぶりにうまいコーヒーが飲めました。
-1	久しぶり	久しぶり	ADJ	JN	_	3	advcl	_	SpaceAfter=No
+1	久しぶり	久しぶり	ADJ	JN	_	6	advcl	_	SpaceAfter=No
 2	に	だ	AUX	XV	_	1	aux	_	SpaceAfter=No
 3	うまい	うまい	ADJ	JJ	_	4	acl	_	SpaceAfter=No
 4	コーヒー	コーヒー	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
@@ -1443,7 +1443,7 @@
 1	富士通	富士通	PROPN	NNP	_	21	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
-4	産業機械	産業機械	NOUN	NN	_	21	advcl	_	SpaceAfter=No
+4	産業機械	産業機械	NOUN	NN	_	10	advcl	_	SpaceAfter=No
 5	だけ	だけ	ADP	PA	_	4	case	_	SpaceAfter=No
 6	で	だ	AUX	AV	_	4	cop	_	SpaceAfter=No
 7	なく	ない	AUX	AV	_	4	aux	_	SpaceAfter=No
@@ -2429,7 +2429,7 @@
 
 # sent_id = dev-s94
 # text = そして、寛永期以降の蝦夷地幕領化の中で「松前稼」と呼ばれた、蝦夷地への労働力移動が可能であり、飢餓期の困窮を一時的に回避することができた。
-1	そして	そして	CCONJ	CC	_	45	advmod	_	SpaceAfter=No
+1	そして	そして	CCONJ	CC	_	30	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	寛永	寛永	PROPN	NNP	_	5	compound	_	SpaceAfter=No
 4	期	期	NOUN	XS	_	5	compound	_	SpaceAfter=No
@@ -2578,7 +2578,7 @@
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	ガセ	ガセ	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
 4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
-5	情報	情報	NOUN	NN	_	27	advcl	_	SpaceAfter=No
+5	情報	情報	NOUN	NN	_	17	advcl	_	SpaceAfter=No
 6	だっ	だ	AUX	AV	_	5	cop	_	SpaceAfter=No
 7	た	た	AUX	AV	_	5	aux	_	SpaceAfter=No
 8	の	の	SCONJ	PNB	_	5	mark	_	SpaceAfter=No
@@ -2855,7 +2855,7 @@
 31	ハーン	ハーン	PROPN	NNP	_	32	compound	_	SpaceAfter=No
 32	たち	たち	NOUN	XS	_	41	nsubj	_	SpaceAfter=No
 33	は	は	ADP	PK	_	32	case	_	SpaceAfter=No
-34	非常	非常	ADJ	JN	_	41	advcl	_	SpaceAfter=No
+34	非常	非常	ADJ	JN	_	36	advcl	_	SpaceAfter=No
 35	に	だ	AUX	XV	_	34	aux	_	SpaceAfter=No
 36	大きな	大きな	ADJ	JR	_	37	amod	_	SpaceAfter=No
 37	ゲル	ゲル	NOUN	NN	_	41	obj	_	SpaceAfter=No
@@ -2995,7 +2995,7 @@
 67	死神	死神	NOUN	NN	_	70	nsubj	_	SpaceAfter=No
 68	が	が	ADP	PS	_	67	case	_	SpaceAfter=No
 69	多数	多数	NOUN	NR	_	70	obl	_	SpaceAfter=No
-70	訪れる	訪れる	VERB	VV	_	86	advcl	_	SpaceAfter=No
+70	訪れる	訪れる	VERB	VV	_	80	advcl	_	SpaceAfter=No
 71	ように	ようだ	AUX	AV	_	70	aux	_	SpaceAfter=No
 72	手	手	NOUN	NN	_	78	nsubj	_	SpaceAfter=No
 73	が	が	ADP	PS	_	72	case	_	SpaceAfter=No
@@ -3479,7 +3479,7 @@
 
 # sent_id = dev-s134
 # text = 一方ポリュネイケスの子テルサンドロスは戦争に勝利した後、トロイア戦争に参加したが、ギリシア軍は間違ってミューシアに上陸し、テーレポス王と戦争になった。
-1	一方	一方	CCONJ	CC	_	37	advmod	_	SpaceAfter=No
+1	一方	一方	CCONJ	CC	_	17	advmod	_	SpaceAfter=No
 2	ポリュネイケス	ポリュネイケス	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	子	子	NOUN	XP	_	5	compound	_	SpaceAfter=No
@@ -4275,7 +4275,7 @@
 2	部下	部下	NOUN	NN	_	11	nsubj	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	ヘビー	ヘビー	NOUN	NN	_	5	compound	_	SpaceAfter=No
-5	ナイト	ナイト	NOUN	NN	_	11	obl	_	SpaceAfter=No
+5	ナイト	ナイト	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 6	と	と	ADP	PS	_	5	case	_	SpaceAfter=No
 7	バッティ	バッティ	PROPN	NNP	_	9	nmod	_	SpaceAfter=No
 8	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
@@ -4413,7 +4413,7 @@
 
 # sent_id = dev-s172
 # text = 一方、BOφWY、JUDYANDMARYなど人気バンドが解散していくなかで、こうしたバンドのファンが新たにコピーバンドを結成するケースも目立つように各地で活動を継続している。
-1	一方	一方	CCONJ	CC	_	37	advmod	_	SpaceAfter=No
+1	一方	一方	CCONJ	CC	_	33	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	BOφWY	BOφWY	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
@@ -4443,7 +4443,7 @@
 28	する	する	AUX	XV	_	27	aux	_	SpaceAfter=No
 29	ケース	ケース	NOUN	NN	_	31	obl	_	SpaceAfter=No
 30	も	も	ADP	PK	_	29	case	_	SpaceAfter=No
-31	目立つ	目立つ	VERB	VV	_	33	nmod	_	SpaceAfter=No
+31	目立つ	目立つ	VERB	VV	_	33	advcl	_	SpaceAfter=No
 32	ように	ようだ	AUX	AV	_	31	aux	_	SpaceAfter=No
 33	各地	各地	NOUN	NN	_	37	obl	_	SpaceAfter=No
 34	で	で	ADP	PS	_	33	case	_	SpaceAfter=No
@@ -4626,7 +4626,7 @@
 14	国民	国民	NOUN	NN	_	17	obl	_	SpaceAfter=No
 15	にとって	にとって	ADP	PP	_	14	case	_	SpaceAfter=No
 16	も	も	ADP	PK	_	14	case	_	SpaceAfter=No
-17	指標	指標	NOUN	NN	_	43	advcl	_	SpaceAfter=No
+17	指標	指標	NOUN	NN	_	33	advcl	_	SpaceAfter=No
 18	であっ	だ	AUX	AV	_	17	cop	_	SpaceAfter=No
 19	た	た	AUX	AV	_	17	aux	_	SpaceAfter=No
 20	が	が	SCONJ	PC	_	17	mark	_	SpaceAfter=No
@@ -4886,13 +4886,13 @@
 # sent_id = dev-s190
 # text = 市政委員会が火薬は植民地の財産であり、イギリス国王のものではないと主張して、火薬の返還を要求した。
 1	市政	市政	NOUN	NN	_	2	compound	_	SpaceAfter=No
-2	委員会	委員会	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+2	委員会	委員会	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
 3	が	が	ADP	PS	_	2	case	_	SpaceAfter=No
 4	火薬	火薬	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 6	植民地	植民地	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 7	の	の	ADP	PN	_	6	case	_	SpaceAfter=No
-8	財産	財産	NOUN	NN	_	27	advcl	_	SpaceAfter=No
+8	財産	財産	NOUN	NN	_	14	advcl	_	SpaceAfter=No
 9	であり	だ	AUX	AV	_	8	cop	_	SpaceAfter=No
 10	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 11	イギリス	イギリス	PROPN	NNP	_	12	compound	_	SpaceAfter=No
@@ -5055,7 +5055,7 @@
 5	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 6	ゲーテ	ゲーテ	PROPN	NNP	_	8	nmod	_	SpaceAfter=No
 7	の	の	ADP	PN	_	6	case	_	SpaceAfter=No
-8	ほか	ほか	NOUN	NB	_	23	obl	_	SpaceAfter=No
+8	ほか	ほか	NOUN	NB	_	9	nmod	_	SpaceAfter=No
 9	シラー	シラー	PROPN	NNP	_	11	nmod	_	SpaceAfter=No
 10	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 11	ヘルダー	ヘルダー	PROPN	NNP	_	18	nmod	_	SpaceAfter=No
@@ -5393,7 +5393,7 @@
 
 # sent_id = dev-s214
 # text = また、香辛料を輸入するため、さかんにマカッサル王国とも交易をおこなった。
-1	また	また	CCONJ	CC	_	17	advmod	_	SpaceAfter=No
+1	また	また	CCONJ	CC	_	5	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	香辛料	香辛料	NOUN	NN	_	5	obj	_	SpaceAfter=No
 4	を	を	ADP	PS	_	3	case	_	SpaceAfter=No
@@ -5588,7 +5588,7 @@
 # text = 髪は薄茶色で毛先が渦巻きカールになった髪型をしている。
 1	髪	髪	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	薄茶色	薄茶色	NOUN	NN	_	10	obl	_	SpaceAfter=No
+3	薄茶色	薄茶色	NOUN	NN	_	14	nmod	_	SpaceAfter=No
 4	で	で	ADP	PS	_	3	case	_	SpaceAfter=No
 5	毛先	毛先	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
 6	が	が	ADP	PS	_	5	case	_	SpaceAfter=No
@@ -5637,7 +5637,7 @@
 # sent_id = dev-s221
 # text = 表題曲『港の五番町』の作詞は阿久悠、作曲は彩木雅夫である。
 1	表題	表題	NOUN	NN	_	2	compound	_	SpaceAfter=No
-2	曲	曲	NOUN	XS	_	19	nmod	_	SpaceAfter=No
+2	曲	曲	NOUN	XS	_	8	nmod	_	SpaceAfter=No
 3	『	『	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 4	港	港	PROPN	NNP	_	8	nmod	_	SpaceAfter=No
 5	の	の	ADP	PN	_	4	case	_	SpaceAfter=No
@@ -5798,7 +5798,7 @@
 
 # sent_id = dev-s227
 # text = そして回答の最後に,週刊誌の編集部に対して,こんな一文。
-1	そして	そして	CCONJ	CC	_	14	advmod	_	SpaceAfter=No
+1	そして	そして	CCONJ	CC	_	4	advmod	_	SpaceAfter=No
 2	回答	回答	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	最後	最後	NOUN	NN	_	14	nmod	_	SpaceAfter=No
@@ -6093,7 +6093,7 @@
 11	条件	条件	NOUN	NN	_	31	advcl	_	SpaceAfter=No
 12	であり	だ	AUX	AV	_	11	cop	_	SpaceAfter=No
 13	2	2	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
-14	回線	回線	NOUN	XSC	_	31	obl	_	SpaceAfter=No
+14	回線	回線	NOUN	XSC	_	20	nmod	_	SpaceAfter=No
 15	から	から	ADP	PS	_	14	case	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
 17	および	および	CCONJ	CC	_	20	advmod	_	SpaceAfter=No
@@ -6223,7 +6223,7 @@
 
 # sent_id = dev-s242
 # text = それでも小原は1963年4月に持っていた金は事件と無関係と言い張ったが、平塚らは「これだけ材料を突きつけられてまだ逃れられると思っているのか」と小原を追い詰め、それからほどなくして小原は金が吉展ちゃん事件と関係のあるものだと供述した。
-1	それ	それ	PRON	NP	_	69	obl	_	SpaceAfter=No
+1	それ	それ	PRON	NP	_	20	obl	_	SpaceAfter=No
 2	で	で	ADP	PS	_	1	case	_	SpaceAfter=No
 3	も	も	ADP	PK	_	1	case	_	SpaceAfter=No
 4	小原	小原	PROPN	NNP	_	20	nsubj	_	SpaceAfter=No
@@ -6516,7 +6516,7 @@
 10	ニコニコ	ニコニコ	PROPN	NNP	_	11	compound	_	SpaceAfter=No
 11	生放送	生放送	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 12	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
-13	投票	投票	NOUN	NN	_	27	advcl	_	SpaceAfter=No
+13	投票	投票	NOUN	NN	_	25	advcl	_	SpaceAfter=No
 14	だけ	だけ	ADP	PA	_	13	case	_	SpaceAfter=No
 15	で	だ	AUX	AV	_	13	cop	_	SpaceAfter=No
 16	なく	ない	AUX	AV	_	13	aux	_	SpaceAfter=No
@@ -6592,7 +6592,7 @@
 
 # sent_id = dev-s254
 # text = すべて私のせいでとんでもないご迷惑ばかりおかけし,この期に及んでも足をひっぱるばかりで,もう本当にお詫びの言葉もありません。
-1	すべて	すべて	NOUN	NR	_	32	obl	_	SpaceAfter=No
+1	すべて	すべて	NOUN	NR	_	4	obl	_	SpaceAfter=No
 2	私	私	PRON	NP	_	4	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	せい	せい	NOUN	NB	_	11	obl	_	SpaceAfter=No
@@ -7284,7 +7284,7 @@
 11	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
 12	字義	字義	NOUN	NN	_	14	obl	_	SpaceAfter=No
 13	と	と	ADP	PQ	_	12	case	_	SpaceAfter=No
-14	し	する	VERB	VV	_	20	advcl	_	SpaceAfter=No
+14	し	する	VERB	VV	_	28	advcl	_	SpaceAfter=No
 15	て	て	SCONJ	PC	_	14	mark	_	SpaceAfter=No
 16	は	は	ADP	PK	_	14	case	_	SpaceAfter=No
 17	「	「	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
@@ -7471,7 +7471,7 @@
 2	も	も	ADP	PK	_	1	case	_	SpaceAfter=No
 3	特有	特有	ADJ	JN	_	5	acl	_	SpaceAfter=No
 4	の	だ	AUX	XV	_	3	aux	_	SpaceAfter=No
-5	風	風	NOUN	NN	_	7	obl	_	SpaceAfter=No
+5	風	風	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 6	と	と	ADP	PS	_	5	case	_	SpaceAfter=No
 7	降りしきる	降りしきる	VERB	VV	_	8	acl	_	SpaceAfter=No
 8	雨	雨	NOUN	NN	_	10	iobj	_	SpaceAfter=No
@@ -7747,28 +7747,28 @@
 5	広報	広報	NOUN	NN	_	6	compound	_	SpaceAfter=No
 6	担当者	担当者	NOUN	NN	_	8	iobj	_	SpaceAfter=No
 7	に	に	ADP	PS	_	6	case	_	SpaceAfter=No
-8	よる	よる	VERB	VV	_	24	advcl	_	SpaceAfter=No
+8	よる	よる	VERB	VV	_	27	advcl	_	SpaceAfter=No
 9	と	と	SCONJ	PC	_	8	mark	_	SpaceAfter=No
 10	,	,	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 11	今回	今回	NOUN	NR	_	14	nmod	_	SpaceAfter=No
 12	の	の	ADP	PN	_	11	case	_	SpaceAfter=No
 13	広告	広告	NOUN	NN	_	14	compound	_	SpaceAfter=No
-14	掲載	掲載	NOUN	NN	_	24	nsubj	_	SpaceAfter=No
+14	掲載	掲載	NOUN	NN	_	27	nsubj	_	SpaceAfter=No
 15	は	は	ADP	PK	_	14	case	_	SpaceAfter=No
 16	“	“	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
 17	フライデー	フライデー	NOUN	NN	_	18	compound	_	SpaceAfter=No
 18	事件	事件	NOUN	NN	_	20	nmod	_	SpaceAfter=No
 19	”	”	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
-20	以来	以来	NOUN	NR	_	24	nmod	_	SpaceAfter=No
+20	以来	以来	NOUN	NR	_	27	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
 22	19	19	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
 23	年	年	NOUN	XSC	_	24	compound	_	SpaceAfter=No
-24	ぶり	ぶり	NOUN	XS	_	0	root	_	SpaceAfter=No
+24	ぶり	ぶり	NOUN	XS	_	27	obl	_	SpaceAfter=No
 25	と	と	ADP	PS	_	24	case	_	SpaceAfter=No
 26	の	の	ADP	PM	_	24	case	_	SpaceAfter=No
-27	こと	こと	SCONJ	PNB	_	24	mark	_	SpaceAfter=No
-28	です	だ	AUX	AV	_	24	cop	_	SpaceAfter=No
-29	。	。	PUNCT	SYM	_	24	punct	_	SpaceAfter=No
+27	こと	こと	NOUN	NB	_	0	root	_	SpaceAfter=No
+28	です	だ	AUX	AV	_	27	cop	_	SpaceAfter=No
+29	。	。	PUNCT	SYM	_	27	punct	_	SpaceAfter=No
 
 # sent_id = dev-s299
 # text = 統一協会広報に問い合わせた。
@@ -7941,7 +7941,7 @@
 4	アラゴン	アラゴン	PROPN	NNP	_	7	nmod	_	SpaceAfter=No
 5	王	王	NOUN	NN	_	7	compound	_	SpaceAfter=No
 6	フアン	フアン	PROPN	NNP	_	7	compound	_	SpaceAfter=No
-7	2世	2世	NOUN	NN	_	12	obl	_	SpaceAfter=No
+7	2世	2世	NOUN	NN	_	18	nmod	_	SpaceAfter=No
 8	と	と	ADP	PS	_	7	case	_	SpaceAfter=No
 9	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 10	最初	最初	NOUN	NN	_	12	nmod	_	SpaceAfter=No
@@ -8214,7 +8214,7 @@
 
 # sent_id = dev-s317
 # text = そして現場へ着くと不思議な光に包まれる。
-1	そして	そして	CCONJ	CC	_	10	advmod	_	SpaceAfter=No
+1	そして	そして	CCONJ	CC	_	4	advmod	_	SpaceAfter=No
 2	現場	現場	NOUN	NN	_	4	obl	_	SpaceAfter=No
 3	へ	へ	ADP	PS	_	2	case	_	SpaceAfter=No
 4	着く	着く	VERB	VV	_	10	advcl	_	SpaceAfter=No
@@ -8231,7 +8231,7 @@
 # text = 私はよく通ってますが、親切丁寧に対応してくださって安心です。
 1	私	私	PRON	NP	_	4	nsubj	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-3	よく	よい	ADJ	JJ	_	4	advcl	_	SpaceAfter=No
+3	よく	よく	ADV	RB	_	4	advmod	_	SpaceAfter=No
 4	通っ	通う	VERB	VV	_	12	advcl	_	SpaceAfter=No
 5	て	て	SCONJ	PC	_	4	mark	_	SpaceAfter=No
 6	ます	ます	AUX	AV	_	4	aux	_	SpaceAfter=No
@@ -8567,7 +8567,7 @@
 26	儲け	儲ける	VERB	VV	_	34	advcl	_	SpaceAfter=No
 27	た	た	AUX	AV	_	26	aux	_	SpaceAfter=No
 28	が	が	SCONJ	PC	_	26	mark	_	SpaceAfter=No
-29	いずれ	いずれ	PRON	NP	_	34	obl	_	SpaceAfter=No
+29	いずれ	いずれ	PRON	NP	_	31	obl	_	SpaceAfter=No
 30	も	も	ADP	PK	_	29	case	_	SpaceAfter=No
 31	若く	若い	ADJ	JJ	_	34	advcl	_	SpaceAfter=No
 32	し	する	AUX	AV	_	31	aux	_	SpaceAfter=No
@@ -8986,7 +8986,7 @@
 5	分	分	NOUN	XSC	_	6	compound	_	SpaceAfter=No
 6	圏内	圏内	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 7	の	の	ADP	PN	_	6	case	_	SpaceAfter=No
-8	スパホテル	スパホテル	PROPN	NNP	_	25	obl	_	SpaceAfter=No
+8	スパホテル	スパホテル	PROPN	NNP	_	16	nmod	_	SpaceAfter=No
 9	で	で	ADP	PS	_	8	case	_	SpaceAfter=No
 10	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 11	一	一	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
@@ -9220,7 +9220,7 @@
 
 # sent_id = dev-s355
 # text = しかし彼のホームレス支援活動が悪いことだとは思えません。
-1	しかし	しかし	CCONJ	CC	_	8	advmod	_	SpaceAfter=No
+1	しかし	しかし	CCONJ	CC	_	13	advmod	_	SpaceAfter=No
 2	彼	彼	PRON	NP	_	6	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
 4	ホームレス	ホームレス	NOUN	NN	_	6	compound	_	SpaceAfter=No
@@ -9623,7 +9623,7 @@
 2	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
 3	穀物	穀物	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
-5	珈琲	珈琲	NOUN	NN	_	9	obl	_	SpaceAfter=No
+5	珈琲	珈琲	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 6	と	と	ADP	PS	_	5	case	_	SpaceAfter=No
 7	デザート	デザート	NOUN	NN	_	9	obl	_	SpaceAfter=No
 8	まで	まで	ADP	PA	_	7	case	_	SpaceAfter=No
@@ -9810,7 +9810,7 @@
 
 # sent_id = dev-s378
 # text = しかし、憲法訴訟という類型自体が存在しないとしても、憲法判断の重要性から、憲法訴訟に特有の理論を考察する学問分野がある。
-1	しかし	しかし	CCONJ	CC	_	35	advmod	_	SpaceAfter=No
+1	しかし	しかし	CCONJ	CC	_	13	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	憲法	憲法	NOUN	NN	_	4	compound	_	SpaceAfter=No
 4	訴訟	訴訟	NOUN	NN	_	7	nmod	_	SpaceAfter=No
@@ -10226,7 +10226,7 @@
 8	が	が	ADP	PS	_	7	case	_	SpaceAfter=No
 9	あり	ある	VERB	VV	_	18	advcl	_	SpaceAfter=No
 10	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
-11	明らか	明らか	ADJ	JN	_	18	advcl	_	SpaceAfter=No
+11	明らか	明らか	ADJ	JN	_	16	advcl	_	SpaceAfter=No
 12	に	だ	AUX	XV	_	11	aux	_	SpaceAfter=No
 13	宿泊	宿泊	NOUN	NN	_	14	compound	_	SpaceAfter=No
 14	用	用	NOUN	XS	_	16	nmod	_	SpaceAfter=No
@@ -10347,7 +10347,7 @@
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	済美	済美	PROPN	NNP	_	6	compound	_	SpaceAfter=No
 5	女子	女子	NOUN	NN	_	6	compound	_	SpaceAfter=No
-6	高等学校	高等学校	NOUN	NN	_	27	advcl	_	SpaceAfter=No
+6	高等学校	高等学校	NOUN	NN	_	19	advcl	_	SpaceAfter=No
 7	であっ	だ	AUX	AV	_	6	cop	_	SpaceAfter=No
 8	た	た	AUX	AV	_	6	aux	_	SpaceAfter=No
 9	が	が	SCONJ	PC	_	6	mark	_	SpaceAfter=No
@@ -11667,28 +11667,27 @@
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
 3	公用語	公用語	NOUN	NN	_	5	compound	_	SpaceAfter=No
 4	化	化	NOUN	XS	_	5	compound	_	SpaceAfter=No
-5	云々	云々	NOUN	NN	_	21	obl	_	SpaceAfter=No
+5	云々	云々	NOUN	NN	_	15	obl	_	SpaceAfter=No
 6	より	より	ADP	PS	_	5	case	_	SpaceAfter=No
 7	も	も	ADP	PK	_	5	case	_	SpaceAfter=No
 8	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
-9	まずは	まずは	CCONJ	CC	_	21	advmod	_	SpaceAfter=No
+9	まずは	まずは	CCONJ	CC	_	15	advmod	_	SpaceAfter=No
 10	国際	国際	NOUN	NN	_	11	compound	_	SpaceAfter=No
 11	感覚	感覚	NOUN	NN	_	15	obj	_	SpaceAfter=No
 12	を	を	ADP	PS	_	11	case	_	SpaceAfter=No
 13	身	身	NOUN	NN	_	15	iobj	_	SpaceAfter=No
 14	に	に	ADP	PS	_	13	case	_	SpaceAfter=No
-15	つ	つく	VERB	VV	_	17	acl	_	SpaceAfter=No
-16	ける	ける	AUX	AV	_	15	aux	_	SpaceAfter=No
-17	社員教育	社員教育	NOUN	NN	_	19	nmod	_	SpaceAfter=No
-18	の	の	ADP	PN	_	17	case	_	SpaceAfter=No
-19	方	方	NOUN	NB	_	21	nsubj	_	SpaceAfter=No
-20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
-21	優先	優先	VERB	VV	_	0	root	_	SpaceAfter=No
-22	す	する	AUX	XV	_	21	aux	_	SpaceAfter=No
-23	べき	べし	AUX	AV	_	21	aux	_	SpaceAfter=No
-24	だろ	だ	AUX	AV	_	21	cop	_	SpaceAfter=No
-25	う	う	AUX	AV	_	21	aux	_	SpaceAfter=No
-26	。	。	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
+15	つける	つける	VERB	VV	_	16	acl	_	SpaceAfter=No
+16	社員教育	社員教育	NOUN	NN	_	18	nmod	_	SpaceAfter=No
+17	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
+18	方	方	NOUN	NB	_	20	nsubj	_	SpaceAfter=No
+19	が	が	ADP	PS	_	18	case	_	SpaceAfter=No
+20	優先	優先	VERB	VV	_	0	root	_	SpaceAfter=No
+21	す	する	AUX	XV	_	20	aux	_	SpaceAfter=No
+22	べき	べし	AUX	AV	_	20	aux	_	SpaceAfter=No
+23	だろ	だ	AUX	AV	_	20	cop	_	SpaceAfter=No
+24	う	う	AUX	AV	_	20	aux	_	SpaceAfter=No
+25	。	。	PUNCT	SYM	_	20	punct	_	SpaceAfter=No
 
 # sent_id = dev-s453
 # text = 本作より昔の話である『ドラゴンクエストIII』の時代では魔物に滅ぼされておらず活気のある町として存在していた。
@@ -11973,7 +11972,7 @@
 9	を	を	ADP	PS	_	8	case	_	SpaceAfter=No
 10	評価	評価	VERB	VV	_	12	acl	_	SpaceAfter=No
 11	する	する	AUX	XV	_	10	aux	_	SpaceAfter=No
-12	パターン	パターン	NOUN	NN	_	25	obl	_	SpaceAfter=No
+12	パターン	パターン	NOUN	NN	_	22	nmod	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	12	punct	_	SpaceAfter=No
 14	鼻	鼻	NOUN	NN	_	16	nmod	_	SpaceAfter=No
 15	や	や	ADP	PH	_	14	cc	_	SpaceAfter=No
@@ -12168,7 +12167,7 @@
 
 # sent_id = dev-s473
 # text = すると店内がかわいくて気にパ―マとカットをしてもらいました。
-1	すると	すると	CCONJ	CC	_	12	advmod	_	SpaceAfter=No
+1	すると	すると	CCONJ	CC	_	8	advmod	_	SpaceAfter=No
 2	店内	店内	NOUN	NN	_	4	nsubj	_	SpaceAfter=No
 3	が	が	ADP	PS	_	2	case	_	SpaceAfter=No
 4	かわいく	かわいい	ADJ	JJ	_	8	advcl	_	SpaceAfter=No
@@ -12280,7 +12279,7 @@
 5	ので	ので	SCONJ	PC	_	4	mark	_	SpaceAfter=No
 6	絶対	絶対	ADV	RB	_	8	advmod	_	SpaceAfter=No
 7	に	に	ADP	PX	_	6	case	_	SpaceAfter=No
-8	治る	治る	VERB	VV	_	14	advcl	_	SpaceAfter=No
+8	治る	治る	VERB	VV	_	10	ccomp	_	SpaceAfter=No
 9	と	と	SCONJ	PC	_	8	mark	_	SpaceAfter=No
 10	信じ	信じる	VERB	VV	_	14	advcl	_	SpaceAfter=No
 11	て	て	SCONJ	PC	_	10	mark	_	SpaceAfter=No
@@ -12364,19 +12363,19 @@
 4	目	目	NOUN	XS	_	7	nmod	_	SpaceAfter=No
 5	に	に	ADP	PS	_	4	case	_	SpaceAfter=No
 6	小さな	小さな	ADJ	JR	_	7	amod	_	SpaceAfter=No
-7	胴体	胴体	NOUN	NN	_	25	obl	_	SpaceAfter=No
+7	胴体	胴体	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 8	、	、	PUNCT	SYM	_	7	punct	_	SpaceAfter=No
 9	細い	細い	ADJ	JJ	_	10	acl	_	SpaceAfter=No
 10	手足	手足	NOUN	NN	_	12	nmod	_	SpaceAfter=No
 11	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
 12	とんがり帽子	とんがり帽子	NOUN	NN	_	14	obl	_	SpaceAfter=No
 13	という	という	ADP	PQ	_	12	case	_	SpaceAfter=No
-14	異形	異形	NOUN	NN	_	25	advcl	_	SpaceAfter=No
+14	異形	異形	NOUN	NN	_	22	advcl	_	SpaceAfter=No
 15	だ	だ	AUX	AV	_	14	cop	_	SpaceAfter=No
 16	が	が	SCONJ	PC	_	14	mark	_	SpaceAfter=No
-17	何処	何処	PRON	NP	_	19	obl	_	SpaceAfter=No
+17	何処	何処	PRON	NP	_	22	obl	_	SpaceAfter=No
 18	か	か	PART	PF	_	17	mark	_	SpaceAfter=No
-19	コミカル	コミカル	ADJ	JN	_	25	advcl	_	SpaceAfter=No
+19	コミカル	コミカル	ADJ	JN	_	22	advcl	_	SpaceAfter=No
 20	に	だ	AUX	XV	_	19	aux	_	SpaceAfter=No
 21	も	も	ADP	PK	_	19	case	_	SpaceAfter=No
 22	見える	見える	VERB	VV	_	23	acl	_	SpaceAfter=No
@@ -12443,10 +12442,10 @@
 
 # sent_id = dev-s486
 # text = 作品にはオペラ、バレエ、映画音楽、劇場音楽があり、リトアニア・ソビエト社会主義共和国の国歌も作曲している。
-1	作品	作品	NOUN	NN	_	21	iobj	_	SpaceAfter=No
+1	作品	作品	NOUN	NN	_	13	iobj	_	SpaceAfter=No
 2	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
 3	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
-4	オペラ	オペラ	NOUN	NN	_	21	obl	_	SpaceAfter=No
+4	オペラ	オペラ	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 6	バレエ	バレエ	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 7	、	、	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
@@ -12611,7 +12610,7 @@
 11	する	する	AUX	XV	_	10	aux	_	SpaceAfter=No
 12	有能	有能	ADJ	JN	_	14	acl	_	SpaceAfter=No
 13	な	だ	AUX	XV	_	12	aux	_	SpaceAfter=No
-14	助手	助手	NOUN	NN	_	25	advcl	_	SpaceAfter=No
+14	助手	助手	NOUN	NN	_	22	advcl	_	SpaceAfter=No
 15	で	だ	AUX	AV	_	14	cop	_	SpaceAfter=No
 16	は	は	ADP	PK	_	14	case	_	SpaceAfter=No
 17	ある	ある	AUX	XA	_	14	fixed	_	SpaceAfter=No
@@ -12835,7 +12834,7 @@
 2	荻野	荻野	PROPN	NNP	_	3	compound	_	SpaceAfter=No
 3	氏	氏	NOUN	XS	_	18	obl	_	SpaceAfter=No
 4	,	,	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
-5	自ら	自ら	NOUN	NR	_	18	obl	_	SpaceAfter=No
+5	自ら	自ら	NOUN	NR	_	12	obl	_	SpaceAfter=No
 6	クラシカル	クラシカル	NOUN	NN	_	8	compound	_	SpaceAfter=No
 7	ホメオパシー	ホメオパシー	NOUN	NN	_	8	compound	_	SpaceAfter=No
 8	京都	京都	PROPN	NNP	_	10	nmod	_	SpaceAfter=No
@@ -12947,7 +12946,7 @@
 19	の	の	ADP	PN	_	18	case	_	SpaceAfter=No
 20	証言	証言	NOUN	NN	_	23	obl	_	SpaceAfter=No
 21	と	と	ADP	PS	_	20	case	_	SpaceAfter=No
-22	よく	よい	ADJ	JJ	_	23	advcl	_	SpaceAfter=No
+22	よく	よく	ADV	RB	_	23	advmod	_	SpaceAfter=No
 23	似	似る	VERB	VV	_	0	root	_	SpaceAfter=No
 24	て	て	SCONJ	PC	_	23	mark	_	SpaceAfter=No
 25	い	いる	AUX	AV	_	23	aux	_	SpaceAfter=No
