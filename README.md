@@ -192,11 +192,11 @@ Data available since: UD v1.4
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news blog
-Lemmas: manual annotation of UniDic base form
-UPOS: converted from XPOS
-XPOS: manual annotation of UniDic POS tagset
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
 Features: not available
-Relations: converted from phrase-based dependencies
+Relations: converted from manual
 Contributors: Omura, Mai; Miyao, Yusuke; Kanayama, Hiroshi; Matsuda, Hiroshi; Wakasa, Aya; Yamashita, Kayo; Asahara, Masayuki; Tanaka, Takaaki; Murawaki, Yugo; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
 Contributing: here
 Contact: hkana@jp.ibm.com
