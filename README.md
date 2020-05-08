@@ -45,10 +45,6 @@ XPOS is the part-of-speech label for Short Unit Word (SUW) based on UniDic POS t
   - CONT: the non-head content word
   - FUNC: the non-head functional word
 
-- LUWBILabel: Long Unit Word (LUW) boundary labels [5]
-  - B: Beginning of LUW
-  - I: Inside of LUW
-
 - LUWPOS: the part-of-speech label for Long Unit Word (LUW) based on UniDic POS tagset [7].
 
 - UniDicLemma: lemma information based on UniDic [7]. The UniDic lemma normalise
