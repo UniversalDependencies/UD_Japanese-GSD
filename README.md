@@ -35,10 +35,6 @@ XPOS is the part-of-speech label for Short Unit Word (SUW) based on UniDic POS t
 
 - SpaceAfter: manually annotated to discriminate alphanumeric word tokens
 
-- BunsetuBILabel: base-phrase (bunsetu) boundary labels [5]
-  - B: Beginning of base-phrase
-  - I: Inside of base-phrase. 
-
 - BunsetuPositionType: heads in a bunsetu by the head rules [9];
   - SEM_HEAD: the head content word
   - SYN_HEAD: the head functional word
@@ -47,6 +43,10 @@ XPOS is the part-of-speech label for Short Unit Word (SUW) based on UniDic POS t
 
 - LUWPOS: the part-of-speech label for Long Unit Word (LUW) based on UniDic POS tagset [7].
 
+- LUWBILabel: Long Unit Word (LUW) boundary labels [5]
+  - B: Beginning of LUW
+  - I: Inside of LUW
+  
 - UniDicLemma: lemma information based on UniDic [7]. The UniDic lemma normalise
  not only conjugation forms but also orthographical variants.
  
