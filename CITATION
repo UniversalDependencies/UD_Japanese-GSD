@@ -1,0 +1,7 @@
+@ARTICLE{UD Japanese GSD v2.6,
+   AUTHOR  = {Hiroshi, Aya, Kayo, Mai and Masayuki},
+   TITLE   = {UD Japanese GSD の再整備と固有表現情報付与},
+   YEAR    = {2020},
+   JOURNAL = {言語処理学会第26回年次大会},
+   URL     = {https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P1-34.pdf}
+}
