@@ -2,6 +2,12 @@
 
 This Universal Dependencies (UD) Japanese treebank is based on the definition of UD Japanese convention described in the UD documentation.  The original sentences are from Google UDT 2.0.
 
+In addition, the Megagon Labs Tokyo added the files named `*.ne.conllu` which contain the BILUO style Named Entity gold labels in misc field.
+Below files are converted from `*.ne.conllu` for the NLP frameworks.
+
+- `ja_gsd-ud-(train|dev|test).ne.json`: https://spacy.io/api/cli#train
+- `(train|dev|test).ne.bio`: https://github.com/stanfordnlp/stanza#training-your-own-neural-pipelines
+
 
 # Introduction
 
@@ -108,9 +114,13 @@ See file LICENSE.txt
 
 [9] Kudo, T. & Matsumoto, Y. (2002). Japanese Dependency Analysis using Cascaded Chunking, In CoNLL 2002. pp.63-69.
 
+[10] 松田 寛, 若狭 絢, 山下 華代, 大村 舞, 浅原 正幸 (2020).
+UD Japanese GSD の再整備と固有表現情報付与, 言語処理学会第26回年次大会発表論文集
+
 # Changelog
 * 2020-05-   v2.6
   * Update for v2.6.  Introduce the conversion method of UD-Japanese BCCWJ [3]
+  * Add the files containing the NE gold labels
   
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
