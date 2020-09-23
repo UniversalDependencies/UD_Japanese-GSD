@@ -6,7 +6,7 @@
 
 ## Leader Board
 
-UD_Japanese-GSD v2.6-NEを使用して学習・評価を実施。
+[UD_Japanese-GSD v2.6-NE](https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/v2.6-NE) を使用して学習・評価を実施。
 
 |Rank|   Analyzer    |  MLAS   |   LAS   |   UAS   |  UPOS   | ENT(参考) |
 |:---:|:---:| ---:| ---:| ---:| ---:| ---:|
