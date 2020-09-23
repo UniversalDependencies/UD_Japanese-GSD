@@ -21,7 +21,7 @@ UD_Japanese-GSD v2.6-NEを使用して学習・評価を実施。
   - Model: Custom (UD_Japanese-GSD v2.6-NE with GiNZA specific parameter settings)
 - spaCy v2.3.2
   - Library: https://github.com/explosion/spaCy
-  - Model: 
+  - Model: https://spacy.io/models/ja#ja_core_news_md
 - Stanza v1.0.1
   - Library: https://github.com/stanfordnlp/stanza
   - Model: Custom (UD_Japanese-GSD v2.6-NE)
