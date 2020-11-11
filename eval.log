@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Japanese-GSD:
-commit 1f90fd15e1fb249314fc0e18ac7c45fe8e530322
-Merge: 2f655e1 0001c92
+commit f63f73fcf61f6dbad6bd34ea7a63554d050d5221
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 10 18:20:38 2020 +0200
 Size: counted 192605 of 192605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5212829191341.
 Size: maximum value 13.815511 is for 1000000 words or more.
