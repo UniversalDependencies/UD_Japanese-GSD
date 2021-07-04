@@ -84,6 +84,8 @@ through annotation, discussion and validation with
 - Takaaki Tanaka
 - Yugo Murawaki
 - Yuji Matsumoto
+- Kaoru Ito
+- Taishi Chika
 - Shinsuke Mori
 - Sumire Uematsu
 
