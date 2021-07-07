@@ -6,7 +6,7 @@ Send us a pull request if you want to add your model.
 
 ## Leader Board
 
-All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8NE).
+All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE).
 
 |Rank| Analyzer                          | UPOS&LAS|   LAS   |   UAS   |  NER F  |  UPOS   | TOKENIZE|
 |:---:|:--- |:---:|:---:|:---:|:---:|:---:|:---:|
