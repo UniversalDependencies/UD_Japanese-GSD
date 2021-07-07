@@ -1,13 +1,13 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Japanese-GSD:
-commit 1f90fd15e1fb249314fc0e18ac7c45fe8e530322
-Merge: 2f655e1 0001c92
+commit fc642fc91d86caf52b6192e3499da4d405fc156b
+Merge: 106fab6 d1bc34d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 192605 of 192605 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.5212829191341.
+Size: counted 193654 of 193654 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.5321461231396.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,12 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 789 out of 192605 total words have one or more features.
+Features: 1077 out of 193654 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 24455 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 192605 words.
+Udapi:
+               TOTAL      28734
+Udapi: found 28734 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 193654 words.
 Genres: found 2 out of 17 known.
 validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-dev.conllu
 *** PASSED ***
@@ -32,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.761555852387144) = 0.195270731381319
+(weight=0.256410256410256) * (score{size}=0.762342157313041) = 0.195472348028985
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.518918918918919) = 0.0399168399168399
-(TOTAL score=0.427284102218219) * (availability=1) * (validity=1) = 0.427284102218219
+(TOTAL score=0.427485718865885) * (availability=1) * (validity=1) = 0.427485718865885
 STARS = 2
-UD_Japanese-GSD	0.427284102218219	2
+UD_Japanese-GSD	0.427485718865885	2

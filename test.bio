@@ -956,7 +956,7 @@
 。	O
 
 Ad	B-PRODUCT
-Planne	I-PRODUCT
+Planner	I-PRODUCT
 も	O
 サイト	O
 の	O
@@ -972,13 +972,13 @@ Planne	I-PRODUCT
 の	O
 で	O
 ,	O
-Twitte	B-PRODUCT
+Twitter	B-PRODUCT
 アカウント	O
 数	O
 で	O
 も	O
 ,	O
-Twitte	B-PRODUCT
+Twitter	B-PRODUCT
 利用	O
 者	O
 数	O
@@ -5319,7 +5319,7 @@ Taco	O
 落ち着い	O
 て	O
 飲める	O
-Ba	O
+Bar	O
 です	O
 。	O
 
@@ -9026,32 +9026,6 @@ CM	O
 いる	O
 。	O
 
-近年	O
-の	O
-改定	O
-で	O
-は	O
-、	O
-等	O
-の	O
-普及	O
-に	O
-伴い	O
-、	O
-に	O
-つい	O
-て	O
-など	O
-が	O
-改定	O
-、	O
-制定	O
-さ	O
-れ	O
-て	O
-いる	O
-。	O
-
 同化	O
 産物	O
 は	O
@@ -10535,7 +10509,7 @@ EU	B-NORP
 し	O
 た	O
 「	O
-Stoy	B-WORK_OF_ART
+Story	B-WORK_OF_ART
 」	O
 は	O
 8	B-ORDINAL
@@ -11394,7 +11368,7 @@ Me	B-PRODUCT
 て	O
 は	O
 Java	B-PRODUCT
-Scipt	I-PRODUCT
+Script	I-PRODUCT
 の	O
 難読	O
 化	O
@@ -11667,7 +11641,7 @@ DANCE	I-WORK_OF_ART
 」	O
 と	O
 「	O
-Labyinth	B-WORK_OF_ART
+Labyrinth	B-WORK_OF_ART
 」	O
 は	O
 、	O
@@ -13600,3 +13574,4 @@ RSS	O
 い	O
 た	O
 。	O
+
