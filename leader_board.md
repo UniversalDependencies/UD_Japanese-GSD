@@ -9,7 +9,7 @@ Send us a pull request if you want to add your model.
 All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8NE).
 
 |Rank| Analyzer                          | UPOS&LAS|   LAS   |   UAS   |  NER F  |  UPOS   | TOKENIZE|
-|:---:|:---:| ---:| ---:| ---:| ---:| ---:| ---:|
+|:---:|:--- |:---:|:---:|:---:|:---:|:---:|:---:|
 |  - | spaCy v3 + bert_wwm + unidic_lite |         |         |         |         |         |         |
 |  - | spaCy v3 + bert_wwm + ipdaic      |         |         |         |         |         |         |
 |  - | spaCy v3 + chiVe35k               |**0.838**|**0.875**|**0.895**|**0.682**|**0.934**|**0.998**|
