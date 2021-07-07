@@ -10,9 +10,9 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 
 |Rank| Analyzer                          | UPOS&LAS|   LAS   |   UAS   |  NER F  |  UPOS   | TOKENIZE|
 |:---:|:--- |:---:|:---:|:---:|:---:|:---:|:---:|
-|  - | spaCy v3 + bert_wwm + unidic_lite |         |         |         |         |         |         |
-|  - | spaCy v3 + bert_wwm + ipdaic      |         |         |         |         |         |         |
-|  - | spaCy v3 + chiVe35k               |**0.838**|**0.875**|**0.895**|**0.682**|**0.934**|**0.998**|
+|  1 | spaCy v3 + bert_wwm + unidic_lite |  0.871  |  0.913  |  0.926  |**0.849**|**0.934**|**0.981**|
+|  2 | spaCy v3 + bert_wwm + ipdaic      |**0.873**|**0.914**|**0.927  |  0.832  |**0.934**|**0.981**|
+|  3 | spaCy v3 + chiVe35k               |  0.838  |  0.875  |  0.895  |  0.682  |**0.934**|**0.981**|
 
 ### Training Conditions
 
