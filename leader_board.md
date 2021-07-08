@@ -14,6 +14,7 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 |  2 | spaCy v3.0&3.1 + bert_wwm + ipdaic      |**0.873**|**0.914**|**0.927**|  0.832  |**0.934**|**0.981**|
 |  3 | spaCy v3.1 + chiVe35k                   |  0.842  |  0.881  |  0.900  |  0.682  |**0.934**|**0.981**|
 |  4 | spaCy v3.0 + chiVe35k                   |  0.838  |  0.875  |  0.895  |  0.682  |**0.934**|**0.981**|
+|  - | (Stanza v1.2.1 official model)          |    -    | (0.802) | (0.812) |    -    | (0.916) | (0.927) |
 
 ### Training Conditions
 
