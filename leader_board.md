@@ -8,16 +8,26 @@ Send us a pull request if you want to add your model.
 
 All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE).
 
-|Rank| Analyzer                                | UPOS&LAS|   LAS   |   UAS   |  NER F  |  UPOS   | TOKENIZE|
+|Rank| Analyzer                                            | UPOS&LAS|   LAS   |   UAS   |  NER F  |  UPOS   | TOKENIZE|
 |:---:|:--- |:---:|:---:|:---:|:---:|:---:|:---:|
-|  1 | spaCy v3.0&3.1 + bert_wwm + unidic_lite | *0.871* | *0.913* | *0.926* |**0.849**|  0.934  |**0.981**|
-|  2 | spaCy v3.0&3.1 + bert_wwm + ipdaic      | *0.873* | *0.914* | *0.927* |  0.832  |  0.934  |**0.981**|
-|  3 | spaCy v3.1 + chiVe35k + morphologizer   | *0.874* |  0.886  |  0.904  |  0.672  |**0.955**|**0.981**|
-|  4 | spaCy v3.1 + chiVe35k                   |  0.842  |  0.881  |  0.900  |  0.682  |  0.934  |**0.981**|
-|  5 | spaCy v3.0 + chiVe35k                   |  0.838  |  0.875  |  0.895  |  0.682  |  0.934  |**0.981**|
-|  - | (Stanza v1.2.1 offical model)           |  0.900  |  0.904  |  0.915  |    -    |  0.956  |  0.969  |
+|  1 | spaCy v3.1 + morphologizer + bert_wwm + unidic_lite |**0.913**| *0.918* | *0.929* |  0.823  |**0.970**|**0.981**|
+|  2 | spaCy v3.1 + morphologizer + bert_wwm + ipdaic      |  0.888  | *0.915* | *0.928* |  0.835  |  0.945  |**0.981**|
+|  3 | spaCy v3.0&3.1 + bert_wwm + unidic_lite             |  0.871  | *0.913* | *0.926* |**0.849**|  0.934  |**0.981**|
+|  4 | spaCy v3.0&3.1 + bert_wwm + ipdaic                  |  0.873  | *0.914* | *0.927* |  0.832  |  0.934  |**0.981**|
+|  5 | spaCy v3.1 + chiVe35k + morphologizer               |  0.874  |  0.886  |  0.904  |  0.672  |  0.955  |**0.981**|
+|  6 | spaCy v3.1 + chiVe35k                               |  0.842  |  0.881  |  0.900  |  0.682  |  0.934  |**0.981**|
+|  7 | spaCy v3.0 + chiVe35k                               |  0.838  |  0.875  |  0.895  |  0.682  |  0.934  |**0.981**|
+|  - | (Stanza v1.2.1 offical model)                       |  0.900  |  0.904  |  0.915  |    -    |  0.956  |  0.969  |
 
 ### Training Conditions
+
+- spaCy v3.1 + morphologizer + bert_wwm + unidic_lite
+  - Library: https://github.com/explosion/spaCy
+  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_wwm_unidic_lite-3.1.1.tar.gz
+
+- spaCy v3.1 + morphologizer + bert_wwm + ipadic
+  - Library: https://github.com/explosion/spaCy
+  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_wwm_ipadic-3.1.1.tar.gz
 
 - spaCy v3.0&3.1 + bert_wwm + unidic_lite
   - Library: https://github.com/explosion/spaCy
