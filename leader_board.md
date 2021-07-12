@@ -48,3 +48,29 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 - spaCy v3.0 + chiVe35k
   - Library: https://github.com/explosion/spaCy
   - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd-3.0.0.tar.gz
+
+### spaCy model configuration
+
+- train
+```console
+cd ./spacy
+python -m spacy train ja_gsd_bert_wwm_unidic_lite.cfg --output ja_gsd_bert_wwm_unidic_lite --paths.train ja_gsd-ud-train.ne.spacy --paths.dev ja_gsd-ud-dev.ne.spacy --gpu-id 0
+```
+- evaluate
+```console
+python ./evaluate_model.py ja_gsd_bert_wwm_unidic_lite/model-last/ ja_gsd-ud-test.ne.json
+```
+or
+```console
+mkdir -p eval
+python -m spacy evaluate ja_gsd_bert_wwm_unidic_lite/model-last/ ja_gsd-ud-test.ne.spacy --output eval/ja_gsd_bert_wwm_unidic_lite.json --displacy-path eval/ --gpu-id 0
+```
+- package
+```console
+python ./setup_meta.py ja_gsd_bert_wwm_unidic_lite.meta.json ja_gsd_bert_wwm_unidic_lite/model-last/meta.json > meta.json
+mv meta.json ja_gsd_bert_wwm_unidic_lite/model-last/
+mkdir -p dist
+python -m spacy package ja_gsd_bert_wwm_unidic_lite/model-last/ dist/
+mv dist/ja_gsd_bert_wwm_unidic_lite-*/dist/*.tar.gz .
+rm -r dist/
+```
