@@ -1,0 +1,46 @@
+{
+  "lang":"ja",
+  "name":"gsd_bert_wwm_unidic_lite",
+  "version":"3.1.1",
+  "description":"Japanese transformer pipeline (bert-base). Components: transformer, parser, ner, morphologizer.",
+  "author":"Megagon Labs Tokyo.",
+  "email":"ginza@megagon.ai",
+  "url":"https://github.com/megagonlabs/UD_japanese_GSD",
+  "license":"CC BY-SA 4.0",
+  "sources":[
+    {
+      "name":"UD_Japanese-GSD",
+      "url":"https://github.com/UniversalDependencies/UD_Japanese-GSD",
+      "license":"CC BY-SA 4.0"
+    },
+    {
+      "name":"UD_Japanese-GSD r2.8+NE",
+      "url":"https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE",
+      "license":"CC BY-SA 4.0"
+    },
+    {
+      "name":"SudachiDict_core",
+      "url":"https://github.com/WorksApplications/SudachiDict",
+      "license":"Apache License 2.0"
+    },
+    {
+      "name":"cl-tohoku/bert-base-japanese-whole-word-masking",
+      "url":"https://huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking",
+      "license":"CC BY-SA 3.0"
+    },
+    {
+      "name":"unidic_lite",
+      "url":"https://github.com/polm/unidic-lite",
+      "license":"individually defined open software license"
+    }
+  ],
+  "parent_package":"spacy",
+  "spacy_version":">=3.0.6,<3.2.0",
+  "requirements":[
+    "sudachipy>=0.5.2",
+    "sudachidict_core>=20210608",
+    "spacy-transformers>=1.0.2,<1.1.0",
+    "fugashi",
+    "unidic_lite"
+  ]
+}
