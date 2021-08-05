@@ -14,7 +14,7 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 |  2 | spaCy v3.1 + morphologizer + bert_wwm + ipdaic      |  0.888  | *0.915* | *0.928* |  0.835  |  0.945  |**0.981**|
 |  3 | spaCy v3.0&3.1 + bert_wwm + unidic_lite             |  0.871  | *0.913* | *0.926* |**0.849**|  0.934  |**0.981**|
 |  4 | spaCy v3.0&3.1 + bert_wwm + ipdaic                  |  0.873  | *0.914* | *0.927* |  0.832  |  0.934  |**0.981**|
-|  5 | spaCy v3.1 + morphologizer + bert_char_v2 + basic   |  0.895  |  0.904  |  0.919  |  0.750  | *0.963* |**0.981**|
+|  5 | spaCy v3.1 + morphologizer + bert_char_v2 + basic   |  0.906  | *0.912* | *0.924* |  0.812  | *0.966* |**0.981**|
 |  6 | spaCy v3.1 + chiVe35k + morphologizer               |  0.874  |  0.886  |  0.904  |  0.672  |  0.955  |**0.981**|
 |  7 | spaCy v3.1 + chiVe35k                               |  0.842  |  0.881  |  0.900  |  0.682  |  0.934  |**0.981**|
 |  8 | spaCy v3.0 + chiVe35k                               |  0.838  |  0.875  |  0.895  |  0.682  |  0.934  |**0.981**|
