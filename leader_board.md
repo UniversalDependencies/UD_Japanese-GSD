@@ -24,20 +24,34 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 
 ### Training Conditions
 
+- spaCy v3.1 + morphologizer + bert_v2
+  - Library: https://github.com/explosion/spaCy
+  - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-v2
+  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_v2-3.1.1.tar.gz
+
+- spaCy v3.1 + morphologizer + bert_char_v2 (basic)
+  - Library: https://github.com/explosion/spaCy
+  - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-char-v2
+  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_char_v2_basic-3.1.2.tar.gz
+
 - spaCy v3.1 + morphologizer + bert_wwm + unidic_lite
   - Library: https://github.com/explosion/spaCy
+  - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking
   - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_wwm_unidic_lite-3.1.1.tar.gz
 
 - spaCy v3.1 + morphologizer + bert_wwm + ipadic
   - Library: https://github.com/explosion/spaCy
+  - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking
   - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_wwm_ipadic-3.1.1.tar.gz
 
 - spaCy v3.0&3.1 + bert_wwm + unidic_lite
   - Library: https://github.com/explosion/spaCy
+  - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking
   - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_wwm_unidic_lite-3.0.1.tar.gz
 
 - spaCy v3.0&3.1 + bert_wwm + ipadic
   - Library: https://github.com/explosion/spaCy
+  - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking
   - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_wwm_ipadic-3.0.1.tar.gz
 
 - spaCy v3.1 + chiVe35k + morphologizer
