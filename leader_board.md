@@ -15,7 +15,7 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 |  3 | spaCy v3.1 + morphologizer + bert_wwm + ipdaic      |  0.888  |**0.915**|**0.928**|  0.835  |**0.968**|**0.981**|
 |  4 | spaCy v3.0&3.1 + bert_wwm + unidic_lite             |  0.871  |**0.913**|**0.926**|**0.849**|  0.934  |**0.981**|
 |  5 | spaCy v3.0&3.1 + bert_wwm + ipdaic                  |  0.873  |**0.914**|**0.927**|  0.832  |  0.934  |**0.981**|
-|  6 | spaCy v3.1 + morphologizer + bert_char_v2 (basic)   | *0.902* | *0.908* | *0.919* |**0.842**|**0.968**|**0.981**|
+|  6 | spaCy v3.1 + morphologizer + bert_char_v2 (basic)   | *0.901* | *0.908* | *0.919* |**0.847**|**0.967**|**0.981**|
 |  7 | spaCy v3.1 + morphologizer + electra_c4 + wordpiece | *0.900* | *0.905* | *0.919* |  0.823  |**0.967**|**0.981**|
 |  8 | spaCy v3.1 + chiVe35k + morphologizer               |  0.874  |  0.886  |  0.904  |  0.672  |  0.955  |**0.981**|
 |  9 | spaCy v3.1 + chiVe35k                               |  0.842  |  0.881  |  0.900  |  0.682  |  0.934  |**0.981**|
@@ -32,7 +32,7 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 - spaCy v3.1 + morphologizer + bert_char_v2 (basic)
   - Library: https://github.com/explosion/spaCy
   - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-char-v2
-  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_char_v2_basic-3.1.2.tar.gz
+  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_char_v2_basic-3.1.3.tar.gz
 
 - spaCy v3.1 + morphologizer + bert_wwm + unidic_lite
   - Library: https://github.com/explosion/spaCy
