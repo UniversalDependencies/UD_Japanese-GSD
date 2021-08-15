@@ -11,7 +11,7 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 |Rank| Analyzer                                            | UPOS&LAS|   LAS   |   UAS   |  NER F  |  UPOS   | TOKENIZE|
 |:---:|:--- |:---:|:---:|:---:|:---:|:---:|:---:|
 |  1 | spaCy v3.1 + morphologizer + bert_v2                |**0.915**|**0.920**|**0.930**|**0.848**|**0.971**|**0.981**|
-|  2 | spaCy v3.1 + morphologizer + bert_char_v2 (basic)   | *0.901* | *0.908* | *0.919* |**0.847**|**0.967**|**0.981**|
+|  2 | spaCy v3.1 + morphologizer + bert_char_v2 (basic)   | *0.903* | *0.908* | *0.919* |**0.842**|**0.969**|**0.981**|
 |  3 | spaCy v3.1 + chiVe35k + morphologizer               |  0.874  |  0.886  |  0.904  |  0.672  |  0.955  |**0.981**|
 |  4 | spaCy v3.1 + chiVe35k                               |  0.842  |  0.881  |  0.900  |  0.682  |  0.934  |**0.981**|
 |  - | (Stanza v1.2.1 offical model)                       |  0.900  |  0.904  |  0.915  |    -    |  0.956  |  0.969  |
@@ -26,7 +26,7 @@ All models are trained and evaluated on [UD_Japanese-GSD r2.8-NE](https://github
 - spaCy v3.1 + morphologizer + bert_char_v2 (basic)
   - Library: https://github.com/explosion/spaCy
   - Transformers model: https://huggingface.co/cl-tohoku/bert-base-japanese-char-v2
-  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_char_v2_basic-3.1.3.tar.gz
+  - Model: https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.8-NE -> ja_gsd_bert_char_v2_basic-3.1.4.tar.gz
 
 - spaCy v3.1 + chiVe35k + morphologizer
   - Library: https://github.com/explosion/spaCy
