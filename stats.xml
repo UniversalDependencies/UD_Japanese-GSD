@@ -18,7 +18,7 @@
     <tag name="ADJ">3832</tag><!-- ない, 多い, よい, 可能, 高い, 同じ, 大きい, いい, 美味しい, 大きな -->
     <tag name="ADP">41864</tag><!-- の, に, は, を, が, と, で, も, から, や -->
     <tag name="ADV">2364</tag><!-- とても, こう, どう, 特に, かなり, また, 初めて, すぐ, 現在, よく -->
-    <tag name="AUX">21144</tag><!-- た, する, だ, れる, ます, ない, られる, ぬ, よう, できる -->
+    <tag name="AUX">20119</tag><!-- た, する, だ, れる, ます, られる, よう, できる, ない, せる -->
     <tag name="CCONJ">819</tag><!-- また, しかし, そして, および, なお, だ, ただし, さらに, 一方, ただ -->
     <tag name="DET">951</tag><!-- その, この, どの, あの, あらゆる, とある, 我が, 或る -->
     <tag name="INTJ">13</tag><!-- _, あっ, OH, ありがとう, いえ, いや, いやいや, アラ, イエィ, ヤッター -->
@@ -28,21 +28,21 @@
     <tag name="PRON">1138</tag><!-- これ, それ, 彼, 私, ここ, 何, こちら, そこ, いつ, ある -->
     <tag name="PROPN">7140</tag><!-- 日本, 東京, アメリカ, 中国, 韓国, ドイツ, 大阪, フランス, イギリス, 台湾 -->
     <tag name="PUNCT">19233</tag><!-- 。, 、, ,, 「, 」, “, ”, 『, 』, ! -->
-    <tag name="SCONJ">7995</tag><!-- て, の, が, と, で, ば, に, ながら, から, ため -->
+    <tag name="SCONJ">9020</tag><!-- て, の, が, ない, ぬ, と, で, ば, に, てる -->
     <tag name="SYM">1301</tag><!-- ・, -, /, ~, =, &, :, ♪, 〜, — -->
     <tag name="VERB">21253</tag><!-- いる, ある, なる, する, いう, よる, 行う, おる, 思う, みる -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="Polarity" value="Neg" upos="AUX,NOUN,SCONJ">1077</feat><!-- ない, ず, ん, なかっ, 不, なく, 非, なけれ, 反, 無 -->
+    <feat name="Polarity" value="Neg" upos="NOUN,SCONJ">1077</feat><!-- ない, ず, ん, なかっ, 不, なく, 非, なけれ, 反, 無 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="24">
-    <dep name="acl">6999</dep>
-    <dep name="advcl">7267</dep>
+    <dep name="acl">6998</dep>
+    <dep name="advcl">7270</dep>
     <dep name="advmod">2280</dep>
     <dep name="amod">451</dep>
-    <dep name="aux">17227</dep>
+    <dep name="aux">16274</dep>
     <dep name="case">41322</dep>
     <dep name="cc">819</dep>
     <dep name="ccomp">385</dep>
@@ -52,14 +52,14 @@
     <dep name="dep">82</dep>
     <dep name="det">951</dep>
     <dep name="discourse">16</dep>
-    <dep name="dislocated">263</dep>
+    <dep name="dislocated">262</dep>
     <dep name="fixed">8532</dep>
-    <dep name="mark">7860</dep>
+    <dep name="mark">8813</dep>
     <dep name="nmod">13104</dep>
-    <dep name="nsubj">7985</dep>
+    <dep name="nsubj">7987</dep>
     <dep name="nummod">2800</dep>
     <dep name="obj">5309</dep>
-    <dep name="obl">12691</dep>
+    <dep name="obl">12688</dep>
     <dep name="punct">19233</dep>
     <dep name="root">8100</dep>
   </deps>
