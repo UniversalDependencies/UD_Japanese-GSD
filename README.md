@@ -13,7 +13,7 @@ Below files are converted from `*.ne.conllu` for the NLP frameworks.
 
 The Japanese UD treebank contains the sentences from Google Universal Dependency Treebanks v2.0 (legacy): https://github.com/ryanmcd/uni-dep-tb.  First, Google UDT v2.0 was converted to UD-style with bunsetsu-based word units (say "master" corpus).
 
-The word units in "master" is significantly different from the definition of the documents based on Short Word Unit (SWU) [1], then the sentences are automatically re-processed by Hiroshi Kanayama in Feb 2017.  It is the Japanese_UD v2.0 and used in the CoNLL 2017 shared task.
+The word units in "master" is significantly different from the definition of the documents based on **Short Unit Word** (SUW) [1], then the sentences are automatically re-processed by Hiroshi Kanayama in Feb 2017.  It is the Japanese_UD v2.0 and used in the CoNLL 2017 shared task.
 In November 2017, UD_Japanese v2.0 is merged with the "master" data so that the manual annotations for dependencies can be reflected to the corpus. It reduced the errors in the dependency structures and relation labels.
 
 Still there are slight differences in the word unit between UD_Japanese v2.1 and UD_Japanese-KTC 1.3.
