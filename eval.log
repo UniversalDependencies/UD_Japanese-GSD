@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Japanese-GSD:
-commit 31fdbf3d72e63c8b98790edc437f76f28c3e67d0
-Merge: 479667c 898e96c
+commit 21e4d3f2ec53c6fe7e36cf8f640146ea0040de1a
+Merge: 6684e7a 3d01567
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 193654 of 193654 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5321461231396.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 1077 out of 193654 total words have one or more features.
+Features: 1087 out of 193654 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      28734
-Udapi: found 28734 bugs.
+               TOTAL      28713
+Udapi: found 28713 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 193654 words.
 Genres: found 2 out of 17 known.
 validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-dev.conllu
