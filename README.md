@@ -47,9 +47,18 @@ XPOS is the part-of-speech label for Short Unit Word (SUW) based on UniDic POS t
   - B: Beginning of LUW
   - I: Inside of LUW
   
-- UniDicLemma: lemma information based on UniDic [7]. The UniDic lemma normalise
+- UniDicInfo: lemma information based on UniDic [7]. The UniDic lemma normalise
  not only conjugation forms but also orthographical variants.
- 
+  - 1 lForm: lexeme reading （語彙素読み）
+  - 2 lemma: lexeme （語彙素）
+  - 3 orth: Infinitive Form and Surface Form (書字形出現形）
+  - 4 pron: Surface Pronunciation （発音形出現形）
+  - 5 orthBase: Infinitive Form （書字形基本形）
+  - 6 pronBase: Surface Pronunciation（発音形基本形）
+  - 7 form: Word Form （語形）
+  - 8 formBase: Word Form （語形基本形）
+
+
 # Acknowledgments
 
 The original treebank was provided by:
