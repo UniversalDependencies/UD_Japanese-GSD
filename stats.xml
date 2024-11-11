@@ -43,7 +43,7 @@
     <dep name="advmod">2280</dep>
     <dep name="amod">445</dep>
     <dep name="aux">17235</dep>
-    <dep name="case">41307</dep>
+    <dep name="case">41304</dep>
     <dep name="cc">819</dep>
     <dep name="ccomp">390</dep>
     <dep name="compound">27489</dep>
@@ -53,7 +53,7 @@
     <dep name="dep">76</dep>
     <dep name="det">987</dep>
     <dep name="discourse">16</dep>
-    <dep name="fixed">8620</dep>
+    <dep name="fixed">8623</dep>
     <dep name="mark">7860</dep>
     <dep name="nmod">12970</dep>
     <dep name="nsubj">7793</dep>
