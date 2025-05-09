@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Japanese-GSD:
-commit 6f556727cf1eabb303b6ea303ba2720a48adf390
-Merge: 62db598 8e5794f
+commit e93e836651aea47c10dbe3edac3eb1f9b952533f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 16:03:36 2024 +0100
 Size: counted 193654 of 193654 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5321461231396.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,25 +20,61 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 23 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      28520
-Udapi: found 28520 bugs.
+               TOTAL      28518
+Udapi: found 28518 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 193654 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-dev.conllu
+[Line 34 Sent dev-s2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ん だ' does not have the 'ExtPos' feature
+[Line 38 Sent dev-s2 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 84 Sent dev-s5 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'て くれ' does not have the 'ExtPos' feature
+[Line 131 Sent dev-s6 Node 39]: [L3 Warning fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
+[Line 150 Sent dev-s7 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ため に' does not have the 'ExtPos' feature
+[Line 219 Sent dev-s8 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'の で' does not have the 'ExtPos' feature
+[Line 274 Sent dev-s10 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 294 Sent dev-s10 Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
+[Line 328 Sent dev-s12 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 392 Sent dev-s14 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 451
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-test.conllu
+[Line 28 Sent test-s1 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
+[Line 51 Sent test-s2 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'て ほしい' does not have the 'ExtPos' feature
+[Line 53 Sent test-s2 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
+[Line 58 Sent test-s2 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 113 Sent test-s5 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'で い' does not have the 'ExtPos' feature
+[Line 145 Sent test-s7 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'て おり' does not have the 'ExtPos' feature
+[Line 170 Sent test-s8 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
+[Line 181 Sent test-s8 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
+[Line 198 Sent test-s9 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'に とっ て' does not have the 'ExtPos' feature
+[Line 216 Sent test-s10 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 487
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-train.conllu
+[Line 13 Sent train-s1 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'の で' does not have the 'ExtPos' feature
+[Line 41 Sent train-s1 Node 38]: [L3 Warning fixed-without-extpos] Fixed expression 'で ある' does not have the 'ExtPos' feature
+[Line 57 Sent train-s2 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'て くれる' does not have the 'ExtPos' feature
+[Line 95 Sent train-s3 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'て くる' does not have the 'ExtPos' feature
+[Line 237 Sent train-s8 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'で ある' does not have the 'ExtPos' feature
+[Line 284 Sent train-s10 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'もの の' does not have the 'ExtPos' feature
+[Line 385 Sent train-s13 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'に 対し て' does not have the 'ExtPos' feature
+[Line 405 Sent train-s13 Node 43]: [L3 Warning fixed-without-extpos] Fixed expression 'で あっ' does not have the 'ExtPos' feature
+[Line 449 Sent train-s15 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
+[Line 463 Sent train-s15 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 5861
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.762342157313041) = 0.195472348028985
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.497297297297297) = 0.0382536382536383
-(TOTAL score=0.425822517202684) * (availability=1) * (validity=1) = 0.425822517202684
+(TOTAL score=0.425319751994036) * (availability=1) * (validity=1) = 0.425319751994036
 STARS = 2
-UD_Japanese-GSD	0.425822517202684	2
+UD_Japanese-GSD	0.425319751994036	2
