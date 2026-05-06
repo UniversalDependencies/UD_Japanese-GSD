@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Japanese-GSD:
-commit a9fdaab59e16965ea9691b43ebc5b760435bab61
-Merge: f1c04a6 0f22145
+commit 9bc82a403282e352f98d6b83f963eb449e4ac2d0
+Merge: 4313941 33e7310
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ja_gsd'
@@ -21,50 +21,83 @@ Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 1087 out of 193654 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
-Universal relations: 24 out of 37 found in the corpus.
+Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-dev.conllu
-[Line 9 Sent dev-s1]: [L3 Warning obl-should-be-nmod] The parent (node [8] '後') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 36 Sent dev-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'ん だ' does not have the 'ExtPos' feature
-[Line 40 Sent dev-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
-[Line 75 Sent dev-s5]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'とも') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 88 Sent dev-s5]: [L3 Warning fixed-without-extpos] Fixed expression 'て くれ' does not have the 'ExtPos' feature
-[Line 136 Sent dev-s6]: [L3 Warning fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
-[Line 156 Sent dev-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'ため に' does not have the 'ExtPos' feature
-[Line 181 Sent dev-s7]: [L3 Warning obl-should-be-nmod] The parent (node [35] '値') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 226 Sent dev-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'の で' does not have the 'ExtPos' feature
-[Line 242 Sent dev-s9]: [L3 Warning obl-should-be-nmod] The parent (node [6] '彩') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 643
+[Line 36 Sent dev-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'ん だ' does not have the 'ExtPos' feature
+[Line 40 Sent dev-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 88 Sent dev-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'て くれ' does not have the 'ExtPos' feature
+[Line 136 Sent dev-s6]: [L3 WARNING fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
+[Line 156 Sent dev-s7]: [L3 WARNING fixed-without-extpos] Fixed expression 'ため に' does not have the 'ExtPos' feature
+[Line 226 Sent dev-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'の で' does not have the 'ExtPos' feature
+[Line 283 Sent dev-s10]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 303 Sent dev-s10]: [L3 WARNING fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
+[Line 339 Sent dev-s12]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 31 Sent dev-s2]: [L3 WARNING pron-det-without-prontype] The word '私' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 160 Sent dev-s7]: [L3 WARNING pron-det-without-prontype] The word 'これ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 246 Sent dev-s9]: [L3 WARNING pron-det-without-prontype] The word 'そんな' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 356 Sent dev-s12]: [L3 WARNING pron-det-without-prontype] The word 'そこ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 405 Sent dev-s14]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 466 Sent dev-s15]: [L3 WARNING pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 522 Sent dev-s17]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 538 Sent dev-s17]: [L3 WARNING pron-det-without-prontype] The word 'いずれ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 907 Sent dev-s33]: [L3 WARNING pron-det-without-prontype] The word 'ここ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1059 Sent dev-s38]: [L3 WARNING pron-det-without-prontype] The word 'これ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1167 Sent dev-s40]: [L3 WARNING pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 579
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-test.conllu
-[Line 5 Sent test-s1]: [L3 Warning pron-det-without-prontype] The word 'これ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 29 Sent test-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
-[Line 53 Sent test-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'て ほしい' does not have the 'ExtPos' feature
-[Line 55 Sent test-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
-[Line 60 Sent test-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
-[Line 118 Sent test-s5]: [L3 Warning fixed-without-extpos] Fixed expression 'で い' does not have the 'ExtPos' feature
-[Line 139 Sent test-s7]: [L3 Warning pron-det-without-prontype] The word 'それ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 143 Sent test-s7]: [L3 Warning pron-det-without-prontype] The word '私' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 152 Sent test-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'て おり' does not have the 'ExtPos' feature
-[Line 178 Sent test-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 705
+[Line 5 Sent test-s1]: [L3 WARNING pron-det-without-prontype] The word 'これ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 29 Sent test-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
+[Line 53 Sent test-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'て ほしい' does not have the 'ExtPos' feature
+[Line 55 Sent test-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
+[Line 60 Sent test-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 118 Sent test-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'で い' does not have the 'ExtPos' feature
+[Line 139 Sent test-s7]: [L3 WARNING pron-det-without-prontype] The word 'それ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 143 Sent test-s7]: [L3 WARNING pron-det-without-prontype] The word '私' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 152 Sent test-s7]: [L3 WARNING fixed-without-extpos] Fixed expression 'て おり' does not have the 'ExtPos' feature
+[Line 178 Sent test-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
+[Line 189 Sent test-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
+[Line 207 Sent test-s9]: [L3 WARNING fixed-without-extpos] Fixed expression 'に とっ て' does not have the 'ExtPos' feature
+[Line 226 Sent test-s10]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 255 Sent test-s11]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 306 Sent test-s14]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 310 Sent test-s14]: [L3 WARNING pron-det-without-prontype] The word '何' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 327 Sent test-s15]: [L3 WARNING pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 356 Sent test-s17]: [L3 WARNING pron-det-without-prontype] The word 'なん' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 359 Sent test-s17]: [L3 WARNING pron-det-without-prontype] The word 'なん' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 364 Sent test-s17]: [L3 WARNING pron-det-without-prontype] The word 'わが' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 662
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-GSD/ja_gsd-ud-train.conllu
-[Line 14 Sent train-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'の で' does not have the 'ExtPos' feature
-[Line 42 Sent train-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'で ある' does not have the 'ExtPos' feature
-[Line 59 Sent train-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'て くれる' does not have the 'ExtPos' feature
-[Line 98 Sent train-s3]: [L3 Warning fixed-without-extpos] Fixed expression 'て くる' does not have the 'ExtPos' feature
-[Line 185 Sent train-s7]: [L3 Warning obl-should-be-nmod] The parent (node [10] '百子') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 198 Sent train-s7]: [L3 Warning obl-should-be-nmod] The parent (node [23] 'とも') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 245 Sent train-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'で ある' does not have the 'ExtPos' feature
-[Line 294 Sent train-s10]: [L3 Warning fixed-without-extpos] Fixed expression 'もの の' does not have the 'ExtPos' feature
-[Line 34 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 40 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 8488
+[Line 14 Sent train-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'の で' does not have the 'ExtPos' feature
+[Line 42 Sent train-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'で ある' does not have the 'ExtPos' feature
+[Line 59 Sent train-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'て くれる' does not have the 'ExtPos' feature
+[Line 98 Sent train-s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'て くる' does not have the 'ExtPos' feature
+[Line 245 Sent train-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'で ある' does not have the 'ExtPos' feature
+[Line 294 Sent train-s10]: [L3 WARNING fixed-without-extpos] Fixed expression 'もの の' does not have the 'ExtPos' feature
+[Line 34 Sent train-s1]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 40 Sent train-s1]: [L3 WARNING pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 54 Sent train-s2]: [L3 WARNING pron-det-without-prontype] The word 'そんな' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 121 Sent train-s4]: [L3 WARNING pron-det-without-prontype] The word 'これ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 184 Sent train-s7]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 297 Sent train-s10]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 398 Sent train-s13]: [L3 WARNING fixed-without-extpos] Fixed expression 'に 対し て' does not have the 'ExtPos' feature
+[Line 418 Sent train-s13]: [L3 WARNING fixed-without-extpos] Fixed expression 'で あっ' does not have the 'ExtPos' feature
+[Line 464 Sent train-s15]: [L3 WARNING fixed-without-extpos] Fixed expression 'と いう' does not have the 'ExtPos' feature
+[Line 478 Sent train-s15]: [L3 WARNING fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 610 Sent train-s20]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 690 Sent train-s22]: [L3 WARNING pron-det-without-prontype] The word 'その' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 749 Sent train-s24]: [L3 WARNING pron-det-without-prontype] The word 'ほんの' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 998 Sent train-s33]: [L3 WARNING pron-det-without-prontype] The word 'これ' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 7720
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
@@ -73,7 +106,7 @@ Validity: 1
 (weight=0.37037037037037) * (score{size}=0.762342157313041) = 0.282348947152978
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.518918918918919) = 0.0576576576576577
-(TOTAL score=0.612308710838232) * (availability=1) * (validity=1) = 0.612308710838232
+(weight=0.111111111111111) * (score{udeprels}=0.540540540540541) = 0.0600600600600601
+(TOTAL score=0.614711113240635) * (availability=1) * (validity=1) = 0.614711113240635
 STARS = 3
-UD_Japanese-GSD	0.612308710838232	3
+UD_Japanese-GSD	0.614711113240635	3
